@@ -1,0 +1,4810 @@
+# PATio Boot Doctor: every text the program shows, in English.
+# Made by tools\extract-strings.ps1 when the program is built. Do not edit: copy it to <code>.lang to translate.
+
+@code ja
+@name 日本語
+@rtl no
+
+msgid "Could not start "
+msgstr "起動できませんでした: "
+
+msgid "Skipped "
+msgstr "スキップしました: "
+
+msgid "Could not copy "
+msgstr "コピーできませんでした: "
+
+msgid "The backup folder "
+msgstr "バックアップ フォルダー "
+
+msgid " cannot be written to."
+msgstr " に書き込めません。"
+
+msgid "Session started on "
+msgstr "セッション開始日時: "
+
+msgid "Started: "
+msgstr "開始: "
+
+msgid "Could not back up "
+msgstr "バックアップできませんでした: "
+
+msgid "Could not back up the folder "
+msgstr "フォルダーをバックアップできませんでした: "
+
+msgid "Could not read the disk to back it up."
+msgstr "バックアップのためにディスクを読み取れませんでした。"
+
+msgid "Could not write the backup file."
+msgstr "バックアップ ファイルを書き込めませんでした。"
+
+msgid "Could not back up the start-up settings: "
+msgstr "起動設定をバックアップできませんでした: "
+
+msgid "Could not write the backup of "
+msgstr "次のバックアップを書き込めませんでした: "
+
+msgid "Done: "
+msgstr "完了: "
+
+msgid "Failed: "
+msgstr "失敗: "
+
+msgid "Undo "
+msgstr "元に戻す: "
+
+msgid ": its partition is not there now.\n"
+msgstr ": パーティションが現在見つかりません。\n"
+
+msgid "Put back "
+msgstr "元に戻しました: "
+
+msgid "Could not put back "
+msgstr "元に戻せませんでした: "
+
+msgid "Removed "
+msgstr "削除しました: "
+
+msgid "Skipped the folder "
+msgstr "フォルダーをスキップしました: "
+
+msgid " files in "
+msgstr " 個のファイル、場所: "
+
+msgid "Skipped the partition table of disk "
+msgstr "次のディスクのパーティション テーブルをスキップしました: ディスク "
+
+msgid ": that disk is not connected now.\n"
+msgstr ": そのディスクは現在接続されていません。\n"
+
+msgid "The saved copy of the partition table is missing.\n"
+msgstr "保存されたパーティション テーブルのコピーが見つかりません。\n"
+
+msgid " bytes at the start or end of Disk "
+msgstr " バイト (先頭または末尾)、ディスク "
+
+msgid "The saved copy of "
+msgstr "保存された "
+
+msgid " is missing.\n"
+msgstr " のコピーが見つかりません。\n"
+
+msgid "Could not put the old name back.\n"
+msgstr "元の名前に戻せませんでした。\n"
+
+msgid "Put back the name \""
+msgstr "名前を元に戻しました: \""
+
+msgid "Moved "
+msgstr "移動しました: "
+
+msgid " back to "
+msgstr " → 元の場所: "
+
+msgid "Could not move "
+msgstr "移動できませんでした: "
+
+msgid " back: "
+msgstr " を元に戻せません: "
+
+msgid "Put back what \""
+msgstr "元に戻しました: \""
+
+msgid "\" changed."
+msgstr "\" による変更。"
+
+msgid "Some things could not be put back."
+msgstr "一部を元に戻せませんでした。"
+
+msgid "The start-up settings have no boot manager section, so nothing can be started from them."
+msgstr "起動設定にブート マネージャーの項目がないため、ここから何も起動できません。"
+
+msgid "The start-up settings list no system to start."
+msgstr "起動設定に起動するシステムがありません。"
+
+msgid "The start-up settings file is damaged: "
+msgstr "起動設定ファイルが壊れています: "
+
+msgid "The start-up settings file could not be read. "
+msgstr "起動設定ファイルを読み取れませんでした。 "
+
+msgid "Windows PE (build 26100)"
+msgstr "Windows PE (build 26100)"
+
+msgid "ThinkCentre M70q"
+msgstr "ThinkCentre M70q"
+
+msgid "Samsung SSD 980"
+msgstr "Samsung SSD 980"
+
+msgid "WDC WD10EZEX"
+msgstr "WDC WD10EZEX"
+
+msgid "SanDisk Ultra"
+msgstr "SanDisk Ultra"
+
+msgid "The backup copy of the partition table is missing or damaged."
+msgstr "パーティション テーブルの予備コピーが見つからないか、壊れています。"
+
+msgid "Professional"
+msgstr "Professional"
+
+msgid "C: · Disk 0, partition 3"
+msgstr "C: · ディスク 0、パーティション 3"
+
+msgid "Running now"
+msgstr "現在実行中"
+
+msgid "This is the Windows you are using now. Everything it needs to start is in place."
+msgstr "現在使用中の Windows です。起動に必要なものはすべてそろっています。"
+
+msgid "PC firmware"
+msgstr "PC のファームウェア"
+
+msgid "Disk"
+msgstr "ディスク"
+
+msgid "Start-up partition"
+msgstr "起動パーティション"
+
+msgid "Boot manager"
+msgstr "ブート マネージャー"
+
+msgid "Start-up settings"
+msgstr "起動設定"
+
+msgid "Windows partition"
+msgstr "Windows パーティション"
+
+msgid "Windows loader"
+msgstr "Windows ローダー"
+
+msgid "Core system files"
+msgstr "コア システム ファイル"
+
+msgid "System settings"
+msgstr "システム設定"
+
+msgid "Starting up"
+msgstr "起動処理"
+
+msgid "D: · Disk 1, partition 1"
+msgstr "D: · ディスク 1、パーティション 1"
+
+msgid "Stuck in a restart loop"
+msgstr "再起動を繰り返しています"
+
+msgid "This Windows keeps failing to start."
+msgstr "この Windows は起動に失敗し続けています。"
+
+msgid "Automatic Repair ran on 9 Nov 2026 because Windows could not start."
+msgstr "Windows が起動できなかったため、2026 年 11 月 9 日に自動修復が実行されました。"
+
+msgid "Windows crashed with a blue screen 3 times since 8 Nov 2026."
+msgstr "2026 年 11 月 8 日以降、Windows がブルー スクリーンで 3 回停止しました。"
+
+msgid "Windows updates are waiting to finish installing."
+msgstr "Windows Update のインストール完了待ちがあります。"
+
+msgid "The start-up partition is there and can be read. It is on another disk (Disk 0), so this Windows only starts while that disk is connected."
+msgstr "起動パーティションは存在し、読み取れます。別のディスク (ディスク 0) にあるため、この Windows はそのディスクが接続されているときだけ起動します。"
+
+msgid "Disk 0, partition 1 (100 MB, FAT32)"
+msgstr "ディスク 0、パーティション 1 (100 MB、FAT32)"
+
+msgid "This Windows is not in the start-up menu, so it never starts (it is inactive). The menu only lists the other Windows."
+msgstr "この Windows は起動メニューにないため、起動されることはありません (非アクティブ)。メニューにはほかの Windows だけが表示されます。"
+
+msgid "No entry with osdevice Disk 1, partition 1 and systemroot \\Windows"
+msgstr "osdevice がディスク 1、パーティション 1 で systemroot が \\Windows の項目はありません"
+
+msgid "E: · Disk 1, partition 2"
+msgstr "E: · ディスク 1、パーティション 2"
+
+msgid "Moved into a folder"
+msgstr "フォルダー内に移動されています"
+
+msgid "This Windows sits inside the folder \"Old PC\\\", so it cannot start. It was probably copied or moved there."
+msgstr "この Windows はフォルダー \"Old PC\\\" の中にあるため、起動できません。おそらくそこにコピーまたは移動されたものです。"
+
+msgid "After the move, copies fresh start-up files and writes a start-up entry for this Windows."
+msgstr "移動の後、新しい起動ファイルをコピーし、この Windows の起動項目を書き込みます。"
+
+msgid "Location"
+msgstr "場所"
+
+msgid "Ubuntu 24.04.1 LTS"
+msgstr "Ubuntu 24.04.1 LTS"
+
+msgid "6.8.0-45-generic"
+msgstr "6.8.0-45-generic"
+
+msgid "6.8.0-41-generic"
+msgstr "6.8.0-41-generic"
+
+msgid "Linux kernel 6.8.0-45-generic"
+msgstr "Linux カーネル 6.8.0-45-generic"
+
+msgid "Disk 1, partition 3 (ext4)"
+msgstr "ディスク 1、パーティション 3 (ext4)"
+
+msgid "Disk 1, partition 3"
+msgstr "ディスク 1、パーティション 3"
+
+msgid "Starts from the boot menu"
+msgstr "ブート メニューから起動します"
+
+msgid "This Linux is fine. Another system starts first; to start Linux, pick it in the PC's boot menu, or make it start first."
+msgstr "この Linux は正常です。別のシステムが先に起動します。Linux を起動するには、PC のブート メニューで選ぶか、先に起動するように設定してください。"
+
+msgid "The start-up partition with the Linux boot loader is there and can be read. It is on another disk (Disk 0), so Linux only starts while that disk is connected."
+msgstr "Linux ブート ローダーのある起動パーティションは存在し、読み取れます。別のディスク (ディスク 0) にあるため、Linux はそのディスクが接続されているときだけ起動します。"
+
+msgid "PC's start-up list"
+msgstr "PC の起動リスト"
+
+msgid "The PC's start-up list has this Linux (\"ubuntu\"), but \"Windows Boot Manager\" starts first. To start Linux, pick it in the PC's boot menu (often F12, F11, F8 or Esc while the PC starts), or make it start first. When GRUB starts first, it usually shows a menu with Windows in it too."
+msgstr "PC の起動リストにはこの Linux (\"ubuntu\") がありますが、\"Windows Boot Manager\" が先に起動します。Linux を起動するには、PC のブート メニュー (PC の起動中に F12、F11、F8、Esc などを押すと開きます) で選ぶか、先に起動するように設定してください。GRUB が先に起動すると、通常は Windows も含むメニューが表示されます。"
+
+msgid "Linux boot loader"
+msgstr "Linux ブート ローダー"
+
+msgid "GRUB settings"
+msgstr "GRUB の設定"
+
+msgid "Linux partition"
+msgstr "Linux パーティション"
+
+msgid "Linux kernel"
+msgstr "Linux カーネル"
+
+msgid "GRUB menu"
+msgstr "GRUB メニュー"
+
+msgid "Linux settings"
+msgstr "Linux の設定"
+
+msgid "A start-up menu entry leads nowhere: \"Windows 7\""
+msgstr "起動メニューの項目の参照先がありません: \"Windows 7\""
+
+msgid "The start-up menu on Disk 0, partition 1 lists \"Windows 7\", but the partition it points to is not on any disk now. If someone picks it in the start-up menu, the PC shows an error. It also makes the menu confusing."
+msgstr "ディスク 0、パーティション 1 の起動メニューに \"Windows 7\" がありますが、参照先のパーティションは現在どのディスクにもありません。起動メニューでこれを選ぶと、PC にエラーが表示されます。メニューもわかりにくくなります。"
+
+msgid "The PC's start-up list has an entry that leads nowhere: \"fedora\""
+msgstr "PC の起動リストに参照先のない項目があります: \"fedora\""
+
+msgid "\"fedora\" (Fedora (Linux)) is in the start-up list kept inside the PC, but its start-up file (\\EFI\\fedora\\shimx64.efi) is no longer on Disk 0, partition 1. The system it used to start (Fedora (Linux)) was probably deleted or uninstalled, but its line stayed behind. The PC tries it every time it starts, which can slow starting down or show an error before Windows appears.\n\nFor a technician: Boot0003, \\EFI\\fedora\\shimx64.efi"
+msgstr "\"fedora\" (Fedora (Linux)) は PC 内に保存されている起動リストにありますが、その起動ファイル (\\EFI\\fedora\\shimx64.efi) はディスク 0、パーティション 1 にもうありません。起動していたシステム (Fedora (Linux)) はおそらく削除またはアンインストールされましたが、その行だけが残っています。PC は起動のたびにこれを試すため、起動が遅くなったり、Windows が表示される前にエラーが出たりすることがあります。\n\n技術者向け: Boot0003, \\EFI\\fedora\\shimx64.efi"
+
+msgid "Start-up setup when the session began"
+msgstr "セッション開始時の起動構成"
+
+msgid "All disks"
+msgstr "すべてのディスク"
+
+msgid "Saved 1 start-up settings file and the partition tables of every disk."
+msgstr "起動設定ファイル 1 個と、すべてのディスクのパーティション テーブルを保存しました。"
+
+msgid "Undo unfinished updates"
+msgstr "未完了の更新を元に戻す"
+
+msgid "Windows 10 (64-bit) in D:\\Windows"
+msgstr "Windows 10 (64 ビット)、場所: D:\\Windows"
+
+msgid "The unfinished updates were undone."
+msgstr "未完了の更新を元に戻しました。"
+
+msgid "Add it to the start-up menu"
+msgstr "起動メニューに追加する"
+
+msgid "This Windows was added to the start-up menu."
+msgstr "この Windows を起動メニューに追加しました。"
+
+msgid "Windows 11 (build 26100)"
+msgstr "Windows 11 (build 26100)"
+
+msgid "Make it start first"
+msgstr "最初に起動するようにする"
+
+msgid "Windows 11 (64-bit) in C:\\Windows"
+msgstr "Windows 11 (64 ビット)、場所: C:\\Windows"
+
+msgid "This Windows now starts first."
+msgstr "この Windows が最初に起動するようになりました。"
+
+msgid "Fine"
+msgstr "正常"
+
+msgid "Note"
+msgstr "注意"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Problem"
+msgstr "問題"
+
+msgid "Not checked"
+msgstr "未確認"
+
+msgid " (32-bit)"
+msgstr " (32 ビット)"
+
+msgid " (ARM)"
+msgstr " (ARM)"
+
+msgid " (64-bit)"
+msgstr " (64 ビット)"
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Rebuild the start-up files"
+msgstr "起動ファイルを作り直す"
+
+msgid "Copies fresh start-up files from this Windows to the start-up partition, writes a new start-up entry for it and puts it first."
+msgstr "この Windows から新しい起動ファイルを起動パーティションにコピーし、新しい起動項目を書き込んで、最初に起動するようにします。"
+
+msgid "About a minute. Personal files are not touched. The old start-up files are backed up first."
+msgstr "約 1 分。個人用ファイルには触れません。古い起動ファイルは先にバックアップされます。"
+
+msgid "Adds this Windows to the menu shown when the PC starts, after the systems that are already there."
+msgstr "PC の起動時に表示されるメニューに、既存のシステムの後ろにこの Windows を追加します。"
+
+msgid "About a minute. The other systems keep starting as before."
+msgstr "約 1 分。ほかのシステムはこれまでどおり起動します。"
+
+msgid "Show it in the start-up menu"
+msgstr "起動メニューに表示する"
+
+msgid "This Windows has a start-up entry, but the entry is hidden from the menu. This puts it back in the menu."
+msgstr "この Windows には起動項目がありますが、メニューで非表示になっています。これでメニューに戻します。"
+
+msgid "A few seconds."
+msgstr "数秒。"
+
+msgid "Makes this Windows the one that starts when nobody chooses in the start-up menu."
+msgstr "起動メニューで何も選ばなかったときに、この Windows が起動するようにします。"
+
+msgid "Mark the start-up partition as active"
+msgstr "起動パーティションをアクティブにする"
+
+msgid "Older PCs (legacy BIOS) only start from the partition marked \"active\". This sets that mark on the right partition."
+msgstr "古い PC (レガシ BIOS) は \"アクティブ\" に設定されたパーティションからしか起動しません。正しいパーティションにその設定を付けます。"
+
+msgid "A few seconds. The partition table is backed up first."
+msgstr "数秒。パーティション テーブルは先にバックアップされます。"
+
+msgid "Write new start-up code to the disk"
+msgstr "新しい起動コードをディスクに書き込む"
+
+msgid "Writes fresh start-up code to the first sector of the disk and of the start-up partition, so an older PC (legacy BIOS) can start from it."
+msgstr "ディスクと起動パーティションの最初のセクターに新しい起動コードを書き込み、古い PC (レガシ BIOS) がそこから起動できるようにします。"
+
+msgid "A few seconds. The old first sectors are backed up first. Other systems' start-up menus (for example Linux GRUB) on this disk are replaced."
+msgstr "数秒。古い最初のセクターは先にバックアップされます。このディスク上のほかのシステムの起動メニュー (Linux の GRUB など) は置き換えられます。"
+
+msgid "Create a new start-up partition"
+msgstr "新しい起動パーティションを作成する"
+
+msgid "Makes a small start-up partition (300 MB) in free space on the disk, taking the room from the end of the Windows partition if needed, and puts fresh start-up files on it."
+msgstr "ディスクの空き領域に小さな起動パーティション (300 MB) を作成し (必要なら Windows パーティションの末尾から領域を取ります)、新しい起動ファイルを置きます。"
+
+msgid "A few minutes. The Windows partition gets 300 MB smaller. Copy important files somewhere safe first if you can."
+msgstr "数分。Windows パーティションが 300 MB 小さくなります。できれば先に大切なファイルを安全な場所にコピーしてください。"
+
+msgid "Repair the partition table"
+msgstr "パーティション テーブルを修復する"
+
+msgid "Writes both copies of the partition table again from the copy that Windows can still read. The partitions themselves are not moved."
+msgstr "Windows がまだ読み取れるコピーから、パーティション テーブルの 2 つのコピーを両方とも書き直します。パーティション自体は移動しません。"
+
+msgid "A few seconds. The old table is backed up first."
+msgstr "数秒。古いテーブルは先にバックアップされます。"
+
+msgid "Check and repair the drive"
+msgstr "ドライブを確認して修復する"
+
+msgid "Runs the Windows disk check, which repairs damaged file-system records. Files in damaged places can be lost, as with any disk check."
+msgstr "Windows のディスク チェックを実行し、壊れたファイル システムの記録を修復します。ほかのディスク チェックと同様に、壊れた場所にあるファイルは失われることがあります。"
+
+msgid "From a few minutes to an hour on a large drive. This cannot be undone."
+msgstr "数分から、大きなドライブでは 1 時間ほど。この操作は元に戻せません。"
+
+msgid "Unlock with the BitLocker recovery key"
+msgstr "BitLocker 回復キーでロックを解除する"
+
+msgid "This drive is encrypted. Type its 48-digit recovery key to unlock it, so it can be checked and repaired. You find the key in your Microsoft account (aka.ms/myrecoverykey), on a printout, or with your IT department."
+msgstr "このドライブは暗号化されています。確認と修復ができるように、48 桁の回復キーを入力してロックを解除してください。キーは Microsoft アカウント (aka.ms/myrecoverykey)、印刷した紙、または IT 部門で確認できます。"
+
+msgid "A few seconds. Nothing is changed on the drive."
+msgstr "数秒。ドライブ上は何も変更されません。"
+
+msgid "Put back the registry's backup copy"
+msgstr "レジストリのバックアップ コピーを戻す"
+
+msgid "Windows' settings file (registry) is damaged. Windows keeps an automatic backup copy of it, and this puts that copy back. Settings changed since the backup was made are lost."
+msgstr "Windows の設定ファイル (レジストリ) が壊れています。Windows はその自動バックアップ コピーを保持しており、これでそのコピーを戻します。バックアップ作成後に変更された設定は失われます。"
+
+msgid "A few seconds. The damaged file is kept in the backup, so it can be put back too."
+msgstr "数秒。壊れたファイルはバックアップに保存されるため、それも元に戻せます。"
+
+msgid "Repair Windows system files"
+msgstr "Windows システム ファイルを修復する"
+
+msgid "Runs the Windows file checker, which puts back damaged or missing Windows files from Windows' own store of originals."
+msgstr "Windows のファイル チェッカーを実行し、壊れたファイルや見つからない Windows ファイルを、Windows 自身が持つ元のファイルから復元します。"
+
+msgid "10 to 30 minutes. Personal files and programs are not touched. This cannot be undone, but it only puts back Windows' own files."
+msgstr "10 ～ 30 分。個人用ファイルとプログラムには触れません。この操作は元に戻せませんが、戻すのは Windows 自身のファイルだけです。"
+
+msgid "Turn the disk drivers back on"
+msgstr "ディスク ドライバーを再び有効にする"
+
+msgid "Windows needs a few drivers to read its own disk while it starts. Some of them are turned off, which causes the stop error INACCESSIBLE_BOOT_DEVICE. This turns them back on."
+msgstr "Windows は起動中に自分のディスクを読むためにいくつかのドライバーを必要とします。その一部が無効になっているため、停止エラー INACCESSIBLE_BOOT_DEVICE が発生しています。これで再び有効にします。"
+
+msgid "A few seconds. The settings file is backed up first."
+msgstr "数秒。設定ファイルは先にバックアップされます。"
+
+msgid "Clear the unfinished set-up mark"
+msgstr "セットアップ未完了の印を消す"
+
+msgid "Windows is marked as still being set up, so it keeps restarting into set-up (\"The computer restarted unexpectedly\"). This clears the mark. Only do this on a Windows that was already working before."
+msgstr "Windows がまだセットアップ中と記録されているため、セットアップへの再起動を繰り返しています (\"コンピューターが予期せずに再起動されました\")。これでその印を消します。以前は正常に動いていた Windows でのみ実行してください。"
+
+msgid "Windows updates that were half installed can make Windows restart over and over. This undoes the updates that are still waiting to finish."
+msgstr "途中までインストールされた Windows Update が原因で、Windows が再起動を繰り返すことがあります。これで完了待ちの更新を元に戻します。"
+
+msgid "5 to 20 minutes. Those updates can be installed again later from Windows Update."
+msgstr "5 ～ 20 分。これらの更新は後で Windows Update から再インストールできます。"
+
+msgid "Show the real error instead of Automatic Repair"
+msgstr "自動修復の代わりに本当のエラーを表示する"
+
+msgid "Turns off Automatic Repair for this Windows, so the PC stops going round in circles and shows the actual error message on screen. You can turn it back on with Undo."
+msgstr "この Windows の自動修復をオフにして、PC が同じ動作を繰り返さず、実際のエラー メッセージを画面に表示するようにします。[元に戻す] で再びオンにできます。"
+
+msgid "Move Windows back to the top of the drive"
+msgstr "Windows をドライブの最上位に戻す"
+
+msgid "This Windows sits inside a folder, where it cannot start. This moves its folders (Windows, Program Files, Users and the rest) back to the top of the drive, where they belong."
+msgstr "この Windows はフォルダーの中にあるため起動できません。これでフォルダー (Windows、Program Files、Users など) を本来あるべきドライブの最上位に戻します。"
+
+msgid "A few seconds: the files are only renamed, not copied. Undo moves them back."
+msgstr "数秒。ファイルは名前を変えるだけで、コピーはしません。[元に戻す] で元に戻せます。"
+
+msgid "Remove this entry"
+msgstr "この項目を削除する"
+
+msgid "Deletes this line from the start-up settings, so it no longer appears in the start-up menu. No Windows, files or partitions are touched."
+msgstr "起動設定からこの行を削除し、起動メニューに表示されないようにします。Windows、ファイル、パーティションには触れません。"
+
+msgid "A few seconds. The start-up settings are backed up first, so Undo brings the entry back."
+msgstr "数秒。起動設定は先にバックアップされるため、[元に戻す] で項目を戻せます。"
+
+msgid "Only hide it from the menu"
+msgstr "メニューで非表示にするだけ"
+
+msgid "Keeps the entry in the start-up settings but takes it off the start-up menu. Choose this if you think the system may come back (for example a disk you will connect again)."
+msgstr "項目は起動設定に残し、起動メニューからだけ外します。システムが戻ってくるかもしれない場合 (再接続する予定のディスクなど) はこちらを選んでください。"
+
+msgid "A few seconds. Undo puts it back in the menu."
+msgstr "数秒。[元に戻す] でメニューに戻せます。"
+
+msgid "Restart into the PC's firmware settings"
+msgstr "再起動して PC のファームウェア設定を開く"
+
+msgid "Restarts the PC straight into its firmware settings screen (where Secure Boot, the start-up order and CSM are switched). Close your programs first."
+msgstr "PC を再起動して、ファームウェア設定画面 (Secure Boot、起動順序、CSM を切り替える画面) を直接開きます。先にプログラムを閉じてください。"
+
+msgid "The PC restarts at once. Nothing on the disks changes."
+msgstr "PC はすぐに再起動します。ディスク上は何も変わりません。"
+
+msgid "Add Linux to the PC's start-up list"
+msgstr "Linux を PC の起動リストに追加する"
+
+msgid "Writes a new entry into the start-up list kept inside the PC, pointing to this Linux's boot loader. Nothing on any disk changes."
+msgstr "PC 内に保存されている起動リストに、この Linux のブート ローダーを指す新しい項目を書き込みます。ディスク上は何も変わりません。"
+
+msgid "A few seconds. Undo removes the entry again."
+msgstr "数秒。[元に戻す] で項目を再び削除します。"
+
+msgid "Make Linux start first"
+msgstr "Linux が最初に起動するようにする"
+
+msgid "Moves this Linux to the top of the PC's start-up list. Its boot loader (GRUB) usually shows a menu where Windows can still be chosen."
+msgstr "この Linux を PC の起動リストの先頭に移動します。通常、ブート ローダー (GRUB) が表示するメニューから Windows も選べます。"
+
+msgid "A few seconds. Undo puts the old order back."
+msgstr "数秒。[元に戻す] で元の順序に戻ります。"
+
+msgid "Remove the leftover boot loader"
+msgstr "残っているブート ローダーを削除する"
+
+msgid "Deletes the boot loader folder of a Linux that is gone from the start-up partition, and its line in the PC's start-up list."
+msgstr "もう存在しない Linux のブート ローダー フォルダーを起動パーティションから削除し、PC の起動リストにあるその行も削除します。"
+
+msgid "A few seconds. The folder and the entry are backed up first, so Undo brings them back."
+msgstr "数秒。フォルダーと項目は先にバックアップされるため、[元に戻す] で戻せます。"
+
+msgid "Repair Linux from a Linux USB stick"
+msgstr "Linux の USB メモリから Linux を修復する"
+
+msgid "This needs to be done from Linux itself:"
+msgstr "これは Linux 自体から行う必要があります:"
+
+msgid "About 15 minutes with a Linux USB stick and an internet connection."
+msgstr "Linux の USB メモリとインターネット接続があれば約 15 分。"
+
+msgid "Switch the troubleshoot options back on"
+msgstr "トラブルシューティング オプションを再び有効にする"
+
+msgid "Windows' repair tools (the blue \"Choose an option\" screen with Troubleshoot, Startup Repair and System Restore) are on this PC but switched off. This switches them on again with Windows' own tool (reagentc)."
+msgstr "Windows の修復ツール ([トラブルシューティング]、[スタートアップ修復]、[システムの復元] がある青い [オプションの選択] 画面) はこの PC にありますが、無効になっています。Windows 自身のツール (reagentc) で再び有効にします。"
+
+msgid "A few seconds. No partition changes."
+msgstr "数秒。パーティションは変更しません。"
+
+msgid "Recreate the recovery partition"
+msgstr "回復パーティションを作り直す"
+
+msgid "Makes a new hidden recovery partition (about 1 GB) and puts Windows' repair tools on it, so the blue \"Choose an option\" screen with Troubleshoot, Startup Repair and System Restore works again. Uses unused space or an empty recovery partition if there is one; otherwise it takes 1 GB from the end of the Windows partition."
+msgstr "新しい隠し回復パーティション (約 1 GB) を作成して Windows の修復ツールを置き、[トラブルシューティング]、[スタートアップ修復]、[システムの復元] がある青い [オプションの選択] 画面が再び使えるようにします。未使用の領域か空の回復パーティションがあればそれを使い、なければ Windows パーティションの末尾から 1 GB を取ります。"
+
+msgid "A few minutes. Making the Windows partition smaller is safe in almost all cases, but a power cut during it can damage the drive: back up important files first, and keep a laptop plugged in. This cannot be undone here."
+msgstr "数分。Windows パーティションを小さくするのはほとんどの場合安全ですが、途中で停電するとドライブが壊れることがあります。先に大切なファイルをバックアップし、ノート PC は電源につないでおいてください。この操作はここでは元に戻せません。"
+
+msgid "Free up space"
+msgstr "空き領域を増やす"
+
+msgid "Removes files Windows does not need: temporary files, downloaded updates, crash reports and, if you choose, browser caches. You see how much each frees before anything is removed."
+msgstr "Windows に不要なファイル (一時ファイル、ダウンロード済みの更新、クラッシュ レポート、選んだ場合はブラウザーのキャッシュ) を削除します。削除する前に、それぞれでどれだけ空くかを確認できます。"
+
+msgid "A minute or two. Personal files, programs and settings are not touched. Removed files cannot be put back (none of them are needed)."
+msgstr "1 ～ 2 分。個人用ファイル、プログラム、設定には触れません。削除したファイルは元に戻せません (どれも不要なものです)。"
+
+msgid "Make the Windows partition bigger"
+msgstr "Windows パーティションを大きくする"
+
+msgid "Adds unused space right after the Windows partition to it, or, if you choose, deletes the partition right after it and adds that space. Space before it cannot be used. You see a preview of the disk before anything changes."
+msgstr "Windows パーティションの直後にある未使用の領域を追加するか、選んだ場合は直後のパーティションを削除してその領域を追加します。前にある領域は使えません。何かを変更する前に、ディスクのプレビューを確認できます。"
+
+msgid "A minute. Changing partitions always carries a small risk: back up important files first. Deleting the partition after it erases everything on that partition."
+msgstr "約 1 分。パーティションの変更には常に小さなリスクがあります。先に大切なファイルをバックアップしてください。直後のパーティションを削除すると、そのパーティションの内容はすべて消去されます。"
+
+msgid "Give Windows' folders their names back"
+msgstr "Windows のフォルダー名を元に戻す"
+
+msgid "Windows only starts from folders with their own names (Windows, System32, config). This renames the folders found back to those names. Nothing is copied or deleted."
+msgstr "Windows は本来の名前 (Windows、System32、config) のフォルダーからしか起動しません。見つかったフォルダーの名前をこれらの名前に戻します。コピーや削除は行いません。"
+
+msgid "A few seconds. Undo renames them back."
+msgstr "数秒。[元に戻す] で名前を戻せます。"
+
+msgid "Remove it from the PC's start-up list"
+msgstr "PC の起動リストから削除する"
+
+msgid "Deletes this line from the list of start-up choices kept inside the PC itself (not on any disk). Nothing on any disk changes."
+msgstr "PC 自体 (ディスク上ではありません) に保存されている起動の選択肢の一覧から、この行を削除します。ディスク上は何も変わりません。"
+
+msgid "A few seconds. The entry is backed up first, so Undo brings it back."
+msgstr "数秒。項目は先にバックアップされるため、[元に戻す] で戻せます。"
+
+msgid "Starting a PC is like a relay race: each runner hands a baton to the next. First the PC's built-in program (firmware) wakes up and looks at the disk. On the disk it finds a small start-up partition with Windows Boot Manager. The boot manager reads a short list of start-up settings to learn where Windows is, then hands over to the Windows loader, which loads the heart of Windows, its drivers and its settings. If any runner drops the baton, starting stops there. The Boot chain view shows these runners in order, so you can see exactly where it stops."
+msgstr "PC の起動はリレー競走のようなものです。各走者が次の走者にバトンを渡します。まず PC に組み込まれたプログラム (ファームウェア) が目を覚まし、ディスクを見ます。ディスク上で、Windows ブート マネージャーのある小さな起動パーティションを見つけます。ブート マネージャーは短い起動設定の一覧を読んで Windows の場所を知り、Windows ローダーに引き継ぎます。ローダーは Windows の中核、ドライバー、設定を読み込みます。どこかの走者がバトンを落とすと、起動はそこで止まります。[起動チェーン] ビューではこれらの走者が順番に表示されるので、どこで止まっているかが正確にわかります。"
+
+msgid "What is a start-up menu entry? When a PC has more than one system, a menu appears when it starts. Each line in that menu is an entry that says where a system lives (which disk, which partition, which folder). When that system is deleted, moved, or its disk is taken out, the entry stays behind and leads nowhere. Removing such an entry deletes nothing else: it only tidies up the menu."
+msgstr "起動メニューの項目とは? PC に複数のシステムがあると、起動時にメニューが表示されます。メニューの各行は、システムの場所 (どのディスク、どのパーティション、どのフォルダー) を示す項目です。そのシステムが削除・移動されたり、ディスクが取り外されたりすると、項目だけが残り、どこにもつながらなくなります。そのような項目を削除してもほかには何も削除されません。メニューが整理されるだけです。"
+
+msgid "What is the PC's own start-up list? Newer PCs keep a short list inside the PC itself (in the firmware, not on any disk) of things they can start: Windows Boot Manager, Linux, USB sticks, the network. You see it in the boot menu that opens with a key while the PC starts (often F12, F11, F8 or Esc). When a system is removed, its line can stay in that list. Removing the line changes nothing on any disk."
+msgstr "PC 自体の起動リストとは? 新しい PC は、起動できるもの (Windows Boot Manager、Linux、USB メモリ、ネットワーク) の短い一覧を PC 自体 (ディスク上ではなくファームウェア内) に保存しています。PC の起動中にキー (F12、F11、F8、Esc など) を押すと開くブート メニューで確認できます。システムを削除しても、その行が一覧に残ることがあります。行を削除しても、ディスク上は何も変わりません。"
+
+msgid "What is a partition table? A disk is divided into parts called partitions, for example a small start-up partition and a big C: drive. A tiny table at the very start of the disk (with a spare copy at the end, on newer disks) records where each part begins and ends, like the table of contents of a book. If the table is damaged, the PC cannot find anything on the disk, even though the files are still there."
+msgstr "パーティション テーブルとは? ディスクはパーティションと呼ばれる部分に分かれています (例: 小さな起動パーティションと大きな C: ドライブ)。ディスクの先頭にある小さな表 (新しいディスクでは末尾に予備のコピーもあります) が、本の目次のように各部分の始まりと終わりを記録しています。この表が壊れると、ファイルが残っていても PC はディスク上の何も見つけられません。"
+
+msgid "What is Secure Boot? It is a safety check built into newer PCs. When it is on, the PC only starts programs that carry a valid digital signature, like a passport check at the door. That stops harmful programs (bootkits) from hiding in the start-up process before Windows or your antivirus runs.\n\nWindows 8, 10 and 11 are signed, and so are most big Linux systems (Ubuntu, Fedora, openSUSE, Mint) through a helper called shim. Windows 7, older Windows, many smaller Linux systems and some repair tools are not signed, so they only start with Secure Boot off.\n\nKeep it on if everything you use starts with it on. Turn it off only for a system or tool that refuses to start, and back on afterwards if you can. Switching it does not change or delete anything on the disks. If the Windows drive is encrypted with BitLocker, have its recovery key ready: Windows may ask for it once after Secure Boot is switched."
+msgstr "Secure Boot とは? 新しい PC に組み込まれた安全チェックです。オンにすると、PC は有効なデジタル署名のあるプログラムだけを起動します。入口でのパスポート確認のようなものです。これにより、Windows やウイルス対策ソフトが動き出す前の起動処理に有害なプログラム (ブートキット) が潜むのを防ぎます。\n\nWindows 8、10、11 は署名されており、主要な Linux (Ubuntu、Fedora、openSUSE、Mint) の多くも shim という補助プログラムによって署名されています。Windows 7 や古い Windows、多くの小規模な Linux、一部の修復ツールは署名されていないため、Secure Boot がオフのときだけ起動します。\n\n使っているものがすべてオンのまま起動するなら、オンのままにしてください。起動しないシステムやツールのためだけにオフにし、できれば後でオンに戻してください。切り替えてもディスク上のものは何も変更・削除されません。Windows ドライブが BitLocker で暗号化されている場合は、回復キーを用意してください。Secure Boot を切り替えた後、Windows が一度だけ回復キーを求めることがあります。"
+
+msgid "This PC was started in legacy (BIOS) mode, which has no Secure Boot. Secure Boot only works in UEFI mode."
+msgstr "この PC はレガシ (BIOS) モードで起動しており、Secure Boot はありません。Secure Boot は UEFI モードでのみ動作します。"
+
+msgid "Whether Secure Boot is on could not be read here."
+msgstr "ここでは Secure Boot がオンかどうかを読み取れませんでした。"
+
+msgid "Secure Boot is on."
+msgstr "Secure Boot はオンです。"
+
+msgid "Secure Boot is off, and its keys are cleared (\"Setup mode\"). To switch it on, first restore the factory keys in the firmware settings."
+msgstr "Secure Boot はオフで、キーが消去されています (\"セットアップ モード\")。オンにするには、まずファームウェア設定で工場出荷時のキーを復元してください。"
+
+msgid "Secure Boot is off."
+msgstr "Secure Boot はオフです。"
+
+msgid "Delete or F2"
+msgstr "Delete または F2"
+
+msgid "the Boot or Security tab"
+msgstr "[Boot] または [Security] タブ"
+
+msgid "How to switch Secure Boot on:\n"
+msgstr "Secure Boot をオンにする方法:\n"
+
+msgid "How to switch Secure Boot off:\n"
+msgstr "Secure Boot をオフにする方法:\n"
+
+msgid "1. Use \"Restart into the PC's firmware settings\", or restart the PC and press "
+msgstr "1. [再起動して PC のファームウェア設定を開く] を使うか、PC を再起動して電源を入れた直後に "
+
+msgid " right after switching it on.\n"
+msgstr " を押します。\n"
+
+msgid "1. Restart the PC and press "
+msgstr "1. PC を再起動し、電源を入れた直後に "
+
+msgid " right after switching it on, until the firmware settings appear.\n"
+msgstr " を、ファームウェア設定が表示されるまで押します。\n"
+
+msgid "3. Set \"Secure Boot\" to Enabled. If it is greyed out: switch \"CSM\" or \"Legacy\" support off and set the OS type to \"Windows UEFI mode\".\n"
+msgstr "3. \"Secure Boot\" を Enabled にします。灰色で選べない場合は、\"CSM\" または \"Legacy\" のサポートをオフにし、OS の種類を \"Windows UEFI mode\" にします。\n"
+
+msgid "4. If it says Setup mode or keys are missing, choose \"Restore factory keys\" (or \"Install default keys\").\n"
+msgstr "4. Setup mode と表示されている場合やキーがない場合は、\"Restore factory keys\" (または \"Install default keys\") を選びます。\n"
+
+msgid "3. Set \"Secure Boot\" to Disabled. On some PCs you first set the OS type to \"Other OS\", or set a supervisor password to unlock the option.\n"
+msgstr "3. \"Secure Boot\" を Disabled にします。PC によっては、先に OS の種類を \"Other OS\" にするか、スーパーバイザー パスワードを設定して項目のロックを解除する必要があります。\n"
+
+msgid "4. Leave CSM / Legacy as it is, unless the system you want to start needs it.\n"
+msgstr "4. 起動したいシステムに必要でない限り、CSM / Legacy はそのままにします。\n"
+
+msgid "5. Save and exit (often F10). The PC restarts."
+msgstr "5. 保存して終了します (多くの場合 F10)。PC が再起動します。"
+
+msgid "\n\nThis PC: "
+msgstr "\n\nこの PC: "
+
+msgid "Every PC has a small built-in program on a chip on its main board, called the firmware (UEFI on newer PCs, BIOS on older ones). It is the first thing that runs when you press the power button. It checks the hardware and then looks for a disk to start from. UEFI and BIOS start Windows in different ways, so Windows must be set up for the way your PC starts."
+msgstr "どの PC にも、メイン ボードのチップにファームウェアと呼ばれる小さな組み込みプログラムがあります (新しい PC では UEFI、古い PC では BIOS)。電源ボタンを押すと最初に動くのがこれです。ハードウェアを確認してから、起動するディスクを探します。UEFI と BIOS では Windows の起動方法が異なるため、Windows は PC の起動方法に合わせて設定されている必要があります。"
+
+msgid "The disk (hard disk or SSD) stores Windows and your files. At its very start there is a small table that says how the disk is divided into parts (partitions), like the table of contents of a book. If the disk cannot be read or that table is damaged, the PC cannot find Windows."
+msgstr "ディスク (ハード ディスクまたは SSD) には Windows とファイルが保存されています。ディスクの先頭には、本の目次のように、ディスクがどのように部分 (パーティション) に分かれているかを示す小さな表があります。ディスクを読み取れないか、この表が壊れていると、PC は Windows を見つけられません。"
+
+msgid "Besides the big partition with Windows (usually C:), the disk has a small hidden partition used only for starting: the EFI system partition on newer PCs, or the \"active\" partition on older ones. It holds the few files the PC needs to begin starting Windows. You normally never see it, and it has no drive letter."
+msgstr "ディスクには Windows のある大きなパーティション (通常は C:) のほかに、起動専用の小さな隠しパーティションがあります。新しい PC では EFI システム パーティション、古い PC では \"アクティブ\" パーティションです。PC が Windows の起動を始めるのに必要な少数のファイルが入っています。通常は目にすることがなく、ドライブ文字もありません。"
+
+msgid "Windows Boot Manager is a small program on the start-up partition. The firmware starts it, and it decides which Windows to start, showing a menu when there is more than one. On newer PCs the PC also keeps its own list of start-up choices, and Windows Boot Manager must be in it."
+msgstr "Windows ブート マネージャーは起動パーティションにある小さなプログラムです。ファームウェアがこれを起動し、これがどの Windows を起動するかを決めます (複数ある場合はメニューを表示します)。新しい PC は起動の選択肢の一覧も PC 自体に保存しており、Windows ブート マネージャーがその中に含まれている必要があります。"
+
+msgid "The start-up settings (called BCD) are a short list that Windows Boot Manager reads. Each line says \"this Windows is on this partition, in this folder\". If the line is missing or points to the wrong place, that Windows cannot start, even if Windows itself is perfectly fine."
+msgstr "起動設定 (BCD と呼ばれます) は、Windows ブート マネージャーが読む短い一覧です。各行には \"この Windows はこのパーティションのこのフォルダーにある\" と書かれています。行がないか間違った場所を指していると、Windows 自体にまったく問題がなくても、その Windows は起動できません。"
+
+msgid "This is the partition where Windows is installed, usually drive C:. To start, it must be readable: not damaged, not locked by BitLocker encryption, and with some free space left."
+msgstr "Windows がインストールされているパーティションで、通常は C: ドライブです。起動するには読み取れる状態である必要があります。つまり、壊れておらず、BitLocker 暗号化でロックされておらず、空き容量が少し残っていることです。"
+
+msgid "The Windows loader (a file called winload) is what actually starts loading Windows into the PC's memory. Windows Boot Manager hands over to it."
+msgstr "Windows ローダー (winload というファイル) は、実際に Windows を PC のメモリに読み込み始めるものです。Windows ブート マネージャーがこれに引き継ぎます。"
+
+msgid "These are the heart of Windows (the kernel) and the first drivers it needs, for example the ones that let Windows read its own disk. If one of them is missing or damaged, Windows stops with a blue screen while it starts."
+msgstr "Windows の中核 (カーネル) と、最初に必要なドライバー (Windows が自分のディスクを読むためのドライバーなど) です。どれかが見つからないか壊れていると、Windows は起動中にブルー スクリーンで停止します。"
+
+msgid "Windows keeps its settings in a few special files called the registry. Windows reads them very early, for example to know which drivers to load. A damaged registry file means Windows cannot finish starting."
+msgstr "Windows は設定をレジストリと呼ばれるいくつかの特別なファイルに保存しています。Windows はこれをとても早い段階で読みます (読み込むドライバーを知るためなど)。レジストリ ファイルが壊れていると、Windows は起動を完了できません。"
+
+msgid "The last step: Windows starts its services and shows the sign-in screen. If something goes wrong here, Windows may restart over and over (a restart loop) or keep opening Automatic Repair."
+msgstr "最後の段階です。Windows がサービスを開始し、サインイン画面を表示します。ここで問題が起きると、Windows が再起動を繰り返したり (再起動ループ)、自動修復が何度も開いたりすることがあります。"
+
+msgid "Newer PCs keep a short list inside the PC itself (not on any disk) of systems they can start, in order. The PC starts the first one that works. Windows and Linux each add their own line. Windows updates sometimes move Windows back to the top, so Linux then seems to have vanished; it is only lower in the list."
+msgstr "新しい PC は、起動できるシステムの短い一覧を順番どおりに PC 自体 (ディスク上ではありません) に保存しています。PC は一覧の中で最初に動くものを起動します。Windows と Linux はそれぞれ自分の行を追加します。Windows Update によって Windows が先頭に戻されることがあり、そのとき Linux が消えたように見えますが、一覧の下にあるだけです。"
+
+msgid "Linux is started by a small program called GRUB (sometimes with a helper called shim, which makes it work with Secure Boot, or by systemd-boot). It lives in a folder on the start-up partition, next to Windows Boot Manager."
+msgstr "Linux は GRUB という小さなプログラムによって起動されます (Secure Boot で動作させるための shim という補助プログラムと一緒に使われることや、systemd-boot が使われることもあります)。起動パーティション上のフォルダーに、Windows ブート マネージャーと並んで置かれています。"
+
+msgid "A tiny settings file next to GRUB says on which partition Linux lives, using that partition's id. If the partition was formatted or deleted, the id no longer matches anything and GRUB stops at a \"grub rescue>\" prompt."
+msgstr "GRUB の隣にある小さな設定ファイルが、Linux がどのパーティションにあるかを、そのパーティションの ID で示しています。パーティションがフォーマットまたは削除されると、ID が一致しなくなり、GRUB は \"grub rescue>\" プロンプトで止まります。"
+
+msgid "On older PCs (legacy BIOS) the very first sector of the disk holds a little start-up program. For Linux this is GRUB. Installing or repairing Windows often replaces it with Windows' own, and then the PC no longer offers Linux."
+msgstr "古い PC (レガシ BIOS) では、ディスクの最初のセクターに小さな起動プログラムがあります。Linux の場合、これは GRUB です。Windows をインストールまたは修復すると、これが Windows 自身のものに置き換わることが多く、その後 PC は Linux を選べなくなります。"
+
+msgid "This is the partition where Linux is installed. Linux uses its own file systems (ext4, btrfs, XFS), which Windows cannot open. This program can look inside ext2, ext3 and ext4, read-only; it never writes to them."
+msgstr "Linux がインストールされているパーティションです。Linux は独自のファイル システム (ext4、btrfs、XFS) を使い、Windows ではこれを開けません。このプログラムは ext2、ext3、ext4 の中を読み取り専用で見ることができ、書き込むことはありません。"
+
+msgid "The kernel is the heart of Linux, kept in the /boot folder as files named vmlinuz. Linux keeps one or two older kernels too, so that if an update goes wrong you can pick an older one in the GRUB menu."
+msgstr "カーネルは Linux の中核で、/boot フォルダーに vmlinuz という名前のファイルとして保存されています。Linux は古いカーネルも 1 ～ 2 個残しているため、更新で問題が起きても GRUB メニューで古いものを選べます。"
+
+msgid "The GRUB menu is the list of choices GRUB shows when the PC starts (Linux, older kernels, often Windows too). It is a file called grub.cfg. Without it, GRUB only shows a bare \"grub>\" prompt."
+msgstr "GRUB メニューは、PC の起動時に GRUB が表示する選択肢の一覧です (Linux、古いカーネル、多くの場合 Windows も)。grub.cfg というファイルです。これがないと、GRUB は何もない \"grub>\" プロンプトしか表示しません。"
+
+msgid "Linux keeps a list of the partitions it uses (the file /etc/fstab): where Linux is, where /boot is, the swap space and so on. If a partition in that list is gone, Linux stops while starting and shows an \"emergency mode\" prompt."
+msgstr "Linux は使用するパーティションの一覧 (ファイル /etc/fstab) を持っています。Linux の場所、/boot の場所、スワップ領域などです。一覧のパーティションがなくなると、Linux は起動中に止まり、\"emergency mode\" プロンプトを表示します。"
+
+msgid "Windows only starts when it sits at the top of its drive (for example C:\\Windows). A Windows inside another folder is usually a copy made while backing up or moving files, or the old Windows kept after an upgrade (Windows.old)."
+msgstr "Windows はドライブの最上位にあるとき (例: C:\\Windows) だけ起動します。別のフォルダー内の Windows は、通常、ファイルのバックアップや移動中に作られたコピーか、アップグレード後に残された古い Windows (Windows.old) です。"
+
+msgid "Ubuntu (Linux)"
+msgstr "Ubuntu (Linux)"
+
+msgid "Debian (Linux)"
+msgstr "Debian (Linux)"
+
+msgid "Fedora (Linux)"
+msgstr "Fedora (Linux)"
+
+msgid "openSUSE (Linux)"
+msgstr "openSUSE (Linux)"
+
+msgid "Arch Linux"
+msgstr "Arch Linux"
+
+msgid "Manjaro (Linux)"
+msgstr "Manjaro (Linux)"
+
+msgid "CentOS (Linux)"
+msgstr "CentOS (Linux)"
+
+msgid "Rocky Linux"
+msgstr "Rocky Linux"
+
+msgid "AlmaLinux"
+msgstr "AlmaLinux"
+
+msgid "Red Hat (Linux)"
+msgstr "Red Hat (Linux)"
+
+msgid "Kali Linux"
+msgstr "Kali Linux"
+
+msgid "Linux Mint"
+msgstr "Linux Mint"
+
+msgid "Pop!_OS (Linux)"
+msgstr "Pop!_OS (Linux)"
+
+msgid "Zorin OS (Linux)"
+msgstr "Zorin OS (Linux)"
+
+msgid "KDE neon (Linux)"
+msgstr "KDE neon (Linux)"
+
+msgid "elementary OS (Linux)"
+msgstr "elementary OS (Linux)"
+
+msgid "EndeavourOS (Linux)"
+msgstr "EndeavourOS (Linux)"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Linux (GRUB)"
+msgstr "Linux (GRUB)"
+
+msgid "rEFInd boot menu"
+msgstr "rEFInd ブート メニュー"
+
+msgid "Clover boot menu"
+msgstr "Clover ブート メニュー"
+
+msgid "OpenCore boot menu"
+msgstr "OpenCore ブート メニュー"
+
+msgid "PC maker's tools (HP)"
+msgstr "PC メーカーのツール (HP)"
+
+msgid "PC maker's tools (Dell)"
+msgstr "PC メーカーのツール (Dell)"
+
+msgid "PC maker's tools (Lenovo)"
+msgstr "PC メーカーのツール (Lenovo)"
+
+msgid "a USB stick or another system"
+msgstr "USB メモリまたは別のシステム"
+
+msgid "another system"
+msgstr "別のシステム"
+
+msgid "Remove the leftover Windows start-up files"
+msgstr "残っている Windows 起動ファイルを削除する"
+
+msgid "Deletes the Windows Boot Manager folder (\\EFI\\Microsoft) from this start-up partition, and its line in the PC's start-up list. No Windows, personal files or other partitions are touched, and the start-up files of the Windows you use are on another partition."
+msgstr "この起動パーティションから Windows ブート マネージャーのフォルダー (\\EFI\\Microsoft) を削除し、PC の起動リストにあるその行も削除します。Windows、個人用ファイル、ほかのパーティションには触れません。また、使用中の Windows の起動ファイルは別のパーティションにあります。"
+
+msgid "Use \"Rebuild the start-up files\" in the report of "
+msgstr "次のレポートで [起動ファイルを作り直す] を使ってください: "
+
+msgid ": that writes new, correct settings."
+msgstr ": 新しい正しい設定が書き込まれます。"
+
+msgid "The start-up menu's first choice is missing"
+msgstr "起動メニューの最初の選択肢が見つかりません"
+
+msgid "The start-up settings on "
+msgstr "起動設定の場所: "
+
+msgid " say to start an entry that does not exist."
+msgstr " — 存在しない項目を起動するよう指定されています。"
+
+msgid " list no system"
+msgstr " — 起動するシステムがありません"
+
+msgid "The settings file is intact, but it names no system to start, although "
+msgstr "設定ファイルは壊れていませんが、起動するシステムが指定されていません。しかし "
+
+msgid " starts through this partition. "
+msgstr " はこのパーティションを通じて起動します。 "
+
+msgid "Leftover Windows start-up files on "
+msgstr "残っている Windows 起動ファイル: "
+
+msgid "This start-up partition still holds Windows Boot Manager and its settings, but the settings list no system to start: the Windows they belonged to is gone, or its entry was removed. Nothing is damaged. "
+msgstr "この起動パーティションには Windows ブート マネージャーとその設定が残っていますが、設定には起動するシステムがありません。対応していた Windows がなくなったか、その項目が削除されています。壊れているものはありません。 "
+
+msgid "The PC's start-up list tries this partition first, shows an error, and only then goes on to the next choice."
+msgstr "PC の起動リストは最初にこのパーティションを試し、エラーを表示してから、次の選択肢に進みます。"
+
+msgid "This PC does not start from this partition, so the files do no harm where they are."
+msgstr "この PC はこのパーティションから起動しないため、ファイルがここにあっても害はありません。"
+
+msgid " If the PC is ever started from Disk "
+msgstr " PC をディスク "
+
+msgid ", it shows a start-up error instead of a system.\n\nYou can leave the files, or remove them to tidy up. If an entry was removed by mistake, Undo in the backups list brings it back."
+msgstr "から起動すると、システムの代わりに起動エラーが表示されます。\n\nファイルはそのままでもかまいませんし、整理のために削除することもできます。項目を誤って削除した場合は、バックアップ一覧の [元に戻す] で戻せます。"
+
+msgid "Damaged start-up settings on "
+msgstr "壊れた起動設定: "
+
+msgid "\n\nNo Windows found on this PC starts through this partition, so these are leftover files. Removing them is safe."
+msgstr "\n\nこの PC で見つかった Windows はどれもこのパーティションを通じて起動しないため、これらは残りのファイルです。削除しても安全です。"
+
+msgid "\n\nNo Windows found on this PC uses these settings. If a Windows should start from this disk, it was not found: check that its disk is connected and unlocked."
+msgstr "\n\nこの PC で見つかった Windows はどれもこの設定を使っていません。このディスクから起動するはずの Windows がある場合、それは見つかりませんでした。ディスクが接続され、ロックが解除されているか確認してください。"
+
+msgid "the partition it points to is not on any disk now"
+msgstr "参照先のパーティションは現在どのディスクにもありません"
+
+msgid "A start-up entry points to a drive locked by BitLocker: \""
+msgstr "起動項目が BitLocker でロックされたドライブを指しています: \""
+
+msgid "The start-up menu on {0} lists \"{1}\" on {2}, but that drive is encrypted with BitLocker and locked, so it cannot be checked. Windows is very likely inside it.\n\nDo not remove this entry. Unlock the drive first (with its 48-digit recovery key) and scan again: only then can it be seen whether the entry is fine."
+msgstr "{0} の起動メニューに {2} 上の \"{1}\" がありますが、そのドライブは BitLocker で暗号化されてロックされているため、確認できません。Windows はおそらくその中にあります。\n\nこの項目は削除しないでください。まず (48 桁の回復キーで) ドライブのロックを解除してから、もう一度スキャンしてください。そうして初めて、項目が正常かどうかがわかります。"
+
+msgid "BitLocker encrypts a whole drive. While it is locked, no program can see the Windows inside it, so a working start-up entry looks as if it leads nowhere."
+msgstr "BitLocker はドライブ全体を暗号化します。ロックされている間はどのプログラムも中の Windows を見られないため、正常な起動項目でも参照先がないように見えます。"
+
+msgid "there is no Windows in "
+msgstr "場所 "
+
+msgid " any more"
+msgstr " には Windows がもうありません"
+
+msgid "A start-up menu entry leads nowhere: \""
+msgstr "起動メニューの項目の参照先がありません: \""
+
+msgid "The start-up menu on "
+msgstr "起動メニューの場所: "
+
+msgid " lists \""
+msgstr " — \""
+
+msgid "\", but "
+msgstr "\" が表示されていますが、 "
+
+msgid "It is even set to start first, so every time the PC starts it tries this entry, fails, and you see an error or a blue screen."
+msgstr "しかも最初に起動するよう設定されているため、PC は起動のたびにこの項目を試して失敗し、エラーまたはブルー スクリーンが表示されます。"
+
+msgid "This PC does not start from that menu now, so it does no harm today. But if the PC is ever started from Disk "
+msgstr "現在この PC はそのメニューから起動しないため、今は害はありません。しかし PC をディスク "
+
+msgid ", it tries this entry first and fails. It is probably left over from a copied (cloned) disk."
+msgstr "から起動すると、最初にこの項目を試して失敗します。おそらくコピー (クローン) したディスクの残りです。"
+
+msgid "If someone picks it in the start-up menu, the PC shows an error. It also makes the menu confusing."
+msgstr "起動メニューでこれを選ぶと、PC にエラーが表示されます。メニューもわかりにくくなります。"
+
+msgid "It is hidden from the menu, so it does no harm; it is only leftover clutter."
+msgstr "メニューでは非表示なので害はありません。不要な残りものにすぎません。"
+
+msgid "\n\nNote: "
+msgstr "\n\n注意: "
+
+msgid " has no start-up entry. If this entry used to belong to it (because it was moved), use \"Rebuild the start-up files\" in its report instead: that writes a correct entry. Then remove this one."
+msgstr " には起動項目がありません。この項目が以前それのものだった場合 (移動されたため)、代わりにそのレポートで [起動ファイルを作り直す] を使ってください。正しい項目が書き込まれます。その後、この項目を削除してください。"
+
+msgid "\n\nCareful: a drive on this PC is locked by BitLocker. The Windows this entry belongs to may be inside it. Unlock the locked drive first and scan again before removing anything."
+msgstr "\n\n注意: この PC には BitLocker でロックされたドライブがあります。この項目の Windows がその中にある可能性があります。何かを削除する前に、ロックされたドライブのロックを解除してもう一度スキャンしてください。"
+
+msgid "\n\nIt is the only system these start-up settings list, and no Windows on this PC starts through that partition. The whole set of leftover Windows start-up files there can be removed in one go."
+msgstr "\n\nこれはこの起動設定にある唯一のシステムで、この PC の Windows はどれもそのパーティションを通じて起動しません。そこに残っている Windows 起動ファイル一式をまとめて削除できます。"
+
+msgid "The start-up menu lists an entry that does not exist"
+msgstr "起動メニューに存在しない項目があります"
+
+msgid " has a line ("
+msgstr " に行があります ("
+
+msgid ") whose settings are gone. It shows up as an empty or broken choice."
+msgstr ") が、その設定がなくなっています。空の選択肢や壊れた選択肢として表示されます。"
+
+msgid "Take it off the menu"
+msgstr "メニューから外す"
+
+msgid "the disk it is on is not connected now"
+msgstr "それがあるディスクは現在接続されていません"
+
+msgid "its start-up file ("
+msgstr "その起動ファイル ("
+
+msgid ") is no longer on "
+msgstr ") はもう次の場所にありません: "
+
+msgid "The PC's start-up list has an entry that leads nowhere: \""
+msgstr "PC の起動リストに参照先のない項目があります: \""
+
+msgid ") is in the start-up list kept inside the PC, but "
+msgstr ") は PC 内に保存されている起動リストにありますが、 "
+
+msgid "If it belongs to a USB stick or a disk you connect now and then, keep it. If that disk is gone for good, remove the entry."
+msgstr "時々接続する USB メモリやディスクのものであれば、残しておいてください。そのディスクがもう二度と使われない場合は、項目を削除してください。"
+
+msgid "The system it used to start ("
+msgstr "起動していたシステム ("
+
+msgid ") was probably deleted or uninstalled, but its line stayed behind."
+msgstr ") はおそらく削除またはアンインストールされましたが、その行だけが残っています。"
+
+msgid " The PC tries it every time it starts, which can slow starting down or show an error before Windows appears."
+msgstr " PC は起動のたびにこれを試すため、起動が遅くなったり、Windows が表示される前にエラーが出たりすることがあります。"
+
+msgid "\n\nCareful: a drive on this PC is locked by BitLocker. Unlock it first and scan again before removing anything."
+msgstr "\n\n注意: この PC には BitLocker でロックされたドライブがあります。何かを削除する前に、ロックを解除してもう一度スキャンしてください。"
+
+msgid "\n\nFor a technician: "
+msgstr "\n\n技術者向け: "
+
+msgid "The start-up entry \""
+msgstr "起動項目 \""
+
+msgid "\" expects Windows in "
+msgstr "\" はこのドライブの "
+
+msgid " on this drive, but it is now in "
+msgstr " に Windows があるものとしていますが、現在は次の場所にあります: "
+
+msgid "\" points to a partition that is no longer there. Windows may have been moved or copied to this drive from there."
+msgstr "\" は、もう存在しないパーティションを指しています。Windows がそこからこのドライブに移動またはコピーされた可能性があります。"
+
+msgid "The PC starts in UEFI mode, the modern way of starting."
+msgstr "PC は最新の起動方式である UEFI モードで起動しています。"
+
+msgid "UEFI firmware"
+msgstr "UEFI ファームウェア"
+
+msgid ", Secure Boot on"
+msgstr "、Secure Boot オン"
+
+msgid ", Secure Boot off"
+msgstr "、Secure Boot オフ"
+
+msgid "The PC starts in UEFI mode, but this Windows is on an older-style (MBR) disk. It can only start if \"Legacy\" or \"CSM\" is turned on in the PC's firmware settings, or after a start-up partition is created for it."
+msgstr "PC は UEFI モードで起動しますが、この Windows は旧形式 (MBR) のディスクにあります。PC のファームウェア設定で \"Legacy\" または \"CSM\" をオンにするか、この Windows 用の起動パーティションを作成した後でないと起動できません。"
+
+msgid "This is a 32-bit Windows. Most PCs that start in UEFI mode cannot start 32-bit Windows; turn on \"Legacy\" or \"CSM\" in the firmware settings."
+msgstr "これは 32 ビットの Windows です。UEFI モードで起動する PC の多くは 32 ビットの Windows を起動できません。ファームウェア設定で \"Legacy\" または \"CSM\" をオンにしてください。"
+
+msgid "Secure Boot is on, but "
+msgstr "Secure Boot がオンですが、 "
+
+msgid " was made before Secure Boot existed, so the PC refuses to start it. Switch Secure Boot off in the PC's firmware settings."
+msgstr " は Secure Boot ができる前に作られたため、PC が起動を拒否します。PC のファームウェア設定で Secure Boot をオフにしてください。"
+
+msgid " Secure Boot is off. Windows 11 still starts, but it is less protected, Windows may say the PC is not supported, and some games refuse to run. You can switch it on in the firmware settings."
+msgstr " Secure Boot はオフです。Windows 11 は起動しますが、保護が弱くなり、PC がサポートされていないと Windows に表示されることがあり、一部のゲームは動作しません。ファームウェア設定でオンにできます。"
+
+msgid " Secure Boot is on, which protects the start against harmful programs."
+msgstr " Secure Boot がオンで、有害なプログラムから起動処理を保護しています。"
+
+msgid " Secure Boot is off."
+msgstr " Secure Boot はオフです。"
+
+msgid "The PC starts in legacy (BIOS) mode, the older way of starting."
+msgstr "PC は旧来の起動方式であるレガシ (BIOS) モードで起動しています。"
+
+msgid "Legacy BIOS firmware (or UEFI with CSM)"
+msgstr "レガシ BIOS ファームウェア (または CSM 付きの UEFI)"
+
+msgid "This Windows is on a GPT disk, which can only start in UEFI mode, but the PC was started in legacy (BIOS) mode. Turn on UEFI mode in the PC's firmware settings (often called \"Boot mode\", or turn \"CSM\" off)."
+msgstr "この Windows は GPT ディスクにあり、UEFI モードでしか起動できませんが、PC はレガシ (BIOS) モードで起動しました。PC のファームウェア設定で UEFI モードをオンにしてください (\"Boot mode\" と呼ばれることが多く、または \"CSM\" をオフにします)。"
+
+msgid "BIOS boot + GPT disk"
+msgstr "BIOS 起動 + GPT ディスク"
+
+msgid "The disk cannot be read. It may be failing or badly connected."
+msgstr "ディスクを読み取れません。故障しかけているか、接続が不安定な可能性があります。"
+
+msgid "no partition table"
+msgstr "パーティション テーブルなし"
+
+msgid "The disk with this Windows ("
+msgstr "この Windows のあるディスク ("
+
+msgid ") can be read and its partition table is fine."
+msgstr ") は読み取れ、パーティション テーブルも正常です。"
+
+msgid "The main copy of the disk's partition table is damaged. Windows is using the backup copy for now."
+msgstr "ディスクのパーティション テーブルのメイン コピーが壊れています。Windows は現在、予備のコピーを使っています。"
+
+msgid "The backup copy of the disk's partition table is damaged. Windows still starts, but there is no safety copy."
+msgstr "ディスクのパーティション テーブルの予備コピーが壊れています。Windows は起動しますが、安全のためのコピーがありません。"
+
+msgid "The backup copy of the partition table is not at the end of the disk. This happens after copying a disk to a bigger one."
+msgstr "パーティション テーブルの予備コピーがディスクの末尾にありません。ディスクをより大きなディスクにコピーした後に起こります。"
+
+msgid "The Windows partition runs past the end of the disk, so part of it is missing. The disk was probably copied to a smaller one."
+msgstr "Windows パーティションがディスクの末尾を超えているため、一部が欠けています。おそらくディスクがより小さなディスクにコピーされました。"
+
+msgid "The Windows partition overlaps another partition. One of them gets damaged when written to."
+msgstr "Windows パーティションが別のパーティションと重なっています。書き込み時にどちらかが壊れます。"
+
+msgid "There is no EFI system partition (the small start-up partition a UEFI PC starts from). It is missing or was deleted."
+msgstr "EFI システム パーティション (UEFI の PC が起動に使う小さな起動パーティション) がありません。見つからないか、削除されています。"
+
+msgid "The start-up partition cannot be opened."
+msgstr "起動パーティションを開けません。"
+
+msgid "The start-up partition is damaged: its files cannot be read."
+msgstr "起動パーティションが壊れています。ファイルを読み取れません。"
+
+msgid "The start-up partition is there and can be read."
+msgstr "起動パーティションは存在し、読み取れます。"
+
+msgid "The start-up partition uses "
+msgstr "起動パーティションのファイル システムは "
+
+msgid ", which the PC's firmware cannot read. It must be FAT32."
+msgstr "ですが、PC のファームウェアはこれを読み取れません。FAT32 である必要があります。"
+
+msgid "The start-up partition is almost full ("
+msgstr "起動パーティションの空き容量がほとんどありません ("
+
+msgid " free). New start-up files may not fit."
+msgstr " 空き)。新しい起動ファイルが入らない可能性があります。"
+
+msgid " It is on another disk (Disk "
+msgstr " 別のディスク (ディスク "
+
+msgid "), so this Windows only starts while that disk is connected."
+msgstr ") にあるため、この Windows はそのディスクが接続されているときだけ起動します。"
+
+msgid "No partition on this disk is marked \"active\", so an older PC (legacy BIOS) does not know where to start."
+msgstr "このディスクには \"アクティブ\" に設定されたパーティションがないため、古い PC (レガシ BIOS) はどこから起動すればよいかわかりません。"
+
+msgid "The active (start-up) partition cannot be read. Its file system is damaged."
+msgstr "アクティブ (起動) パーティションを読み取れません。ファイル システムが壊れています。"
+
+msgid "The active start-up partition is there and can be read."
+msgstr "アクティブな起動パーティションは存在し、読み取れます。"
+
+msgid "Cannot be checked until the start-up partition is fixed."
+msgstr "起動パーティションが修復されるまで確認できません。"
+
+msgid "Windows Boot Manager is on the start-up partition."
+msgstr "Windows ブート マネージャーは起動パーティションにあります。"
+
+msgid "The PC's own start-up list has no "
+msgstr "PC 自体の起動リストに "
+
+msgid "entry for Windows Boot Manager on this partition."
+msgstr "このパーティションの Windows Boot Manager の項目がありません。"
+
+msgid " It may still start through the standard fallback file."
+msgstr " 標準の代替ファイルを通じて起動できる場合もあります。"
+
+msgid " So the PC does not try to start it."
+msgstr " そのため PC はこれを起動しようとしません。"
+
+msgid "No firmware Boot#### entry for bootmgfw.efi on "
+msgstr "次の場所の bootmgfw.efi を指すファームウェアの Boot#### 項目がありません: "
+
+msgid "The disk's start-up code (in its first sector) is empty, so the PC cannot begin starting from this disk."
+msgstr "ディスクの起動コード (最初のセクター) が空のため、PC はこのディスクから起動を始められません。"
+
+msgid "MBR boot code is zero"
+msgstr "MBR のブート コードがゼロです"
+
+msgid "Windows Boot Manager (the file \"bootmgr\") is missing from the start-up partition."
+msgstr "Windows ブート マネージャー (ファイル \"bootmgr\") が起動パーティションにありません。"
+
+msgid "The start-up partition's first sector is damaged."
+msgstr "起動パーティションの最初のセクターが壊れています。"
+
+msgid "The disk's start-up code and Windows Boot Manager are in place."
+msgstr "ディスクの起動コードと Windows ブート マネージャーはそろっています。"
+
+msgid "The start-up settings file (BCD) is missing, so Windows Boot Manager does not know which Windows to start."
+msgstr "起動設定ファイル (BCD) がないため、Windows ブート マネージャーはどの Windows を起動すればよいかわかりません。"
+
+msgid ": no entry with osdevice "
+msgstr ": 該当項目なし — osdevice "
+
+msgid " and systemroot "
+msgstr " / systemroot "
+
+msgid "Windows was moved: "
+msgstr "Windows が移動されました: "
+
+msgid "The start-up settings have no entry for this Windows, so it is never started."
+msgstr "起動設定にこの Windows の項目がないため、起動されることはありません。"
+
+msgid ", entry "
+msgstr "、項目 "
+
+msgid "\" path "
+msgstr "\" パス "
+
+msgid "The start-up entry for this Windows points to a loader file that is not there ("
+msgstr "この Windows の起動項目は、存在しないローダー ファイルを指しています ("
+
+msgid "The start-up entry is made for legacy (BIOS) start-up, but the PC starts in UEFI mode."
+msgstr "起動項目はレガシ (BIOS) 起動用に作られていますが、PC は UEFI モードで起動します。"
+
+msgid "The start-up entry is made for UEFI start-up, but the PC started in legacy (BIOS) mode."
+msgstr "起動項目は UEFI 起動用に作られていますが、PC はレガシ (BIOS) モードで起動しました。"
+
+msgid "The start-up entry loads Windows' loader from another partition than the one Windows is on."
+msgstr "起動項目は、Windows のあるパーティションとは別のパーティションから Windows のローダーを読み込みます。"
+
+msgid "This Windows has a start-up entry, but it is hidden from the start-up menu, so it never starts."
+msgstr "この Windows には起動項目がありますが、起動メニューで非表示になっているため、起動されることはありません。"
+
+msgid "The start-up settings list this Windows"
+msgstr "起動設定にこの Windows があります"
+
+msgid ", and it starts first."
+msgstr "。最初に起動します。"
+
+msgid " The menu is set to wait 0 seconds, so you never see it."
+msgstr " メニューの待ち時間が 0 秒に設定されているため、メニューは表示されません。"
+
+msgid "The Windows drive is locked by BitLocker encryption. It must be unlocked with its recovery key before it can be checked."
+msgstr "Windows ドライブは BitLocker 暗号化でロックされています。確認する前に、回復キーでロックを解除する必要があります。"
+
+msgid "The partition with Windows can be read."
+msgstr "Windows のあるパーティションは読み取れます。"
+
+msgid "The Windows drive is marked as needing a disk check. Windows may run the check while starting, or get stuck on it."
+msgstr "Windows ドライブにディスク チェックが必要という印が付いています。Windows が起動中にチェックを実行するか、そこで止まってしまうことがあります。"
+
+msgid "The Windows drive is almost full ("
+msgstr "Windows ドライブの空き容量がほとんどありません ("
+
+msgid " free). Windows needs some free space to start and to update. Delete or move some files."
+msgstr " 空き)。Windows の起動と更新には空き容量が必要です。ファイルをいくつか削除または移動してください。"
+
+msgid " It is encrypted with BitLocker and unlocked right now."
+msgstr " BitLocker で暗号化されており、現在はロックが解除されています。"
+
+msgid "Cannot be checked while the drive is locked."
+msgstr "ドライブがロックされている間は確認できません。"
+
+msgid "Windows' loader, the file that starts Windows itself, is in place."
+msgstr "Windows ローダー (Windows 自体を起動するファイル) はそろっています。"
+
+msgid "Some of the files Windows needs to start are "
+msgstr "Windows の起動に必要なファイルの一部が次の状態です: "
+
+msgid "Missing: "
+msgstr "見つかりません: "
+
+msgid "Damaged: "
+msgstr "破損: "
+
+msgid "The Windows core and the drivers it needs to read its disk are in place."
+msgstr "Windows の中核と、ディスクを読むために必要なドライバーはそろっています。"
+
+msgid "ntoskrnl.exe, hal.dll, ci.dll, ntfs.sys, disk.sys and others"
+msgstr "ntoskrnl.exe、hal.dll、ci.dll、ntfs.sys、disk.sys など"
+
+msgid "The spare copy of the start-up files that Windows keeps (to rebuild them) is missing. Rebuilding the start-up files from this Windows will not work until system files are repaired."
+msgstr "Windows が (起動ファイルを作り直すために) 保持している起動ファイルの予備コピーがありません。システム ファイルを修復するまで、この Windows から起動ファイルを作り直すことはできません。"
+
+msgid "This Windows' spare start-up files are missing. Repair the system files first."
+msgstr "この Windows の予備の起動ファイルがありません。先にシステム ファイルを修復してください。"
+
+msgid "Windows' settings file (registry, part "
+msgstr "Windows の設定ファイル (レジストリ、パート "
+
+msgid ") is damaged. "
+msgstr ") が壊れています。 "
+
+msgid " There is no usable automatic backup copy of it. Start Windows' recovery tools and choose System Restore, if restore points exist."
+msgstr " 使用できる自動バックアップ コピーがありません。Windows の回復ツールを起動し、復元ポイントがあれば [システムの復元] を選んでください。"
+
+msgid "Windows' settings file (registry) looks fine."
+msgstr "Windows の設定ファイル (レジストリ) は正常のようです。"
+
+msgid "SYSTEM, SOFTWARE"
+msgstr "SYSTEM, SOFTWARE"
+
+msgid "Drivers Windows needs to read its own disk while starting are turned off. Windows then stops with INACCESSIBLE_BOOT_DEVICE."
+msgstr "Windows が起動中に自分のディスクを読むために必要なドライバーが無効になっています。この場合、Windows は INACCESSIBLE_BOOT_DEVICE で停止します。"
+
+msgid "Services with the wrong Start value: "
+msgstr "Start の値が正しくないサービス: "
+
+msgid "The driver for this disk's controller ("
+msgstr "このディスクのコントローラー用ドライバー ("
+
+msgid ") does not load while Windows starts. If Windows stops with INACCESSIBLE_BOOT_DEVICE (common after moving the disk to another PC), turning it on usually fixes it."
+msgstr ") は Windows の起動時に読み込まれません。Windows が INACCESSIBLE_BOOT_DEVICE で停止する場合 (ディスクを別の PC に移した後によくあります)、これを有効にすると通常は直ります。"
+
+msgid "Controller driver with Start not 0: "
+msgstr "Start が 0 ではないコントローラー ドライバー: "
+
+msgid "Windows is marked as still being set up (SystemSetupInProgress "
+msgstr "Windows がまだセットアップ中と記録されています (SystemSetupInProgress "
+
+msgid ", SetupType "
+msgstr "、SetupType "
+
+msgid "). This causes the \"computer restarted unexpectedly\" loop."
+msgstr ")。これが \"コンピューターが予期せずに再起動されました\" のループの原因です。"
+
+msgid "Windows is marked as still being set up, which can make it restart into set-up again and again."
+msgstr "Windows がまだセットアップ中と記録されているため、セットアップへの再起動を繰り返すことがあります。"
+
+msgid "Automatic Repair ran on "
+msgstr "自動修復が実行されました: "
+
+msgid " because Windows could not start."
+msgstr " (Windows が起動できなかったため)。"
+
+msgid "Windows crashed with a blue screen "
+msgstr "Windows がブルー スクリーンで停止しました: "
+
+msgid " time"
+msgstr " 回"
+
+msgid " times"
+msgstr " 回"
+
+msgid " since "
+msgstr " 、次の日以降: "
+
+msgid "An upgrade to a newer Windows was started recently."
+msgstr "最近、新しい Windows へのアップグレードが開始されました。"
+
+msgid "This Windows is running now, so it started fine."
+msgstr "この Windows は現在実行中なので、正常に起動しました。"
+
+msgid "This Windows is running now. Earlier trouble was found, listed below."
+msgstr "この Windows は現在実行中です。以前の問題が見つかりました (下記を参照)。"
+
+msgid "Windows seems to be stuck in a loop: it starts, fails and restarts, or keeps going into Automatic Repair."
+msgstr "Windows がループに陥っているようです。起動、失敗、再起動を繰り返すか、自動修復が何度も開きます。"
+
+msgid "No restart loop was found, but there are signs of earlier trouble."
+msgstr "再起動ループは見つかりませんでしたが、以前の問題の兆候があります。"
+
+msgid "No signs that Windows keeps restarting or failing to start."
+msgstr "Windows が再起動を繰り返したり、起動に失敗したりしている兆候はありません。"
+
+msgid "This is the Windows that is running now. Start the PC from a Windows USB stick or Windows' recovery tools and run this program there."
+msgstr "これは現在実行中の Windows です。Windows の USB メモリまたは Windows の回復ツールから PC を起動し、そこでこのプログラムを実行してください。"
+
+msgid "This is the Windows you are using now, so it starts. Some things still need attention."
+msgstr "これは現在使用中の Windows なので起動しています。ただし、注意が必要な点があります。"
+
+msgid "Will not start"
+msgstr "起動しません"
+
+msgid "Something this Windows needs to start is missing or damaged."
+msgstr "この Windows の起動に必要なものが見つからないか、壊れています。"
+
+msgid "May have trouble starting"
+msgstr "起動に問題が起きる可能性があります"
+
+msgid "Inactive"
+msgstr "非アクティブ"
+
+msgid "It should start, but some things need attention."
+msgstr "起動するはずですが、注意が必要な点があります。"
+
+msgid "This Windows looks healthy but is not in the start-up menu, so it never starts."
+msgstr "この Windows は正常のようですが、起動メニューにないため起動されることはありません。"
+
+msgid "Should start normally"
+msgstr "正常に起動するはずです"
+
+msgid "Everything this Windows needs to start is in place."
+msgstr "この Windows の起動に必要なものはすべてそろっています。"
+
+msgid "Old copy kept after an upgrade"
+msgstr "アップグレード後に残された古いコピー"
+
+msgid "Windows keeps the previous Windows in Windows.old for a while after an upgrade. It cannot be started, but files can be copied out of it."
+msgstr "Windows はアップグレード後しばらくの間、以前の Windows を Windows.old に保持します。起動はできませんが、ファイルをコピーして取り出すことはできます。"
+
+msgid "This Windows sits inside the folder \""
+msgstr "この Windows はフォルダー \""
+
+msgid "\", so it cannot start. It was probably copied or moved there."
+msgstr "\" の中にあるため、起動できません。おそらくそこにコピーまたは移動されたものです。"
+
+msgid " To start it again, its folders must go back to the top of the drive."
+msgstr " 再び起動するには、フォルダーをドライブの最上位に戻す必要があります。"
+
+msgid "The top of this drive already has its own Windows folder. Move that one away first, or copy the user files you need out of this folder."
+msgstr "このドライブの最上位には既に別の Windows フォルダーがあります。先にそれを別の場所に移すか、このフォルダーから必要なユーザー ファイルをコピーしてください。"
+
+msgid "Secure Boot was switched on (by you, by a firmware update, or because the firmware settings were reset to their defaults)."
+msgstr "Secure Boot がオンにされました (ユーザーによって、ファームウェアの更新によって、またはファームウェア設定が既定値にリセットされたため)。"
+
+msgid "The firmware settings were reset (after a firmware update or when the small battery on the main board ran flat), they were changed by hand, or the disk came from another PC."
+msgstr "ファームウェア設定がリセットされた (ファームウェアの更新後、またはメイン ボードの小さな電池が切れたとき)、手動で変更された、またはディスクが別の PC から来たものです。"
+
+msgid "A loose or failing cable, a failing disk, or the disk was copied (cloned) to another disk of a different size."
+msgstr "ケーブルの緩みや故障、ディスクの故障、またはディスクがサイズの異なる別のディスクにコピー (クローン) されました。"
+
+msgid "It was deleted while making room for another system, the disk was copied without it, Windows was installed while another disk was connected (so the start-up partition went to that disk), or a partitioning tool removed or reformatted it."
+msgstr "別のシステムのために領域を空ける際に削除された、ディスクがそれを含めずにコピーされた、別のディスクが接続された状態で Windows がインストールされた (起動パーティションがそのディスクに作られた)、またはパーティション ツールで削除や再フォーマットされました。"
+
+msgid "A Windows update interrupted by a power cut, an antivirus that removed it, another system's installer (often Linux) that replaced it, or disk errors."
+msgstr "停電で中断された Windows Update、それを削除したウイルス対策ソフト、それを置き換えた別のシステム (多くは Linux) のインストーラー、またはディスク エラー。"
+
+msgid "A Windows update or repair interrupted by a power cut, the disk was copied or moved to another PC, another boot manager was installed over it, or Windows was moved to another partition."
+msgstr "停電で中断された Windows の更新や修復、ディスクが別の PC にコピーまたは移動された、別のブート マネージャーが上書きでインストールされた、または Windows が別のパーティションに移動されました。"
+
+msgid "BitLocker locks the drive after firmware or hardware changes; a power cut while writing leaves it needing a disk check; or the drive ran full."
+msgstr "BitLocker はファームウェアやハードウェアの変更後にドライブをロックします。書き込み中の停電でディスク チェックが必要になることや、ドライブがいっぱいになったことも考えられます。"
+
+msgid "An update that failed halfway, an antivirus that quarantined a file, disk errors, or a cleaning tool that removed files it should not have."
+msgstr "途中で失敗した更新、ファイルを隔離したウイルス対策ソフト、ディスク エラー、または削除すべきでないファイルを削除したクリーニング ツール。"
+
+msgid "A power cut while Windows was saving its settings, a failing disk, or the disk was moved to a PC with a different disk controller, so the right driver was not set to load."
+msgstr "Windows が設定を保存している最中の停電、ディスクの故障、またはディスクが別のディスク コントローラーを持つ PC に移され、正しいドライバーが読み込まれる設定になっていなかったこと。"
+
+msgid "An update or driver installed shortly before it began, a failing disk or memory, malware, or a setting changed just before the trouble started."
+msgstr "問題が始まる直前にインストールされた更新やドライバー、ディスクやメモリの故障、マルウェア、または問題の直前に変更された設定。"
+
+msgid "The Windows folders were copied or moved while backing up or reorganising files, or a reset kept the old Windows in a folder."
+msgstr "ファイルのバックアップや整理の際に Windows フォルダーがコピーまたは移動されたか、リセットで古い Windows がフォルダーに残されました。"
+
+msgid "A Windows or firmware update removed or moved Linux's entry, or the firmware settings were reset to their defaults."
+msgstr "Windows またはファームウェアの更新で Linux の項目が削除または移動されたか、ファームウェア設定が既定値にリセットされました。"
+
+msgid "Windows was reinstalled or repaired (it rewrites the start-up partition), or the start-up partition was formatted."
+msgstr "Windows が再インストールまたは修復された (起動パーティションが書き直されます)、または起動パーティションがフォーマットされました。"
+
+msgid "The Linux partition was deleted, formatted or recreated (which gives it a new id), or the disk was copied."
+msgstr "Linux パーティションが削除、フォーマット、または作り直された (新しい ID になります)、またはディスクがコピーされました。"
+
+msgid "Windows was installed or repaired after Linux, and wrote its own start-up code over GRUB."
+msgstr "Linux の後に Windows がインストールまたは修復され、GRUB の上に Windows 自身の起動コードを書き込みました。"
+
+msgid "A Linux update failed halfway, or /boot ran out of space during an update."
+msgstr "Linux の更新が途中で失敗したか、更新中に /boot の空き容量がなくなりました。"
+
+msgid "\"update-grub\" failed or was interrupted, or /boot was cleaned up by hand."
+msgstr "\"update-grub\" が失敗または中断されたか、/boot が手動で整理されました。"
+
+msgid "A partition was removed or reformatted after Linux was set up, or a disk was disconnected."
+msgstr "Linux のセットアップ後にパーティションが削除または再フォーマットされたか、ディスクが取り外されました。"
+
+msgid "The disk is not detected (cable, or the storage mode RAID / VMD in the firmware settings needs a driver), the system partition was deleted or formatted, or it is locked by BitLocker."
+msgstr "ディスクが検出されない (ケーブル、またはファームウェア設定のストレージ モード RAID / VMD にドライバーが必要)、システム パーティションが削除またはフォーマットされた、または BitLocker でロックされています。"
+
+msgid "This PC"
+msgstr "この PC"
+
+msgid "No Windows or Linux found"
+msgstr "Windows も Linux も見つかりません"
+
+msgid "No disk was found at all."
+msgstr "ディスクが 1 台も見つかりませんでした。"
+
+msgid "None of the disks can be read."
+msgstr "どのディスクも読み取れません。"
+
+msgid " disk was found and can be read."
+msgstr " 台のディスクが見つかり、読み取れます。"
+
+msgid " disks were found and can be read."
+msgstr " 台のディスクが見つかり、読み取れます。"
+
+msgid "No EFI system partition (start-up partition) was found on any disk."
+msgstr "どのディスクにも EFI システム パーティション (起動パーティション) が見つかりませんでした。"
+
+msgid "No partition is marked active, so an older PC has nothing to start from."
+msgstr "アクティブに設定されたパーティションがないため、古い PC は起動できるものがありません。"
+
+msgid "A start-up partition was found."
+msgstr "起動パーティションが見つかりました。"
+
+msgid "Cannot be checked without a start-up partition."
+msgstr "起動パーティションがないため確認できません。"
+
+msgid "A boot manager is on the start-up partition."
+msgstr "起動パーティションにブート マネージャーがあります。"
+
+msgid "There is no boot manager on the start-up partition."
+msgstr "起動パーティションにブート マネージャーがありません。"
+
+msgid "No start-up settings (BCD) were found."
+msgstr "起動設定 (BCD) が見つかりませんでした。"
+
+msgid "The start-up settings list "
+msgstr "起動設定には "
+
+msgid " system(s), but none of them was found on the disks."
+msgstr " 個のシステムがありますが、どれもディスク上に見つかりませんでした。"
+
+msgid "Systems"
+msgstr "システム"
+
+msgid "No Windows or Linux was found on any disk, so there is nothing for the PC to start. Starting stops here."
+msgstr "どのディスクにも Windows や Linux が見つからないため、PC が起動するものがありません。起動はここで止まります。"
+
+msgid "A system (Windows or Linux) is the program that actually runs the PC. Everything before this step only exists to find and start it."
+msgstr "システム (Windows または Linux) は、実際に PC を動かすプログラムです。この段階より前のものはすべて、それを見つけて起動するためだけにあります。"
+
+msgid "Nothing to start"
+msgstr "起動するものがありません"
+
+msgid "No Windows or Linux was found."
+msgstr "Windows も Linux も見つかりませんでした。"
+
+msgid "Running in the Windows Recovery Environment (WinRE)"
+msgstr "Windows 回復環境 (WinRE) で実行中"
+
+msgid "WinRE is Windows' own small repair system. It opens by itself after Windows fails to start twice, or from Settings > Recovery > Advanced start-up > Troubleshoot > Advanced options. It runs from memory (drive X:), so anything saved on X: is gone after a restart; your disks keep their normal content."
+msgstr "WinRE は Windows 自身の小さな修復用システムです。Windows の起動に 2 回失敗すると自動的に開くほか、[設定] > [回復] > [PC の起動をカスタマイズする] > [トラブルシューティング] > [詳細オプション] からも開けます。メモリ上 (X: ドライブ) で動作するため、X: に保存したものは再起動後に消えます。ディスクの内容はそのまま残ります。"
+
+msgid "Next steps: work through the report below. Repairs here are safe, because the Windows on the disk is not running. When you are done, close this program and choose \"Continue\" (or restart) to start Windows. If it fails again, WinRE opens again by itself."
+msgstr "次の手順: 下のレポートを順に確認してください。ディスク上の Windows は実行されていないので、ここでの修復は安全です。終わったら、このプログラムを閉じて [続行] を選ぶ (または再起動する) と Windows が起動します。再び失敗した場合は、WinRE が自動的にもう一度開きます。"
+
+msgid "Running in Windows PE"
+msgstr "Windows PE で実行中"
+
+msgid "Windows PE is a small Windows started from a USB stick, a DVD or the network, made for installing and repairing PCs. It runs from memory (drive X:), so anything saved on X: is gone after a restart. The drive letters of your disks may differ from the ones you know."
+msgstr "Windows PE は、USB メモリ、DVD、ネットワークから起動する小さな Windows で、PC のインストールや修復用に作られています。メモリ上 (X: ドライブ) で動作するため、X: に保存したものは再起動後に消えます。ディスクのドライブ文字は、いつもと異なる場合があります。"
+
+msgid "Next steps: work through the report below. Repairs here are safe, because the Windows on the disk is not running. Backups are kept on a real disk, not on X:. When you are done, remove the USB stick or DVD and restart, so the PC starts from its own disk."
+msgstr "次の手順: 下のレポートを順に確認してください。ディスク上の Windows は実行されていないので、ここでの修復は安全です。バックアップは X: ではなく実際のディスクに保存されます。終わったら、USB メモリまたは DVD を取り出して再起動し、PC が自分のディスクから起動するようにしてください。"
+
+msgid "Running in a virtual machine ("
+msgstr "仮想マシン内で実行中 ("
+
+msgid "This \"PC\" is simulated by "
+msgstr "この \"PC\" は次によってシミュレートされています: "
+
+msgid "Next steps: take a snapshot (checkpoint) of the virtual machine before repairs, so you can go back in one click. To change Secure Boot or the start-up order, switch the virtual machine off and change its settings in "
+msgstr "次の手順: 修復の前に仮想マシンのスナップショット (チェックポイント) を作成しておくと、ワン クリックで元に戻せます。Secure Boot や起動順序を変更するには、仮想マシンを停止し、次で設定を変更してください: "
+
+msgid "Windows is running from a virtual disk file (VHD)"
+msgstr "Windows が仮想ディスク ファイル (VHD) から実行されています"
+
+msgid "This Windows lives inside a single large file (a VHD or VHDX) on a real disk, and starts from it directly. Its start-up files are on the real disk's start-up partition, while Windows itself is inside the file."
+msgstr "この Windows は、実際のディスク上にある 1 つの大きなファイル (VHD または VHDX) の中にあり、そこから直接起動します。起動ファイルは実際のディスクの起動パーティションにあり、Windows 自体はファイルの中にあります。"
+
+msgid "Next steps: before repairs, copy the VHD file somewhere safe if you can (it is the whole Windows). Never move or rename the file: the start-up settings point to its exact place."
+msgstr "次の手順: 修復の前に、できれば VHD ファイルを安全な場所にコピーしてください (これが Windows 全体です)。ファイルは絶対に移動したり名前を変えたりしないでください。起動設定はその正確な場所を指しています。"
+
+msgid "Windows is in Safe Mode"
+msgstr "Windows はセーフ モードです"
+
+msgid "Safe Mode starts Windows with only the most basic drivers, to get past a driver or program that stops it from starting normally."
+msgstr "セーフ モードは、最低限のドライバーだけで Windows を起動し、通常の起動を妨げるドライバーやプログラムを回避します。"
+
+msgid "Next steps: check the report below; restarting normally leaves Safe Mode."
+msgstr "次の手順: 下のレポートを確認してください。通常どおり再起動するとセーフ モードは終了します。"
+
+msgid "Windows' folders were found under other names"
+msgstr "Windows のフォルダーが別の名前で見つかりました"
+
+msgid "On {0} there are folders that hold a Windows (its heart, its loader and its settings), but under other names: {1}. Windows only starts from folders called Windows, System32 and config, so this one cannot start as it is. They were probably renamed by hand, by a program or by a failed update."
+msgstr "{0} に、Windows (中核、ローダー、設定) を含むフォルダーがありますが、名前が異なります: {1}。Windows は Windows、System32、config という名前のフォルダーからしか起動しないため、このままでは起動できません。おそらく手動、プログラム、または失敗した更新によって名前が変えられました。"
+
+msgid "\n\nA folder called Windows already exists next to it, so it cannot simply be renamed back. Look at both folders first (for example with the command prompt) and rename one by hand."
+msgstr "\n\n隣に Windows という名前のフォルダーが既にあるため、そのまま名前を戻すことはできません。まず両方のフォルダーを (コマンド プロンプトなどで) 確認し、どちらかの名前を手動で変更してください。"
+
+msgid "\n\nAfter renaming, scan again: if the Windows folder is inside another folder, the report then offers to move it back to the top of the drive."
+msgstr "\n\n名前を変更したら、もう一度スキャンしてください。Windows フォルダーが別のフォルダーの中にある場合は、レポートでドライブの最上位に戻す操作が表示されます。"
+
+msgid "Windows looks for itself by fixed names: the folder Windows at the top of the drive, with System32 inside it, and config inside that for its settings. A different name is enough to stop it from starting, even though every file is still there."
+msgstr "Windows は決まった名前で自分を探します。ドライブの最上位にある Windows フォルダー、その中の System32、さらにその中の設定用の config です。ファイルがすべて残っていても、名前が違うだけで起動できなくなります。"
+
+msgid "The troubleshoot options are the blue \"Choose an option\" screen Windows opens when it cannot start: Startup Repair, System Restore, uninstalling updates, the command prompt and \"Reset this PC\". They live in a small hidden recovery partition (or inside Windows itself)."
+msgstr "トラブルシューティング オプションとは、Windows が起動できないときに開く青い [オプションの選択] 画面のことです ([スタートアップ修復]、[システムの復元]、更新プログラムのアンインストール、コマンド プロンプト、[この PC を初期状態に戻す])。小さな隠し回復パーティション (または Windows 自体の中) に入っています。"
+
+msgid "The troubleshoot options of {0} are switched off or have no partition of their own"
+msgstr "{0} のトラブルシューティング オプションが無効になっているか、専用のパーティションがありません"
+
+msgid "Windows' repair tools are inside this Windows (in System32\\Recovery), so they can be switched on again without changing any partition. Recreating a recovery partition keeps them safe even if the Windows partition is damaged."
+msgstr "Windows の修復ツールはこの Windows の中 (System32\\Recovery) にあるため、パーティションを変更せずに再び有効にできます。回復パーティションを作り直すと、Windows パーティションが壊れても修復ツールが安全に保たれます。"
+
+msgid "The troubleshoot options of {0} are missing"
+msgstr "{0} のトラブルシューティング オプションがありません"
+
+msgid "When this Windows cannot start, it cannot show its repair tools (the blue \"Choose an option\" screen): the recovery partition is gone or empty. They can be recreated from a copy of the tools found on this PC or on a Windows install USB stick."
+msgstr "この Windows が起動できないとき、修復ツール (青い [オプションの選択] 画面) を表示できません。回復パーティションがなくなっているか、空です。この PC または Windows インストール用 USB メモリにあるツールのコピーから作り直せます。"
+
+msgid " This drive uses BitLocker: have its recovery key ready, Windows may ask for it at the next start."
+msgstr " このドライブは BitLocker を使っています。次回の起動時に Windows が回復キーを求めることがあるので、用意しておいてください。"
+
+msgid "The Windows drive is almost full ({0} free)"
+msgstr "Windows ドライブの空き容量がほとんどありません (空き {0})"
+
+msgid "{0} has only {1} free of {2}. Windows needs free room to start, to install updates and to undo failed ones; with too little it can get stuck restarting or show errors.\n\nFirst free up space (nothing personal is removed). If that is not enough, the partition can be made bigger with unused space right after it, or with the partition after it."
+msgstr "{0} の空き容量は {2} のうち {1} しかありません。Windows の起動、更新のインストール、失敗した更新の取り消しには空き容量が必要です。少なすぎると、再起動を繰り返したりエラーが表示されたりすることがあります。\n\nまず空き領域を増やしてください (個人用のものは削除されません)。それでも足りない場合は、直後にある未使用の領域や直後のパーティションを使ってパーティションを大きくできます。"
+
+msgid "A partition can only grow into space that comes right after it on the disk, never into space before it. Unused space elsewhere first has to be moved, which this program does not do."
+msgstr "パーティションは、ディスク上で直後にある領域にしか広げられず、前にある領域には広げられません。ほかの場所にある未使用の領域は先に移動する必要がありますが、このプログラムはそれを行いません。"
+
+msgid " is locked by BitLocker"
+msgstr " は BitLocker でロックされています"
+
+msgid "This drive is encrypted and locked, so it cannot be checked for Windows. Unlock it with its recovery key and scan again. Do this first, before any other change on this PC: start-up entries that seem to lead nowhere may belong to a Windows inside this drive."
+msgstr "このドライブは暗号化されてロックされているため、Windows があるか確認できません。回復キーでロックを解除してから、もう一度スキャンしてください。この PC でほかの変更をする前に、まずこれを行ってください。参照先がないように見える起動項目は、このドライブ内の Windows のものかもしれません。"
+
+msgid "BitLocker encrypts a whole drive. Without its 48-digit recovery key nothing on it can be read. The key is in the Microsoft account of the PC's owner (aka.ms/myrecoverykey), on a printout, or with the IT department."
+msgstr "BitLocker はドライブ全体を暗号化します。48 桁の回復キーがないと、中のものは何も読み取れません。キーは PC の所有者の Microsoft アカウント (aka.ms/myrecoverykey)、印刷した紙、または IT 部門で確認できます。"
+
+msgid "Check "
+msgstr "確認: "
+
+msgid "\nIf this disk held Windows or your files, do not set it up again: a partition recovery tool (such as PATio LifeSaver) can often find the lost partitions."
+msgstr "\nこのディスクに Windows やファイルがあった場合は、セットアップし直さないでください。パーティション回復ツール (PATio LifeSaver など) で、失われたパーティションを見つけられることがよくあります。"
+
+msgid " Linux is also on this PC: afterwards Windows starts first. Linux stays installed; use \"Make Linux start first\" in its report to bring its menu back."
+msgstr " この PC には Linux もあります。この操作の後は Windows が最初に起動します。Linux はインストールされたままです。Linux のレポートで [Linux が最初に起動するようにする] を使うと、メニューが戻ります。"
+
+msgid " Linux is also on this PC: on this older (BIOS) PC this replaces GRUB, so Linux then needs repairing from a Linux USB stick."
+msgstr " この PC には Linux もあります。この古い (BIOS) PC ではこれで GRUB が置き換えられるため、その後 Linux を Linux の USB メモリから修復する必要があります。"
+
+msgid "Administrator rights are needed"
+msgstr "管理者権限が必要です"
+
+msgid "Windows only shows disks to programs started as administrator. Close this program, right-click it and choose \"Run as administrator\"."
+msgstr "Windows は、管理者として起動したプログラムにしかディスクを表示しません。このプログラムを閉じ、右クリックして [管理者として実行] を選んでください。"
+
+msgid "Windows is probably inside a drive locked by BitLocker"
+msgstr "Windows はおそらく BitLocker でロックされたドライブの中にあります"
+
+msgid "No Windows could be seen, but {0} is encrypted with BitLocker and locked. Windows is very likely inside it.\n\nUnlock it first, with its 48-digit recovery key. Until then, do not remove start-up entries, delete partitions or rebuild anything: they may all belong to the Windows inside the locked drive."
+msgstr "Windows は見つかりませんでしたが、{0} が BitLocker で暗号化されてロックされています。Windows はおそらくその中にあります。\n\nまず 48 桁の回復キーでロックを解除してください。それまでは、起動項目の削除、パーティションの削除、作り直しなどを行わないでください。どれもロックされたドライブ内の Windows のものかもしれません。"
+
+msgid "No Windows was found"
+msgstr "Windows が見つかりませんでした"
+
+msgid "Only Linux was found on this PC. "
+msgstr "この PC には Linux しか見つかりませんでした。 "
+
+msgid "None of the disks has a Windows folder that could be started. If you expected one:\n- The disk may not be detected. Check its cable, or the storage mode (AHCI/RAID/VMD) in the PC's firmware settings.\n- A drive may be locked by BitLocker (listed above, if so).\n- The partition may have been deleted. A partition recovery tool (such as PATio LifeSaver) can often find it again."
+msgstr "どのディスクにも、起動できる Windows フォルダーがありません。あるはずの場合:\n- ディスクが検出されていない可能性があります。ケーブル、または PC のファームウェア設定のストレージ モード (AHCI/RAID/VMD) を確認してください。\n- ドライブが BitLocker でロックされている可能性があります (その場合は上に表示されます)。\n- パーティションが削除された可能性があります。パーティション回復ツール (PATio LifeSaver など) で再び見つけられることがよくあります。"
+
+msgid "Reading disks and partitions"
+msgstr "ディスクとパーティションを読み取り中"
+
+msgid "Reading the start-up settings"
+msgstr "起動設定を読み取り中"
+
+msgid "Looking for Windows on "
+msgstr "Windows を検索中: "
+
+msgid "Looking for Linux"
+msgstr "Linux を検索中"
+
+msgid "Checking each system"
+msgstr "各システムを確認中"
+
+msgid "Done"
+msgstr "完了"
+
+msgid "PATio Boot Doctor report, "
+msgstr "PATio Boot Doctor レポート、 "
+
+msgid "\r\nChecked from: "
+msgstr "\r\n確認元: "
+
+msgid "Firmware: "
+msgstr "ファームウェア: "
+
+msgid "Legacy BIOS"
+msgstr "レガシ BIOS"
+
+msgid "DISKS\r\n"
+msgstr "ディスク\r\n"
+
+msgid "no file system (normal)"
+msgstr "ファイル システムなし (正常)"
+
+msgid ", active"
+msgstr "、アクティブ"
+
+msgid "\r\nSYSTEMS FOUND (WINDOWS AND LINUX)\r\n"
+msgstr "\r\n見つかったシステム (WINDOWS と LINUX)\r\n"
+
+msgid "  None\r\n"
+msgstr "  なし\r\n"
+
+msgid " build "
+msgstr " ビルド "
+
+msgid "       What may have caused this: "
+msgstr "       考えられる原因: "
+
+msgid "    What it will take:\r\n"
+msgstr "    必要な作業:\r\n"
+
+msgid "\r\nOTHER FINDINGS\r\n"
+msgstr "\r\nその他の検出結果\r\n"
+
+msgid "EFI system partition (start-up partition)"
+msgstr "EFI システム パーティション (起動パーティション)"
+
+msgid "Reserved partition (MSR)"
+msgstr "予約パーティション (MSR)"
+
+msgid "Recovery partition"
+msgstr "回復パーティション"
+
+msgid "Active partition (start-up partition)"
+msgstr "アクティブ パーティション (起動パーティション)"
+
+msgid "Data partition"
+msgstr "データ パーティション"
+
+msgid "Extended partition (holds other partitions)"
+msgstr "拡張パーティション (ほかのパーティションを含む)"
+
+msgid "Dynamic disk partition"
+msgstr "ダイナミック ディスクのパーティション"
+
+msgid "Empty partition"
+msgstr "空のパーティション"
+
+msgid "Unknown partition"
+msgstr "不明なパーティション"
+
+msgid "Start-up (EFI)"
+msgstr "起動 (EFI)"
+
+msgid "Reserved"
+msgstr "予約"
+
+msgid "Recovery"
+msgstr "回復"
+
+msgid "Start-up (active)"
+msgstr "起動 (アクティブ)"
+
+msgid "Data"
+msgstr "データ"
+
+msgid "Extended"
+msgstr "拡張"
+
+msgid "Dynamic"
+msgstr "ダイナミック"
+
+msgid "Empty"
+msgstr "空"
+
+msgid "Unknown"
+msgstr "不明"
+
+msgid "Disk "
+msgstr "ディスク "
+
+msgid ", partition "
+msgstr "、パーティション "
+
+msgid "Linux swap"
+msgstr "Linux スワップ"
+
+msgid " bytes at "
+msgstr " バイト、位置 "
+
+msgid " on disk "
+msgstr " 、ディスク "
+
+msgid "The disk could not be opened for writing."
+msgstr "ディスクを書き込み用に開けませんでした。"
+
+msgid "The saved copy does not match this disk's sector size."
+msgstr "保存されたコピーがこのディスクのセクター サイズと一致しません。"
+
+msgid "Windows refused to write to the disk (error "
+msgstr "Windows がディスクへの書き込みを拒否しました (エラー "
+
+msgid "Windows refused to change the partition table (error "
+msgstr "Windows がパーティション テーブルの変更を拒否しました (エラー "
+
+msgid " again"
+msgstr " (再)"
+
+msgid "The partition table could not be read."
+msgstr "パーティション テーブルを読み取れませんでした。"
+
+msgid "A partition table could not be written to the disk (error "
+msgstr "ディスクにパーティション テーブルを書き込めませんでした (エラー "
+
+msgid "This disk already has 4 main partitions, the most an MBR disk can have. Delete or move one first."
+msgstr "このディスクには既にメイン パーティションが 4 つあり、MBR ディスクの上限です。先にどれかを削除または移動してください。"
+
+msgid "An MBR disk cannot hold partitions beyond 2 TB."
+msgstr "MBR ディスクでは 2 TB を超える位置にパーティションを置けません。"
+
+msgid "The partition table is full."
+msgstr "パーティション テーブルがいっぱいです。"
+
+msgid " of disk "
+msgstr " 、ディスク "
+
+msgid "Only MBR disks have an active partition."
+msgstr "アクティブ パーティションがあるのは MBR ディスクだけです。"
+
+msgid "That partition was not found on the disk."
+msgstr "そのパーティションはディスク上に見つかりませんでした。"
+
+msgid "A drive letter could not be given to the partition (error "
+msgstr "パーティションにドライブ文字を割り当てられませんでした (エラー "
+
+msgid " bytes)"
+msgstr " バイト)"
+
+msgid "The PC could not be restarted (error "
+msgstr "PC を再起動できませんでした (エラー "
+
+msgid "). Restart it by hand."
+msgstr ")。手動で再起動してください。"
+
+msgid "The PC could not be shut down (error "
+msgstr "PC をシャットダウンできませんでした (エラー "
+
+msgid "). Shut it down by hand."
+msgstr ")。手動でシャットダウンしてください。"
+
+msgid "The PC could not go into hibernation (error "
+msgstr "PC を休止状態にできませんでした (エラー "
+
+msgid ")."
+msgstr ")。"
+
+msgid "The PC did not accept the request (error "
+msgstr "PC が要求を受け付けませんでした (エラー "
+
+msgid "). Open the firmware settings with its key while the PC starts instead."
+msgstr ")。代わりに、PC の起動中にキーを押してファームウェア設定を開いてください。"
+
+msgid "SD card"
+msgstr "SD カード"
+
+msgid "Virtual"
+msgstr "仮想"
+
+msgid "The disk has no partition table. It is empty, brand new, or its table was wiped."
+msgstr "ディスクにパーティション テーブルがありません。空か、新品か、テーブルが消去されています。"
+
+msgid "The disk's start-up code (in the first sector) is empty, so an older PC cannot start from it."
+msgstr "ディスクの起動コード (最初のセクター) が空のため、古い PC はここから起動できません。"
+
+msgid "The main copy of the partition table is damaged."
+msgstr "パーティション テーブルのメイン コピーが壊れています。"
+
+msgid "The backup copy of the partition table is not at the end of the disk. The disk was probably copied to a bigger one."
+msgstr "パーティション テーブルの予備コピーがディスクの末尾にありません。おそらくディスクがより大きなディスクにコピーされました。"
+
+msgid " runs past the end of the disk, so part of it is missing. The disk was probably copied to a smaller one."
+msgstr " はディスクの末尾を超えているため、一部が欠けています。おそらくディスクがより小さなディスクにコピーされました。"
+
+msgid " overlaps another partition. One of them will be damaged when written to."
+msgstr " は別のパーティションと重なっています。書き込み時にどちらかが壊れます。"
+
+msgid " has no readable file system. It is empty, or its file system is damaged."
+msgstr " には読み取れるファイル システムがありません。空か、ファイル システムが壊れています。"
+
+msgid " is locked by BitLocker. It needs its recovery key before it can be checked."
+msgstr " は BitLocker でロックされています。確認するには回復キーが必要です。"
+
+msgid " is marked as needing a disk check."
+msgstr " にはディスク チェックが必要という印が付いています。"
+
+msgid "This is a dynamic disk. Windows can start from it, but its parts can only be checked roughly here."
+msgstr "これはダイナミック ディスクです。Windows はここから起動できますが、ここでは各部分を大まかにしか確認できません。"
+
+msgid "Create a partition"
+msgstr "パーティションを作成する"
+
+msgid "Makes a new partition in this unused space, prepares it with a file system and can give it a drive letter."
+msgstr "この未使用の領域に新しいパーティションを作成し、ファイル システムで準備して、ドライブ文字を割り当てることができます。"
+
+msgid "Unused space is part of the disk that belongs to no partition, so nothing can be stored there yet. A new partition turns it into a drive you can use."
+msgstr "未使用の領域とは、どのパーティションにも属していないディスクの部分で、まだ何も保存できません。新しいパーティションを作ると、使えるドライブになります。"
+
+msgid "Delete the partition"
+msgstr "パーティションを削除する"
+
+msgid "Removes the partition. Its space becomes unused. Undo puts the partition table back, which usually brings the partition and its files back, as long as nothing new was written there in the meantime."
+msgstr "パーティションを削除します。その領域は未使用になります。[元に戻す] でパーティション テーブルを戻すと、その間に新しく何も書き込まれていなければ、通常はパーティションとファイルも戻ります。"
+
+msgid "Deleting a partition removes its entry from the disk's table of contents; the files are not wiped at once, but they can no longer be reached."
+msgstr "パーティションを削除すると、ディスクの目次からその項目が消えます。ファイルはすぐには消去されませんが、アクセスできなくなります。"
+
+msgid "Format"
+msgstr "フォーマット"
+
+msgid "Prepares the partition with a new, empty file system. Everything on it is erased. This cannot be undone."
+msgstr "パーティションを新しい空のファイル システムで準備します。中のものはすべて消去されます。この操作は元に戻せません。"
+
+msgid "A file system is the way files are organised on a partition. NTFS is Windows' own; FAT32 is understood by almost everything (but holds files of at most 4 GB); exFAT suits USB sticks and memory cards."
+msgstr "ファイル システムとは、パーティション上でファイルを整理する方式です。NTFS は Windows 独自の方式、FAT32 はほとんどの機器で使えます (ただし 1 ファイル 4 GB まで)。exFAT は USB メモリやメモリ カードに向いています。"
+
+msgid "Make it bigger"
+msgstr "大きくする"
+
+msgid "Grows the partition into the unused space right after it. The files on it stay. This cannot be undone (it can be made smaller again)."
+msgstr "直後にある未使用の領域までパーティションを広げます。中のファイルはそのまま残ります。この操作は元に戻せません (再び小さくすることはできます)。"
+
+msgid "A partition can only grow into unused space that comes directly after it on the disk."
+msgstr "パーティションは、ディスク上で直後にある未使用の領域にしか広げられません。"
+
+msgid "Make it smaller"
+msgstr "小さくする"
+
+msgid "Gives up space at the end of the partition, which becomes unused space for a new partition. The files on it stay. This cannot be undone (it can be made bigger again)."
+msgstr "パーティションの末尾の領域を手放し、新しいパーティション用の未使用の領域にします。中のファイルはそのまま残ります。この操作は元に戻せません (再び大きくすることはできます)。"
+
+msgid "Windows can only give up free space that is at the end of the partition, so it may be able to shrink less than the free space shown."
+msgstr "Windows はパーティションの末尾にある空き領域しか手放せないため、表示されている空き容量ほどは小さくできない場合があります。"
+
+msgid "Change the drive letter"
+msgstr "ドライブ文字を変更する"
+
+msgid "Gives the partition a drive letter (like E:), or a different one, so it appears in File Explorer. Nothing on it changes. Programs that remember the old letter may not find their files."
+msgstr "パーティションにドライブ文字 (E: など) を割り当てるか別の文字に変更して、エクスプローラーに表示されるようにします。中のものは変わりません。古い文字を覚えているプログラムは、ファイルを見つけられなくなることがあります。"
+
+msgid "A drive letter is only a name Windows uses for a partition; the partition itself does not change."
+msgstr "ドライブ文字は Windows がパーティションに付ける名前にすぎず、パーティション自体は変わりません。"
+
+msgid "Remove the drive letter"
+msgstr "ドライブ文字を削除する"
+
+msgid "Hides the partition from File Explorer. Nothing on it changes, and it can get a letter again any time."
+msgstr "パーティションをエクスプローラーに表示しないようにします。中のものは変わらず、いつでも再び文字を割り当てられます。"
+
+msgid "Start-up and recovery partitions normally have no letter, so they cannot be changed by accident."
+msgstr "起動パーティションと回復パーティションには通常ドライブ文字がないため、誤って変更されることはありません。"
+
+msgid "Rename"
+msgstr "名前の変更"
+
+msgid "Changes the name shown next to the drive letter (for example \"Photos\"). Nothing on it changes."
+msgstr "ドライブ文字の隣に表示される名前 (\"写真\" など) を変更します。中のものは変わりません。"
+
+msgid "Mark as active"
+msgstr "アクティブにする"
+
+msgid "Older PCs (legacy BIOS) start from the partition marked active. Only one partition per disk can be active."
+msgstr "古い PC (レガシ BIOS) はアクティブに設定されたパーティションから起動します。1 つのディスクでアクティブにできるパーティションは 1 つだけです。"
+
+msgid "\"Active\" only matters for disks with an MBR partition table on PCs that start in legacy (BIOS) mode."
+msgstr "\"アクティブ\" が意味を持つのは、レガシ (BIOS) モードで起動する PC の、MBR パーティション テーブルのディスクだけです。"
+
+msgid "Mark as not active"
+msgstr "アクティブを解除する"
+
+msgid "Removes the active mark, so an older PC (legacy BIOS) will no longer try to start from this partition."
+msgstr "アクティブの印を外し、古い PC (レガシ BIOS) がこのパーティションから起動しようとしないようにします。"
+
+msgid "Make it a normal data partition"
+msgstr "通常のデータ パーティションにする"
+
+msgid "Changes the partition's type to an ordinary data partition, so Windows shows it and lets you use it. Its files stay."
+msgstr "パーティションの種類を通常のデータ パーティションに変更し、Windows に表示されて使えるようにします。ファイルはそのまま残ります。"
+
+msgid "Every partition carries a type that tells systems what it is for: data, start-up (EFI), recovery and so on."
+msgstr "どのパーティションにも、用途 (データ、起動 (EFI)、回復など) をシステムに伝える種類があります。"
+
+msgid "Make it a start-up (EFI) partition"
+msgstr "起動 (EFI) パーティションにする"
+
+msgid "Changes the partition's type so the PC's firmware treats it as a start-up partition. It must use FAT32. Its files stay."
+msgstr "PC のファームウェアが起動パーティションとして扱うように、パーティションの種類を変更します。FAT32 である必要があります。ファイルはそのまま残ります。"
+
+msgid "The EFI system partition is the small partition a modern PC starts from; it holds the boot managers of Windows and Linux."
+msgstr "EFI システム パーティションは、最近の PC が起動に使う小さなパーティションで、Windows と Linux のブート マネージャーが入っています。"
+
+msgid "Make it a recovery partition"
+msgstr "回復パーティションにする"
+
+msgid "Changes the partition's type to a hidden recovery partition, the kind that holds Windows' repair tools. Windows then hides it and protects it. Its files stay."
+msgstr "パーティションの種類を、Windows の修復ツールを入れる隠し回復パーティションに変更します。Windows はこれを非表示にして保護します。ファイルはそのまま残ります。"
+
+msgid "Check for errors"
+msgstr "エラーをチェックする"
+
+msgid "Runs the Windows disk check, which repairs damaged file-system records. Files in damaged places can be lost, as with any disk check. This cannot be undone."
+msgstr "Windows のディスク チェックを実行し、壊れたファイル システムの記録を修復します。ほかのディスク チェックと同様に、壊れた場所にあるファイルは失われることがあります。この操作は元に戻せません。"
+
+msgid "Set up as GPT"
+msgstr "GPT で初期化する"
+
+msgid "Gives this empty disk a partition table, so partitions can be made on it. GPT is the modern kind, for UEFI PCs and disks over 2 TB."
+msgstr "この空のディスクにパーティション テーブルを作成し、パーティションを作れるようにします。GPT は新しい方式で、UEFI の PC や 2 TB を超えるディスク向けです。"
+
+msgid "A new disk has no partition table yet, so Windows cannot use it until it is set up."
+msgstr "新しいディスクにはまだパーティション テーブルがないため、初期化するまで Windows はこれを使えません。"
+
+msgid "Set up as MBR"
+msgstr "MBR で初期化する"
+
+msgid "Gives this empty disk an older-style MBR partition table: for older PCs (legacy BIOS) and disks up to 2 TB."
+msgstr "この空のディスクに旧形式の MBR パーティション テーブルを作成します。古い PC (レガシ BIOS) と 2 TB までのディスク向けです。"
+
+msgid "Change to GPT"
+msgstr "GPT に変換する"
+
+msgid "Changes this disk's empty partition table from MBR to GPT."
+msgstr "このディスクの空のパーティション テーブルを MBR から GPT に変換します。"
+
+msgid "MBR is the older kind of partition table (up to 2 TB, 4 main partitions); GPT is the modern kind (huge disks, 128 partitions, needed for UEFI start-up)."
+msgstr "MBR は旧形式のパーティション テーブル (2 TB まで、メイン パーティション 4 つまで) で、GPT は新しい形式 (巨大なディスク、128 個のパーティション、UEFI 起動に必要) です。"
+
+msgid "Change to MBR"
+msgstr "MBR に変換する"
+
+msgid "Changes this disk's empty partition table from GPT to MBR."
+msgstr "このディスクの空のパーティション テーブルを GPT から MBR に変換します。"
+
+msgid "Change to GPT, keeping Windows and files"
+msgstr "Windows とファイルを残したまま GPT に変換する"
+
+msgid "Uses Windows' own MBR2GPT tool to change the disk to GPT without deleting anything, and makes the start-up partition a UEFI one. Afterwards the PC must be switched from legacy (BIOS/CSM) to UEFI mode in its firmware settings, or Windows will not start. This cannot be undone here."
+msgstr "Windows 自身の MBR2GPT ツールを使って、何も削除せずにディスクを GPT に変換し、起動パーティションを UEFI 用にします。その後、PC のファームウェア設定でレガシ (BIOS/CSM) から UEFI モードに切り替える必要があります。切り替えないと Windows は起動しません。この操作はここでは元に戻せません。"
+
+msgid "This is the usual step before switching on Secure Boot or upgrading to Windows 11 on an older installation."
+msgstr "古いインストールで Secure Boot をオンにしたり Windows 11 にアップグレードしたりする前の、通常の手順です。"
+
+msgid "Wipe the disk"
+msgstr "ディスクを消去する"
+
+msgid "Removes the whole partition table, so the disk looks empty and new. Undo can put the table back (and with it the partitions), as long as nothing new was written to the disk in the meantime."
+msgstr "パーティション テーブル全体を削除し、ディスクを空の新品のような状態にします。その間に新しく何も書き込まれていなければ、[元に戻す] でテーブル (とパーティション) を戻せます。"
+
+msgid "This only erases the disk's table of contents, not every byte; to destroy the data for good a disk-erasing tool is needed."
+msgstr "消去されるのはディスクの目次だけで、すべてのバイトではありません。データを完全に消すには、ディスク消去ツールが必要です。"
+
+msgid "Bring online"
+msgstr "オンラインにする"
+
+msgid "Switches the disk on for Windows, so its partitions can be used. Windows leaves some disks offline, for example a second disk with a copied Windows."
+msgstr "ディスクを Windows で使えるようにし、パーティションを使用できるようにします。Windows は一部のディスク (コピーした Windows がある 2 台目のディスクなど) をオフラインのままにします。"
+
+msgid "Take offline"
+msgstr "オフラインにする"
+
+msgid "Switches the disk off for Windows: its drives disappear until it is brought online again. Nothing on it changes."
+msgstr "ディスクを Windows で使えないようにします。再びオンラインにするまで、そのドライブは表示されなくなります。中のものは変わりません。"
+
+msgid "Unlock BitLocker"
+msgstr "BitLocker のロックを解除する"
+
+msgid "Opens the drive with its 48-digit BitLocker recovery key, so its files can be read and checked. Nothing on it changes, and it locks again when the PC restarts."
+msgstr "48 桁の BitLocker 回復キーでドライブを開き、ファイルを読み取って確認できるようにします。中のものは変わらず、PC を再起動すると再びロックされます。"
+
+msgid "BitLocker encrypts a whole drive. Without the key, nothing on it can be read: not by Windows, not by this program. Unlock it before changing anything else on this disk."
+msgstr "BitLocker はドライブ全体を暗号化します。キーがないと、Windows でもこのプログラムでも中のものは何も読み取れません。このディスクでほかの変更をする前に、ロックを解除してください。"
+
+msgid "Find lost partitions"
+msgstr "失われたパーティションを探す"
+
+msgid "Looks through unused space for partitions that were deleted or lost (NTFS, FAT32, exFAT, Linux ext). Only reads the disk; what is found can be put back afterwards. Quick: looks where partitions normally start, takes minutes. Full: reads every sector, can take hours."
+msgstr "未使用の領域から、削除されたり失われたりしたパーティション (NTFS、FAT32、exFAT、Linux ext) を探します。ディスクは読み取るだけで、見つかったものは後から戻せます。クイック: パーティションが通常始まる位置を探します (数分)。フル: すべてのセクターを読み取ります (数時間かかることがあります)。"
+
+msgid "Deleting a partition only removes its entry from the disk's table of contents. Until something new is written there, the files are still on the disk and the partition can often be put back."
+msgstr "パーティションを削除しても、ディスクの目次からその項目が消えるだけです。新しく何かが書き込まれるまでファイルはディスクに残っており、パーティションを戻せることがよくあります。"
+
+msgid "Recover deleted files"
+msgstr "削除したファイルを復元する"
+
+msgid "Looks for deleted files on this drive and copies the ones you choose to another drive. Nothing is written to this drive. Quick: reads Windows' list of files (NTFS). Full: also reads the whole drive, finding files after a quick format and pictures and PDFs by their contents."
+msgstr "このドライブで削除されたファイルを探し、選んだものを別のドライブにコピーします。このドライブには何も書き込みません。クイック: Windows のファイル一覧 (NTFS) を読み取ります。フル: ドライブ全体も読み取り、クイック フォーマット後のファイルや、内容から写真や PDF を見つけます。"
+
+msgid "A deleted file stays on the disk until its space is used for something new. Stop using the drive as soon as you notice, and save what you recover to a different drive."
+msgstr "削除されたファイルは、その領域が新しいものに使われるまでディスクに残っています。気づいたらすぐにそのドライブの使用をやめ、復元したものは別のドライブに保存してください。"
+
+msgid "Make it bigger using the partition after it"
+msgstr "直後のパーティションを使って大きくする"
+
+msgid "Deletes the partition right after this one and adds its space (and any unused space after it) to this partition. Everything on the deleted partition is lost. The files on this partition stay."
+msgstr "このパーティションの直後のパーティションを削除し、その領域 (とその後の未使用の領域) をこのパーティションに追加します。削除されるパーティションの内容はすべて失われます。このパーティションのファイルはそのまま残ります。"
+
+msgid "A partition can only grow into space directly after it, never into space before it."
+msgstr "パーティションは直後にある領域にしか広げられず、前にある領域には広げられません。"
+
+msgid "Allow writing"
+msgstr "書き込みを許可する"
+
+msgid "Clears the disk's read-only mark, which can stop Windows from changing anything on it. A switch on the disk or card itself is not affected."
+msgstr "ディスクの読み取り専用の印を外します (この印があると、Windows はディスク上の何も変更できません)。ディスクやカード本体にあるスイッチには影響しません。"
+
+msgid "This is the drive the running Windows is on."
+msgstr "これは実行中の Windows があるドライブです。"
+
+msgid "The running Windows starts from this partition."
+msgstr "実行中の Windows はこのパーティションから起動しています。"
+
+msgid "This program runs from this drive."
+msgstr "このプログラムはこのドライブから実行されています。"
+
+msgid "The backups are kept on this drive. Choose another backup folder first."
+msgstr "バックアップはこのドライブに保存されています。先に別のバックアップ フォルダーを選んでください。"
+
+msgid "The disk was not found."
+msgstr "ディスクが見つかりませんでした。"
+
+msgid "A partition on this disk is in use: "
+msgstr "このディスクのパーティションが使用中です: "
+
+msgid "This MBR disk already has four main partitions, the most it can hold."
+msgstr "この MBR ディスクには既にメイン パーティションが 4 つあり、これが上限です。"
+
+msgid "Unused space inside an existing extended partition cannot be used from here; use Disk Management."
+msgstr "既存の拡張パーティション内の未使用の領域はここからは使えません。[ディスクの管理] を使ってください。"
+
+msgid " is installed here; changing the partition's type would hide it."
+msgstr " がここにインストールされています。パーティションの種類を変更すると非表示になります。"
+
+msgid "The BitLocker tool (manage-bde.exe) is not part of this system."
+msgstr "BitLocker ツール (manage-bde.exe) はこのシステムにありません。"
+
+msgid "The drive is locked by BitLocker. Unlock it first."
+msgstr "ドライブは BitLocker でロックされています。先にロックを解除してください。"
+
+msgid "The drive the running Windows is on cannot change its letter."
+msgstr "実行中の Windows があるドライブの文字は変更できません。"
+
+msgid "There is no unused space right after it."
+msgstr "直後に未使用の領域がありません。"
+
+msgid "Only NTFS partitions can be made bigger here."
+msgstr "ここで大きくできるのは NTFS パーティションだけです。"
+
+msgid "There is no partition right after it."
+msgstr "直後にパーティションがありません。"
+
+msgid "The partition after it is in use: "
+msgstr "直後のパーティションが使用中です: "
+
+msgid "The partition after it is a start-up or reserved partition, which must stay."
+msgstr "直後のパーティションは起動パーティションまたは予約パーティションで、残しておく必要があります。"
+
+msgid "The space after it is an extended partition; use Disk Management."
+msgstr "直後の領域は拡張パーティションです。[ディスクの管理] を使ってください。"
+
+msgid " is installed on the partition after it."
+msgstr " が直後のパーティションにインストールされています。"
+
+msgid "Only readable NTFS partitions can be made smaller here."
+msgstr "ここで小さくできるのは、読み取れる NTFS パーティションだけです。"
+
+msgid "It has almost no free space to give up."
+msgstr "手放せる空き領域がほとんどありません。"
+
+msgid "A start-up partition must use FAT32. Format it as FAT32 first."
+msgstr "起動パーティションは FAT32 である必要があります。先に FAT32 でフォーマットしてください。"
+
+msgid "The MBR2GPT tool is part of Windows 10 (version 1703) and newer; it is not on this system."
+msgstr "MBR2GPT ツールは Windows 10 (バージョン 1703) 以降に含まれており、このシステムにはありません。"
+
+msgid "The disk was not found. Scan again."
+msgstr "ディスクが見つかりませんでした。もう一度スキャンしてください。"
+
+msgid "Nothing was changed: "
+msgstr "何も変更されませんでした: "
+
+msgid "this is not possible for this partition or disk."
+msgstr "このパーティションまたはディスクではこの操作はできません。"
+
+msgid "Nothing was changed, because the backup failed. "
+msgstr "バックアップに失敗したため、何も変更されませんでした。 "
+
+msgid "The drive is now called \""
+msgstr "ドライブの名前が変更されました: \""
+
+msgid "The name could not be changed ("
+msgstr "名前を変更できませんでした ("
+
+msgid "The disk is now GPT. Before Windows can start again, switch the PC to UEFI mode (CSM / Legacy off) in its firmware settings."
+msgstr "ディスクは GPT になりました。Windows を再び起動する前に、ファームウェア設定で PC を UEFI モード (CSM / Legacy オフ) に切り替えてください。"
+
+msgid "The disk could not be changed. MBR2GPT said: "
+msgstr "ディスクを変更できませんでした。MBR2GPT のメッセージ: "
+
+msgid "diskpart script:\r\n"
+msgstr "diskpart スクリプト:\r\n"
+
+msgid "The new partition was made"
+msgstr "新しいパーティションを作成しました"
+
+msgid " and is drive "
+msgstr " 、ドライブ "
+
+msgid "The partition was deleted. Its space is now unused."
+msgstr "パーティションを削除しました。その領域は未使用になりました。"
+
+msgid "The partition was formatted as "
+msgstr "パーティションをフォーマットしました: "
+
+msgid "The partition is "
+msgstr "パーティションのサイズ変更: "
+
+msgid " MB bigger."
+msgstr " MB 大きくなりました。"
+
+msgid "The partition after it was deleted and its space added."
+msgstr "直後のパーティションを削除し、その領域を追加しました。"
+
+msgid " MB smaller. The space is now unused."
+msgstr " MB 小さくなりました。その領域は未使用になりました。"
+
+msgid "The partition is now drive "
+msgstr "パーティションのドライブ文字: "
+
+msgid ": done."
+msgstr ": 完了しました。"
+
+msgid "Windows did not allow it. Diskpart said:\n"
+msgstr "Windows が許可しませんでした。diskpart のメッセージ:\n"
+
+msgid "The file is too small to be a registry file."
+msgstr "ファイルが小さすぎて、レジストリ ファイルではありません。"
+
+msgid "The file does not start like a registry file. It is damaged or was overwritten."
+msgstr "ファイルの先頭がレジストリ ファイルの形式ではありません。壊れているか、上書きされています。"
+
+msgid "The registry file's header is damaged."
+msgstr "レジストリ ファイルのヘッダーが壊れています。"
+
+msgid "The registry file was not saved cleanly the last time (often after a power cut). Windows can usually repair this by itself."
+msgstr "レジストリ ファイルが前回正しく保存されませんでした (停電の後によくあります)。通常は Windows が自動的に修復できます。"
+
+msgid "The file is missing."
+msgstr "ファイルがありません。"
+
+msgid "The file could not be read."
+msgstr "ファイルを読み取れませんでした。"
+
+msgid "The file could not be copied (error "
+msgstr "ファイルをコピーできませんでした (エラー "
+
+msgid "The file is damaged and could not be opened."
+msgstr "ファイルが壊れていて開けませんでした。"
+
+msgid "The file could not be opened (error "
+msgstr "ファイルを開けませんでした (エラー "
+
+msgid "The file was loaded but could not be read."
+msgstr "ファイルを読み込みましたが、読み取れませんでした。"
+
+msgid "Windows' data protection is not available here, so the key was not saved."
+msgstr "ここでは Windows のデータ保護を使えないため、キーは保存されませんでした。"
+
+msgid "The file for saved keys could not be written: "
+msgstr "保存したキーのファイルを書き込めませんでした: "
+
+msgid "The partition could not be read."
+msgstr "パーティションを読み取れませんでした。"
+
+msgid "This is not an ext2, ext3 or ext4 file system."
+msgstr "これは ext2、ext3、ext4 のファイル システムではありません。"
+
+msgid "Unusual block size."
+msgstr "通常とは異なるブロック サイズです。"
+
+msgid "The file system header is damaged."
+msgstr "ファイル システムのヘッダーが壊れています。"
+
+msgid "Linux (encrypted)"
+msgstr "Linux (暗号化)"
+
+msgid "Linux ("
+msgstr "Linux ("
+
+msgid ", encrypted"
+msgstr "、暗号化"
+
+msgid "What is a Linux boot loader? Linux is usually started by a program called GRUB (or systemd-boot). Its files sit in a folder on the start-up partition, next to Windows Boot Manager, and a small settings file tells it on which partition Linux lives. When Linux is deleted, this folder is often left behind."
+msgstr "Linux ブート ローダーとは? Linux は通常、GRUB (または systemd-boot) というプログラムによって起動されます。そのファイルは起動パーティション上のフォルダーに Windows ブート マネージャーと並んで置かれ、小さな設定ファイルが Linux のあるパーティションを示します。Linux を削除しても、このフォルダーが残ることがよくあります。"
+
+msgid "A Linux boot loader leads nowhere: "
+msgstr "Linux ブート ローダーの参照先がありません: "
+
+msgid " on the start-up partition ("
+msgstr " (起動パーティション、"
+
+msgid ") holds the boot loader of "
+msgstr ") には次のブート ローダーがあります: "
+
+msgid ", but the partition it starts Linux from is not on any disk now. That Linux was probably deleted, or its partition was formatted. If you pick it in the PC's boot menu, you get a GRUB error or a \"grub rescue>\" prompt.\n\nIf you no longer use that Linux, removing the folder is safe: it only takes a few MB and nothing else needs it."
+msgstr "。しかし、Linux を起動するパーティションは現在どのディスクにもありません。その Linux はおそらく削除されたか、パーティションがフォーマットされました。PC のブート メニューでこれを選ぶと、GRUB のエラーか \"grub rescue>\" プロンプトが表示されます。\n\nその Linux をもう使わない場合は、フォルダーを削除しても安全です。数 MB しか使っておらず、ほかに必要とするものはありません。"
+
+msgid "Remove the leftover "
+msgstr "残っている "
+
+msgid " boot loader"
+msgstr " ブート ローダーを削除する"
+
+msgid "A Linux boot loader was found: "
+msgstr "Linux ブート ローダーが見つかりました: "
+
+msgid " holds a Linux boot loader, but no matching Linux was found on the disks. Its Linux may be on a disk that is not connected, or use a file system this program cannot look into."
+msgstr " に Linux ブート ローダーがありますが、対応する Linux がディスク上に見つかりませんでした。その Linux は接続されていないディスクにあるか、このプログラムが中を見られないファイル システムを使っている可能性があります。"
+
+msgid "Linux kernel "
+msgstr "Linux カーネル "
+
+msgid " Secure Boot is on."
+msgstr " Secure Boot はオンです。"
+
+msgid "Secure Boot is on, but this Linux starts without the signed \"shim\" loader, so the PC may refuse to start it. Turn Secure Boot off in the PC's firmware settings, or reinstall GRUB with Secure Boot support from Linux."
+msgstr "Secure Boot はオンですが、この Linux は署名された \"shim\" ローダーなしで起動するため、PC が起動を拒否する可能性があります。PC のファームウェア設定で Secure Boot をオフにするか、Linux から Secure Boot 対応の GRUB を再インストールしてください。"
+
+msgid "This Linux is on a GPT disk but the PC was started in legacy (BIOS) mode. It only starts this way if GRUB was set up for it (with a \"BIOS boot\" partition)."
+msgstr "この Linux は GPT ディスクにありますが、PC はレガシ (BIOS) モードで起動しました。この方式で起動するのは、GRUB がそれ用に (\"BIOS boot\" パーティション付きで) セットアップされている場合だけです。"
+
+msgid "The disk with this Linux ("
+msgstr "この Linux のあるディスク ("
+
+msgid ", GPT"
+msgstr "、GPT"
+
+msgid ", MBR"
+msgstr "、MBR"
+
+msgid "The main copy of the disk's partition table is damaged."
+msgstr "ディスクのパーティション テーブルのメイン コピーが壊れています。"
+
+msgid "No Linux boot loader (GRUB) was found on any start-up partition. Something deleted it: often a Windows reinstall or repair, or formatting the start-up partition. Linux itself is still there."
+msgstr "どの起動パーティションにも Linux ブート ローダー (GRUB) が見つかりませんでした。何かが削除しています。多くの場合、Windows の再インストールや修復、または起動パーティションのフォーマットです。Linux 自体は残っています。"
+
+msgid "Reinstall GRUB, the Linux boot loader."
+msgstr "Linux ブート ローダーの GRUB を再インストールします。"
+
+msgid "The start-up partition with the Linux boot loader is there and can be read."
+msgstr "Linux ブート ローダーのある起動パーティションは存在し、読み取れます。"
+
+msgid "), so Linux only starts while that disk is connected."
+msgstr ") にあるため、Linux はそのディスクが接続されているときだけ起動します。"
+
+msgid "Cannot be checked until the boot loader is back."
+msgstr "ブート ローダーが戻るまで確認できません。"
+
+msgid "The PC's start-up list could not be read here."
+msgstr "ここでは PC の起動リストを読み取れませんでした。"
+
+msgid "The PC's own start-up list has no entry for this Linux, so the PC never offers to start it. This often happens after a Windows update or a firmware update."
+msgstr "PC 自体の起動リストにこの Linux の項目がないため、PC は起動の選択肢にこれを表示しません。Windows Update やファームウェアの更新の後によく起こります。"
+
+msgid "The PC's own start-up list has this Linux as \""
+msgstr "PC 自体の起動リストにこの Linux があります: \""
+
+msgid "\", and it starts first."
+msgstr "\"。最初に起動します。"
+
+msgid "The PC's start-up list has an entry for this Linux (\""
+msgstr "PC の起動リストにこの Linux の項目があります (\""
+
+msgid "\"), but it is switched off, so the PC never tries it."
+msgstr "\") が、無効になっているため、PC はこれを試しません。"
+
+msgid "The PC's start-up list has this Linux (\""
+msgstr "PC の起動リストにこの Linux (\""
+
+msgid "\"), but "
+msgstr "\") がありますが、 "
+
+msgid " starts first. To start Linux, pick it in the PC's boot menu (often F12, F11, F8 or Esc while the PC starts), or make it start first. When GRUB starts first, it usually shows a menu with Windows in it too."
+msgstr " が先に起動します。Linux を起動するには、PC のブート メニュー (PC の起動中に F12、F11、F8、Esc などを押すと開きます) で選ぶか、先に起動するように設定してください。GRUB が先に起動すると、通常は Windows も含むメニューが表示されます。"
+
+msgid "The Linux boot loader file is damaged."
+msgstr "Linux ブート ローダーのファイルが壊れています。"
+
+msgid "The Linux boot loader is in place"
+msgstr "Linux ブート ローダーはそろっています"
+
+msgid "Missing (see the step before)."
+msgstr "ありません (前の段階を参照)。"
+
+msgid "The boot loader's settings are built into it, so this program cannot see where it looks for Linux. That is normal for some Linux versions."
+msgstr "ブート ローダーの設定は本体に組み込まれているため、このプログラムでは Linux をどこで探すかを確認できません。一部の Linux では正常なことです。"
+
+msgid "The boot loader looks for Linux on the right partition ("
+msgstr "ブート ローダーは正しいパーティションで Linux を探しています ("
+
+msgid "The boot loader looks for Linux on another partition ("
+msgstr "ブート ローダーは別のパーティションで Linux を探しています ("
+
+msgid "), not on this Linux's partition. It may be starting a different Linux."
+msgstr ")。この Linux のパーティションではありません。別の Linux を起動している可能性があります。"
+
+msgid "The boot loader looks for Linux on a partition that is not on any disk now. Starting Linux ends at a \"grub rescue>\" prompt."
+msgstr "ブート ローダーは、現在どのディスクにもないパーティションで Linux を探しています。Linux を起動すると \"grub rescue>\" プロンプトで止まります。"
+
+msgid ", /boot is "
+msgstr "、/boot: "
+
+msgid "Point GRUB to the right partition again (Boot-Repair does this)."
+msgstr "GRUB が正しいパーティションを指すように設定し直します (Boot-Repair で行えます)。"
+
+msgid "Disk start-up code"
+msgstr "ディスクの起動コード"
+
+msgid "The disk's start-up code is GRUB, the Linux boot loader."
+msgstr "ディスクの起動コードは、Linux ブート ローダーの GRUB です。"
+
+msgid "GRUB in the MBR"
+msgstr "MBR 内の GRUB"
+
+msgid "The disk's start-up code is not GRUB (usually Windows replaced it). The PC goes straight to Windows and never offers Linux."
+msgstr "ディスクの起動コードが GRUB ではありません (通常は Windows によって置き換えられています)。PC はそのまま Windows に進み、Linux を選べません。"
+
+msgid "The disk's start-up code is empty, so the PC cannot start from this disk."
+msgstr "ディスクの起動コードが空のため、PC はこのディスクから起動できません。"
+
+msgid "MBR without GRUB"
+msgstr "GRUB のない MBR"
+
+msgid "Write GRUB to the disk again (Boot-Repair does this)."
+msgstr "GRUB をもう一度ディスクに書き込みます (Boot-Repair で行えます)。"
+
+msgid "unknown file system"
+msgstr "不明なファイル システム"
+
+msgid "The partition with Linux is there and this program can look inside it."
+msgstr "Linux のあるパーティションは存在し、このプログラムで中を確認できます。"
+
+msgid "The Linux partition is encrypted (LUKS). Linux asks for its password while starting. Its contents cannot be checked from here."
+msgstr "Linux パーティションは暗号化されています (LUKS)。Linux は起動中にパスワードを求めます。ここから中身を確認することはできません。"
+
+msgid "The Linux partition is there, but it uses "
+msgstr "Linux パーティションはありますが、使っているファイル システムは "
+
+msgid ", which this program cannot look inside. The next steps cannot be checked from here."
+msgstr "で、このプログラムでは中を確認できません。この後の段階はここから確認できません。"
+
+msgid "Cannot be checked: the file system cannot be read from Windows."
+msgstr "確認できません: Windows からはファイル システムを読み取れません。"
+
+msgid "No Linux kernel (the heart of Linux) was found in /boot. An update probably failed halfway, or /boot is on a partition that is missing."
+msgstr "/boot に Linux カーネル (Linux の中核) が見つかりませんでした。おそらく更新が途中で失敗したか、/boot が見つからないパーティションにあります。"
+
+msgid "Reinstall the Linux kernel."
+msgstr "Linux カーネルを再インストールします。"
+
+msgid "The Linux kernel is in place"
+msgstr "Linux カーネルはそろっています"
+
+msgid ", plus "
+msgstr "、加えて "
+
+msgid " older one(s) to fall back on."
+msgstr " 個の古いカーネルに戻せます。"
+
+msgid "The menu file the boot loader shows (with the Linux kernels to choose from) is in place."
+msgstr "ブート ローダーが表示するメニュー ファイル (選べる Linux カーネルの一覧) はそろっています。"
+
+msgid "The GRUB menu file (/boot/grub/grub.cfg) is missing, so GRUB stops at a \"grub>\" prompt."
+msgstr "GRUB メニュー ファイル (/boot/grub/grub.cfg) がないため、GRUB は \"grub>\" プロンプトで止まります。"
+
+msgid "Rebuild the GRUB menu (\"sudo update-grub\")."
+msgstr "GRUB メニューを作り直します (\"sudo update-grub\")。"
+
+msgid "Linux's list of partitions to use (/etc/fstab) is missing."
+msgstr "Linux が使うパーティションの一覧 (/etc/fstab) がありません。"
+
+msgid "Recreate /etc/fstab."
+msgstr "/etc/fstab を作り直します。"
+
+msgid "Linux expects partitions that are not on any disk now ("
+msgstr "Linux は、現在どのディスクにもないパーティションを必要としています ("
+
+msgid "). It stops at an \"emergency mode\" prompt while starting."
+msgstr ")。起動中に \"emergency mode\" プロンプトで止まります。"
+
+msgid "Correct /etc/fstab so it names the partitions that are there now."
+msgstr "/etc/fstab を修正し、現在あるパーティションを指定するようにします。"
+
+msgid "). It may wait a minute and a half while starting, or stop at an emergency prompt."
+msgstr ")。起動中に 1 分半ほど待つか、緊急モードのプロンプトで止まることがあります。"
+
+msgid "Every partition Linux expects to use (in /etc/fstab) is there."
+msgstr "Linux が使うパーティション (/etc/fstab にあるもの) はすべてそろっています。"
+
+msgid "Windows cannot safely change Linux's own files. Start the PC from a Linux USB stick (for example Ubuntu's \"Try Ubuntu\"), connect to the internet, install the free tool \"Boot-Repair\" (sudo add-apt-repository ppa:yannubuntu/boot-repair, then sudo apt install boot-repair) and choose \"Recommended repair\". A Linux-savvy friend can also do it by hand."
+msgstr "Windows からは Linux 自身のファイルを安全に変更できません。Linux の USB メモリ (例: Ubuntu の \"Try Ubuntu\") から PC を起動し、インターネットに接続して、無料ツール \"Boot-Repair\" をインストールし (sudo add-apt-repository ppa:yannubuntu/boot-repair の後に sudo apt install boot-repair)、\"Recommended repair\" を選んでください。Linux に詳しい人に手作業で行ってもらうこともできます。"
+
+msgid "Something this Linux needs to start is missing or damaged."
+msgstr "この Linux の起動に必要なものが見つからないか、壊れています。"
+
+msgid "It may start, but some things need attention."
+msgstr "起動する可能性はありますが、注意が必要な点があります。"
+
+msgid "Looks fine so far"
+msgstr "今のところ正常のようです"
+
+msgid "Everything that can be checked from Windows is in place. The inside of its partition could not be checked."
+msgstr "Windows から確認できるものはすべてそろっています。パーティションの中は確認できませんでした。"
+
+msgid "Everything this Linux needs to start is in place."
+msgstr "この Linux の起動に必要なものはすべてそろっています。"
+
+msgid "Work is still running"
+msgstr "処理を実行中です"
+
+msgid "A scan or a repair is still running. Closing now can leave a repair half done. Wait until it finishes."
+msgstr "スキャンまたは修復を実行中です。今閉じると、修復が途中で終わってしまうことがあります。終わるまでお待ちください。"
+
+msgid "Keep waiting"
+msgstr "待つ"
+
+msgid "Undo: nothing to undo (Ctrl+Z)"
+msgstr "元に戻す: 元に戻す操作はありません (Ctrl+Z)"
+
+msgid "Redo: nothing to redo (Ctrl+Y)"
+msgstr "やり直し: やり直す操作はありません (Ctrl+Y)"
+
+msgid "Undo \""
+msgstr "元に戻す: \""
+
+msgid "\" (Ctrl+Z)"
+msgstr "\" (Ctrl+Z)"
+
+msgid "Redo: undo \""
+msgstr "やり直し: \""
+
+msgid "\" (Ctrl+Y)"
+msgstr "\" をもう一度元に戻す (Ctrl+Y)"
+
+msgid "Back (Alt+Left)"
+msgstr "戻る (Alt+←)"
+
+msgid "Forward (Alt+Right)"
+msgstr "進む (Alt+→)"
+
+msgid "Home: everything found on this PC (Ctrl+H)"
+msgstr "ホーム: この PC で見つかったすべて (Ctrl+H)"
+
+msgid "Scan all disks again (Ctrl+R)"
+msgstr "すべてのディスクを再スキャン (Ctrl+R)"
+
+msgid "Save the report as a text file (Ctrl+S)"
+msgstr "レポートをテキスト ファイルとして保存 (Ctrl+S)"
+
+msgid "Settings, backup folder, languages and About"
+msgstr "設定、バックアップ フォルダー、言語、バージョン情報"
+
+msgid "Boot Doctor · "
+msgstr "Boot Doctor · "
+
+msgid " · Report"
+msgstr " · レポート"
+
+msgid "Boot Doctor · Report"
+msgstr "Boot Doctor · レポート"
+
+msgid " · Boot chain"
+msgstr " · 起動チェーン"
+
+msgid "Boot Doctor · Boot chain"
+msgstr "Boot Doctor · 起動チェーン"
+
+msgid "Boot Doctor · Disks and partitions"
+msgstr "Boot Doctor · ディスクとパーティション"
+
+msgid "Boot Doctor · About"
+msgstr "Boot Doctor · バージョン情報"
+
+msgid "Boot Doctor · Recover deleted files"
+msgstr "Boot Doctor · 削除したファイルの復元"
+
+msgid "Boot Doctor · History and backups"
+msgstr "Boot Doctor · 履歴とバックアップ"
+
+msgid "Scanning"
+msgstr "スキャン中"
+
+msgid "Not scanned yet"
+msgstr "まだスキャンしていません"
+
+msgid "disk"
+msgstr "台のディスク"
+
+msgid "disks"
+msgstr "台のディスク"
+
+msgid "partition"
+msgstr "個のパーティション"
+
+msgid "partitions"
+msgstr "個のパーティション"
+
+msgid "system found"
+msgstr "個のシステムを検出"
+
+msgid "systems found"
+msgstr "個のシステムを検出"
+
+msgid "needs attention"
+msgstr "件の要確認"
+
+msgid "need attention"
+msgstr "件の要確認"
+
+msgid " · Nothing needs attention"
+msgstr " · 確認が必要なものはありません"
+
+msgid " · Backups: "
+msgstr " · バックアップ: "
+
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgid "Home"
+msgstr "ホーム"
+
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgid "Scan again"
+msgstr "再スキャン"
+
+msgid "Alt+← / Alt+→"
+msgstr "Alt+← / Alt+→"
+
+msgid "Back and forward"
+msgstr "戻る / 進む"
+
+msgid "Ctrl+Z / Ctrl+Y"
+msgstr "Ctrl+Z / Ctrl+Y"
+
+msgid "Undo and redo the last change"
+msgstr "最後の変更を元に戻す / やり直す"
+
+msgid "Ctrl+1 … 4"
+msgstr "Ctrl+1 … 4"
+
+msgid "Report, boot chain, disks, history"
+msgstr "レポート、起動チェーン、ディスク、履歴"
+
+msgid "Choose a Windows (report and boot chain)"
+msgstr "Windows を選ぶ (レポートと起動チェーン)"
+
+msgid "Step through the boot chain"
+msgstr "起動チェーンの段階を順に移動"
+
+msgid "Enter"
+msgstr "Enter"
+
+msgid "Show details, or carry out the first fix of a step"
+msgstr "詳細を表示、または段階の最初の修復を実行"
+
+msgid "Page up / down"
+msgstr "Page Up / Page Down"
+
+msgid "Scroll"
+msgstr "スクロール"
+
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgid "Back up the start-up setup now"
+msgstr "起動構成を今すぐバックアップ"
+
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+msgid "Save the report as a text file"
+msgstr "レポートをテキスト ファイルとして保存"
+
+msgid "Old copy in Windows.old"
+msgstr "Windows.old 内の古いコピー"
+
+msgid "Inside the folder "
+msgstr "次のフォルダー内: "
+
+msgid "Starts first"
+msgstr "最初に起動"
+
+msgid "In the start-up menu"
+msgstr "起動メニューにあり"
+
+msgid "In the PC's start-up list"
+msgstr "PC の起動リストにあり"
+
+msgid "Not in the PC's start-up list"
+msgstr "PC の起動リストにない"
+
+msgid "Not in the start-up menu"
+msgstr "起動メニューにない"
+
+msgid "Looking at your disks"
+msgstr "ディスクを確認しています"
+
+msgid "Every disk and partition is checked for Windows and for what it needs to start. This takes a few seconds."
+msgstr "すべてのディスクとパーティションについて、Windows と起動に必要なものを確認します。数秒かかります。"
+
+msgid "Press Scan (Ctrl+R) to look at every disk."
+msgstr "[スキャン] (Ctrl+R) を押すと、すべてのディスクを確認します。"
+
+msgid "Systems found"
+msgstr "見つかったシステム"
+
+msgid "Whole PC"
+msgstr "PC 全体"
+
+msgid "thing needs attention"
+msgstr "件の確認が必要な項目"
+
+msgid "things need attention"
+msgstr "件の確認が必要な項目"
+
+msgid "Everything looks fine"
+msgstr "すべて正常のようです"
+
+msgid "None"
+msgstr "なし"
+
+msgid "No Windows or Linux was found on this PC"
+msgstr "この PC に Windows も Linux も見つかりませんでした"
+
+msgid "Found "
+msgstr "検出: "
+
+msgid "Windows installation"
+msgstr "件の Windows"
+
+msgid "Windows installations"
+msgstr "件の Windows"
+
+msgid " and "
+msgstr " と "
+
+msgid "Linux system"
+msgstr "件の Linux システム"
+
+msgid "Linux systems"
+msgstr "件の Linux システム"
+
+msgid "starts fine"
+msgstr "正常に起動"
+
+msgid "start fine"
+msgstr "正常に起動"
+
+msgid "has small problems"
+msgstr "小さな問題あり"
+
+msgid "have small problems"
+msgstr "小さな問題あり"
+
+msgid "cannot start"
+msgstr "起動できません"
+
+msgid "Checked from "
+msgstr "確認元: "
+
+msgid " · The PC starts in "
+msgstr " · PC の起動方式: "
+
+msgid "UEFI mode"
+msgstr "UEFI モード"
+
+msgid "legacy (BIOS) mode"
+msgstr "レガシ (BIOS) モード"
+
+msgid "Nothing to check"
+msgstr "確認するものがありません"
+
+msgid "About Secure Boot"
+msgstr "Secure Boot について"
+
+msgid "Secure Boot: on"
+msgstr "Secure Boot: オン"
+
+msgid "Secure Boot: off"
+msgstr "Secure Boot: オフ"
+
+msgid "New to this? How a PC starts"
+msgstr "初めての方へ: PC の起動のしくみ"
+
+msgid "Hide explanations"
+msgstr "説明を隠す"
+
+msgid "Show explanations"
+msgstr "説明を表示"
+
+msgid "Systems on this PC"
+msgstr "この PC のシステム"
+
+msgid "Other findings"
+msgstr "その他の検出結果"
+
+msgid " · build "
+msgstr " · ビルド "
+
+msgid "What it will take:  "
+msgstr "必要な作業:  "
+
+msgid "Fix it"
+msgstr "修復する"
+
+msgid "Fix it ("
+msgstr "修復する ("
+
+msgid " steps)"
+msgstr " 段階)"
+
+msgid "Show details"
+msgstr "詳細を表示"
+
+msgid "Boot chain"
+msgstr "起動チェーン"
+
+msgid "What does this mean?"
+msgstr "これはどういう意味ですか?"
+
+msgid ": not possible here. "
+msgstr ": ここではできません。 "
+
+msgid "Back to the whole PC"
+msgstr "PC 全体に戻る"
+
+msgid "Show the boot chain"
+msgstr "起動チェーンを表示"
+
+msgid "What it will take"
+msgstr "必要な作業"
+
+msgid "Fix everything"
+msgstr "すべて修復する"
+
+msgid "Nothing. This Linux needs no repairs to start."
+msgstr "何もありません。この Linux は起動のための修復を必要としません。"
+
+msgid "Nothing. This Windows needs no repairs to start."
+msgstr "何もありません。この Windows は起動のための修復を必要としません。"
+
+msgid "Windows.old cannot be made to start. Copy the files you need out of it; Windows deletes it by itself after a while."
+msgstr "Windows.old を起動できるようにすることはできません。必要なファイルをコピーして取り出してください。Windows がしばらくすると自動的に削除します。"
+
+msgid "No repair is known for what was found. The steps below tell more."
+msgstr "見つかった問題に対する既知の修復方法はありません。詳しくは下の段階を参照してください。"
+
+msgid " This cannot be undone."
+msgstr " この操作は元に戻せません。"
+
+msgid "Not possible here: "
+msgstr "ここではできません: "
+
+msgid "Do step "
+msgstr "実行する段階: "
+
+msgid "Why it seems to be stuck in a loop"
+msgstr "ループに陥っていると思われる理由"
+
+msgid "Signs of earlier trouble"
+msgstr "以前の問題の兆候"
+
+msgid "Step by step, as the PC starts"
+msgstr "PC の起動順に 1 段階ずつ"
+
+msgid "When the PC is switched on, these steps happen one after another. Each step needs the one before it, so the first step with a problem is where starting stops."
+msgstr "PC の電源を入れると、これらの段階が順番に行われます。各段階は前の段階を必要とするため、最初に問題のある段階で起動が止まります。"
+
+msgid "Step "
+msgstr "段階 "
+
+msgid "What may have caused this:"
+msgstr "考えられる原因:"
+
+msgid "What is this step?"
+msgstr "この段階とは?"
+
+msgid "For a technician:"
+msgstr "技術者向け:"
+
+msgid "No disks were found"
+msgstr "ディスクが見つかりませんでした"
+
+msgid "Windows does not see any disk. Check the cables, or the storage mode (AHCI, RAID or VMD) in the PC's firmware settings."
+msgstr "Windows がディスクを認識していません。ケーブル、または PC のファームウェア設定のストレージ モード (AHCI、RAID、VMD) を確認してください。"
+
+msgid "Click a disk's name, a partition or unused space to see what can be done with it. Everything that changes the disk is explained first, asks before it starts, and backs up the partition table, so most changes can be undone (Ctrl+Z)."
+msgstr "ディスク名、パーティション、未使用の領域をクリックすると、できる操作が表示されます。ディスクを変更する操作はすべて、先に説明があり、開始前に確認し、パーティション テーブルをバックアップするので、ほとんどの変更は元に戻せます (Ctrl+Z)。"
+
+msgid "Working with disks"
+msgstr "ディスクの操作"
+
+msgid "No partition table"
+msgstr "パーティション テーブルなし"
+
+msgid " · Removable"
+msgstr " · リムーバブル"
+
+msgid "problem"
+msgstr "件の問題"
+
+msgid "problems"
+msgstr "件の問題"
+
+msgid "Not set up: no partition table. Click the disk's name to set it up."
+msgstr "未初期化: パーティション テーブルがありません。ディスク名をクリックして初期化してください。"
+
+msgid "No partitions"
+msgstr "パーティションなし"
+
+msgid "Missing: start-up partition"
+msgstr "見つかりません: 起動パーティション"
+
+msgid "Unused space"
+msgstr "未使用の領域"
+
+msgid "Locked"
+msgstr "ロック中"
+
+msgid "Linux file system"
+msgstr "Linux ファイル システム"
+
+msgid "Not readable"
+msgstr "読み取り不可"
+
+msgid "Colours: blue top edge = data, accent = start-up partition, grey = reserved or recovery. A red outline marks a partition with a problem. Right-click for a menu."
+msgstr "色: 上端が青 = データ、アクセント色 = 起動パーティション、灰色 = 予約または回復。赤い枠は問題のあるパーティションです。右クリックするとメニューが開きます。"
+
+msgid "not set up"
+msgstr "未初期化"
+
+msgid "Unused space · "
+msgstr "未使用の領域 · "
+
+msgid " on Disk "
+msgstr " 、ディスク "
+
+msgid " free"
+msgstr " 空き"
+
+msgid " · active"
+msgstr " · アクティブ"
+
+msgid " · BitLocker, locked"
+msgstr " · BitLocker、ロック中"
+
+msgid " · BitLocker"
+msgstr " · BitLocker"
+
+msgid "Not possible here:\n"
+msgstr "ここではできません:\n"
+
+msgid " is not possible here"
+msgstr " はここではできません"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Quick search"
+msgstr "クイック検索"
+
+msgid "Full search"
+msgstr "フル検索"
+
+msgid "Size"
+msgstr "サイズ"
+
+msgid "How big the new partition is. All of the unused space is chosen at first."
+msgstr "新しいパーティションの大きさです。最初は未使用の領域がすべて選ばれています。"
+
+msgid "Kind"
+msgstr "種類"
+
+msgid "Data: an ordinary drive. Start-up: where a PC starts from (FAT32, about 100-300 MB). Recovery: hidden, for repair tools."
+msgstr "データ: 通常のドライブ。起動: PC が起動に使う場所 (FAT32、約 100 ～ 300 MB)。回復: 非表示で、修復ツール用。"
+
+msgid "File system"
+msgstr "ファイル システム"
+
+msgid "NTFS for Windows drives; FAT32 for start-up partitions and devices; exFAT for USB sticks."
+msgstr "Windows のドライブには NTFS、起動パーティションや機器には FAT32、USB メモリには exFAT。"
+
+msgid "Quick format"
+msgstr "クイック フォーマット"
+
+msgid "A quick format takes seconds. A full one also checks every sector, which takes long on a big disk."
+msgstr "クイック フォーマットは数秒で終わります。通常のフォーマットはすべてのセクターも確認するため、大きなディスクでは時間がかかります。"
+
+msgid "Give it a drive letter"
+msgstr "ドライブ文字を割り当てる"
+
+msgid "So it shows up in File Explorer"
+msgstr "エクスプローラーに表示されるようにします"
+
+msgid "Next"
+msgstr "次へ"
+
+msgid "System"
+msgstr "システム"
+
+msgid "New volume"
+msgstr "ボリューム"
+
+msgid "Everything on "
+msgstr "消去の確認: "
+
+msgid " will be erased."
+msgstr " の内容はすべて消去されます。"
+
+msgid "Format "
+msgstr "フォーマット: "
+
+msgid "Make "
+msgstr "サイズ変更: "
+
+msgid " bigger"
+msgstr " を大きくする"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "How much of the unused space after it to add."
+msgstr "直後の未使用の領域をどれだけ追加するかです。"
+
+msgid " smaller"
+msgstr " を小さくする"
+
+msgid "Give up"
+msgstr "手放す量"
+
+msgid "Windows can only give up free space that lies at the end of the drive. If it refuses, try a smaller amount."
+msgstr "Windows はドライブの末尾にある空き領域しか手放せません。拒否された場合は、より少ない量を試してください。"
+
+msgid "No drive letter is free"
+msgstr "空いているドライブ文字がありません"
+
+msgid "All letters from D: to Z: are in use. Remove a letter from another drive first."
+msgstr "D: から Z: までの文字はすべて使用中です。先に別のドライブの文字を削除してください。"
+
+msgid "Type the new letter. Free letters: "
+msgstr "新しい文字を入力してください。空いている文字: "
+
+msgid "That letter cannot be used"
+msgstr "その文字は使えません"
+
+msgid "Choose one of the free letters."
+msgstr "空いている文字から選んでください。"
+
+msgid "Rename "
+msgstr "名前の変更: "
+
+msgid "The name shown next to the drive letter. NTFS allows 32 characters, FAT32 11."
+msgstr "ドライブ文字の隣に表示される名前です。NTFS では 32 文字、FAT32 では 11 文字まで使えます。"
+
+msgid "Wipe "
+msgstr "消去: "
+
+msgid "This removes every partition on the disk, so all its drives disappear. To make sure the right disk is wiped, type its number ("
+msgstr "ディスク上のすべてのパーティションが削除され、そのドライブはすべて消えます。正しいディスクを消去するために、下にディスク番号 ("
+
+msgid ") below.\n\nThe partition table is backed up first, so Undo can bring the partitions back if nothing new is written to the disk."
+msgstr ") を入力してください。\n\nパーティション テーブルは先にバックアップされるため、ディスクに新しく何も書き込まれていなければ、[元に戻す] でパーティションを戻せます。"
+
+msgid "Nothing was wiped"
+msgstr "何も消去されませんでした"
+
+msgid "The number typed is not this disk's number."
+msgstr "入力された番号はこのディスクの番号ではありません。"
+
+msgid "Name of the drive"
+msgstr "ドライブの名前"
+
+msgid "The name shown next to the drive letter (it can be changed later)."
+msgstr "ドライブ文字の隣に表示される名前です (後で変更できます)。"
+
+msgid "Installed here: "
+msgstr "ここにインストール済み: "
+
+msgid "Everything on it will be lost. Copy anything you need somewhere else first.\n\n"
+msgstr "中のものはすべて失われます。必要なものは先に別の場所にコピーしてください。\n\n"
+
+msgid "Careful: a drive on this PC is locked by BitLocker, so what is inside it cannot be seen. Unlock it first if it may hold Windows or files you need.\n\n"
+msgstr "注意: この PC には BitLocker でロックされたドライブがあり、中身を確認できません。Windows や必要なファイルが入っている可能性がある場合は、先にロックを解除してください。\n\n"
+
+msgid "The partition table is backed up first; Undo (Ctrl+Z) or History can put it back."
+msgstr "パーティション テーブルは先にバックアップされます。[元に戻す] (Ctrl+Z) または [履歴] で戻せます。"
+
+msgid "The partition table is backed up first, but this change itself cannot be undone."
+msgstr "パーティション テーブルは先にバックアップされますが、この変更自体は元に戻せません。"
+
+msgid "\n\nFor a technician (diskpart):\n"
+msgstr "\n\n技術者向け (diskpart):\n"
+
+msgid "No backup folder"
+msgstr "バックアップ フォルダーがありません"
+
+msgid "Nothing was changed, because there is no folder to keep backups in. Choose one with the settings button."
+msgstr "バックアップを保存するフォルダーがないため、何も変更されませんでした。設定ボタンからフォルダーを選んでください。"
+
+msgid "Console · commands this program runs"
+msgstr "コンソール · このプログラムが実行するコマンド"
+
+msgid "Clear"
+msgstr "クリア"
+
+msgid "Nothing has run yet. Every command a scan, repair or disk change runs shows up here, with what it answered."
+msgstr "まだ何も実行されていません。スキャン、修復、ディスク変更で実行されるコマンドとその応答がすべてここに表示されます。"
+
+msgid "Settings…"
+msgstr "設定…"
+
+msgid "Console, explanations and language"
+msgstr "コンソール、説明、言語"
+
+msgid "Backup folder…"
+msgstr "バックアップ フォルダー…"
+
+msgid "Choose where backups are kept"
+msgstr "バックアップの保存場所を選びます"
+
+msgid "Make a template for a new language…"
+msgstr "新しい言語のテンプレートを作成…"
+
+msgid "Save every text of this program in a file, ready to translate into another language"
+msgstr "このプログラムのすべてのテキストをファイルに保存し、別の言語に翻訳できるようにします"
+
+msgid "Add a language pack…"
+msgstr "言語パックを追加…"
+
+msgid "Add your own translation, or a corrected one, from a .lang file"
+msgstr "独自の翻訳や修正した翻訳を .lang ファイルから追加します"
+
+msgid "Saved BitLocker keys…"
+msgstr "保存された BitLocker キー…"
+
+msgid "The recovery keys remembered on this PC: see which drives they are for, or delete them"
+msgstr "この PC に記憶されている回復キー: どのドライブ用かを確認したり、削除したりできます"
+
+msgid "About PATio Boot Doctor"
+msgstr "PATio Boot Doctor のバージョン情報"
+
+msgid "Version, licence and contact"
+msgstr "バージョン、ライセンス、連絡先"
+
+msgid "Display"
+msgstr "表示"
+
+msgid "Show the command console"
+msgstr "コマンド コンソールを表示"
+
+msgid "A panel at the bottom that shows every command this program runs (diskpart, bcdedit, ...) and what it answered"
+msgstr "このプログラムが実行するすべてのコマンド (diskpart、bcdedit など) とその応答を表示する、下部のパネルです"
+
+msgid "Show explanations for beginners"
+msgstr "初心者向けの説明を表示"
+
+msgid "Short \"What is this?\" boxes next to each step and finding"
+msgstr "各段階と検出結果の横に表示される短い \"これは何?\" ボックス"
+
+msgid "Language"
+msgstr "言語"
+
+msgid "The language of this program. Add your own with the Settings menu > Add a language pack."
+msgstr "このプログラムの表示言語です。独自の言語は [設定] メニュー > [言語パックを追加] で追加できます。"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Add a language pack"
+msgstr "言語パックの追加"
+
+msgid "The language pack was not added"
+msgstr "言語パックは追加されませんでした"
+
+msgid "Language pack added"
+msgstr "言語パックを追加しました"
+
+msgid "{0} is now available. Switch to it now?"
+msgstr "{0} が使えるようになりました。今すぐ切り替えますか?"
+
+msgid "Not now"
+msgstr "後で"
+
+msgid "Switch"
+msgstr "切り替える"
+
+msgid "Save a template for a new language"
+msgstr "新しい言語のテンプレートを保存"
+
+msgid "My language"
+msgstr "マイ言語"
+
+msgid "Template saved"
+msgstr "テンプレートを保存しました"
+
+msgid "{0}\n\nOpen it in a text editor (or a translation editor such as Poedit), set @code (two letters, for example \"sv\") and @name "
+msgstr "{0}\n\nテキスト エディター (または Poedit などの翻訳エディター) で開き、@code (2 文字、例: \"sv\") と @name "
+
+msgid "The template was not saved"
+msgstr "テンプレートは保存されませんでした"
+
+msgid "No browser or e-mail program here"
+msgstr "ブラウザーや電子メール プログラムがありません"
+
+msgid "This system cannot open links (Windows PE has no browser). Write it down: "
+msgstr "このシステムではリンクを開けません (Windows PE にはブラウザーがありません)。メモしてください: "
+
+msgid "Free for personal use"
+msgstr "個人利用は無料"
+
+msgid "PATio Boot Doctor is free for you to use at home: on your own PCs and on those of your family and friends. No time limit, no adverts, nothing to unlock."
+msgstr "PATio Boot Doctor は、ご家庭で無料でお使いいただけます。ご自分の PC や、ご家族・ご友人の PC にも使えます。期間の制限、広告、ロック解除はありません。"
+
+msgid "Using it for work?"
+msgstr "お仕事でお使いですか?"
+
+msgid "If you use it in a business, a repair shop or an IT department, or to look after other people's PCs for pay, please get in touch for a business licence. It is fairly priced, and it keeps these tools growing and improving."
+msgstr "企業、修理店、IT 部門でお使いの場合や、報酬を得てほかの人の PC を管理する場合は、ビジネス ライセンスについてお問い合わせください。手ごろな価格で、これらのツールの成長と改善を支えます。"
+
+msgid "Contact"
+msgstr "連絡先"
+
+msgid "E-mail"
+msgstr "電子メール"
+
+msgid "Website"
+msgstr "Web サイト"
+
+msgid "Made by MusPC with PatKit. It uses only Windows' own tools to make changes (diskpart, bcdedit, bcdboot, DISM and others), and always backs up first."
+msgstr "MusPC が PatKit で作成しました。変更には Windows 自身のツール (diskpart、bcdedit、bcdboot、DISM など) だけを使い、必ず先にバックアップします。"
+
+msgid "PowerShell is not available here"
+msgstr "ここでは PowerShell を使えません"
+
+msgid "The command prompt is not available here"
+msgstr "ここではコマンド プロンプトを使えません"
+
+msgid "This Windows PE or recovery system was made without PowerShell. Use the command prompt instead."
+msgstr "この Windows PE または回復システムは PowerShell なしで作られています。代わりにコマンド プロンプトを使ってください。"
+
+msgid "cmd.exe was not found."
+msgstr "cmd.exe が見つかりませんでした。"
+
+msgid "It could not be opened"
+msgstr "開けませんでした"
+
+msgid "No recovery image was found"
+msgstr "回復イメージが見つかりませんでした"
+
+msgid "A rescue stick is made from the Windows Recovery Environment (Winre.wim) of this PC, or from a Windows install USB stick.\n\n- Turn the recovery environment on: open the command prompt (admin) and type: reagentc /enable\n- Or plug in a Windows 10 or 11 install USB stick.\n\nThen scan again (Ctrl+R) and try once more."
+msgstr "レスキュー USB メモリは、この PC の Windows 回復環境 (Winre.wim) または Windows インストール用 USB メモリから作成します。\n\n- 回復環境を有効にする: コマンド プロンプト (管理者) を開き、次のように入力します: reagentc /enable\n- または、Windows 10 か 11 のインストール用 USB メモリを差し込みます。\n\nその後、もう一度スキャンして (Ctrl+R) やり直してください。"
+
+msgid "Plug in a USB stick"
+msgstr "USB メモリを差し込んでください"
+
+msgid "Plug in a USB stick of 1 GB or more. Everything on it will be erased, so use an empty one or copy its files first. Then scan again (Ctrl+R) and try once more."
+msgstr "1 GB 以上の USB メモリを差し込んでください。中のものはすべて消去されるため、空のものを使うか、先にファイルをコピーしてください。その後、もう一度スキャンして (Ctrl+R) やり直してください。"
+
+msgid "Make the rescue stick on this disk (erases it)"
+msgstr "このディスクにレスキュー USB メモリを作成する (消去されます)"
+
+msgid "Make a rescue USB stick on "
+msgstr "レスキュー USB メモリを作成: "
+
+msgid "Everything on this stick will be erased"
+msgstr "この USB メモリの内容はすべて消去されます"
+
+msgid "\n\nIt is made from: "
+msgstr "\n\n作成元: "
+
+msgid "). Making it takes about 5 to 15 minutes.\n\nTo make sure the right disk is erased, type its number ("
+msgstr ")。作成には 5 ～ 15 分ほどかかります。\n\n正しいディスクを消去するために、下にディスク番号 ("
+
+msgid ") below."
+msgstr ") を入力してください。"
+
+msgid "Make the stick"
+msgstr "USB メモリを作成する"
+
+msgid "Nothing was erased"
+msgstr "何も消去されませんでした"
+
+msgid "Making the rescue USB stick"
+msgstr "レスキュー USB メモリを作成中"
+
+msgid "Starting"
+msgstr "開始中"
+
+msgid "Close"
+msgstr "閉じる"
+
+msgid "Restart into firmware settings"
+msgstr "再起動してファームウェア設定を開く"
+
+msgid "Secure Boot"
+msgstr "Secure Boot"
+
+msgid "Restart now?"
+msgstr "今すぐ再起動しますか?"
+
+msgid "The PC restarts straight into its firmware settings in 10 seconds. Save your work and close other programs first."
+msgstr "10 秒後に PC が再起動し、ファームウェア設定が直接開きます。先に作業を保存し、ほかのプログラムを閉じてください。"
+
+msgid "Restart"
+msgstr "再起動"
+
+msgid ": too old for Secure Boot"
+msgstr ": Secure Boot には古すぎます"
+
+msgid ": starts without the signed \"shim\" loader"
+msgstr ": 署名された \"shim\" ローダーなしで起動します"
+
+msgid "Switching Secure Boot on can stop a system from starting at the next start, if that system or one of its drivers is not signed."
+msgstr "Secure Boot をオンにすると、システムやそのドライバーが署名されていない場合、次回からそのシステムが起動しなくなることがあります。"
+
+msgid " Nothing on this PC is known to need it off, but older tools, USB sticks and some drivers can still be refused."
+msgstr " この PC でオフにする必要があるものは見つかっていませんが、古いツール、USB メモリ、一部のドライバーは拒否される可能性があります。"
+
+msgid " On this PC these would not start any more:"
+msgstr " この PC では、次のものが起動しなくなります:"
+
+msgid "\n\nBitLocker is in use: Windows may ask for the recovery key once. Have it ready (aka.ms/myrecoverykey)."
+msgstr "\n\nBitLocker が使われています: Windows が一度だけ回復キーを求めることがあります。用意しておいてください (aka.ms/myrecoverykey)。"
+
+msgid "\n\nBefore you go on:\n1. Take a photo of this window with your phone now, so the steps below are with you while the firmware settings are on screen.\n2. In the firmware settings, take a photo of each page before you change anything on it, and of every change you make, before you choose \"Save and exit\". Then you can set everything back exactly.\n3. If the PC does not start afterwards: open the firmware settings again with the same key, set Secure Boot back to Disabled (and anything else back as in your photos), then save and exit.\n\n"
+msgstr "\n\n続ける前に:\n1. 今すぐこのウィンドウをスマートフォンで撮影してください。ファームウェア設定が画面に出ている間も、下の手順を確認できます。\n2. ファームウェア設定では、何かを変更する前に各ページを撮影し、変更するたびにも撮影してから \"Save and exit\" を選んでください。そうすれば、すべてを正確に元に戻せます。\n3. その後 PC が起動しない場合: 同じキーでもう一度ファームウェア設定を開き、Secure Boot を Disabled に戻し (ほかの項目も写真のとおりに戻し)、保存して終了してください。\n\n"
+
+msgid "Before you switch Secure Boot on"
+msgstr "Secure Boot をオンにする前に"
+
+msgid "I have taken the photo"
+msgstr "写真を撮りました"
+
+msgid "Restarting into the firmware settings"
+msgstr "再起動してファームウェア設定を開きます"
+
+msgid "in 10 seconds. Press Esc or the stop button to cancel."
+msgstr "10 秒後に実行します。Esc キーまたは停止ボタンで取り消せます。"
+
+msgid " second"
+msgstr " 秒"
+
+msgid " seconds"
+msgstr " 秒"
+
+msgid "This puts back what \""
+msgstr "バックアップから \""
+
+msgid "\" changed, from its backup. What is there now is saved first, so Redo can make the change again."
+msgstr "\" による変更を元に戻します。現在の状態は先に保存されるため、[やり直し] で再び変更できます。"
+
+msgid "Redo?"
+msgstr "やり直しますか?"
+
+msgid "\n\nIf the disks were changed in other ways since then, the result can differ. The disks are scanned again afterwards."
+msgstr "\n\nその後ディスクがほかの方法で変更されている場合、結果が異なることがあります。後でディスクが再スキャンされます。"
+
+msgid "Redo"
+msgstr "やり直し"
+
+msgid "Undo"
+msgstr "元に戻す"
+
+msgid "Automatic backups"
+msgstr "自動バックアップ"
+
+msgid "Before every change, this program saves a copy of what it is about to change. At the start of every session it also saves the start-up settings and partition tables of all disks. Undo puts a change back."
+msgstr "このプログラムは、変更の前に必ず変更する部分のコピーを保存します。各セッションの開始時には、すべてのディスクの起動設定とパーティション テーブルも保存します。[元に戻す] で変更を戻せます。"
+
+msgid "Backups are kept in: "
+msgstr "バックアップの保存場所: "
+
+msgid "Back up now"
+msgstr "今すぐバックアップ"
+
+msgid "Change folder"
+msgstr "フォルダーの変更"
+
+msgid "No sessions yet."
+msgstr "セッションはまだありません。"
+
+msgid " · this session"
+msgstr " · このセッション"
+
+msgid "entry"
+msgstr "件"
+
+msgid "entries"
+msgstr "件"
+
+msgid "Delete"
+msgstr "削除"
+
+msgid "Not finished"
+msgstr "未完了"
+
+msgid "Failed"
+msgstr "失敗"
+
+msgid "Undone"
+msgstr "元に戻し済み"
+
+msgid "Everything found on this PC (↑ / ↓)"
+msgstr "この PC で見つかったすべて (↑ / ↓)"
+
+msgid "\n\nWhat may have caused this: "
+msgstr "\n\n考えられる原因: "
+
+msgid "\nClick for details, double-click or Enter to carry out its first fix"
+msgstr "\nクリックで詳細、ダブルクリックまたは Enter で最初の修復を実行"
+
+msgid "\nClick to see it in the boot chain"
+msgstr "\nクリックすると起動チェーンで表示します"
+
+msgid "Carry out every step of the plan for "
+msgstr "次の計画の全段階を順に実行します: "
+
+msgid ", one after another. You are asked first."
+msgstr "。実行前に確認があります。"
+
+msgid "Everything found about this Windows, and what it takes to make it start"
+msgstr "この Windows について見つかったすべてと、起動させるために必要な作業"
+
+msgid "Show every step this Windows needs to start, as a chain (Ctrl+2)"
+msgstr "この Windows の起動に必要な全段階をチェーンで表示 (Ctrl+2)"
+
+msgid "Back to everything found on this PC"
+msgstr "この PC で見つかったすべてに戻る"
+
+msgid "\nDrive "
+msgstr "\nドライブ "
+
+msgid "\nMarked active (legacy start-up)"
+msgstr "\nアクティブ (レガシ起動)"
+
+msgid "\nEncrypted with BitLocker, locked"
+msgstr "\nBitLocker で暗号化、ロック中"
+
+msgid "\nEncrypted with BitLocker, unlocked"
+msgstr "\nBitLocker で暗号化、ロック解除済み"
+
+msgid "\nMarked as needing a disk check"
+msgstr "\nディスク チェックが必要"
+
+msgid "\nLinux id: "
+msgstr "\nLinux ID: "
+
+msgid "\nRuns past the end of the disk"
+msgstr "\nディスクの末尾を超えています"
+
+msgid "\nOverlaps another partition"
+msgstr "\n別のパーティションと重なっています"
+
+msgid "\nClick for what can be done with it, or right-click for a menu"
+msgstr "\nクリックでできる操作を表示、右クリックでメニュー"
+
+msgid "A Windows on this disk has no start-up partition. Open the report to create one."
+msgstr "このディスクの Windows には起動パーティションがありません。レポートを開いて作成してください。"
+
+msgid "What Secure Boot is, whether it is on, and how to switch it on or off"
+msgstr "Secure Boot とは何か、オンかどうか、オン/オフの切り替え方"
+
+msgid "Open a command prompt with administrator rights (for typing commands such as diskpart or bcdedit yourself)"
+msgstr "管理者権限でコマンド プロンプトを開く (diskpart や bcdedit などのコマンドを自分で入力する場合)"
+
+msgid "Open PowerShell with administrator rights"
+msgstr "管理者権限で PowerShell を開く"
+
+msgid "Make a USB stick that starts PATio Boot Doctor on any PC, even one whose Windows does not start. Everything on the stick is erased."
+msgstr "Windows が起動しない PC を含め、どの PC でも PATio Boot Doctor を起動できる USB メモリを作成します。USB メモリの内容はすべて消去されます。"
+
+msgid "Drag to make the console taller or shorter"
+msgstr "ドラッグしてコンソールの高さを変更"
+
+msgid "Close the console (Settings brings it back)"
+msgstr "コンソールを閉じる ([設定] で再表示できます)"
+
+msgid "Clear the console"
+msgstr "コンソールをクリア"
+
+msgid "Every command this program runs, and what it answered. Scroll with the mouse wheel."
+msgstr "このプログラムが実行するすべてのコマンドとその応答です。マウス ホイールでスクロールできます。"
+
+msgid "Write an e-mail to info@muspc.com"
+msgstr "info@muspc.com に電子メールを書く"
+
+msgid "Open www.muspc.com"
+msgstr "www.muspc.com を開く"
+
+msgid "Unused space: click to see what can be done with it (create a partition), or right-click for a menu"
+msgstr "未使用の領域: クリックでできる操作 (パーティションの作成) を表示、右クリックでメニュー"
+
+msgid "Click for what can be done with the whole disk (set up, convert, wipe, online / offline)"
+msgstr "クリックでディスク全体に対してできる操作 (初期化、変換、消去、オンライン/オフライン) を表示"
+
+msgid "Hide the short explanations of what each thing is"
+msgstr "各項目の短い説明を隠す"
+
+msgid "Show short explanations of what each thing is, for people new to this"
+msgstr "初めての方向けに、各項目の短い説明を表示"
+
+msgid "Put back what this change altered. What is there now is backed up first, so the undo can be undone too."
+msgstr "この変更で変わった部分を元に戻します。現在の状態は先にバックアップされるため、元に戻す操作も取り消せます。"
+
+msgid "Delete this session's backups from the disk. This cannot be undone."
+msgstr "このセッションのバックアップをディスクから削除します。この操作は元に戻せません。"
+
+msgid "\nThis change cannot be undone."
+msgstr "\nこの変更は元に戻せません。"
+
+msgid "Save the start-up settings and partition tables of all disks now (Ctrl+B)"
+msgstr "すべてのディスクの起動設定とパーティション テーブルを今すぐ保存 (Ctrl+B)"
+
+msgid "Choose another folder for backups. Use a drive that is not being repaired."
+msgstr "バックアップ用に別のフォルダーを選びます。修復の対象ではないドライブを使ってください。"
+
+msgid "Scroll with the mouse wheel or Page up / Page down"
+msgstr "マウス ホイールまたは Page Up / Page Down でスクロール"
+
+msgid "\nClick to choose it (or not) for recovering"
+msgstr "\nクリックで復元の対象に選択 (または解除)"
+
+msgid "Show only this kind of file"
+msgstr "この種類のファイルだけを表示"
+
+msgid "Choose every file shown"
+msgstr "表示されているファイルをすべて選択"
+
+msgid "Choose none of the files shown"
+msgstr "表示されているファイルの選択をすべて解除"
+
+msgid "Copy the chosen files to a folder on another drive"
+msgstr "選んだファイルを別のドライブのフォルダーにコピー"
+
+msgid "Back to Disks and partitions"
+msgstr "[ディスクとパーティション] に戻る"
+
+msgid "Put this partition back in the partition table. Its contents are not touched; Undo removes it again."
+msgstr "このパーティションをパーティション テーブルに戻します。中身には触れません。[元に戻す] で再び削除できます。"
+
+msgid "Read every sector of the unused space. This can take hours on a big disk."
+msgstr "未使用の領域のすべてのセクターを読み取ります。大きなディスクでは数時間かかることがあります。"
+
+msgid "Close this list"
+msgstr "この一覧を閉じる"
+
+msgid "Go on: you are asked once more before anything changes"
+msgstr "続ける: 何かが変更される前に、もう一度確認があります"
+
+msgid "Close the preview; nothing changes"
+msgstr "プレビューを閉じる (何も変更されません)"
+
+msgid "Use only the unused space right after it"
+msgstr "直後の未使用の領域だけを使う"
+
+msgid "Delete the partition right after it and use its space"
+msgstr "直後のパーティションを削除して、その領域を使う"
+
+msgid "Delete this saved key?"
+msgstr "この保存されたキーを削除しますか?"
+
+msgid "The BitLocker recovery key for {0} (saved {1}) is deleted from this PC. Keep a copy elsewhere (your Microsoft account, a printout) if you may need it again."
+msgstr "{0} の BitLocker 回復キー ({1} に保存) をこの PC から削除します。再び必要になる可能性がある場合は、別の場所 (Microsoft アカウント、印刷した紙) にコピーを保管してください。"
+
+msgid "Key deleted"
+msgstr "キーを削除しました"
+
+msgid "The key was not deleted"
+msgstr "キーは削除されませんでした"
+
+msgid "Delete all saved keys?"
+msgstr "保存されたキーをすべて削除しますか?"
+
+msgid "Every BitLocker recovery key remembered on this PC is deleted. Keep copies elsewhere if you may need them again."
+msgstr "この PC に記憶されている BitLocker 回復キーをすべて削除します。再び必要になる可能性がある場合は、別の場所にコピーを保管してください。"
+
+msgid "Delete all"
+msgstr "すべて削除"
+
+msgid "All saved keys deleted"
+msgstr "保存されたキーをすべて削除しました"
+
+msgid "The keys were not deleted"
+msgstr "キーは削除されませんでした"
+
+msgid "Use this folder"
+msgstr "このフォルダーを使う"
+
+msgid "This folder cannot be used"
+msgstr "このフォルダーは使えません"
+
+msgid "Nothing can be written to "
+msgstr "書き込めません: "
+
+msgid "Backup folder changed"
+msgstr "バックアップ フォルダーを変更しました"
+
+msgid "New backups go to "
+msgstr "新しいバックアップの保存先: "
+
+msgid "The backup folder was not changed"
+msgstr "バックアップ フォルダーは変更されませんでした"
+
+msgid "Delete these backups?"
+msgstr "これらのバックアップを削除しますか?"
+
+msgid "The backups of the session from "
+msgstr "開始日時 "
+
+msgid " are deleted from the disk. Its changes then cannot be undone any more."
+msgstr " のセッションのバックアップをディスクから削除します。その変更はもう元に戻せなくなります。"
+
+msgid "Not all backups were deleted"
+msgstr "一部のバックアップは削除されませんでした"
+
+msgid "Some files in "
+msgstr "場所 "
+
+msgid " are in use or read-only."
+msgstr " の一部のファイルが使用中か、読み取り専用です。"
+
+msgid "Save the report"
+msgstr "レポートの保存"
+
+msgid "Report saved"
+msgstr "レポートを保存しました"
+
+msgid "The report was not saved"
+msgstr "レポートは保存されませんでした"
+
+msgid "The file "
+msgstr "ファイル "
+
+msgid " could not be written. Choose another folder."
+msgstr " を書き込めませんでした。別のフォルダーを選んでください。"
+
+msgid "Reading disks"
+msgstr "ディスクを読み取り中"
+
+msgid "Saving a backup of the start-up setup"
+msgstr "起動構成のバックアップを保存中"
+
+msgid "Unlock BitLocker first?"
+msgstr "先に BitLocker のロックを解除しますか?"
+
+msgid "{0} is locked by BitLocker, so what is inside it cannot be seen. Windows may well be inside it, and the start-up entries and files this change touches may belong to it.\n\nUnlock it first and scan again; then decide."
+msgstr "{0} は BitLocker でロックされているため、中身を確認できません。Windows がその中にある可能性は十分にあり、この変更で触れる起動項目やファイルがその Windows のものかもしれません。\n\n先にロックを解除してもう一度スキャンし、それから判断してください。"
+
+msgid "Unlock first"
+msgstr "先にロックを解除する"
+
+msgid "Go on anyway"
+msgstr "このまま続ける"
+
+msgid "This is done:\n\n"
+msgstr "次の操作を行います:\n\n"
+
+msgid "These steps are done, one after another:\n\n"
+msgstr "次の段階を順に行います:\n\n"
+
+msgid "Before anything changes, a copy of what will change is saved in\n"
+msgstr "何かを変更する前に、変更される部分のコピーが次の場所に保存されます:\n"
+
+msgid "\nso History can undo it."
+msgstr "\n[履歴] から元に戻せます。"
+
+msgid " Steps marked \"cannot be undone\" are the exception."
+msgstr " \"元に戻せません\" と書かれた段階は例外です。"
+
+msgid "Repair "
+msgstr "修復: "
+
+msgid "Do all steps"
+msgstr "すべての段階を実行"
+
+msgid "Repairing"
+msgstr "修復中"
+
+msgid "Stopped before: "
+msgstr "次の段階の前で停止しました: "
+
+msgid "What this change altered on "
+msgstr "この変更で "
+
+msgid " is put back from its backup. What is there now is saved first, so this undo can be undone too.\n\nIf the disks were changed since then, the result can be different from before. Scan again afterwards."
+msgstr " に加えられた内容をバックアップから元に戻します。現在の状態は先に保存されるため、この取り消しも元に戻せます。\n\nその後ディスクが変更されている場合、結果が以前と異なることがあります。後でもう一度スキャンしてください。"
+
+msgid "Redoing"
+msgstr "やり直し中"
+
+msgid "Undoing"
+msgstr "元に戻しています"
+
+msgid "Choose a folder for backups first."
+msgstr "先にバックアップ用のフォルダーを選んでください。"
+
+msgid "Backing up"
+msgstr "バックアップ中"
+
+msgid "Start-up settings and partition tables"
+msgstr "起動設定とパーティション テーブル"
+
+msgid "Start-up setup, backed up on request"
+msgstr "起動構成 (手動でバックアップ)"
+
+msgid "Restart cancelled"
+msgstr "再起動を取り消しました"
+
+msgid "Nothing was changed."
+msgstr "何も変更されませんでした。"
+
+msgid "Working"
+msgstr "処理中"
+
+msgid "\n\nThe key is remembered on this PC (encrypted for your Windows account). Settings menu > Saved BitLocker keys deletes it."
+msgstr "\n\nキーはこの PC に記憶されます (お使いの Windows アカウント用に暗号化)。[設定] メニュー > [保存された BitLocker キー] で削除できます。"
+
+msgid "Backups cannot be saved"
+msgstr "バックアップを保存できません"
+
+msgid "\n\nRepairs stay off until a backup folder is chosen with the settings button."
+msgstr "\n\n設定ボタンでバックアップ フォルダーを選ぶまで、修復は使えません。"
+
+msgid "Scan finished"
+msgstr "スキャン完了"
+
+msgid " on "
+msgstr " · "
+
+msgid "thing needs"
+msgstr "件の項目に"
+
+msgid "things need"
+msgstr "件の項目に"
+
+msgid " attention."
+msgstr " 確認が必要です。"
+
+msgid "Nothing needs attention."
+msgstr "確認が必要なものはありません。"
+
+msgid "Backed up"
+msgstr "バックアップ完了"
+
+msgid "The start-up setup of all disks was saved. See History."
+msgstr "すべてのディスクの起動構成を保存しました。[履歴] を参照してください。"
+
+msgid "The backup was not complete"
+msgstr "バックアップは完了しませんでした"
+
+msgid "Redone"
+msgstr "やり直しました"
+
+msgid "The undo was not complete"
+msgstr "元に戻す操作は完了しませんでした"
+
+msgid "Rescue USB stick ready"
+msgstr "レスキュー USB メモリの準備ができました"
+
+msgid "The rescue stick was not made"
+msgstr "レスキュー USB メモリは作成されませんでした"
+
+msgid "Not done"
+msgstr "未実行"
+
+msgid "Repair finished"
+msgstr "修復完了"
+
+msgid "Repair stopped"
+msgstr "修復を停止しました"
+
+msgid "Done."
+msgstr "完了しました。"
+
+msgid "Something went wrong."
+msgstr "問題が発生しました。"
+
+msgid "\n\nThe disks were scanned again, so the report shows how things are now."
+msgstr "\n\nディスクが再スキャンされたため、レポートには現在の状態が表示されています。"
+
+msgid "Microsoft DiskPart\r\n\r\nDisk 1 is now the selected disk.\r\nPartition 1 is now the selected partition.\r\nDiskPart successfully assigned the drive letter or mount point."
+msgstr "Microsoft DiskPart\r\n\r\nディスク 1 が選択されました。\r\nパーティション 1 が選択されました。\r\nDiskPart はドライブ文字またはマウント ポイントを正常に割り当てました。"
+
+msgid "It runs into a partition that exists now, so it was partly overwritten or that partition was made over it."
+msgstr "現在あるパーティションにかかっているため、一部が上書きされたか、その上にそのパーティションが作られました。"
+
+msgid "Disks and partitions"
+msgstr "ディスクとパーティション"
+
+msgid "Recovered files"
+msgstr "復元したファイル"
+
+msgid "History"
+msgstr "履歴"
+
+msgid "Tools"
+msgstr "ツール"
+
+msgid "Make a USB rescue disk"
+msgstr "USB レスキュー ディスクを作成"
+
+msgid "Command prompt"
+msgstr "コマンド プロンプト"
+
+msgid "PowerShell"
+msgstr "PowerShell"
+
+msgid "Language: "
+msgstr "言語: "
+
+msgid "Shutting down in"
+msgstr "シャットダウンまで"
+
+msgid "Restarting in"
+msgstr "再起動まで"
+
+msgid "Hibernating in"
+msgstr "休止状態まで"
+
+msgid "Shut down"
+msgstr "シャットダウン"
+
+msgid "Hibernate"
+msgstr "休止状態"
+
+msgid "Everything found on this PC, and what it takes to fix it (Ctrl+H)"
+msgstr "この PC で見つかったすべてと、修復に必要な作業 (Ctrl+H)"
+
+msgid "Every step a system needs to start, shown as a chain (Ctrl+2)"
+msgstr "システムの起動に必要な全段階をチェーンで表示 (Ctrl+2)"
+
+msgid "Disks and partitions: create, delete, resize, unlock BitLocker, find lost partitions and recover deleted files (Ctrl+3)"
+msgstr "ディスクとパーティション: 作成、削除、サイズ変更、BitLocker のロック解除、失われたパーティションの検索、削除したファイルの復元 (Ctrl+3)"
+
+msgid "The deleted files found by the last search"
+msgstr "前回の検索で見つかった削除済みファイル"
+
+msgid "Backups and every change, with undo (Ctrl+4)"
+msgstr "バックアップとすべての変更 (元に戻すことができます) (Ctrl+4)"
+
+msgid "Change the language of this program"
+msgstr "このプログラムの表示言語を変更"
+
+msgid "Shut the PC down now or after a time you choose"
+msgstr "PC を今すぐ、または指定した時間後にシャットダウン"
+
+msgid "Restart the PC now or after a time you choose"
+msgstr "PC を今すぐ、または指定した時間後に再起動"
+
+msgid "Save everything that is open to the disk and switch off; it all comes back at the next start"
+msgstr "開いているものをすべてディスクに保存して電源を切ります。次回の起動時にすべて元に戻ります"
+
+msgid "Cancel the timed shut down, restart or hibernation"
+msgstr "予約したシャットダウン、再起動、休止状態を取り消す"
+
+msgid "Now"
+msgstr "今すぐ"
+
+msgid "In {0} minutes"
+msgstr "{0} 分後"
+
+msgid "In 1 hour"
+msgstr "1 時間後"
+
+msgid "In 2 hours"
+msgstr "2 時間後"
+
+msgid "In 1 minute"
+msgstr "1 分後"
+
+msgid "At a time I choose…"
+msgstr "時刻を指定…"
+
+msgid "Cancel the timer"
+msgstr "タイマーを取り消す"
+
+msgid "shut down"
+msgstr "シャットダウン"
+
+msgid "restart"
+msgstr "再起動"
+
+msgid "hibernate"
+msgstr "休止状態"
+
+msgid "Everything that is open is saved to the disk and the PC switches off. It all comes back at the next start."
+msgstr "開いているものはすべてディスクに保存され、PC の電源が切れます。次回の起動時にすべて元に戻ります。"
+
+msgid "Programs that are open are closed; unsaved work in them is lost."
+msgstr "開いているプログラムは閉じられます。保存していない作業は失われます。"
+
+msgid "\n\nWork is still running here: it waits until that has finished."
+msgstr "\n\nここで処理を実行中です。終わるまで待ってから実行します。"
+
+msgid "Shut down now?"
+msgstr "今すぐシャットダウンしますか?"
+
+msgid "Hibernate now?"
+msgstr "今すぐ休止状態にしますか?"
+
+msgid "When?"
+msgstr "いつ実行しますか?"
+
+msgid "Type in how many minutes to {0} (for example 45), or a time of day (for example 23:30)."
+msgstr "{0} までの分数 (例: 45) か、時刻 (例: 23:30) を入力してください。"
+
+msgid "Set the timer"
+msgstr "タイマーを設定"
+
+msgid "That is not a time"
+msgstr "時間として認識できません"
+
+msgid "Type a number of minutes (1 to 1440) or a time of day such as 23:30."
+msgstr "分数 (1 ～ 1440) か、23:30 のような時刻を入力してください。"
+
+msgid "Shut down timer set"
+msgstr "シャットダウン タイマーを設定しました"
+
+msgid "Restart timer set"
+msgstr "再起動タイマーを設定しました"
+
+msgid "Hibernate timer set"
+msgstr "休止状態タイマーを設定しました"
+
+msgid "In {0}. Cancel it at the bottom of the left pane."
+msgstr "{0} 後に実行します。左側のウィンドウの下部で取り消せます。"
+
+msgid "Timer cancelled"
+msgstr "タイマーを取り消しました"
+
+msgid "The PC stays on."
+msgstr "PC の電源は入ったままです。"
+
+msgid "Shutting down in 1 minute"
+msgstr "1 分後にシャットダウンします"
+
+msgid "Restarting in 1 minute"
+msgstr "1 分後に再起動します"
+
+msgid "Hibernating in 1 minute"
+msgstr "1 分後に休止状態にします"
+
+msgid "Save your work in other programs."
+msgstr "ほかのプログラムで作業を保存してください。"
+
+msgid "It did not work"
+msgstr "うまくいきませんでした"
+
+msgid "Type the 48-digit recovery key of {0}. You find it in your Microsoft account (aka.ms/myrecoverykey), on a printout, or with your IT department. The dashes are added for you."
+msgstr "{0} の 48 桁の回復キーを入力してください。キーは Microsoft アカウント (aka.ms/myrecoverykey)、印刷した紙、または IT 部門で確認できます。ハイフンは自動的に入ります。"
+
+msgid "\n\nA key saved on this PC on {0} for this drive was filled in."
+msgstr "\n\n{0} にこの PC に保存された、このドライブのキーが入力されています。"
+
+msgid "BitLocker recovery key"
+msgstr "BitLocker 回復キー"
+
+msgid "Unlock"
+msgstr "ロック解除"
+
+msgid "That is not a recovery key"
+msgstr "回復キーではありません"
+
+msgid "A BitLocker recovery key has 48 digits, in 8 groups of 6. Check it and try again."
+msgstr "BitLocker 回復キーは 48 桁の数字で、6 桁ずつ 8 つのグループに分かれています。確認してもう一度お試しください。"
+
+msgid "One of the groups of 6 digits is mistyped (each group of a real key can be divided by 11). Check it and try again."
+msgstr "6 桁のグループのどれかが間違っています (本物のキーの各グループは 11 で割り切れます)。確認してもう一度お試しください。"
+
+msgid "Do not save the key"
+msgstr "キーを保存しない"
+
+msgid "Remember it on this PC"
+msgstr "この PC に記憶する"
+
+msgid "Saved BitLocker keys"
+msgstr "保存された BitLocker キー"
+
+msgid "No recovery keys are saved on this PC. When you unlock a drive, choose \"Remember it on this PC\" to save its key here (encrypted, for your Windows account only)."
+msgstr "この PC に保存された回復キーはありません。ドライブのロックを解除するときに [この PC に記憶する] を選ぶと、キーがここに保存されます (暗号化され、お使いの Windows アカウント専用です)。"
+
+msgid "Click a key to delete it"
+msgstr "キーをクリックすると削除できます"
+
+msgid "Delete all saved keys"
+msgstr "保存されたキーをすべて削除"
+
+msgid "Measuring what can be removed"
+msgstr "削除できる量を計算中"
+
+msgid "About {0} can be freed. Personal files, programs and settings are not touched. Files in use are left alone."
+msgstr "約 {0} の空き領域を作れます。個人用ファイル、プログラム、設定には触れません。使用中のファイルはそのままにします。"
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "This is not possible for this kind of partition."
+msgstr "この種類のパーティションではできません。"
+
+msgid "There is nothing after it to use"
+msgstr "直後に使えるものがありません"
+
+msgid "A partition can only grow into space right after it. There is no unused space and no partition right after this one."
+msgstr "パーティションは直後にある領域にしか広げられません。このパーティションの直後には、未使用の領域もパーティションもありません。"
+
+msgid "Unused"
+msgstr "未使用"
+
+msgid "deleted"
+msgstr "削除"
+
+msgid "Preview: make {0} smaller"
+msgstr "プレビュー: {0} を小さくする"
+
+msgid "Preview: make {0} bigger"
+msgstr "プレビュー: {0} を大きくする"
+
+msgid "Use the unused space after it ({0})"
+msgstr "直後の未使用の領域 ({0}) を使う"
+
+msgid "Delete {0} after it and use its space"
+msgstr "直後の {0} を削除して、その領域を使う"
+
+msgid "Afterwards"
+msgstr "変更後"
+
+msgid "Changing partitions is safe in almost all cases, but a power cut or a crash while it runs can damage the drive and lose data. Back up important files first, keep a laptop plugged in, and close other programs."
+msgstr "パーティションの変更はほとんどの場合安全ですが、実行中の停電やクラッシュでドライブが壊れ、データが失われることがあります。先に大切なファイルをバックアップし、ノート PC は電源につなぎ、ほかのプログラムを閉じてください。"
+
+msgid "Everything on {0} is erased."
+msgstr "{0} の内容はすべて消去されます。"
+
+msgid " It is a recovery partition: Windows' troubleshoot options are on it. After this, recreate them from the report (\"Recreate the recovery partition\"), which takes 1 GB back."
+msgstr " これは回復パーティションで、Windows のトラブルシューティング オプションが入っています。この後、レポートから作り直してください ([回復パーティションを作り直す]。1 GB を使います)。"
+
+msgid " This drive uses BitLocker: have its recovery key ready."
+msgstr " このドライブは BitLocker を使っています。回復キーを用意してください。"
+
+msgid "Full search for lost partitions"
+msgstr "失われたパーティションのフル検索"
+
+msgid "Quick search for lost partitions"
+msgstr "失われたパーティションのクイック検索"
+
+msgid "Search finished"
+msgstr "検索完了"
+
+msgid "No lost partitions were found."
+msgstr "失われたパーティションは見つかりませんでした。"
+
+msgid "lost partition found"
+msgstr "個の失われたパーティションが見つかりました"
+
+msgid "lost partitions found"
+msgstr "個の失われたパーティションが見つかりました"
+
+msgid "Lost partitions · full search"
+msgstr "失われたパーティション · フル検索"
+
+msgid "Lost partitions · quick search"
+msgstr "失われたパーティション · クイック検索"
+
+msgid "Nothing was found. The partitions were probably overwritten."
+msgstr "何も見つかりませんでした。パーティションはおそらく上書きされています。"
+
+msgid "Nothing was found where partitions normally start. The full search reads every sector and also finds the backup copies file systems keep."
+msgstr "パーティションが通常始まる位置には何も見つかりませんでした。フル検索ではすべてのセクターを読み取り、ファイル システムが保持している予備コピーも見つけます。"
+
+msgid " · starts at "
+msgstr " · 開始位置 "
+
+msgid "Put it back"
+msgstr "元に戻す"
+
+msgid "Found through its backup copy (its first sector is damaged). "
+msgstr "予備コピーから見つかりました (最初のセクターが壊れています)。 "
+
+msgid "Full search (slow)"
+msgstr "フル検索 (時間がかかります)"
+
+msgid "The {0} partition ({1}) is put back in the partition table of Disk {2}, where it was. Its files are not touched; nothing is written inside it.\n\nIf the files look wrong afterwards, Undo (Ctrl+Z) removes it from the table again."
+msgstr "{0} パーティション ({1}) を、元あったディスク {2} のパーティション テーブルに戻します。ファイルには触れず、中には何も書き込みません。\n\n戻した後にファイルがおかしく見える場合は、[元に戻す] (Ctrl+Z) でテーブルから再び削除できます。"
+
+msgid "\n\nIts first sector is damaged: after putting it back, run \"Check for errors\" on it, which repairs the first sector from the backup copy."
+msgstr "\n\n最初のセクターが壊れています。戻した後で [エラーをチェックする] を実行すると、予備コピーから最初のセクターが修復されます。"
+
+msgid "Put the partition back?"
+msgstr "パーティションを戻しますか?"
+
+msgid "Restore a lost partition"
+msgstr "失われたパーティションを戻す"
+
+msgid "Good"
+msgstr "良好"
+
+msgid "May be damaged"
+msgstr "破損している可能性あり"
+
+msgid "Probably overwritten"
+msgstr "上書きされている可能性大"
+
+msgid "Full search for deleted files"
+msgstr "削除したファイルのフル検索"
+
+msgid "Quick search for deleted files"
+msgstr "削除したファイルのクイック検索"
+
+msgid "No search yet"
+msgstr "まだ検索していません"
+
+msgid "In Disks and partitions, click a partition and choose \"Recover deleted files\"."
+msgstr "[ディスクとパーティション] でパーティションをクリックし、[削除したファイルを復元する] を選んでください。"
+
+msgid "Deleted files on {0}"
+msgstr "{0} の削除済みファイル"
+
+msgid " · full search"
+msgstr " · フル検索"
+
+msgid " · quick search"
+msgstr " · クイック検索"
+
+msgid "Save recovered files to a different drive, never to this one: writing here can overwrite the very files you want back."
+msgstr "復元したファイルは、このドライブではなく必ず別のドライブに保存してください。ここに書き込むと、取り戻したいファイルそのものが上書きされることがあります。"
+
+msgid "Recover {0} files…"
+msgstr "{0} 個のファイルを復元…"
+
+msgid "Recover chosen files…"
+msgstr "選んだファイルを復元…"
+
+msgid "Choose all shown"
+msgstr "表示されているものをすべて選択"
+
+msgid "Choose none"
+msgstr "選択解除"
+
+msgid "Back to the disks"
+msgstr "ディスクに戻る"
+
+msgid "All"
+msgstr "すべて"
+
+msgid "Pictures"
+msgstr "画像"
+
+msgid "Documents"
+msgstr "ドキュメント"
+
+msgid "Music and videos"
+msgstr "音楽とビデオ"
+
+msgid "Archives"
+msgstr "アーカイブ"
+
+msgid "Other"
+msgstr "その他"
+
+msgid "No files chosen"
+msgstr "ファイルが選ばれていません"
+
+msgid "Click the files you want back (or \"Choose all shown\"), then try again."
+msgstr "取り戻したいファイルをクリックして (または [表示されているものをすべて選択])、もう一度お試しください。"
+
+msgid "Where should the files go? (another drive)"
+msgstr "ファイルの保存先 (別のドライブ)"
+
+msgid "Recover here"
+msgstr "ここに復元"
+
+msgid "Choose another drive"
+msgstr "別のドライブを選ぶ"
+
+msgid "This folder is on the drive the files are recovered from. Writing there can overwrite the deleted files. Choose a folder on another drive, for example a USB stick."
+msgstr "このフォルダーは、ファイルを復元する元のドライブにあります。そこに書き込むと、削除されたファイルが上書きされることがあります。別のドライブ (USB メモリなど) のフォルダーを選んでください。"
+
+msgid "Recovering files"
+msgstr "ファイルを復元中"
+
+msgid "{0} files, {1}"
+msgstr "{0} 個のファイル、{1}"
+
+msgid "{0} files were recovered to {1}."
+msgstr "{0} 個のファイルを {1} に復元しました。"
+
+msgid "{0} files came back only partly or not at all; their space was probably used again."
+msgstr "{0} 個のファイルは一部しか、またはまったく戻りませんでした。その領域はおそらく再使用されています。"
+
+msgid "Recovered, with some problems"
+msgstr "復元しました (一部問題あり)"
+
+msgid "Files recovered"
+msgstr "ファイルを復元しました"
+
+msgid "{0} files found. Files marked \"may be damaged\" had part of their space used again since they were deleted."
+msgstr "{0} 個のファイルが見つかりました。\"破損している可能性あり\" と表示されたファイルは、削除後にその領域の一部が再使用されています。"
+
+msgid "Looking for lost partitions"
+msgstr "失われたパーティションを検索中"
+
+msgid "Looking for lost partitions, sector by sector"
+msgstr "失われたパーティションをセクターごとに検索中"
+
+msgid "Its size is not written in its first sector, so all unused space after it is used."
+msgstr "最初のセクターにサイズが書かれていないため、その後の未使用の領域をすべて使います。"
+
+msgid "It starts inside a partition that exists now."
+msgstr "現在あるパーティションの内部から始まっています。"
+
+msgid "It does not start on a sector boundary."
+msgstr "セクターの境界から始まっていません。"
+
+msgid "The partition is back in the partition table. Its files were not touched. If it has no drive letter, give it one in Disks and partitions."
+msgstr "パーティションをパーティション テーブルに戻しました。ファイルには触れていません。ドライブ文字がない場合は、[ディスクとパーティション] で割り当ててください。"
+
+msgid "The partition could not be put back. "
+msgstr "パーティションを戻せませんでした。 "
+
+msgid "The partition could not be opened."
+msgstr "パーティションを開けませんでした。"
+
+msgid "This drive is locked by BitLocker. Unlock it first: its contents cannot be read while it is locked."
+msgstr "このドライブは BitLocker でロックされています。ロック中は中身を読み取れないため、先にロックを解除してください。"
+
+msgid "The file list of this drive is damaged. The full scan can still find files by their contents."
+msgstr "このドライブのファイル一覧が壊れています。フル スキャンなら、内容からファイルを見つけられます。"
+
+msgid "Reading the file list"
+msgstr "ファイル一覧を読み取り中"
+
+msgid "(folder unknown)"
+msgstr "(フォルダー不明)"
+
+msgid "(folder unknown)\\"
+msgstr "(フォルダー不明)\\"
+
+msgid "A quick search only works on NTFS drives (most Windows drives). Use the full scan: it finds pictures and PDFs by their contents on any drive."
+msgstr "クイック検索は NTFS ドライブ (ほとんどの Windows ドライブ) でのみ使えます。フル スキャンを使ってください。どのドライブでも、内容から画像や PDF を見つけます。"
+
+msgid "Reading the whole drive"
+msgstr "ドライブ全体を読み取り中"
+
+msgid "(found by the deep scan)"
+msgstr "(詳細スキャンで検出)"
+
+msgid "(found by contents)\\Documents"
+msgstr "(内容から検出)\\Documents"
+
+msgid "(found by contents)\\Pictures"
+msgstr "(内容から検出)\\Pictures"
+
+msgid "No deleted files were found."
+msgstr "削除されたファイルは見つかりませんでした。"
+
+msgid "Could not create "
+msgstr "作成できませんでした: "
+
+msgid "Only partly recovered: "
+msgstr "一部だけ復元: "
+
+msgid "Windows has no volume for "
+msgstr "Windows には次のボリュームがありません: "
+
+msgid ", so it cannot be opened."
+msgstr "。そのため開けません。"
+
+msgid "No free drive letter is left."
+msgstr "空いているドライブ文字が残っていません。"
+
+msgid "There is no start-up partition to put the files on. Create one first."
+msgstr "ファイルを置く起動パーティションがありません。先に作成してください。"
+
+msgid "The start-up partition could not be marked active. "
+msgstr "起動パーティションをアクティブにできませんでした。 "
+
+msgid "Marked "
+msgstr "設定しました: "
+
+msgid "bcdboot.exe, the Windows tool that writes start-up files, was not found here."
+msgstr "起動ファイルを書き込む Windows のツール bcdboot.exe が見つかりませんでした。"
+
+msgid "Fresh start-up files were written and this Windows now starts first."
+msgstr "新しい起動ファイルを書き込み、この Windows が最初に起動するようになりました。"
+
+msgid "The start-up files could not be written. The tool said: "
+msgstr "起動ファイルを書き込めませんでした。ツールのメッセージ: "
+
+msgid "The start-up settings were not found."
+msgstr "起動設定が見つかりませんでした。"
+
+msgid "The start-up settings could not be changed. "
+msgstr "起動設定を変更できませんでした。 "
+
+msgid "Windows' settings file could not be opened. "
+msgstr "Windows の設定ファイルを開けませんでした。 "
+
+msgid "Turned on "
+msgstr "有効にしました: "
+
+msgid "The disk drivers are turned on again."
+msgstr "ディスク ドライバーを再び有効にしました。"
+
+msgid "The disk drivers were already on."
+msgstr "ディスク ドライバーは既に有効でした。"
+
+msgid "The unfinished set-up mark is cleared."
+msgstr "セットアップ未完了の印を消しました。"
+
+msgid "The set-up mark could not be changed."
+msgstr "セットアップの印を変更できませんでした。"
+
+msgid "No Windows was chosen."
+msgstr "Windows が選ばれていません。"
+
+msgid "Taking the repair tools from the Windows install stick"
+msgstr "Windows インストール用 USB メモリから修復ツールを取得中"
+
+msgid "No copy of Windows' repair tools (Winre.wim) was found on this PC. Plug in a Windows install USB stick of the same Windows version (with sources\\install.wim), scan again and try once more."
+msgstr "この PC に Windows の修復ツール (Winre.wim) のコピーが見つかりませんでした。同じバージョンの Windows のインストール用 USB メモリ (sources\\install.wim を含むもの) を差し込み、もう一度スキャンしてやり直してください。"
+
+msgid "There is no room for a recovery partition: no unused space on the disk, and the Windows partition has less than 4 GB free to give up 1 GB. Free up space first."
+msgstr "回復パーティション用の領域がありません。ディスクに未使用の領域がなく、Windows パーティションの空き容量も 1 GB を手放すのに必要な 4 GB 未満です。先に空き領域を増やしてください。"
+
+msgid "This MBR disk already has four partitions, the most it can hold."
+msgstr "この MBR ディスクには既にパーティションが 4 つあり、これが上限です。"
+
+msgid "Making the recovery partition"
+msgstr "回復パーティションを作成中"
+
+msgid "The recovery partition could not be made. "
+msgstr "回復パーティションを作成できませんでした。 "
+
+msgid "Copying the repair tools"
+msgstr "修復ツールをコピー中"
+
+msgid "Switching the troubleshoot options on"
+msgstr "トラブルシューティング オプションを有効にしています"
+
+msgid "The recovery partition was made, but the repair tools could not be copied onto it. "
+msgstr "回復パーティションは作成しましたが、修復ツールをコピーできませんでした。 "
+
+msgid "The recovery partition was recreated and the troubleshoot options are switched on."
+msgstr "回復パーティションを作り直し、トラブルシューティング オプションを有効にしました。"
+
+msgid "The recovery partition was recreated with the repair tools on it. Windows could not be told about it from here: in Windows, open the command prompt (admin) and type: reagentc /enable"
+msgstr "修復ツールを入れた回復パーティションを作り直しました。ここからは Windows に登録できませんでした。Windows でコマンド プロンプト (管理者) を開き、次のように入力してください: reagentc /enable"
+
+msgid "The partition was not found."
+msgstr "パーティションが見つかりませんでした。"
+
+msgid "Not renamed, because it already exists: "
+msgstr "既に存在するため、名前を変更しませんでした: "
+
+msgid "Renamed "
+msgstr "名前を変更しました: "
+
+msgid "Could not rename "
+msgstr "名前を変更できませんでした: "
+
+msgid "Windows' folders have their own names again. Scan again to check this Windows."
+msgstr "Windows のフォルダー名が元に戻りました。もう一度スキャンして、この Windows を確認してください。"
+
+msgid "Not every folder could be renamed. See the details."
+msgstr "一部のフォルダーの名前を変更できませんでした。詳細を確認してください。"
+
+msgid "This Windows is shown in the start-up menu again."
+msgstr "この Windows が再び起動メニューに表示されるようになりました。"
+
+msgid "Automatic Repair is off for this Windows. Start the PC and note the error message it shows; that tells what to fix next."
+msgstr "この Windows の自動修復をオフにしました。PC を起動して、表示されるエラー メッセージをメモしてください。次に何を修復すればよいかがわかります。"
+
+msgid "The entry was removed from the start-up settings and the menu."
+msgstr "項目を起動設定とメニューから削除しました。"
+
+msgid "The entry was taken off the start-up menu."
+msgstr "項目を起動メニューから外しました。"
+
+msgid "The PC is restarting into its firmware settings."
+msgstr "PC を再起動してファームウェア設定を開いています。"
+
+msgid "The start-up partition was not found."
+msgstr "起動パーティションが見つかりませんでした。"
+
+msgid "The PC's start-up list is full."
+msgstr "PC の起動リストがいっぱいです。"
+
+msgid "Wrote "
+msgstr "書き込みました: "
+
+msgid " for "
+msgstr " → "
+
+msgid " and added it to BootOrder.\r\n"
+msgstr " 、BootOrder に追加しました。\r\n"
+
+msgid "Linux was added to the PC's start-up list. Pick it in the PC's boot menu, or use \"Make Linux start first\"."
+msgstr "Linux を PC の起動リストに追加しました。PC のブート メニューで選ぶか、[Linux が最初に起動するようにする] を使ってください。"
+
+msgid "The entry was written, but it could not be added to the start-up order."
+msgstr "項目は書き込みましたが、起動順序に追加できませんでした。"
+
+msgid "The entry was not found."
+msgstr "項目が見つかりませんでした。"
+
+msgid " now starts first. Its menu usually lets you choose Windows too."
+msgstr " が最初に起動するようになりました。通常、そのメニューから Windows も選べます。"
+
+msgid "The PC did not allow its start-up order to be changed (error "
+msgstr "PC が起動順序の変更を許可しませんでした (エラー "
+
+msgid "The leftover boot loader was removed."
+msgstr "残っていたブート ローダーを削除しました。"
+
+msgid "Some files of the boot loader could not be deleted."
+msgstr "ブート ローダーの一部のファイルを削除できませんでした。"
+
+msgid " and took it out of BootOrder.\r\n"
+msgstr " 、BootOrder から外しました。\r\n"
+
+msgid "The entry was removed from the PC's start-up list."
+msgstr "項目を PC の起動リストから削除しました。"
+
+msgid "The entry was taken out of the start-up order, but the PC did not allow the entry itself to be deleted (error "
+msgstr "項目を起動順序から外しましたが、PC が項目自体の削除を許可しませんでした (エラー "
+
+msgid " is now the active start-up partition."
+msgstr " がアクティブな起動パーティションになりました。"
+
+msgid "Both copies of the partition table were written again."
+msgstr "パーティション テーブルの 2 つのコピーを両方とも書き直しました。"
+
+msgid "The disk or its start-up partition was not found."
+msgstr "ディスクまたはその起動パーティションが見つかりませんでした。"
+
+msgid "bootsect.exe is not available here."
+msgstr "ここでは bootsect.exe を使えません。"
+
+msgid "Fresh start-up code was written to the disk and the start-up partition."
+msgstr "ディスクと起動パーティションに新しい起動コードを書き込みました。"
+
+msgid "The start-up code could not be written. "
+msgstr "起動コードを書き込めませんでした。 "
+
+msgid "The new start-up partition could not be created. "
+msgstr "新しい起動パーティションを作成できませんでした。 "
+
+msgid "\r\n> bcdboot "
+msgstr "\r\n> bcdboot "
+
+msgid "A new start-up partition was created and fresh start-up files were put on it."
+msgstr "新しい起動パーティションを作成し、新しい起動ファイルを置きました。"
+
+msgid "The partition was created, but the start-up files could not be written. Try \"Rebuild the start-up files\" after scanning again."
+msgstr "パーティションは作成しましたが、起動ファイルを書き込めませんでした。もう一度スキャンしてから [起動ファイルを作り直す] をお試しください。"
+
+msgid "The disk check could not finish. "
+msgstr "ディスク チェックを完了できませんでした。 "
+
+msgid "The drive is in use, so the check runs the next time Windows starts."
+msgstr "ドライブが使用中のため、チェックは次回 Windows の起動時に実行されます。"
+
+msgid "The disk check found and repaired errors."
+msgstr "ディスク チェックでエラーが見つかり、修復されました。"
+
+msgid "The disk check finished. No errors needed repair."
+msgstr "ディスク チェックが完了しました。修復が必要なエラーはありませんでした。"
+
+msgid "The drive is unlocked. Scan again to check it."
+msgstr "ドライブのロックを解除しました。もう一度スキャンして確認してください。"
+
+msgid "The drive could not be unlocked. Check the recovery key and try again."
+msgstr "ドライブのロックを解除できませんでした。回復キーを確認して、もう一度お試しください。"
+
+msgid "Put back the backup copy of "
+msgstr "次のバックアップ コピーを戻しました: "
+
+msgid "The registry's backup copy was put back."
+msgstr "レジストリのバックアップ コピーを戻しました。"
+
+msgid "The backup copy could not be put back. "
+msgstr "バックアップ コピーを戻せませんでした。 "
+
+msgid "Repairing Windows system files. This takes 10 to 30 minutes"
+msgstr "Windows システム ファイルを修復中です。10 ～ 30 分かかります"
+
+msgid "The file check did not finish. It may need the same Windows version to run it."
+msgstr "ファイル チェックが完了しませんでした。同じバージョンの Windows から実行する必要があるかもしれません。"
+
+msgid "Some damaged files could not be repaired."
+msgstr "一部の壊れたファイルを修復できませんでした。"
+
+msgid "Damaged Windows files were repaired."
+msgstr "壊れた Windows ファイルを修復しました。"
+
+msgid "The file check finished."
+msgstr "ファイル チェックが完了しました。"
+
+msgid "Undoing unfinished updates"
+msgstr "未完了の更新を元に戻しています"
+
+msgid "The updates could not be undone. "
+msgstr "更新を元に戻せませんでした。 "
+
+msgid "This Windows is already at the top of the drive."
+msgstr "この Windows は既にドライブの最上位にあります。"
+
+msgid "Left in place (the top of the drive already has it): "
+msgstr "そのままにしました (ドライブの最上位に既にあります): "
+
+msgid "Windows was moved back to the top of the drive ("
+msgstr "Windows をドライブの最上位に戻しました ("
+
+msgid " items"
+msgstr " 項目"
+
+msgid " left in place"
+msgstr " 項目はそのまま"
+
+msgid "Windows could not be moved back."
+msgstr "Windows を元に戻せませんでした。"
+
+msgid "The troubleshoot options are switched on. They appear by themselves when Windows cannot start (or hold Shift while choosing Restart)."
+msgstr "トラブルシューティング オプションを有効にしました。Windows が起動できないときに自動的に表示されます (または Shift キーを押しながら [再起動] を選びます)。"
+
+msgid "Windows' tool did not switch them on. "
+msgstr "Windows のツールで有効にできませんでした。 "
+
+msgid " files removed, "
+msgstr " 個のファイルを削除、 "
+
+msgid " in use and left."
+msgstr " 個は使用中のため残しました。"
+
+msgid "{0} freed ({1} files). {2} is free now."
+msgstr "{0} を解放しました ({1} 個のファイル)。現在の空き容量は {2} です。"
+
+msgid "This fix is not known."
+msgstr "この修復方法は不明です。"
+
+msgid " Start the PC from a Windows USB stick or Windows' recovery tools and run this program there."
+msgstr " Windows の USB メモリまたは Windows の回復ツールから PC を起動し、そこでこのプログラムを実行してください。"
+
+msgid "The tool for this (bootsect.exe) is only part of Windows' recovery tools and install USB sticks."
+msgstr "このためのツール (bootsect.exe) は、Windows の回復ツールとインストール用 USB メモリにしか含まれていません。"
+
+msgid "This PC cannot be asked to open its firmware settings from here. Restart it and press its settings key (often Delete, F2, F10, F1 or Esc) right after switching it on."
+msgstr "ここからこの PC にファームウェア設定を開くよう指示できません。再起動して、電源を入れた直後に設定キー (多くの場合 Delete、F2、F10、F1、Esc) を押してください。"
+
+msgid "This program cannot change the PC's start-up list here. Remove the entry in the PC's firmware settings (often under \"Boot\")."
+msgstr "ここではこのプログラムで PC の起動リストを変更できません。PC のファームウェア設定 (多くの場合 \"Boot\" の下) で項目を削除してください。"
+
+msgid "Windows' tool for this (reagentc.exe) is not part of this system."
+msgstr "このための Windows のツール (reagentc.exe) はこのシステムにありません。"
+
+msgid "diskpart.exe is not part of this system."
+msgstr "diskpart.exe はこのシステムにありません。"
+
+msgid "DISM is not part of this system."
+msgstr "DISM はこのシステムにありません。"
+
+msgid "The file checker (sfc.exe) is not part of this system."
+msgstr "ファイル チェッカー (sfc.exe) はこのシステムにありません。"
+
+msgid "There is not enough free space: the Windows drive needs at least 2 GB free to give up 300 MB."
+msgstr "空き容量が足りません。300 MB を手放すには、Windows ドライブに 2 GB 以上の空きが必要です。"
+
+msgid "This is the Windows that is running now."
+msgstr "これは現在実行中の Windows です。"
+
+msgid "bcdboot.exe, the Windows tool that writes start-up files, is not part of this system."
+msgstr "起動ファイルを書き込む Windows のツール bcdboot.exe はこのシステムにありません。"
+
+msgid "Saved "
+msgstr "保存しました: "
+
+msgid " start-up settings file"
+msgstr " 個の起動設定ファイル"
+
+msgid " start-up settings files"
+msgstr " 個の起動設定ファイル"
+
+msgid " and the partition tables of every disk."
+msgstr " と、すべてのディスクのパーティション テーブル。"
+
+msgid "Windows Recovery Environment on "
+msgstr "Windows 回復環境、場所: "
+
+msgid "Windows install or rescue media on "
+msgstr "Windows インストールまたはレスキュー メディア、場所: "
+
+msgid "Windows Recovery Environment of "
+msgstr "次の Windows の回復環境: "
+
+msgid "The USB stick was not found. Plug it in again and scan again."
+msgstr "USB メモリが見つかりませんでした。もう一度差し込んで、もう一度スキャンしてください。"
+
+msgid "DISM, the Windows tool that opens system images, is not part of this system."
+msgstr "システム イメージを開く Windows のツール DISM はこのシステムにありません。"
+
+msgid "Copying the recovery image"
+msgstr "回復イメージをコピー中"
+
+msgid "The recovery image could not be copied. Is there 1 GB free on "
+msgstr "回復イメージをコピーできませんでした。次のドライブに 1 GB の空きがありますか: "
+
+msgid "Opening the image"
+msgstr "イメージを開いています"
+
+msgid "The image could not be opened. DISM said: "
+msgstr "イメージを開けませんでした。DISM のメッセージ: "
+
+msgid "Stopped. Nothing was written to the USB stick."
+msgstr "停止しました。USB メモリには何も書き込まれていません。"
+
+msgid "Adding PATio Boot Doctor to the image"
+msgstr "PATio Boot Doctor をイメージに追加中"
+
+msgid "The start-up files needed for the stick (bootmgfw.efi, boot.sdi) were not found in the image or in this Windows."
+msgstr "USB メモリに必要な起動ファイル (bootmgfw.efi、boot.sdi) が、イメージにもこの Windows にも見つかりませんでした。"
+
+msgid "Saving the image (this takes a few minutes)"
+msgstr "イメージを保存中 (数分かかります)"
+
+msgid "The image could not be saved. "
+msgstr "イメージを保存できませんでした。 "
+
+msgid "Writing the start-up settings"
+msgstr "起動設定を書き込み中"
+
+msgid "The start-up settings for the stick could not be written."
+msgstr "USB メモリ用の起動設定を書き込めませんでした。"
+
+msgid "Preparing the USB stick (everything on it is erased)"
+msgstr "USB メモリを準備中 (内容はすべて消去されます)"
+
+msgid "No free drive letter is left for the USB stick."
+msgstr "USB メモリに割り当てる空きドライブ文字が残っていません。"
+
+msgid "The USB stick could not be prepared. Diskpart said: "
+msgstr "USB メモリを準備できませんでした。diskpart のメッセージ: "
+
+msgid "Copying to the USB stick"
+msgstr "USB メモリにコピー中"
+
+msgid "Checking the stick"
+msgstr "USB メモリを確認中"
+
+msgid "The rescue USB stick is ready (drive "
+msgstr "レスキュー USB メモリの準備ができました (ドライブ "
+
+msgid "). To use it, plug it in, switch the PC on, open the PC's boot menu (often F12, F11, F8 or Esc) and choose the stick. PATio Boot Doctor starts by itself."
+msgstr ")。使うときは、USB メモリを差し込んで PC の電源を入れ、PC のブート メニュー (多くの場合 F12、F11、F8、Esc) を開いて USB メモリを選んでください。PATio Boot Doctor が自動的に起動します。"
+
+msgid "The stick was made, but some files are missing on it. Try again, or use another stick."
+msgstr "USB メモリは作成しましたが、一部のファイルが欠けています。もう一度試すか、別の USB メモリを使ってください。"
+
+msgid "Temporary files"
+msgstr "一時ファイル"
+
+msgid "Files programs and Windows leave behind while they work. Safe to remove."
+msgstr "プログラムや Windows が動作中に残すファイルです。削除しても安全です。"
+
+msgid "Windows Update downloads"
+msgstr "Windows Update のダウンロード"
+
+msgid "Updates that were already downloaded. Windows downloads again whatever it still needs."
+msgstr "既にダウンロード済みの更新です。必要なものは Windows がもう一度ダウンロードします。"
+
+msgid "Crash reports"
+msgstr "クラッシュ レポート"
+
+msgid "Memory dumps and error reports written after a crash. Only a technician looking into a crash needs them."
+msgstr "クラッシュ後に書き込まれたメモリ ダンプとエラー レポートです。クラッシュを調べる技術者にしか必要ありません。"
+
+msgid "Browser caches"
+msgstr "ブラウザーのキャッシュ"
+
+msgid "Copies of web pages the browsers keep to load sites faster. Removing them signs no one out and keeps bookmarks and passwords; sites load a little slower once."
+msgstr "サイトを速く読み込むためにブラウザーが保持している Web ページのコピーです。削除してもサインアウトされず、ブックマークとパスワードも残ります。サイトの読み込みが一度だけ少し遅くなります。"
+
+msgid "cmd.exe /c \""
+msgstr "cmd.exe /c \""
+
+msgid "Stopping…"
+msgstr "停止中…"
+
+msgid "Themes and appearance (F9)"
+msgstr "テーマと外観 (F9)"
+
+msgid "Keyboard shortcuts (F1)"
+msgstr "キーボード ショートカット (F1)"
+
+msgid "Minimize"
+msgstr "最小化"
+
+msgid "Restore down"
+msgstr "元のサイズに戻す"
+
+msgid "Maximize"
+msgstr "最大化"
+
+msgid "Close (Alt+F4)"
+msgstr "閉じる (Alt+F4)"
+
+msgid "Dismiss (Esc)"
+msgstr "閉じる (Esc)"
+
+msgid "Stop (Esc)"
+msgstr "停止 (Esc)"
+
+msgid "Press Enter"
+msgstr "Enter キーを押す"
+
+msgid "Press Esc"
+msgstr "Esc キーを押す"
+
+msgid "Tab switches"
+msgstr "Tab で切り替え"
+
+msgid "Less (Down arrow)"
+msgstr "減らす (↓)"
+
+msgid "More (Up arrow)"
+msgstr "増やす (↑)"
+
+msgid "Scroll with the mouse wheel or Page Up / Page Down"
+msgstr "マウス ホイールまたは Page Up / Page Down でスクロール"
+
+msgid "Up one folder (Ctrl+Up)"
+msgstr "1 つ上のフォルダー (Ctrl+↑)"
+
+msgid "Theme"
+msgstr "テーマ"
+
+msgid "Appearance"
+msgstr "外観"
+
+msgid "Automatic"
+msgstr "自動"
+
+msgid "Light"
+msgstr "ライト"
+
+msgid "Dark"
+msgstr "ダーク"
+
+msgid "Follow Windows"
+msgstr "Windows に合わせる"
+
+msgid "Ctrl+Shift+L switches"
+msgstr "Ctrl+Shift+L で切り替え"
+
+msgid "File manager"
+msgstr "ファイル マネージャー"
+
+msgid "No other tools yet. Put programs in the PatSuite folder."
+msgstr "ほかのツールはまだありません。PatSuite フォルダーにプログラムを置いてください。"
+
+msgid "Open PatSuite folder"
+msgstr "PatSuite フォルダーを開く"
+
+msgid "Couldn't start “"
+msgstr "起動できませんでした: “"
+
+msgid "PatSuite folder"
+msgstr "PatSuite フォルダー"
+
+msgid "This help"
+msgstr "このヘルプ"
+
+msgid "Themes"
+msgstr "テーマ"
+
+msgid "Ctrl+Shift+L"
+msgstr "Ctrl+Shift+L"
+
+msgid "Switch light / dark"
+msgstr "ライト / ダークの切り替え"
+
+msgid "Alt+F4"
+msgstr "Alt+F4"
+
+msgid "Quit"
+msgstr "終了"
+
+msgid "Esc to close"
+msgstr "Esc で閉じる"
+
+msgid "Local disk"
+msgstr "ローカル ディスク"
+
+msgid "Removable"
+msgstr "リムーバブル"
+
+msgid "CD / DVD"
+msgstr "CD / DVD"
+
+msgid "Network"
+msgstr "ネットワーク"
+
+msgid "RAM disk"
+msgstr "RAM ディスク"
+
+msgid "\nDouble-click or Enter to open"
+msgstr "\nダブルクリックまたは Enter で開く"
+
+msgid "Can't open “"
+msgstr "開けません: “"
+
+msgid "\nDouble-click or Enter to choose"
+msgstr "\nダブルクリックまたは Enter で選択"
+
+msgid "” isn't a folder. Check the path, or browse to it."
+msgstr "” はフォルダーではありません。パスを確認するか、参照して選んでください。"
+
+msgid "Open a drive, then choose a folder inside it."
+msgstr "ドライブを開いてから、その中のフォルダーを選んでください。"
+
+msgid "Type a file name, or pick one from the list."
+msgstr "ファイル名を入力するか、一覧から選んでください。"
+
+msgid "Pick a file from the list, or type its path."
+msgstr "一覧からファイルを選ぶか、パスを入力してください。"
+
+msgid "Type a file name, not a folder."
+msgstr "フォルダーではなく、ファイル名を入力してください。"
+
+msgid "” isn't a file. Pick one from the list, or check the path."
+msgstr "” はファイルではありません。一覧から選ぶか、パスを確認してください。"
+
+msgid "No drives found"
+msgstr "ドライブが見つかりません"
+
+msgid "No images detected in this folder"
+msgstr "このフォルダーにはイメージが見つかりません"
+
+msgid "Nothing to show here"
+msgstr "ここに表示するものはありません"
+
+msgid "No folders inside"
+msgstr "中にフォルダーはありません"
+
+msgid "Detected images · double-click to pick · Ctrl+↑ up"
+msgstr "検出されたイメージ · ダブルクリックで選択 · Ctrl+↑ で上へ"
+
+msgid "Double-click a file to pick it · Ctrl+↑ up"
+msgstr "ファイルをダブルクリックして選択 · Ctrl+↑ で上へ"
+
+msgid "Enter opens · Ctrl+Enter chooses · Ctrl+↑ up"
+msgstr "Enter で開く · Ctrl+Enter で選択 · Ctrl+↑ で上へ"
+

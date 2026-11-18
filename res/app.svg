@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- PATio Boot Doctor: the PatSuite tile with a power symbol crossed by a heartbeat line, and a first-aid badge. Original artwork. -->
+  <rect fill="#0F766E" x="8" y="8" width="240" height="240" rx="58"/>
+  <rect fill="#14B8A6" fill-opacity=".35" x="8" y="8" width="240" height="120" rx="58"/>
+  <path fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M160 82A58 58 0 1 1 96 82"/>
+  <path fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M128 46v52"/>
+  <polyline fill="none" stroke="#5EEAD4" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" points="62,150 96,150 110,124 128,176 144,138 156,150 190,150"/>
+  <circle fill="#F59E0B" cx="196" cy="196" r="30"/>
+  <path fill="none" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" d="M196 180v32M180 196h32"/>
+</svg>

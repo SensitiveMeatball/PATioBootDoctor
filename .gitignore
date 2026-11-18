@@ -1,0 +1,7 @@
+build/
+*.ini
+selftest.log
+snap/
+
+# the private key that signs updates
+keys/

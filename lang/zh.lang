@@ -1,0 +1,4810 @@
+# PATio Boot Doctor: every text the program shows, in English.
+# Made by tools\extract-strings.ps1 when the program is built. Do not edit: copy it to <code>.lang to translate.
+
+@code zh
+@name 简体中文
+@rtl no
+
+msgid "Could not start "
+msgstr "无法启动 "
+
+msgid "Skipped "
+msgstr "已跳过 "
+
+msgid "Could not copy "
+msgstr "无法复制 "
+
+msgid "The backup folder "
+msgstr "备份文件夹 "
+
+msgid " cannot be written to."
+msgstr " 无法写入。"
+
+msgid "Session started on "
+msgstr "会话开始于 "
+
+msgid "Started: "
+msgstr "开始时间： "
+
+msgid "Could not back up "
+msgstr "无法备份 "
+
+msgid "Could not back up the folder "
+msgstr "无法备份文件夹 "
+
+msgid "Could not read the disk to back it up."
+msgstr "无法读取磁盘，因此无法备份。"
+
+msgid "Could not write the backup file."
+msgstr "无法写入备份文件。"
+
+msgid "Could not back up the start-up settings: "
+msgstr "无法备份启动设置： "
+
+msgid "Could not write the backup of "
+msgstr "无法写入以下项的备份： "
+
+msgid "Done: "
+msgstr "完成： "
+
+msgid "Failed: "
+msgstr "失败： "
+
+msgid "Undo "
+msgstr "撤销 "
+
+msgid ": its partition is not there now.\n"
+msgstr "：它的分区现在不存在。\n"
+
+msgid "Put back "
+msgstr "已恢复 "
+
+msgid "Could not put back "
+msgstr "无法恢复 "
+
+msgid "Removed "
+msgstr "已删除 "
+
+msgid "Skipped the folder "
+msgstr "已跳过文件夹 "
+
+msgid " files in "
+msgstr " 个文件，位于 "
+
+msgid "Skipped the partition table of disk "
+msgstr "已跳过磁盘的分区表 "
+
+msgid ": that disk is not connected now.\n"
+msgstr "：该磁盘现在未连接。\n"
+
+msgid "The saved copy of the partition table is missing.\n"
+msgstr "分区表的保存副本丢失。\n"
+
+msgid " bytes at the start or end of Disk "
+msgstr " 字节，位于磁盘开头或末尾，磁盘 "
+
+msgid "The saved copy of "
+msgstr "保存的副本 "
+
+msgid " is missing.\n"
+msgstr " 丢失。\n"
+
+msgid "Could not put the old name back.\n"
+msgstr "无法恢复旧名称。\n"
+
+msgid "Put back the name \""
+msgstr "已恢复名称 \""
+
+msgid "Moved "
+msgstr "已移动 "
+
+msgid " back to "
+msgstr " 回到 "
+
+msgid "Could not move "
+msgstr "无法移动 "
+
+msgid " back: "
+msgstr " 回原处： "
+
+msgid "Put back what \""
+msgstr "已恢复 \""
+
+msgid "\" changed."
+msgstr "\" 所做的更改。"
+
+msgid "Some things could not be put back."
+msgstr "有些内容无法恢复。"
+
+msgid "The start-up settings have no boot manager section, so nothing can be started from them."
+msgstr "启动设置中没有启动管理器部分，因此无法从中启动任何系统。"
+
+msgid "The start-up settings list no system to start."
+msgstr "启动设置中没有列出可启动的系统。"
+
+msgid "The start-up settings file is damaged: "
+msgstr "启动设置文件已损坏： "
+
+msgid "The start-up settings file could not be read. "
+msgstr "无法读取启动设置文件。 "
+
+msgid "Windows PE (build 26100)"
+msgstr "Windows PE (build 26100)"
+
+msgid "ThinkCentre M70q"
+msgstr "ThinkCentre M70q"
+
+msgid "Samsung SSD 980"
+msgstr "Samsung SSD 980"
+
+msgid "WDC WD10EZEX"
+msgstr "WDC WD10EZEX"
+
+msgid "SanDisk Ultra"
+msgstr "SanDisk Ultra"
+
+msgid "The backup copy of the partition table is missing or damaged."
+msgstr "分区表的备份副本丢失或已损坏。"
+
+msgid "Professional"
+msgstr "专业版"
+
+msgid "C: · Disk 0, partition 3"
+msgstr "C: · 磁盘 0，分区 3"
+
+msgid "Running now"
+msgstr "正在运行"
+
+msgid "This is the Windows you are using now. Everything it needs to start is in place."
+msgstr "这是你当前正在使用的 Windows。启动所需的一切都已就绪。"
+
+msgid "PC firmware"
+msgstr "电脑固件"
+
+msgid "Disk"
+msgstr "磁盘"
+
+msgid "Start-up partition"
+msgstr "启动分区"
+
+msgid "Boot manager"
+msgstr "启动管理器"
+
+msgid "Start-up settings"
+msgstr "启动设置"
+
+msgid "Windows partition"
+msgstr "Windows 分区"
+
+msgid "Windows loader"
+msgstr "Windows 加载程序"
+
+msgid "Core system files"
+msgstr "核心系统文件"
+
+msgid "System settings"
+msgstr "系统设置"
+
+msgid "Starting up"
+msgstr "正在启动"
+
+msgid "D: · Disk 1, partition 1"
+msgstr "D: · 磁盘 1，分区 1"
+
+msgid "Stuck in a restart loop"
+msgstr "陷入重启循环"
+
+msgid "This Windows keeps failing to start."
+msgstr "此 Windows 一直无法启动。"
+
+msgid "Automatic Repair ran on 9 Nov 2026 because Windows could not start."
+msgstr "由于 Windows 无法启动，自动修复已于 2026 年 11 月 9 日运行。"
+
+msgid "Windows crashed with a blue screen 3 times since 8 Nov 2026."
+msgstr "自 2026 年 11 月 8 日以来，Windows 已蓝屏崩溃 3 次。"
+
+msgid "Windows updates are waiting to finish installing."
+msgstr "有 Windows 更新正在等待完成安装。"
+
+msgid "The start-up partition is there and can be read. It is on another disk (Disk 0), so this Windows only starts while that disk is connected."
+msgstr "启动分区存在且可以读取。它位于另一个磁盘（磁盘 0）上，因此只有在连接该磁盘时，此 Windows 才能启动。"
+
+msgid "Disk 0, partition 1 (100 MB, FAT32)"
+msgstr "磁盘 0，分区 1（100 MB，FAT32）"
+
+msgid "This Windows is not in the start-up menu, so it never starts (it is inactive). The menu only lists the other Windows."
+msgstr "此 Windows 不在启动菜单中，因此永远不会启动（处于非活动状态）。菜单只列出了其他 Windows。"
+
+msgid "No entry with osdevice Disk 1, partition 1 and systemroot \\Windows"
+msgstr "没有 osdevice 为磁盘 1 分区 1 且 systemroot 为 \\Windows 的条目"
+
+msgid "E: · Disk 1, partition 2"
+msgstr "E: · 磁盘 1，分区 2"
+
+msgid "Moved into a folder"
+msgstr "被移到了文件夹中"
+
+msgid "This Windows sits inside the folder \"Old PC\\\", so it cannot start. It was probably copied or moved there."
+msgstr "此 Windows 位于文件夹 \"Old PC\\\" 中，因此无法启动。它可能是被复制或移动到那里的。"
+
+msgid "After the move, copies fresh start-up files and writes a start-up entry for this Windows."
+msgstr "移动后，会复制新的启动文件，并为此 Windows 写入启动条目。"
+
+msgid "Location"
+msgstr "位置"
+
+msgid "Ubuntu 24.04.1 LTS"
+msgstr "Ubuntu 24.04.1 LTS"
+
+msgid "6.8.0-45-generic"
+msgstr "6.8.0-45-generic"
+
+msgid "6.8.0-41-generic"
+msgstr "6.8.0-41-generic"
+
+msgid "Linux kernel 6.8.0-45-generic"
+msgstr "Linux 内核 6.8.0-45-generic"
+
+msgid "Disk 1, partition 3 (ext4)"
+msgstr "磁盘 1，分区 3（ext4）"
+
+msgid "Disk 1, partition 3"
+msgstr "磁盘 1，分区 3"
+
+msgid "Starts from the boot menu"
+msgstr "从启动菜单启动"
+
+msgid "This Linux is fine. Another system starts first; to start Linux, pick it in the PC's boot menu, or make it start first."
+msgstr "此 Linux 正常。另一个系统会先启动；要启动 Linux，请在电脑的启动菜单中选择它，或让它优先启动。"
+
+msgid "The start-up partition with the Linux boot loader is there and can be read. It is on another disk (Disk 0), so Linux only starts while that disk is connected."
+msgstr "装有 Linux 启动加载程序的启动分区存在且可以读取。它位于另一个磁盘（磁盘 0）上，因此只有在连接该磁盘时，Linux 才能启动。"
+
+msgid "PC's start-up list"
+msgstr "电脑的启动列表"
+
+msgid "The PC's start-up list has this Linux (\"ubuntu\"), but \"Windows Boot Manager\" starts first. To start Linux, pick it in the PC's boot menu (often F12, F11, F8 or Esc while the PC starts), or make it start first. When GRUB starts first, it usually shows a menu with Windows in it too."
+msgstr "电脑的启动列表中有此 Linux（\"ubuntu\"），但 \"Windows Boot Manager\" 会先启动。要启动 Linux，请在电脑的启动菜单中选择它（通常在电脑启动时按 F12、F11、F8 或 Esc），或让它优先启动。如果 GRUB 先启动，它通常会显示一个也包含 Windows 的菜单。"
+
+msgid "Linux boot loader"
+msgstr "Linux 启动加载程序"
+
+msgid "GRUB settings"
+msgstr "GRUB 设置"
+
+msgid "Linux partition"
+msgstr "Linux 分区"
+
+msgid "Linux kernel"
+msgstr "Linux 内核"
+
+msgid "GRUB menu"
+msgstr "GRUB 菜单"
+
+msgid "Linux settings"
+msgstr "Linux 设置"
+
+msgid "A start-up menu entry leads nowhere: \"Windows 7\""
+msgstr "有一个启动菜单条目指向不存在的位置：\"Windows 7\""
+
+msgid "The start-up menu on Disk 0, partition 1 lists \"Windows 7\", but the partition it points to is not on any disk now. If someone picks it in the start-up menu, the PC shows an error. It also makes the menu confusing."
+msgstr "磁盘 0 分区 1 上的启动菜单列出了 \"Windows 7\"，但它指向的分区现在不在任何磁盘上。如果有人在启动菜单中选择它，电脑会显示错误。它还会让菜单显得混乱。"
+
+msgid "The PC's start-up list has an entry that leads nowhere: \"fedora\""
+msgstr "电脑的启动列表中有一个指向不存在位置的条目：\"fedora\""
+
+msgid "\"fedora\" (Fedora (Linux)) is in the start-up list kept inside the PC, but its start-up file (\\EFI\\fedora\\shimx64.efi) is no longer on Disk 0, partition 1. The system it used to start (Fedora (Linux)) was probably deleted or uninstalled, but its line stayed behind. The PC tries it every time it starts, which can slow starting down or show an error before Windows appears.\n\nFor a technician: Boot0003, \\EFI\\fedora\\shimx64.efi"
+msgstr "\"fedora\"（Fedora (Linux)）在电脑内部保存的启动列表中，但它的启动文件（\\EFI\\fedora\\shimx64.efi）已不在磁盘 0 分区 1 上。它原来启动的系统（Fedora (Linux)）可能已被删除或卸载，但这一行留了下来。电脑每次启动都会尝试它，这可能会减慢启动速度，或在 Windows 出现之前显示错误。\n\n供技术人员参考：Boot0003, \\EFI\\fedora\\shimx64.efi"
+
+msgid "Start-up setup when the session began"
+msgstr "会话开始时的启动配置"
+
+msgid "All disks"
+msgstr "所有磁盘"
+
+msgid "Saved 1 start-up settings file and the partition tables of every disk."
+msgstr "已保存 1 个启动设置文件以及每个磁盘的分区表。"
+
+msgid "Undo unfinished updates"
+msgstr "撤销未完成的更新"
+
+msgid "Windows 10 (64-bit) in D:\\Windows"
+msgstr "D:\\Windows 中的 Windows 10（64 位）"
+
+msgid "The unfinished updates were undone."
+msgstr "未完成的更新已撤销。"
+
+msgid "Add it to the start-up menu"
+msgstr "将它添加到启动菜单"
+
+msgid "This Windows was added to the start-up menu."
+msgstr "此 Windows 已添加到启动菜单。"
+
+msgid "Windows 11 (build 26100)"
+msgstr "Windows 11 (build 26100)"
+
+msgid "Make it start first"
+msgstr "让它优先启动"
+
+msgid "Windows 11 (64-bit) in C:\\Windows"
+msgstr "C:\\Windows 中的 Windows 11（64 位）"
+
+msgid "This Windows now starts first."
+msgstr "此 Windows 现在会优先启动。"
+
+msgid "Fine"
+msgstr "正常"
+
+msgid "Note"
+msgstr "提示"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Problem"
+msgstr "问题"
+
+msgid "Not checked"
+msgstr "未检查"
+
+msgid " (32-bit)"
+msgstr " （32 位）"
+
+msgid " (ARM)"
+msgstr " （ARM）"
+
+msgid " (64-bit)"
+msgstr " （64 位）"
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Rebuild the start-up files"
+msgstr "重建启动文件"
+
+msgid "Copies fresh start-up files from this Windows to the start-up partition, writes a new start-up entry for it and puts it first."
+msgstr "从此 Windows 复制新的启动文件到启动分区，为它写入新的启动条目，并将它排在第一位。"
+
+msgid "About a minute. Personal files are not touched. The old start-up files are backed up first."
+msgstr "大约一分钟。不会触碰个人文件。旧的启动文件会先备份。"
+
+msgid "Adds this Windows to the menu shown when the PC starts, after the systems that are already there."
+msgstr "将此 Windows 添加到电脑启动时显示的菜单中，排在已有系统之后。"
+
+msgid "About a minute. The other systems keep starting as before."
+msgstr "大约一分钟。其他系统照常启动。"
+
+msgid "Show it in the start-up menu"
+msgstr "在启动菜单中显示它"
+
+msgid "This Windows has a start-up entry, but the entry is hidden from the menu. This puts it back in the menu."
+msgstr "此 Windows 有启动条目，但该条目在菜单中被隐藏了。此操作会把它放回菜单。"
+
+msgid "A few seconds."
+msgstr "几秒钟。"
+
+msgid "Makes this Windows the one that starts when nobody chooses in the start-up menu."
+msgstr "让此 Windows 成为在启动菜单中无人选择时默认启动的系统。"
+
+msgid "Mark the start-up partition as active"
+msgstr "将启动分区标记为活动分区"
+
+msgid "Older PCs (legacy BIOS) only start from the partition marked \"active\". This sets that mark on the right partition."
+msgstr "较旧的电脑（传统 BIOS）只能从标记为 \"活动\" 的分区启动。此操作会在正确的分区上设置该标记。"
+
+msgid "A few seconds. The partition table is backed up first."
+msgstr "几秒钟。分区表会先备份。"
+
+msgid "Write new start-up code to the disk"
+msgstr "向磁盘写入新的启动代码"
+
+msgid "Writes fresh start-up code to the first sector of the disk and of the start-up partition, so an older PC (legacy BIOS) can start from it."
+msgstr "向磁盘和启动分区的第一个扇区写入新的启动代码，以便较旧的电脑（传统 BIOS）能从它启动。"
+
+msgid "A few seconds. The old first sectors are backed up first. Other systems' start-up menus (for example Linux GRUB) on this disk are replaced."
+msgstr "几秒钟。旧的第一个扇区会先备份。此磁盘上其他系统的启动菜单（例如 Linux GRUB）会被替换。"
+
+msgid "Create a new start-up partition"
+msgstr "创建新的启动分区"
+
+msgid "Makes a small start-up partition (300 MB) in free space on the disk, taking the room from the end of the Windows partition if needed, and puts fresh start-up files on it."
+msgstr "在磁盘的可用空间中创建一个小的启动分区（300 MB），必要时从 Windows 分区末尾腾出空间，并在其中放入新的启动文件。"
+
+msgid "A few minutes. The Windows partition gets 300 MB smaller. Copy important files somewhere safe first if you can."
+msgstr "几分钟。Windows 分区会减小 300 MB。如果可以，请先将重要文件复制到安全的地方。"
+
+msgid "Repair the partition table"
+msgstr "修复分区表"
+
+msgid "Writes both copies of the partition table again from the copy that Windows can still read. The partitions themselves are not moved."
+msgstr "根据 Windows 仍能读取的那份副本，重新写入分区表的两份副本。分区本身不会被移动。"
+
+msgid "A few seconds. The old table is backed up first."
+msgstr "几秒钟。旧的分区表会先备份。"
+
+msgid "Check and repair the drive"
+msgstr "检查并修复驱动器"
+
+msgid "Runs the Windows disk check, which repairs damaged file-system records. Files in damaged places can be lost, as with any disk check."
+msgstr "运行 Windows 磁盘检查，修复损坏的文件系统记录。与任何磁盘检查一样，位于损坏位置的文件可能会丢失。"
+
+msgid "From a few minutes to an hour on a large drive. This cannot be undone."
+msgstr "从几分钟到大容量驱动器上的一小时不等。此操作无法撤销。"
+
+msgid "Unlock with the BitLocker recovery key"
+msgstr "使用 BitLocker 恢复密钥解锁"
+
+msgid "This drive is encrypted. Type its 48-digit recovery key to unlock it, so it can be checked and repaired. You find the key in your Microsoft account (aka.ms/myrecoverykey), on a printout, or with your IT department."
+msgstr "此驱动器已加密。请输入它的 48 位恢复密钥进行解锁，以便检查和修复。你可以在 Microsoft 帐户（aka.ms/myrecoverykey）、打印件中找到密钥，或向你的 IT 部门索取。"
+
+msgid "A few seconds. Nothing is changed on the drive."
+msgstr "几秒钟。驱动器上的内容不会改变。"
+
+msgid "Put back the registry's backup copy"
+msgstr "恢复注册表的备份副本"
+
+msgid "Windows' settings file (registry) is damaged. Windows keeps an automatic backup copy of it, and this puts that copy back. Settings changed since the backup was made are lost."
+msgstr "Windows 的设置文件（注册表）已损坏。Windows 会自动保存它的备份副本，此操作会将该副本放回。备份之后更改的设置会丢失。"
+
+msgid "A few seconds. The damaged file is kept in the backup, so it can be put back too."
+msgstr "几秒钟。损坏的文件会保留在备份中，因此也可以放回。"
+
+msgid "Repair Windows system files"
+msgstr "修复 Windows 系统文件"
+
+msgid "Runs the Windows file checker, which puts back damaged or missing Windows files from Windows' own store of originals."
+msgstr "运行 Windows 文件检查器，用 Windows 自带的原始文件库恢复损坏或丢失的 Windows 文件。"
+
+msgid "10 to 30 minutes. Personal files and programs are not touched. This cannot be undone, but it only puts back Windows' own files."
+msgstr "10 到 30 分钟。不会触碰个人文件和程序。此操作无法撤销，但它只会恢复 Windows 自己的文件。"
+
+msgid "Turn the disk drivers back on"
+msgstr "重新启用磁盘驱动程序"
+
+msgid "Windows needs a few drivers to read its own disk while it starts. Some of them are turned off, which causes the stop error INACCESSIBLE_BOOT_DEVICE. This turns them back on."
+msgstr "Windows 启动时需要一些驱动程序来读取自己的磁盘。其中一些被关闭了，导致停止错误 INACCESSIBLE_BOOT_DEVICE。此操作会重新启用它们。"
+
+msgid "A few seconds. The settings file is backed up first."
+msgstr "几秒钟。设置文件会先备份。"
+
+msgid "Clear the unfinished set-up mark"
+msgstr "清除未完成的安装标记"
+
+msgid "Windows is marked as still being set up, so it keeps restarting into set-up (\"The computer restarted unexpectedly\"). This clears the mark. Only do this on a Windows that was already working before."
+msgstr "Windows 被标记为仍在安装中，因此不断重启进入安装（\"计算机意外地重新启动\"）。此操作会清除该标记。只应在之前已正常运行的 Windows 上执行此操作。"
+
+msgid "Windows updates that were half installed can make Windows restart over and over. This undoes the updates that are still waiting to finish."
+msgstr "安装了一半的 Windows 更新可能导致 Windows 反复重启。此操作会撤销仍在等待完成的更新。"
+
+msgid "5 to 20 minutes. Those updates can be installed again later from Windows Update."
+msgstr "5 到 20 分钟。之后可以通过 Windows 更新重新安装这些更新。"
+
+msgid "Show the real error instead of Automatic Repair"
+msgstr "显示真正的错误，而不是自动修复"
+
+msgid "Turns off Automatic Repair for this Windows, so the PC stops going round in circles and shows the actual error message on screen. You can turn it back on with Undo."
+msgstr "为此 Windows 关闭自动修复，让电脑不再兜圈子，而是在屏幕上显示实际的错误消息。你可以用撤销重新打开它。"
+
+msgid "Move Windows back to the top of the drive"
+msgstr "将 Windows 移回驱动器的顶层"
+
+msgid "This Windows sits inside a folder, where it cannot start. This moves its folders (Windows, Program Files, Users and the rest) back to the top of the drive, where they belong."
+msgstr "此 Windows 位于一个文件夹中，在那里无法启动。此操作会将它的文件夹（Windows、Program Files、Users 等）移回驱动器的顶层，也就是它们应在的位置。"
+
+msgid "A few seconds: the files are only renamed, not copied. Undo moves them back."
+msgstr "几秒钟：文件只是重命名，不会复制。撤销会把它们移回去。"
+
+msgid "Remove this entry"
+msgstr "删除此条目"
+
+msgid "Deletes this line from the start-up settings, so it no longer appears in the start-up menu. No Windows, files or partitions are touched."
+msgstr "从启动设置中删除这一行，使它不再出现在启动菜单中。不会触碰任何 Windows、文件或分区。"
+
+msgid "A few seconds. The start-up settings are backed up first, so Undo brings the entry back."
+msgstr "几秒钟。启动设置会先备份，因此撤销可以恢复该条目。"
+
+msgid "Only hide it from the menu"
+msgstr "仅从菜单中隐藏"
+
+msgid "Keeps the entry in the start-up settings but takes it off the start-up menu. Choose this if you think the system may come back (for example a disk you will connect again)."
+msgstr "在启动设置中保留该条目，但将它从启动菜单中移除。如果你认为该系统可能还会回来（例如你会再次连接的磁盘），请选择此项。"
+
+msgid "A few seconds. Undo puts it back in the menu."
+msgstr "几秒钟。撤销会把它放回菜单。"
+
+msgid "Restart into the PC's firmware settings"
+msgstr "重启进入电脑的固件设置"
+
+msgid "Restarts the PC straight into its firmware settings screen (where Secure Boot, the start-up order and CSM are switched). Close your programs first."
+msgstr "让电脑直接重启进入固件设置界面（在这里可以切换 Secure Boot、启动顺序和 CSM）。请先关闭你的程序。"
+
+msgid "The PC restarts at once. Nothing on the disks changes."
+msgstr "电脑会立即重启。磁盘上的内容不会改变。"
+
+msgid "Add Linux to the PC's start-up list"
+msgstr "将 Linux 添加到电脑的启动列表"
+
+msgid "Writes a new entry into the start-up list kept inside the PC, pointing to this Linux's boot loader. Nothing on any disk changes."
+msgstr "在电脑内部保存的启动列表中写入一个新条目，指向此 Linux 的启动加载程序。任何磁盘上的内容都不会改变。"
+
+msgid "A few seconds. Undo removes the entry again."
+msgstr "几秒钟。撤销会再次删除该条目。"
+
+msgid "Make Linux start first"
+msgstr "让 Linux 优先启动"
+
+msgid "Moves this Linux to the top of the PC's start-up list. Its boot loader (GRUB) usually shows a menu where Windows can still be chosen."
+msgstr "将此 Linux 移到电脑启动列表的顶部。它的启动加载程序（GRUB）通常会显示一个仍可选择 Windows 的菜单。"
+
+msgid "A few seconds. Undo puts the old order back."
+msgstr "几秒钟。撤销会恢复原来的顺序。"
+
+msgid "Remove the leftover boot loader"
+msgstr "删除残留的启动加载程序"
+
+msgid "Deletes the boot loader folder of a Linux that is gone from the start-up partition, and its line in the PC's start-up list."
+msgstr "从启动分区中删除已不存在的 Linux 的启动加载程序文件夹，以及它在电脑启动列表中的那一行。"
+
+msgid "A few seconds. The folder and the entry are backed up first, so Undo brings them back."
+msgstr "几秒钟。文件夹和条目会先备份，因此撤销可以恢复它们。"
+
+msgid "Repair Linux from a Linux USB stick"
+msgstr "用 Linux U 盘修复 Linux"
+
+msgid "This needs to be done from Linux itself:"
+msgstr "这需要在 Linux 本身中完成："
+
+msgid "About 15 minutes with a Linux USB stick and an internet connection."
+msgstr "使用 Linux U 盘并连接互联网，大约需要 15 分钟。"
+
+msgid "Switch the troubleshoot options back on"
+msgstr "重新启用疑难解答选项"
+
+msgid "Windows' repair tools (the blue \"Choose an option\" screen with Troubleshoot, Startup Repair and System Restore) are on this PC but switched off. This switches them on again with Windows' own tool (reagentc)."
+msgstr "Windows 的修复工具（带有 “疑难解答”、“启动修复” 和 “系统还原” 的蓝色 \"选择一个选项\" 界面）在这台电脑上，但被关闭了。此操作会用 Windows 自带的工具（reagentc）重新启用它们。"
+
+msgid "A few seconds. No partition changes."
+msgstr "几秒钟。不会更改分区。"
+
+msgid "Recreate the recovery partition"
+msgstr "重新创建恢复分区"
+
+msgid "Makes a new hidden recovery partition (about 1 GB) and puts Windows' repair tools on it, so the blue \"Choose an option\" screen with Troubleshoot, Startup Repair and System Restore works again. Uses unused space or an empty recovery partition if there is one; otherwise it takes 1 GB from the end of the Windows partition."
+msgstr "创建一个新的隐藏恢复分区（约 1 GB），并在其中放入 Windows 的修复工具，让带有 “疑难解答”、“启动修复” 和 “系统还原” 的蓝色 \"选择一个选项\" 界面重新可用。如果有未使用的空间或空的恢复分区，就使用它；否则从 Windows 分区末尾划出 1 GB。"
+
+msgid "A few minutes. Making the Windows partition smaller is safe in almost all cases, but a power cut during it can damage the drive: back up important files first, and keep a laptop plugged in. This cannot be undone here."
+msgstr "几分钟。在几乎所有情况下缩小 Windows 分区都是安全的，但过程中断电可能会损坏驱动器：请先备份重要文件，笔记本电脑请保持接通电源。此操作无法在这里撤销。"
+
+msgid "Free up space"
+msgstr "释放空间"
+
+msgid "Removes files Windows does not need: temporary files, downloaded updates, crash reports and, if you choose, browser caches. You see how much each frees before anything is removed."
+msgstr "删除 Windows 不需要的文件：临时文件、已下载的更新、崩溃报告，以及（如果你选择）浏览器缓存。删除任何内容之前，你都会看到每一项能释放多少空间。"
+
+msgid "A minute or two. Personal files, programs and settings are not touched. Removed files cannot be put back (none of them are needed)."
+msgstr "一两分钟。不会触碰个人文件、程序和设置。删除的文件无法恢复（它们都不是必需的）。"
+
+msgid "Make the Windows partition bigger"
+msgstr "扩大 Windows 分区"
+
+msgid "Adds unused space right after the Windows partition to it, or, if you choose, deletes the partition right after it and adds that space. Space before it cannot be used. You see a preview of the disk before anything changes."
+msgstr "将紧随 Windows 分区之后的未使用空间添加到其中，或者（如果你选择）删除紧随其后的分区并添加那部分空间。它前面的空间无法使用。在做任何更改之前，你会看到磁盘的预览。"
+
+msgid "A minute. Changing partitions always carries a small risk: back up important files first. Deleting the partition after it erases everything on that partition."
+msgstr "一分钟。更改分区总有一点风险：请先备份重要文件。删除其后的分区会清除该分区上的所有内容。"
+
+msgid "Give Windows' folders their names back"
+msgstr "恢复 Windows 文件夹的名称"
+
+msgid "Windows only starts from folders with their own names (Windows, System32, config). This renames the folders found back to those names. Nothing is copied or deleted."
+msgstr "Windows 只能从使用自己名称的文件夹启动（Windows、System32、config）。此操作会把找到的文件夹改回这些名称。不会复制或删除任何内容。"
+
+msgid "A few seconds. Undo renames them back."
+msgstr "几秒钟。撤销会把名称改回去。"
+
+msgid "Remove it from the PC's start-up list"
+msgstr "从电脑的启动列表中删除它"
+
+msgid "Deletes this line from the list of start-up choices kept inside the PC itself (not on any disk). Nothing on any disk changes."
+msgstr "从电脑内部（而不是任何磁盘上）保存的启动选项列表中删除这一行。任何磁盘上的内容都不会改变。"
+
+msgid "A few seconds. The entry is backed up first, so Undo brings it back."
+msgstr "几秒钟。条目会先备份，因此撤销可以恢复它。"
+
+msgid "Starting a PC is like a relay race: each runner hands a baton to the next. First the PC's built-in program (firmware) wakes up and looks at the disk. On the disk it finds a small start-up partition with Windows Boot Manager. The boot manager reads a short list of start-up settings to learn where Windows is, then hands over to the Windows loader, which loads the heart of Windows, its drivers and its settings. If any runner drops the baton, starting stops there. The Boot chain view shows these runners in order, so you can see exactly where it stops."
+msgstr "电脑启动就像一场接力赛：每位选手把接力棒交给下一位。首先，电脑的内置程序（固件）醒来并查看磁盘。它在磁盘上找到一个装有 Windows Boot Manager 的小启动分区。启动管理器读取一份简短的启动设置列表，了解 Windows 在哪里，然后交给 Windows 加载程序，由它加载 Windows 的核心、驱动程序和设置。只要有一位选手掉了接力棒，启动就会停在那里。“启动链” 视图按顺序显示这些选手，让你准确看到启动停在了哪里。"
+
+msgid "What is a start-up menu entry? When a PC has more than one system, a menu appears when it starts. Each line in that menu is an entry that says where a system lives (which disk, which partition, which folder). When that system is deleted, moved, or its disk is taken out, the entry stays behind and leads nowhere. Removing such an entry deletes nothing else: it only tidies up the menu."
+msgstr "什么是启动菜单条目？当电脑装有多个系统时，启动时会出现一个菜单。菜单中的每一行都是一个条目，说明某个系统所在的位置（哪个磁盘、哪个分区、哪个文件夹）。当该系统被删除、移动，或它的磁盘被拔出时，条目会留下来，却指向不存在的位置。删除这样的条目不会删除其他任何东西：它只是整理一下菜单。"
+
+msgid "What is the PC's own start-up list? Newer PCs keep a short list inside the PC itself (in the firmware, not on any disk) of things they can start: Windows Boot Manager, Linux, USB sticks, the network. You see it in the boot menu that opens with a key while the PC starts (often F12, F11, F8 or Esc). When a system is removed, its line can stay in that list. Removing the line changes nothing on any disk."
+msgstr "什么是电脑自己的启动列表？较新的电脑会在电脑内部（固件中，而不是任何磁盘上）保存一份可启动项目的简短列表：Windows Boot Manager、Linux、U 盘、网络。你可以在电脑启动时按某个键打开的启动菜单中看到它（通常是 F12、F11、F8 或 Esc）。系统被删除后，它的那一行可能还留在列表中。删除这一行不会改变任何磁盘上的内容。"
+
+msgid "What is a partition table? A disk is divided into parts called partitions, for example a small start-up partition and a big C: drive. A tiny table at the very start of the disk (with a spare copy at the end, on newer disks) records where each part begins and ends, like the table of contents of a book. If the table is damaged, the PC cannot find anything on the disk, even though the files are still there."
+msgstr "什么是分区表？磁盘被划分成若干部分，称为分区，例如一个小的启动分区和一个大的 C: 盘。磁盘最开头有一张很小的表（较新的磁盘在末尾还有一份备用副本），记录每个部分的起止位置，就像一本书的目录。如果这张表损坏，即使文件仍然在，电脑也找不到磁盘上的任何内容。"
+
+msgid "What is Secure Boot? It is a safety check built into newer PCs. When it is on, the PC only starts programs that carry a valid digital signature, like a passport check at the door. That stops harmful programs (bootkits) from hiding in the start-up process before Windows or your antivirus runs.\n\nWindows 8, 10 and 11 are signed, and so are most big Linux systems (Ubuntu, Fedora, openSUSE, Mint) through a helper called shim. Windows 7, older Windows, many smaller Linux systems and some repair tools are not signed, so they only start with Secure Boot off.\n\nKeep it on if everything you use starts with it on. Turn it off only for a system or tool that refuses to start, and back on afterwards if you can. Switching it does not change or delete anything on the disks. If the Windows drive is encrypted with BitLocker, have its recovery key ready: Windows may ask for it once after Secure Boot is switched."
+msgstr "什么是 Secure Boot（安全启动）？它是较新电脑内置的一项安全检查。开启时，电脑只启动带有有效数字签名的程序，就像在门口查验护照。这可以阻止有害程序（bootkit）在 Windows 或杀毒软件运行之前藏身于启动过程中。\n\nWindows 8、10 和 11 都有签名，大多数主流 Linux 系统（Ubuntu、Fedora、openSUSE、Mint）也通过一个名为 shim 的辅助程序获得签名。Windows 7、更早的 Windows、许多小众 Linux 系统和一些修复工具没有签名，因此只能在关闭 Secure Boot 时启动。\n\n如果你使用的所有系统在开启时都能启动，就保持开启。只有当某个系统或工具拒绝启动时才关闭它，之后如果可以请重新打开。切换它不会更改或删除磁盘上的任何内容。如果 Windows 驱动器使用 BitLocker 加密，请准备好恢复密钥：切换 Secure Boot 后，Windows 可能会要求输入一次。"
+
+msgid "This PC was started in legacy (BIOS) mode, which has no Secure Boot. Secure Boot only works in UEFI mode."
+msgstr "这台电脑是以传统（BIOS）模式启动的，该模式没有 Secure Boot。Secure Boot 只在 UEFI 模式下有效。"
+
+msgid "Whether Secure Boot is on could not be read here."
+msgstr "无法在此读取 Secure Boot 是否开启。"
+
+msgid "Secure Boot is on."
+msgstr "Secure Boot 已开启。"
+
+msgid "Secure Boot is off, and its keys are cleared (\"Setup mode\"). To switch it on, first restore the factory keys in the firmware settings."
+msgstr "Secure Boot 已关闭，且其密钥已被清除（\"Setup mode\"）。要开启它，请先在固件设置中恢复出厂密钥。"
+
+msgid "Secure Boot is off."
+msgstr "Secure Boot 已关闭。"
+
+msgid "Delete or F2"
+msgstr "Delete 或 F2"
+
+msgid "the Boot or Security tab"
+msgstr "Boot 或 Security 选项卡"
+
+msgid "How to switch Secure Boot on:\n"
+msgstr "如何开启 Secure Boot：\n"
+
+msgid "How to switch Secure Boot off:\n"
+msgstr "如何关闭 Secure Boot：\n"
+
+msgid "1. Use \"Restart into the PC's firmware settings\", or restart the PC and press "
+msgstr "1. 使用 \"重启进入电脑的固件设置\"，或重启电脑并在开机后立即按 "
+
+msgid " right after switching it on.\n"
+msgstr " 键。\n"
+
+msgid "1. Restart the PC and press "
+msgstr "1. 重启电脑，开机后立即按 "
+
+msgid " right after switching it on, until the firmware settings appear.\n"
+msgstr " 键，直到出现固件设置。\n"
+
+msgid "3. Set \"Secure Boot\" to Enabled. If it is greyed out: switch \"CSM\" or \"Legacy\" support off and set the OS type to \"Windows UEFI mode\".\n"
+msgstr "3. 将 \"Secure Boot\" 设为 Enabled。如果它是灰色的：关闭 \"CSM\" 或 \"Legacy\" 支持，并将操作系统类型设为 \"Windows UEFI mode\"。\n"
+
+msgid "4. If it says Setup mode or keys are missing, choose \"Restore factory keys\" (or \"Install default keys\").\n"
+msgstr "4. 如果显示 Setup mode 或缺少密钥，请选择 \"Restore factory keys\"（或 \"Install default keys\"）。\n"
+
+msgid "3. Set \"Secure Boot\" to Disabled. On some PCs you first set the OS type to \"Other OS\", or set a supervisor password to unlock the option.\n"
+msgstr "3. 将 \"Secure Boot\" 设为 Disabled。在某些电脑上，需要先将操作系统类型设为 \"Other OS\"，或设置管理员密码才能解锁此选项。\n"
+
+msgid "4. Leave CSM / Legacy as it is, unless the system you want to start needs it.\n"
+msgstr "4. 保持 CSM / Legacy 不变，除非你要启动的系统需要它。\n"
+
+msgid "5. Save and exit (often F10). The PC restarts."
+msgstr "5. 保存并退出（通常是 F10）。电脑会重启。"
+
+msgid "\n\nThis PC: "
+msgstr "\n\n这台电脑： "
+
+msgid "Every PC has a small built-in program on a chip on its main board, called the firmware (UEFI on newer PCs, BIOS on older ones). It is the first thing that runs when you press the power button. It checks the hardware and then looks for a disk to start from. UEFI and BIOS start Windows in different ways, so Windows must be set up for the way your PC starts."
+msgstr "每台电脑的主板芯片上都有一个小的内置程序，称为固件（较新的电脑上是 UEFI，较旧的是 BIOS）。按下电源按钮后，它是第一个运行的程序。它会检查硬件，然后寻找可以启动的磁盘。UEFI 和 BIOS 启动 Windows 的方式不同，因此 Windows 必须按照你的电脑的启动方式来设置。"
+
+msgid "The disk (hard disk or SSD) stores Windows and your files. At its very start there is a small table that says how the disk is divided into parts (partitions), like the table of contents of a book. If the disk cannot be read or that table is damaged, the PC cannot find Windows."
+msgstr "磁盘（硬盘或 SSD）存储着 Windows 和你的文件。磁盘最开头有一张小表，说明磁盘如何划分成若干部分（分区），就像一本书的目录。如果磁盘无法读取或这张表已损坏，电脑就找不到 Windows。"
+
+msgid "Besides the big partition with Windows (usually C:), the disk has a small hidden partition used only for starting: the EFI system partition on newer PCs, or the \"active\" partition on older ones. It holds the few files the PC needs to begin starting Windows. You normally never see it, and it has no drive letter."
+msgstr "除了装有 Windows 的大分区（通常是 C:），磁盘上还有一个只用于启动的小隐藏分区：较新的电脑上是 EFI 系统分区，较旧的电脑上是 \"活动\" 分区。它存放着电脑开始启动 Windows 所需的少量文件。你平时看不到它，它也没有驱动器号。"
+
+msgid "Windows Boot Manager is a small program on the start-up partition. The firmware starts it, and it decides which Windows to start, showing a menu when there is more than one. On newer PCs the PC also keeps its own list of start-up choices, and Windows Boot Manager must be in it."
+msgstr "Windows Boot Manager 是启动分区上的一个小程序。固件启动它，由它决定启动哪个 Windows，有多个时会显示菜单。在较新的电脑上，电脑还会保存自己的启动选项列表，Windows Boot Manager 必须在其中。"
+
+msgid "The start-up settings (called BCD) are a short list that Windows Boot Manager reads. Each line says \"this Windows is on this partition, in this folder\". If the line is missing or points to the wrong place, that Windows cannot start, even if Windows itself is perfectly fine."
+msgstr "启动设置（称为 BCD）是 Windows Boot Manager 读取的一份简短列表。每一行都说明 \"这个 Windows 在这个分区的这个文件夹中\"。如果这一行丢失或指向错误的位置，即使 Windows 本身完好无损，也无法启动。"
+
+msgid "This is the partition where Windows is installed, usually drive C:. To start, it must be readable: not damaged, not locked by BitLocker encryption, and with some free space left."
+msgstr "这是安装 Windows 的分区，通常是 C: 盘。要启动，它必须可读：没有损坏，没有被 BitLocker 加密锁定，并且还有一些可用空间。"
+
+msgid "The Windows loader (a file called winload) is what actually starts loading Windows into the PC's memory. Windows Boot Manager hands over to it."
+msgstr "Windows 加载程序（一个名为 winload 的文件）才是真正开始将 Windows 加载到电脑内存中的程序。Windows Boot Manager 把控制权交给它。"
+
+msgid "These are the heart of Windows (the kernel) and the first drivers it needs, for example the ones that let Windows read its own disk. If one of them is missing or damaged, Windows stops with a blue screen while it starts."
+msgstr "这些是 Windows 的核心（内核）以及它需要的第一批驱动程序，例如让 Windows 读取自己磁盘的驱动程序。如果其中某个丢失或损坏，Windows 会在启动时蓝屏停止。"
+
+msgid "Windows keeps its settings in a few special files called the registry. Windows reads them very early, for example to know which drivers to load. A damaged registry file means Windows cannot finish starting."
+msgstr "Windows 将设置保存在几个称为注册表的特殊文件中。Windows 很早就会读取它们，例如为了知道要加载哪些驱动程序。注册表文件损坏意味着 Windows 无法完成启动。"
+
+msgid "The last step: Windows starts its services and shows the sign-in screen. If something goes wrong here, Windows may restart over and over (a restart loop) or keep opening Automatic Repair."
+msgstr "最后一步：Windows 启动它的服务并显示登录界面。如果这里出了问题，Windows 可能会反复重启（重启循环），或不断打开自动修复。"
+
+msgid "Newer PCs keep a short list inside the PC itself (not on any disk) of systems they can start, in order. The PC starts the first one that works. Windows and Linux each add their own line. Windows updates sometimes move Windows back to the top, so Linux then seems to have vanished; it is only lower in the list."
+msgstr "较新的电脑会在电脑内部（而不是任何磁盘上）按顺序保存一份可启动系统的简短列表。电脑会启动第一个能正常工作的系统。Windows 和 Linux 各自添加自己的一行。Windows 更新有时会把 Windows 移回顶部，这时 Linux 看起来像是消失了；其实它只是在列表中靠后了。"
+
+msgid "Linux is started by a small program called GRUB (sometimes with a helper called shim, which makes it work with Secure Boot, or by systemd-boot). It lives in a folder on the start-up partition, next to Windows Boot Manager."
+msgstr "Linux 由一个名为 GRUB 的小程序启动（有时还会借助一个名为 shim 的辅助程序使其兼容 Secure Boot，或者由 systemd-boot 启动）。它位于启动分区上的一个文件夹中，与 Windows Boot Manager 相邻。"
+
+msgid "A tiny settings file next to GRUB says on which partition Linux lives, using that partition's id. If the partition was formatted or deleted, the id no longer matches anything and GRUB stops at a \"grub rescue>\" prompt."
+msgstr "GRUB 旁边有一个很小的设置文件，用分区 ID 说明 Linux 位于哪个分区。如果该分区被格式化或删除，ID 就对不上任何分区，GRUB 会停在 \"grub rescue>\" 提示符处。"
+
+msgid "On older PCs (legacy BIOS) the very first sector of the disk holds a little start-up program. For Linux this is GRUB. Installing or repairing Windows often replaces it with Windows' own, and then the PC no longer offers Linux."
+msgstr "在较旧的电脑上（传统 BIOS），磁盘的第一个扇区存放着一个小启动程序。对于 Linux，这就是 GRUB。安装或修复 Windows 时经常会把它替换成 Windows 自己的，之后电脑就不再提供 Linux 选项。"
+
+msgid "This is the partition where Linux is installed. Linux uses its own file systems (ext4, btrfs, XFS), which Windows cannot open. This program can look inside ext2, ext3 and ext4, read-only; it never writes to them."
+msgstr "这是安装 Linux 的分区。Linux 使用自己的文件系统（ext4、btrfs、XFS），Windows 无法打开。本程序可以只读查看 ext2、ext3 和 ext4 的内容，绝不会向其中写入。"
+
+msgid "The kernel is the heart of Linux, kept in the /boot folder as files named vmlinuz. Linux keeps one or two older kernels too, so that if an update goes wrong you can pick an older one in the GRUB menu."
+msgstr "内核是 Linux 的核心，以名为 vmlinuz 的文件保存在 /boot 文件夹中。Linux 还会保留一两个较旧的内核，这样如果更新出了问题，你可以在 GRUB 菜单中选择较旧的内核。"
+
+msgid "The GRUB menu is the list of choices GRUB shows when the PC starts (Linux, older kernels, often Windows too). It is a file called grub.cfg. Without it, GRUB only shows a bare \"grub>\" prompt."
+msgstr "GRUB 菜单是电脑启动时 GRUB 显示的选项列表（Linux、较旧的内核，通常也有 Windows）。它是一个名为 grub.cfg 的文件。没有它，GRUB 只会显示一个光秃秃的 \"grub>\" 提示符。"
+
+msgid "Linux keeps a list of the partitions it uses (the file /etc/fstab): where Linux is, where /boot is, the swap space and so on. If a partition in that list is gone, Linux stops while starting and shows an \"emergency mode\" prompt."
+msgstr "Linux 会保存一份它使用的分区列表（文件 /etc/fstab）：Linux 在哪里、/boot 在哪里、交换空间等等。如果列表中的某个分区不见了，Linux 会在启动时停下，并显示 \"emergency mode\" 提示符。"
+
+msgid "Windows only starts when it sits at the top of its drive (for example C:\\Windows). A Windows inside another folder is usually a copy made while backing up or moving files, or the old Windows kept after an upgrade (Windows.old)."
+msgstr "只有当 Windows 位于驱动器顶层时才能启动（例如 C:\\Windows）。位于其他文件夹中的 Windows 通常是备份或移动文件时产生的副本，或者是升级后保留的旧 Windows（Windows.old）。"
+
+msgid "Ubuntu (Linux)"
+msgstr "Ubuntu (Linux)"
+
+msgid "Debian (Linux)"
+msgstr "Debian (Linux)"
+
+msgid "Fedora (Linux)"
+msgstr "Fedora (Linux)"
+
+msgid "openSUSE (Linux)"
+msgstr "openSUSE (Linux)"
+
+msgid "Arch Linux"
+msgstr "Arch Linux"
+
+msgid "Manjaro (Linux)"
+msgstr "Manjaro (Linux)"
+
+msgid "CentOS (Linux)"
+msgstr "CentOS (Linux)"
+
+msgid "Rocky Linux"
+msgstr "Rocky Linux"
+
+msgid "AlmaLinux"
+msgstr "AlmaLinux"
+
+msgid "Red Hat (Linux)"
+msgstr "Red Hat (Linux)"
+
+msgid "Kali Linux"
+msgstr "Kali Linux"
+
+msgid "Linux Mint"
+msgstr "Linux Mint"
+
+msgid "Pop!_OS (Linux)"
+msgstr "Pop!_OS (Linux)"
+
+msgid "Zorin OS (Linux)"
+msgstr "Zorin OS (Linux)"
+
+msgid "KDE neon (Linux)"
+msgstr "KDE neon (Linux)"
+
+msgid "elementary OS (Linux)"
+msgstr "elementary OS (Linux)"
+
+msgid "EndeavourOS (Linux)"
+msgstr "EndeavourOS (Linux)"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Linux (GRUB)"
+msgstr "Linux (GRUB)"
+
+msgid "rEFInd boot menu"
+msgstr "rEFInd 启动菜单"
+
+msgid "Clover boot menu"
+msgstr "Clover 启动菜单"
+
+msgid "OpenCore boot menu"
+msgstr "OpenCore 启动菜单"
+
+msgid "PC maker's tools (HP)"
+msgstr "电脑厂商工具（HP）"
+
+msgid "PC maker's tools (Dell)"
+msgstr "电脑厂商工具（Dell）"
+
+msgid "PC maker's tools (Lenovo)"
+msgstr "电脑厂商工具（Lenovo）"
+
+msgid "a USB stick or another system"
+msgstr "U 盘或其他系统"
+
+msgid "another system"
+msgstr "其他系统"
+
+msgid "Remove the leftover Windows start-up files"
+msgstr "删除残留的 Windows 启动文件"
+
+msgid "Deletes the Windows Boot Manager folder (\\EFI\\Microsoft) from this start-up partition, and its line in the PC's start-up list. No Windows, personal files or other partitions are touched, and the start-up files of the Windows you use are on another partition."
+msgstr "从此启动分区中删除 Windows Boot Manager 文件夹（\\EFI\\Microsoft），以及它在电脑启动列表中的那一行。不会触碰任何 Windows、个人文件或其他分区，你正在使用的 Windows 的启动文件位于另一个分区上。"
+
+msgid "Use \"Rebuild the start-up files\" in the report of "
+msgstr "请在以下项的报告中使用 \"重建启动文件\"： "
+
+msgid ": that writes new, correct settings."
+msgstr "：这会写入新的正确设置。"
+
+msgid "The start-up menu's first choice is missing"
+msgstr "启动菜单的第一个选项丢失"
+
+msgid "The start-up settings on "
+msgstr "以下位置的启动设置 "
+
+msgid " say to start an entry that does not exist."
+msgstr " 要求启动一个不存在的条目。"
+
+msgid " list no system"
+msgstr " 没有列出系统"
+
+msgid "The settings file is intact, but it names no system to start, although "
+msgstr "设置文件完好，但其中没有指定要启动的系统，尽管 "
+
+msgid " starts through this partition. "
+msgstr " 通过此分区启动。 "
+
+msgid "Leftover Windows start-up files on "
+msgstr "残留的 Windows 启动文件，位于 "
+
+msgid "This start-up partition still holds Windows Boot Manager and its settings, but the settings list no system to start: the Windows they belonged to is gone, or its entry was removed. Nothing is damaged. "
+msgstr "此启动分区仍存放着 Windows Boot Manager 及其设置，但设置中没有列出要启动的系统：它们所属的 Windows 已不存在，或者其条目已被删除。没有任何东西损坏。 "
+
+msgid "The PC's start-up list tries this partition first, shows an error, and only then goes on to the next choice."
+msgstr "电脑的启动列表会先尝试此分区，显示错误，然后才转到下一个选项。"
+
+msgid "This PC does not start from this partition, so the files do no harm where they are."
+msgstr "这台电脑不从此分区启动，因此这些文件放在那里没有害处。"
+
+msgid " If the PC is ever started from Disk "
+msgstr " 如果将来从以下磁盘启动电脑：磁盘 "
+
+msgid ", it shows a start-up error instead of a system.\n\nYou can leave the files, or remove them to tidy up. If an entry was removed by mistake, Undo in the backups list brings it back."
+msgstr "，它会显示启动错误，而不是启动系统。\n\n你可以保留这些文件，也可以删除它们来整理一下。如果误删了某个条目，备份列表中的撤销可以恢复它。"
+
+msgid "Damaged start-up settings on "
+msgstr "已损坏的启动设置，位于 "
+
+msgid "\n\nNo Windows found on this PC starts through this partition, so these are leftover files. Removing them is safe."
+msgstr "\n\n在这台电脑上找到的 Windows 都不通过此分区启动，因此这些是残留文件。删除它们是安全的。"
+
+msgid "\n\nNo Windows found on this PC uses these settings. If a Windows should start from this disk, it was not found: check that its disk is connected and unlocked."
+msgstr "\n\n在这台电脑上找到的 Windows 都不使用这些设置。如果应该有一个 Windows 从此磁盘启动，那么它没有被找到：请检查它的磁盘是否已连接并已解锁。"
+
+msgid "the partition it points to is not on any disk now"
+msgstr "它指向的分区现在不在任何磁盘上"
+
+msgid "A start-up entry points to a drive locked by BitLocker: \""
+msgstr "有一个启动条目指向被 BitLocker 锁定的驱动器：\""
+
+msgid "The start-up menu on {0} lists \"{1}\" on {2}, but that drive is encrypted with BitLocker and locked, so it cannot be checked. Windows is very likely inside it.\n\nDo not remove this entry. Unlock the drive first (with its 48-digit recovery key) and scan again: only then can it be seen whether the entry is fine."
+msgstr "{0} 上的启动菜单列出了 {2} 上的 \"{1}\"，但该驱动器已使用 BitLocker 加密并处于锁定状态，因此无法检查。Windows 很可能就在其中。\n\n请不要删除此条目。请先解锁该驱动器（使用 48 位恢复密钥）并重新扫描：只有这样才能确定该条目是否正常。"
+
+msgid "BitLocker encrypts a whole drive. While it is locked, no program can see the Windows inside it, so a working start-up entry looks as if it leads nowhere."
+msgstr "BitLocker 会加密整个驱动器。在锁定期间，任何程序都看不到其中的 Windows，因此一个正常的启动条目看起来也像是指向不存在的位置。"
+
+msgid "there is no Windows in "
+msgstr "以下位置已没有 Windows： "
+
+msgid " any more"
+msgstr " 了"
+
+msgid "A start-up menu entry leads nowhere: \""
+msgstr "有一个启动菜单条目指向不存在的位置：\""
+
+msgid "The start-up menu on "
+msgstr "以下位置的启动菜单 "
+
+msgid " lists \""
+msgstr " 列出了 \""
+
+msgid "\", but "
+msgstr "\"，但 "
+
+msgid "It is even set to start first, so every time the PC starts it tries this entry, fails, and you see an error or a blue screen."
+msgstr "它甚至被设为优先启动，所以电脑每次启动都会尝试这个条目，然后失败，你会看到错误或蓝屏。"
+
+msgid "This PC does not start from that menu now, so it does no harm today. But if the PC is ever started from Disk "
+msgstr "这台电脑现在不从该菜单启动，因此目前没有害处。但如果将来从以下磁盘启动电脑：磁盘 "
+
+msgid ", it tries this entry first and fails. It is probably left over from a copied (cloned) disk."
+msgstr "，它会先尝试这个条目并失败。它可能是复制（克隆）磁盘时遗留下来的。"
+
+msgid "If someone picks it in the start-up menu, the PC shows an error. It also makes the menu confusing."
+msgstr "如果有人在启动菜单中选择它，电脑会显示错误。它还会让菜单显得混乱。"
+
+msgid "It is hidden from the menu, so it does no harm; it is only leftover clutter."
+msgstr "它已从菜单中隐藏，因此没有害处；只是残留的杂项。"
+
+msgid "\n\nNote: "
+msgstr "\n\n注意： "
+
+msgid " has no start-up entry. If this entry used to belong to it (because it was moved), use \"Rebuild the start-up files\" in its report instead: that writes a correct entry. Then remove this one."
+msgstr " 没有启动条目。如果此条目原本属于它（因为它被移动过），请改为在它的报告中使用 \"重建启动文件\"：这会写入正确的条目。然后删除这个条目。"
+
+msgid "\n\nCareful: a drive on this PC is locked by BitLocker. The Windows this entry belongs to may be inside it. Unlock the locked drive first and scan again before removing anything."
+msgstr "\n\n注意：这台电脑上有一个驱动器被 BitLocker 锁定。此条目所属的 Windows 可能就在其中。删除任何内容之前，请先解锁该驱动器并重新扫描。"
+
+msgid "\n\nIt is the only system these start-up settings list, and no Windows on this PC starts through that partition. The whole set of leftover Windows start-up files there can be removed in one go."
+msgstr "\n\n它是这些启动设置中列出的唯一系统，而且这台电脑上没有 Windows 通过该分区启动。那里的整套残留 Windows 启动文件可以一次性删除。"
+
+msgid "The start-up menu lists an entry that does not exist"
+msgstr "启动菜单列出了一个不存在的条目"
+
+msgid " has a line ("
+msgstr " 有一行（"
+
+msgid ") whose settings are gone. It shows up as an empty or broken choice."
+msgstr "）的设置已经不存在。它会显示为一个空白或损坏的选项。"
+
+msgid "Take it off the menu"
+msgstr "从菜单中移除"
+
+msgid "the disk it is on is not connected now"
+msgstr "它所在的磁盘现在未连接"
+
+msgid "its start-up file ("
+msgstr "它的启动文件（"
+
+msgid ") is no longer on "
+msgstr "）已不在以下位置： "
+
+msgid "The PC's start-up list has an entry that leads nowhere: \""
+msgstr "电脑的启动列表中有一个指向不存在位置的条目：\""
+
+msgid ") is in the start-up list kept inside the PC, but "
+msgstr "）在电脑内部保存的启动列表中，但 "
+
+msgid "If it belongs to a USB stick or a disk you connect now and then, keep it. If that disk is gone for good, remove the entry."
+msgstr "如果它属于你偶尔连接的 U 盘或磁盘，请保留它。如果该磁盘已经永久不用了，请删除这个条目。"
+
+msgid "The system it used to start ("
+msgstr "它原来启动的系统（"
+
+msgid ") was probably deleted or uninstalled, but its line stayed behind."
+msgstr "）可能已被删除或卸载，但这一行留了下来。"
+
+msgid " The PC tries it every time it starts, which can slow starting down or show an error before Windows appears."
+msgstr " 电脑每次启动都会尝试它，这可能会减慢启动速度，或在 Windows 出现之前显示错误。"
+
+msgid "\n\nCareful: a drive on this PC is locked by BitLocker. Unlock it first and scan again before removing anything."
+msgstr "\n\n注意：这台电脑上有一个驱动器被 BitLocker 锁定。删除任何内容之前，请先解锁它并重新扫描。"
+
+msgid "\n\nFor a technician: "
+msgstr "\n\n供技术人员参考： "
+
+msgid "The start-up entry \""
+msgstr "启动条目 \""
+
+msgid "\" expects Windows in "
+msgstr "\" 期望 Windows 位于 "
+
+msgid " on this drive, but it is now in "
+msgstr " （此驱动器上），但它现在位于 "
+
+msgid "\" points to a partition that is no longer there. Windows may have been moved or copied to this drive from there."
+msgstr "\" 指向一个已不存在的分区。Windows 可能是从那里被移动或复制到此驱动器的。"
+
+msgid "The PC starts in UEFI mode, the modern way of starting."
+msgstr "电脑以 UEFI 模式启动，这是现代的启动方式。"
+
+msgid "UEFI firmware"
+msgstr "UEFI 固件"
+
+msgid ", Secure Boot on"
+msgstr "，Secure Boot 已开启"
+
+msgid ", Secure Boot off"
+msgstr "，Secure Boot 已关闭"
+
+msgid "The PC starts in UEFI mode, but this Windows is on an older-style (MBR) disk. It can only start if \"Legacy\" or \"CSM\" is turned on in the PC's firmware settings, or after a start-up partition is created for it."
+msgstr "电脑以 UEFI 模式启动，但此 Windows 位于旧式（MBR）磁盘上。只有在电脑固件设置中开启 \"Legacy\" 或 \"CSM\"，或为它创建启动分区后，它才能启动。"
+
+msgid "This is a 32-bit Windows. Most PCs that start in UEFI mode cannot start 32-bit Windows; turn on \"Legacy\" or \"CSM\" in the firmware settings."
+msgstr "这是 32 位 Windows。大多数以 UEFI 模式启动的电脑无法启动 32 位 Windows；请在固件设置中开启 \"Legacy\" 或 \"CSM\"。"
+
+msgid "Secure Boot is on, but "
+msgstr "Secure Boot 已开启，但 "
+
+msgid " was made before Secure Boot existed, so the PC refuses to start it. Switch Secure Boot off in the PC's firmware settings."
+msgstr " 诞生于 Secure Boot 出现之前，因此电脑拒绝启动它。请在电脑的固件设置中关闭 Secure Boot。"
+
+msgid " Secure Boot is off. Windows 11 still starts, but it is less protected, Windows may say the PC is not supported, and some games refuse to run. You can switch it on in the firmware settings."
+msgstr " Secure Boot 已关闭。Windows 11 仍可启动，但保护较弱，Windows 可能会提示此电脑不受支持，有些游戏也会拒绝运行。你可以在固件设置中开启它。"
+
+msgid " Secure Boot is on, which protects the start against harmful programs."
+msgstr " Secure Boot 已开启，可保护启动过程免受有害程序侵害。"
+
+msgid " Secure Boot is off."
+msgstr " Secure Boot 已关闭。"
+
+msgid "The PC starts in legacy (BIOS) mode, the older way of starting."
+msgstr "电脑以传统（BIOS）模式启动，这是较旧的启动方式。"
+
+msgid "Legacy BIOS firmware (or UEFI with CSM)"
+msgstr "传统 BIOS 固件（或带 CSM 的 UEFI）"
+
+msgid "This Windows is on a GPT disk, which can only start in UEFI mode, but the PC was started in legacy (BIOS) mode. Turn on UEFI mode in the PC's firmware settings (often called \"Boot mode\", or turn \"CSM\" off)."
+msgstr "此 Windows 位于 GPT 磁盘上，只能以 UEFI 模式启动，但电脑是以传统（BIOS）模式启动的。请在电脑的固件设置中开启 UEFI 模式（通常称为 \"Boot mode\"，或关闭 \"CSM\"）。"
+
+msgid "BIOS boot + GPT disk"
+msgstr "BIOS 启动 + GPT 磁盘"
+
+msgid "The disk cannot be read. It may be failing or badly connected."
+msgstr "无法读取磁盘。它可能正在损坏或连接不良。"
+
+msgid "no partition table"
+msgstr "没有分区表"
+
+msgid "The disk with this Windows ("
+msgstr "装有此 Windows 的磁盘（"
+
+msgid ") can be read and its partition table is fine."
+msgstr "）可以读取，其分区表正常。"
+
+msgid "The main copy of the disk's partition table is damaged. Windows is using the backup copy for now."
+msgstr "磁盘分区表的主副本已损坏。Windows 目前正在使用备份副本。"
+
+msgid "The backup copy of the disk's partition table is damaged. Windows still starts, but there is no safety copy."
+msgstr "磁盘分区表的备份副本已损坏。Windows 仍能启动，但没有安全副本了。"
+
+msgid "The backup copy of the partition table is not at the end of the disk. This happens after copying a disk to a bigger one."
+msgstr "分区表的备份副本不在磁盘末尾。将磁盘复制到更大的磁盘后会出现这种情况。"
+
+msgid "The Windows partition runs past the end of the disk, so part of it is missing. The disk was probably copied to a smaller one."
+msgstr "Windows 分区超出了磁盘末尾，因此有一部分丢失了。磁盘可能被复制到了更小的磁盘上。"
+
+msgid "The Windows partition overlaps another partition. One of them gets damaged when written to."
+msgstr "Windows 分区与另一个分区重叠。写入时其中一个会被损坏。"
+
+msgid "There is no EFI system partition (the small start-up partition a UEFI PC starts from). It is missing or was deleted."
+msgstr "没有 EFI 系统分区（UEFI 电脑用来启动的小启动分区）。它丢失了或已被删除。"
+
+msgid "The start-up partition cannot be opened."
+msgstr "无法打开启动分区。"
+
+msgid "The start-up partition is damaged: its files cannot be read."
+msgstr "启动分区已损坏：无法读取其中的文件。"
+
+msgid "The start-up partition is there and can be read."
+msgstr "启动分区存在且可以读取。"
+
+msgid "The start-up partition uses "
+msgstr "启动分区使用的是 "
+
+msgid ", which the PC's firmware cannot read. It must be FAT32."
+msgstr "，电脑的固件无法读取它。它必须是 FAT32。"
+
+msgid "The start-up partition is almost full ("
+msgstr "启动分区快满了（"
+
+msgid " free). New start-up files may not fit."
+msgstr " 可用）。新的启动文件可能放不下。"
+
+msgid " It is on another disk (Disk "
+msgstr " 它位于另一个磁盘上（磁盘 "
+
+msgid "), so this Windows only starts while that disk is connected."
+msgstr "），因此只有在连接该磁盘时，此 Windows 才能启动。"
+
+msgid "No partition on this disk is marked \"active\", so an older PC (legacy BIOS) does not know where to start."
+msgstr "此磁盘上没有标记为 \"活动\" 的分区，因此较旧的电脑（传统 BIOS）不知道从哪里启动。"
+
+msgid "The active (start-up) partition cannot be read. Its file system is damaged."
+msgstr "无法读取活动（启动）分区。它的文件系统已损坏。"
+
+msgid "The active start-up partition is there and can be read."
+msgstr "活动启动分区存在且可以读取。"
+
+msgid "Cannot be checked until the start-up partition is fixed."
+msgstr "在修复启动分区之前无法检查。"
+
+msgid "Windows Boot Manager is on the start-up partition."
+msgstr "Windows Boot Manager 位于启动分区上。"
+
+msgid "The PC's own start-up list has no "
+msgstr "电脑自己的启动列表中没有 "
+
+msgid "entry for Windows Boot Manager on this partition."
+msgstr "此分区上 Windows Boot Manager 的条目。"
+
+msgid " It may still start through the standard fallback file."
+msgstr " 它仍可能通过标准备用文件启动。"
+
+msgid " So the PC does not try to start it."
+msgstr " 因此电脑不会尝试启动它。"
+
+msgid "No firmware Boot#### entry for bootmgfw.efi on "
+msgstr "没有指向 bootmgfw.efi 的固件 Boot#### 条目，位于 "
+
+msgid "The disk's start-up code (in its first sector) is empty, so the PC cannot begin starting from this disk."
+msgstr "磁盘的启动代码（位于第一个扇区）是空的，因此电脑无法从此磁盘开始启动。"
+
+msgid "MBR boot code is zero"
+msgstr "MBR 启动代码为零"
+
+msgid "Windows Boot Manager (the file \"bootmgr\") is missing from the start-up partition."
+msgstr "启动分区中缺少 Windows Boot Manager（文件 \"bootmgr\"）。"
+
+msgid "The start-up partition's first sector is damaged."
+msgstr "启动分区的第一个扇区已损坏。"
+
+msgid "The disk's start-up code and Windows Boot Manager are in place."
+msgstr "磁盘的启动代码和 Windows Boot Manager 都已就绪。"
+
+msgid "The start-up settings file (BCD) is missing, so Windows Boot Manager does not know which Windows to start."
+msgstr "启动设置文件（BCD）丢失，因此 Windows Boot Manager 不知道要启动哪个 Windows。"
+
+msgid ": no entry with osdevice "
+msgstr "：没有 osdevice 为 "
+
+msgid " and systemroot "
+msgstr " 且 systemroot 为以下值的条目： "
+
+msgid "Windows was moved: "
+msgstr "Windows 已被移动： "
+
+msgid "The start-up settings have no entry for this Windows, so it is never started."
+msgstr "启动设置中没有此 Windows 的条目，因此它永远不会被启动。"
+
+msgid ", entry "
+msgstr "，条目 "
+
+msgid "\" path "
+msgstr "\" 路径 "
+
+msgid "The start-up entry for this Windows points to a loader file that is not there ("
+msgstr "此 Windows 的启动条目指向一个不存在的加载程序文件（"
+
+msgid "The start-up entry is made for legacy (BIOS) start-up, but the PC starts in UEFI mode."
+msgstr "此启动条目是为传统（BIOS）启动而设置的，但电脑以 UEFI 模式启动。"
+
+msgid "The start-up entry is made for UEFI start-up, but the PC started in legacy (BIOS) mode."
+msgstr "此启动条目是为 UEFI 启动而设置的，但电脑是以传统（BIOS）模式启动的。"
+
+msgid "The start-up entry loads Windows' loader from another partition than the one Windows is on."
+msgstr "此启动条目从另一个分区（而不是 Windows 所在的分区）加载 Windows 加载程序。"
+
+msgid "This Windows has a start-up entry, but it is hidden from the start-up menu, so it never starts."
+msgstr "此 Windows 有启动条目，但它在启动菜单中被隐藏了，因此永远不会启动。"
+
+msgid "The start-up settings list this Windows"
+msgstr "启动设置中列出了此 Windows"
+
+msgid ", and it starts first."
+msgstr "，并且它会优先启动。"
+
+msgid " The menu is set to wait 0 seconds, so you never see it."
+msgstr " 菜单被设置为等待 0 秒，因此你永远看不到它。"
+
+msgid "The Windows drive is locked by BitLocker encryption. It must be unlocked with its recovery key before it can be checked."
+msgstr "Windows 驱动器已被 BitLocker 加密锁定。必须先用恢复密钥解锁才能检查。"
+
+msgid "The partition with Windows can be read."
+msgstr "装有 Windows 的分区可以读取。"
+
+msgid "The Windows drive is marked as needing a disk check. Windows may run the check while starting, or get stuck on it."
+msgstr "Windows 驱动器被标记为需要磁盘检查。Windows 可能会在启动时运行检查，或卡在检查上。"
+
+msgid "The Windows drive is almost full ("
+msgstr "Windows 驱动器快满了（"
+
+msgid " free). Windows needs some free space to start and to update. Delete or move some files."
+msgstr " 可用）。Windows 需要一些可用空间才能启动和更新。请删除或移走一些文件。"
+
+msgid " It is encrypted with BitLocker and unlocked right now."
+msgstr " 它已使用 BitLocker 加密，当前已解锁。"
+
+msgid "Cannot be checked while the drive is locked."
+msgstr "驱动器锁定时无法检查。"
+
+msgid "Windows' loader, the file that starts Windows itself, is in place."
+msgstr "Windows 加载程序（启动 Windows 本身的文件）已就绪。"
+
+msgid "Some of the files Windows needs to start are "
+msgstr "Windows 启动所需的部分文件 "
+
+msgid "Missing: "
+msgstr "丢失： "
+
+msgid "Damaged: "
+msgstr "损坏： "
+
+msgid "The Windows core and the drivers it needs to read its disk are in place."
+msgstr "Windows 核心以及读取其磁盘所需的驱动程序都已就绪。"
+
+msgid "ntoskrnl.exe, hal.dll, ci.dll, ntfs.sys, disk.sys and others"
+msgstr "ntoskrnl.exe、hal.dll、ci.dll、ntfs.sys、disk.sys 等"
+
+msgid "The spare copy of the start-up files that Windows keeps (to rebuild them) is missing. Rebuilding the start-up files from this Windows will not work until system files are repaired."
+msgstr "Windows 保存的启动文件备用副本（用于重建启动文件）丢失。在修复系统文件之前，无法从此 Windows 重建启动文件。"
+
+msgid "This Windows' spare start-up files are missing. Repair the system files first."
+msgstr "此 Windows 的备用启动文件丢失。请先修复系统文件。"
+
+msgid "Windows' settings file (registry, part "
+msgstr "Windows 的设置文件（注册表，部分 "
+
+msgid ") is damaged. "
+msgstr "）已损坏。 "
+
+msgid " There is no usable automatic backup copy of it. Start Windows' recovery tools and choose System Restore, if restore points exist."
+msgstr " 它没有可用的自动备份副本。如果有还原点，请启动 Windows 的恢复工具并选择系统还原。"
+
+msgid "Windows' settings file (registry) looks fine."
+msgstr "Windows 的设置文件（注册表）看起来正常。"
+
+msgid "SYSTEM, SOFTWARE"
+msgstr "SYSTEM, SOFTWARE"
+
+msgid "Drivers Windows needs to read its own disk while starting are turned off. Windows then stops with INACCESSIBLE_BOOT_DEVICE."
+msgstr "Windows 启动时读取自己磁盘所需的驱动程序被关闭了。Windows 会因此停止并显示 INACCESSIBLE_BOOT_DEVICE。"
+
+msgid "Services with the wrong Start value: "
+msgstr "Start 值错误的服务： "
+
+msgid "The driver for this disk's controller ("
+msgstr "此磁盘控制器的驱动程序（"
+
+msgid ") does not load while Windows starts. If Windows stops with INACCESSIBLE_BOOT_DEVICE (common after moving the disk to another PC), turning it on usually fixes it."
+msgstr "）在 Windows 启动时没有加载。如果 Windows 停止并显示 INACCESSIBLE_BOOT_DEVICE（磁盘移到另一台电脑后很常见），启用它通常可以解决问题。"
+
+msgid "Controller driver with Start not 0: "
+msgstr "Start 不为 0 的控制器驱动程序： "
+
+msgid "Windows is marked as still being set up (SystemSetupInProgress "
+msgstr "Windows 被标记为仍在安装中（SystemSetupInProgress "
+
+msgid ", SetupType "
+msgstr "，SetupType "
+
+msgid "). This causes the \"computer restarted unexpectedly\" loop."
+msgstr "）。这会导致 \"计算机意外地重新启动\" 循环。"
+
+msgid "Windows is marked as still being set up, which can make it restart into set-up again and again."
+msgstr "Windows 被标记为仍在安装中，这可能使它一次又一次地重启进入安装。"
+
+msgid "Automatic Repair ran on "
+msgstr "自动修复已运行，时间： "
+
+msgid " because Windows could not start."
+msgstr " ，原因是 Windows 无法启动。"
+
+msgid "Windows crashed with a blue screen "
+msgstr "Windows 已蓝屏崩溃 "
+
+msgid " time"
+msgstr " 次"
+
+msgid " times"
+msgstr " 次"
+
+msgid " since "
+msgstr " ，自以下时间起： "
+
+msgid "An upgrade to a newer Windows was started recently."
+msgstr "最近开始了一次升级到较新版本 Windows 的操作。"
+
+msgid "This Windows is running now, so it started fine."
+msgstr "此 Windows 正在运行，因此它启动正常。"
+
+msgid "This Windows is running now. Earlier trouble was found, listed below."
+msgstr "此 Windows 正在运行。发现了之前的问题，列在下方。"
+
+msgid "Windows seems to be stuck in a loop: it starts, fails and restarts, or keeps going into Automatic Repair."
+msgstr "Windows 似乎陷入了循环：启动、失败、重启，或不断进入自动修复。"
+
+msgid "No restart loop was found, but there are signs of earlier trouble."
+msgstr "没有发现重启循环，但有之前出过问题的迹象。"
+
+msgid "No signs that Windows keeps restarting or failing to start."
+msgstr "没有迹象表明 Windows 在反复重启或无法启动。"
+
+msgid "This is the Windows that is running now. Start the PC from a Windows USB stick or Windows' recovery tools and run this program there."
+msgstr "这是当前正在运行的 Windows。请从 Windows U 盘或 Windows 恢复工具启动电脑，并在那里运行本程序。"
+
+msgid "This is the Windows you are using now, so it starts. Some things still need attention."
+msgstr "这是你当前正在使用的 Windows，所以它能启动。仍有一些问题需要注意。"
+
+msgid "Will not start"
+msgstr "无法启动"
+
+msgid "Something this Windows needs to start is missing or damaged."
+msgstr "此 Windows 启动所需的某些内容丢失或已损坏。"
+
+msgid "May have trouble starting"
+msgstr "启动可能有问题"
+
+msgid "Inactive"
+msgstr "非活动"
+
+msgid "It should start, but some things need attention."
+msgstr "它应该能启动，但有些问题需要注意。"
+
+msgid "This Windows looks healthy but is not in the start-up menu, so it never starts."
+msgstr "此 Windows 看起来正常，但不在启动菜单中，因此永远不会启动。"
+
+msgid "Should start normally"
+msgstr "应能正常启动"
+
+msgid "Everything this Windows needs to start is in place."
+msgstr "此 Windows 启动所需的一切都已就绪。"
+
+msgid "Old copy kept after an upgrade"
+msgstr "升级后保留的旧副本"
+
+msgid "Windows keeps the previous Windows in Windows.old for a while after an upgrade. It cannot be started, but files can be copied out of it."
+msgstr "升级后，Windows 会将之前的 Windows 在 Windows.old 中保留一段时间。它无法启动，但可以从中复制文件。"
+
+msgid "This Windows sits inside the folder \""
+msgstr "此 Windows 位于文件夹 \""
+
+msgid "\", so it cannot start. It was probably copied or moved there."
+msgstr "\" 中，因此无法启动。它可能是被复制或移动到那里的。"
+
+msgid " To start it again, its folders must go back to the top of the drive."
+msgstr " 要让它重新启动，它的文件夹必须移回驱动器的顶层。"
+
+msgid "The top of this drive already has its own Windows folder. Move that one away first, or copy the user files you need out of this folder."
+msgstr "此驱动器的顶层已经有它自己的 Windows 文件夹。请先把那个文件夹移走，或从此文件夹中复制出你需要的用户文件。"
+
+msgid "Secure Boot was switched on (by you, by a firmware update, or because the firmware settings were reset to their defaults)."
+msgstr "Secure Boot 被开启了（由你、固件更新，或因为固件设置被重置为默认值）。"
+
+msgid "The firmware settings were reset (after a firmware update or when the small battery on the main board ran flat), they were changed by hand, or the disk came from another PC."
+msgstr "固件设置被重置了（固件更新后，或主板上的小电池没电时），被手动更改了，或者磁盘来自另一台电脑。"
+
+msgid "A loose or failing cable, a failing disk, or the disk was copied (cloned) to another disk of a different size."
+msgstr "电缆松动或故障、磁盘故障，或者磁盘被复制（克隆）到另一个大小不同的磁盘。"
+
+msgid "It was deleted while making room for another system, the disk was copied without it, Windows was installed while another disk was connected (so the start-up partition went to that disk), or a partitioning tool removed or reformatted it."
+msgstr "它在为另一个系统腾出空间时被删除了、复制磁盘时没有复制它、安装 Windows 时连接着另一个磁盘（因此启动分区装到了那个磁盘上），或者分区工具删除或重新格式化了它。"
+
+msgid "A Windows update interrupted by a power cut, an antivirus that removed it, another system's installer (often Linux) that replaced it, or disk errors."
+msgstr "Windows 更新因断电中断、杀毒软件删除了它、另一个系统的安装程序（通常是 Linux）替换了它，或者磁盘错误。"
+
+msgid "A Windows update or repair interrupted by a power cut, the disk was copied or moved to another PC, another boot manager was installed over it, or Windows was moved to another partition."
+msgstr "Windows 更新或修复因断电中断、磁盘被复制或移到另一台电脑、另一个启动管理器覆盖安装在它上面，或者 Windows 被移到了另一个分区。"
+
+msgid "BitLocker locks the drive after firmware or hardware changes; a power cut while writing leaves it needing a disk check; or the drive ran full."
+msgstr "固件或硬件更改后，BitLocker 会锁定驱动器；写入时断电会使它需要磁盘检查；或者驱动器已满。"
+
+msgid "An update that failed halfway, an antivirus that quarantined a file, disk errors, or a cleaning tool that removed files it should not have."
+msgstr "更新中途失败、杀毒软件隔离了某个文件、磁盘错误，或清理工具删除了不该删除的文件。"
+
+msgid "A power cut while Windows was saving its settings, a failing disk, or the disk was moved to a PC with a different disk controller, so the right driver was not set to load."
+msgstr "Windows 保存设置时断电、磁盘故障，或者磁盘被移到了磁盘控制器不同的电脑上，因此没有设置加载正确的驱动程序。"
+
+msgid "An update or driver installed shortly before it began, a failing disk or memory, malware, or a setting changed just before the trouble started."
+msgstr "问题出现前不久安装的更新或驱动程序、磁盘或内存故障、恶意软件，或者在问题出现前刚更改的某个设置。"
+
+msgid "The Windows folders were copied or moved while backing up or reorganising files, or a reset kept the old Windows in a folder."
+msgstr "备份或整理文件时复制或移动了 Windows 文件夹，或者重置操作将旧 Windows 保留在了一个文件夹中。"
+
+msgid "A Windows or firmware update removed or moved Linux's entry, or the firmware settings were reset to their defaults."
+msgstr "Windows 或固件更新删除或移动了 Linux 的条目，或者固件设置被重置为默认值。"
+
+msgid "Windows was reinstalled or repaired (it rewrites the start-up partition), or the start-up partition was formatted."
+msgstr "重新安装或修复了 Windows（这会重写启动分区），或者启动分区被格式化了。"
+
+msgid "The Linux partition was deleted, formatted or recreated (which gives it a new id), or the disk was copied."
+msgstr "Linux 分区被删除、格式化或重新创建（这会给它一个新的 ID），或者磁盘被复制了。"
+
+msgid "Windows was installed or repaired after Linux, and wrote its own start-up code over GRUB."
+msgstr "在 Linux 之后安装或修复了 Windows，它用自己的启动代码覆盖了 GRUB。"
+
+msgid "A Linux update failed halfway, or /boot ran out of space during an update."
+msgstr "Linux 更新中途失败，或者更新期间 /boot 空间不足。"
+
+msgid "\"update-grub\" failed or was interrupted, or /boot was cleaned up by hand."
+msgstr "\"update-grub\" 失败或被中断，或者 /boot 被手动清理过。"
+
+msgid "A partition was removed or reformatted after Linux was set up, or a disk was disconnected."
+msgstr "设置好 Linux 后删除或重新格式化了某个分区，或者断开了某个磁盘。"
+
+msgid "The disk is not detected (cable, or the storage mode RAID / VMD in the firmware settings needs a driver), the system partition was deleted or formatted, or it is locked by BitLocker."
+msgstr "未检测到磁盘（电缆问题，或固件设置中的存储模式 RAID / VMD 需要驱动程序），系统分区被删除或格式化，或者它被 BitLocker 锁定。"
+
+msgid "This PC"
+msgstr "这台电脑"
+
+msgid "No Windows or Linux found"
+msgstr "未找到 Windows 或 Linux"
+
+msgid "No disk was found at all."
+msgstr "完全没有找到磁盘。"
+
+msgid "None of the disks can be read."
+msgstr "所有磁盘都无法读取。"
+
+msgid " disk was found and can be read."
+msgstr " 个磁盘已找到且可以读取。"
+
+msgid " disks were found and can be read."
+msgstr " 个磁盘已找到且可以读取。"
+
+msgid "No EFI system partition (start-up partition) was found on any disk."
+msgstr "在任何磁盘上都没有找到 EFI 系统分区（启动分区）。"
+
+msgid "No partition is marked active, so an older PC has nothing to start from."
+msgstr "没有分区被标记为活动分区，因此较旧的电脑无处可启动。"
+
+msgid "A start-up partition was found."
+msgstr "找到了启动分区。"
+
+msgid "Cannot be checked without a start-up partition."
+msgstr "没有启动分区，无法检查。"
+
+msgid "A boot manager is on the start-up partition."
+msgstr "启动分区上有启动管理器。"
+
+msgid "There is no boot manager on the start-up partition."
+msgstr "启动分区上没有启动管理器。"
+
+msgid "No start-up settings (BCD) were found."
+msgstr "未找到启动设置（BCD）。"
+
+msgid "The start-up settings list "
+msgstr "启动设置列出了 "
+
+msgid " system(s), but none of them was found on the disks."
+msgstr " 个系统，但在磁盘上一个也没有找到。"
+
+msgid "Systems"
+msgstr "系统"
+
+msgid "No Windows or Linux was found on any disk, so there is nothing for the PC to start. Starting stops here."
+msgstr "在任何磁盘上都没有找到 Windows 或 Linux，因此电脑没有可启动的系统。启动会停在这里。"
+
+msgid "A system (Windows or Linux) is the program that actually runs the PC. Everything before this step only exists to find and start it."
+msgstr "系统（Windows 或 Linux）是真正运行电脑的程序。在这一步之前的一切都只是为了找到并启动它。"
+
+msgid "Nothing to start"
+msgstr "没有可启动的系统"
+
+msgid "No Windows or Linux was found."
+msgstr "未找到 Windows 或 Linux。"
+
+msgid "Running in the Windows Recovery Environment (WinRE)"
+msgstr "正在 Windows 恢复环境（WinRE）中运行"
+
+msgid "WinRE is Windows' own small repair system. It opens by itself after Windows fails to start twice, or from Settings > Recovery > Advanced start-up > Troubleshoot > Advanced options. It runs from memory (drive X:), so anything saved on X: is gone after a restart; your disks keep their normal content."
+msgstr "WinRE 是 Windows 自带的小型修复系统。Windows 连续两次启动失败后它会自动打开，也可以从 设置 > 恢复 > 高级启动 > 疑难解答 > 高级选项 打开。它从内存（X: 盘）运行，因此保存在 X: 上的任何内容在重启后都会消失；你的磁盘会保留正常内容。"
+
+msgid "Next steps: work through the report below. Repairs here are safe, because the Windows on the disk is not running. When you are done, close this program and choose \"Continue\" (or restart) to start Windows. If it fails again, WinRE opens again by itself."
+msgstr "下一步：按照下方的报告逐项处理。在这里修复是安全的，因为磁盘上的 Windows 没有在运行。完成后，关闭本程序并选择 \"继续\"（或重启）来启动 Windows。如果再次失败，WinRE 会自动再次打开。"
+
+msgid "Running in Windows PE"
+msgstr "正在 Windows PE 中运行"
+
+msgid "Windows PE is a small Windows started from a USB stick, a DVD or the network, made for installing and repairing PCs. It runs from memory (drive X:), so anything saved on X: is gone after a restart. The drive letters of your disks may differ from the ones you know."
+msgstr "Windows PE 是从 U 盘、DVD 或网络启动的小型 Windows，用于安装和修复电脑。它从内存（X: 盘）运行，因此保存在 X: 上的任何内容在重启后都会消失。你的磁盘的驱动器号可能与你熟悉的不同。"
+
+msgid "Next steps: work through the report below. Repairs here are safe, because the Windows on the disk is not running. Backups are kept on a real disk, not on X:. When you are done, remove the USB stick or DVD and restart, so the PC starts from its own disk."
+msgstr "下一步：按照下方的报告逐项处理。在这里修复是安全的，因为磁盘上的 Windows 没有在运行。备份保存在真实磁盘上，而不是 X: 上。完成后，取出 U 盘或 DVD 并重启，让电脑从它自己的磁盘启动。"
+
+msgid "Running in a virtual machine ("
+msgstr "正在虚拟机中运行（"
+
+msgid "This \"PC\" is simulated by "
+msgstr "这台 \"电脑\" 是由以下程序模拟的： "
+
+msgid "Next steps: take a snapshot (checkpoint) of the virtual machine before repairs, so you can go back in one click. To change Secure Boot or the start-up order, switch the virtual machine off and change its settings in "
+msgstr "下一步：修复前先为虚拟机创建快照（检查点），这样点一下就能恢复。要更改 Secure Boot 或启动顺序，请关闭虚拟机，并在以下程序中更改其设置： "
+
+msgid "Windows is running from a virtual disk file (VHD)"
+msgstr "Windows 正在从虚拟磁盘文件（VHD）运行"
+
+msgid "This Windows lives inside a single large file (a VHD or VHDX) on a real disk, and starts from it directly. Its start-up files are on the real disk's start-up partition, while Windows itself is inside the file."
+msgstr "此 Windows 存放在真实磁盘上的一个大文件（VHD 或 VHDX）中，并直接从该文件启动。它的启动文件位于真实磁盘的启动分区上，而 Windows 本身在该文件中。"
+
+msgid "Next steps: before repairs, copy the VHD file somewhere safe if you can (it is the whole Windows). Never move or rename the file: the start-up settings point to its exact place."
+msgstr "下一步：修复前，如果可以，请将 VHD 文件复制到安全的地方（它就是整个 Windows）。切勿移动或重命名该文件：启动设置指向它的确切位置。"
+
+msgid "Windows is in Safe Mode"
+msgstr "Windows 处于安全模式"
+
+msgid "Safe Mode starts Windows with only the most basic drivers, to get past a driver or program that stops it from starting normally."
+msgstr "安全模式只用最基本的驱动程序启动 Windows，以绕过阻止它正常启动的驱动程序或程序。"
+
+msgid "Next steps: check the report below; restarting normally leaves Safe Mode."
+msgstr "下一步：查看下方的报告；正常重启即可退出安全模式。"
+
+msgid "Windows' folders were found under other names"
+msgstr "找到了名称不同的 Windows 文件夹"
+
+msgid "On {0} there are folders that hold a Windows (its heart, its loader and its settings), but under other names: {1}. Windows only starts from folders called Windows, System32 and config, so this one cannot start as it is. They were probably renamed by hand, by a program or by a failed update."
+msgstr "{0} 上有一些文件夹存放着一个 Windows（它的核心、加载程序和设置），但名称不同：{1}。Windows 只能从名为 Windows、System32 和 config 的文件夹启动，因此这个 Windows 按现状无法启动。它们可能是被手动、被某个程序或被一次失败的更新重命名的。"
+
+msgid "\n\nA folder called Windows already exists next to it, so it cannot simply be renamed back. Look at both folders first (for example with the command prompt) and rename one by hand."
+msgstr "\n\n旁边已经有一个名为 Windows 的文件夹，因此不能直接改回原名。请先查看这两个文件夹（例如用命令提示符），然后手动重命名其中一个。"
+
+msgid "\n\nAfter renaming, scan again: if the Windows folder is inside another folder, the report then offers to move it back to the top of the drive."
+msgstr "\n\n重命名后请重新扫描：如果 Windows 文件夹位于另一个文件夹中，报告会提供将它移回驱动器顶层的选项。"
+
+msgid "Windows looks for itself by fixed names: the folder Windows at the top of the drive, with System32 inside it, and config inside that for its settings. A different name is enough to stop it from starting, even though every file is still there."
+msgstr "Windows 按固定名称查找自己：驱动器顶层的 Windows 文件夹，其中有 System32，System32 中又有存放设置的 config。即使每个文件都还在，名称不同也足以让它无法启动。"
+
+msgid "The troubleshoot options are the blue \"Choose an option\" screen Windows opens when it cannot start: Startup Repair, System Restore, uninstalling updates, the command prompt and \"Reset this PC\". They live in a small hidden recovery partition (or inside Windows itself)."
+msgstr "疑难解答选项就是 Windows 无法启动时打开的蓝色 \"选择一个选项\" 界面：启动修复、系统还原、卸载更新、命令提示符和 \"重置此电脑\"。它们位于一个小的隐藏恢复分区中（或在 Windows 本身中）。"
+
+msgid "The troubleshoot options of {0} are switched off or have no partition of their own"
+msgstr "{0} 的疑难解答选项已关闭，或没有自己的分区"
+
+msgid "Windows' repair tools are inside this Windows (in System32\\Recovery), so they can be switched on again without changing any partition. Recreating a recovery partition keeps them safe even if the Windows partition is damaged."
+msgstr "Windows 的修复工具位于此 Windows 中（在 System32\\Recovery 里），因此无需更改任何分区即可重新启用。重新创建恢复分区可以在 Windows 分区损坏时也保证它们的安全。"
+
+msgid "The troubleshoot options of {0} are missing"
+msgstr "{0} 的疑难解答选项丢失"
+
+msgid "When this Windows cannot start, it cannot show its repair tools (the blue \"Choose an option\" screen): the recovery partition is gone or empty. They can be recreated from a copy of the tools found on this PC or on a Windows install USB stick."
+msgstr "当此 Windows 无法启动时，它无法显示修复工具（蓝色 \"选择一个选项\" 界面）：恢复分区已不存在或是空的。可以用这台电脑上找到的工具副本，或用 Windows 安装 U 盘重新创建它们。"
+
+msgid " This drive uses BitLocker: have its recovery key ready, Windows may ask for it at the next start."
+msgstr " 此驱动器使用了 BitLocker：请准备好恢复密钥，下次启动时 Windows 可能会要求输入。"
+
+msgid "The Windows drive is almost full ({0} free)"
+msgstr "Windows 驱动器快满了（可用 {0}）"
+
+msgid "{0} has only {1} free of {2}. Windows needs free room to start, to install updates and to undo failed ones; with too little it can get stuck restarting or show errors.\n\nFirst free up space (nothing personal is removed). If that is not enough, the partition can be made bigger with unused space right after it, or with the partition after it."
+msgstr "{0} 总共 {2}，只剩 {1} 可用。Windows 需要可用空间来启动、安装更新以及撤销失败的更新；空间太少时，它可能会卡在重启中或显示错误。\n\n请先释放空间（不会删除任何个人内容）。如果还不够，可以用紧随其后的未使用空间或其后的分区来扩大该分区。"
+
+msgid "A partition can only grow into space that comes right after it on the disk, never into space before it. Unused space elsewhere first has to be moved, which this program does not do."
+msgstr "分区只能扩展到磁盘上紧随其后的空间中，绝不能扩展到它前面的空间。其他位置的未使用空间必须先移动过来，而本程序不提供此功能。"
+
+msgid " is locked by BitLocker"
+msgstr " 已被 BitLocker 锁定"
+
+msgid "This drive is encrypted and locked, so it cannot be checked for Windows. Unlock it with its recovery key and scan again. Do this first, before any other change on this PC: start-up entries that seem to lead nowhere may belong to a Windows inside this drive."
+msgstr "此驱动器已加密并锁定，因此无法检查其中是否有 Windows。请用恢复密钥解锁，然后重新扫描。请在对这台电脑做任何其他更改之前先完成这一步：看似指向不存在位置的启动条目，可能属于此驱动器中的 Windows。"
+
+msgid "BitLocker encrypts a whole drive. Without its 48-digit recovery key nothing on it can be read. The key is in the Microsoft account of the PC's owner (aka.ms/myrecoverykey), on a printout, or with the IT department."
+msgstr "BitLocker 会加密整个驱动器。没有 48 位恢复密钥，就无法读取其中的任何内容。密钥在电脑所有者的 Microsoft 帐户中（aka.ms/myrecoverykey）、打印件上，或在 IT 部门那里。"
+
+msgid "Check "
+msgstr "检查 "
+
+msgid "\nIf this disk held Windows or your files, do not set it up again: a partition recovery tool (such as PATio LifeSaver) can often find the lost partitions."
+msgstr "\n如果此磁盘曾存放 Windows 或你的文件，请不要重新设置它：分区恢复工具（例如 PATio LifeSaver）通常可以找回丢失的分区。"
+
+msgid " Linux is also on this PC: afterwards Windows starts first. Linux stays installed; use \"Make Linux start first\" in its report to bring its menu back."
+msgstr " 这台电脑上还装有 Linux：完成后 Windows 会优先启动。Linux 仍然保留；请在它的报告中使用 \"让 Linux 优先启动\" 来恢复它的菜单。"
+
+msgid " Linux is also on this PC: on this older (BIOS) PC this replaces GRUB, so Linux then needs repairing from a Linux USB stick."
+msgstr " 这台电脑上还装有 Linux：在这台较旧的（BIOS）电脑上，此操作会替换 GRUB，之后需要用 Linux U 盘修复 Linux。"
+
+msgid "Administrator rights are needed"
+msgstr "需要管理员权限"
+
+msgid "Windows only shows disks to programs started as administrator. Close this program, right-click it and choose \"Run as administrator\"."
+msgstr "Windows 只向以管理员身份启动的程序显示磁盘。请关闭本程序，右键单击它并选择 \"以管理员身份运行\"。"
+
+msgid "Windows is probably inside a drive locked by BitLocker"
+msgstr "Windows 可能位于被 BitLocker 锁定的驱动器中"
+
+msgid "No Windows could be seen, but {0} is encrypted with BitLocker and locked. Windows is very likely inside it.\n\nUnlock it first, with its 48-digit recovery key. Until then, do not remove start-up entries, delete partitions or rebuild anything: they may all belong to the Windows inside the locked drive."
+msgstr "没有看到任何 Windows，但 {0} 已使用 BitLocker 加密并处于锁定状态。Windows 很可能就在其中。\n\n请先用 48 位恢复密钥解锁它。在此之前，请不要删除启动条目、删除分区或重建任何内容：它们可能都属于锁定驱动器中的 Windows。"
+
+msgid "No Windows was found"
+msgstr "未找到 Windows"
+
+msgid "Only Linux was found on this PC. "
+msgstr "这台电脑上只找到了 Linux。 "
+
+msgid "None of the disks has a Windows folder that could be started. If you expected one:\n- The disk may not be detected. Check its cable, or the storage mode (AHCI/RAID/VMD) in the PC's firmware settings.\n- A drive may be locked by BitLocker (listed above, if so).\n- The partition may have been deleted. A partition recovery tool (such as PATio LifeSaver) can often find it again."
+msgstr "所有磁盘上都没有可以启动的 Windows 文件夹。如果你认为应该有：\n- 磁盘可能未被检测到。请检查它的电缆，或电脑固件设置中的存储模式（AHCI/RAID/VMD）。\n- 某个驱动器可能被 BitLocker 锁定（如果是，会在上方列出）。\n- 分区可能已被删除。分区恢复工具（例如 PATio LifeSaver）通常可以把它找回来。"
+
+msgid "Reading disks and partitions"
+msgstr "正在读取磁盘和分区"
+
+msgid "Reading the start-up settings"
+msgstr "正在读取启动设置"
+
+msgid "Looking for Windows on "
+msgstr "正在查找 Windows，位置： "
+
+msgid "Looking for Linux"
+msgstr "正在查找 Linux"
+
+msgid "Checking each system"
+msgstr "正在检查每个系统"
+
+msgid "Done"
+msgstr "完成"
+
+msgid "PATio Boot Doctor report, "
+msgstr "PATio Boot Doctor 报告， "
+
+msgid "\r\nChecked from: "
+msgstr "\r\n检查环境： "
+
+msgid "Firmware: "
+msgstr "固件： "
+
+msgid "Legacy BIOS"
+msgstr "传统 BIOS"
+
+msgid "DISKS\r\n"
+msgstr "磁盘\r\n"
+
+msgid "no file system (normal)"
+msgstr "无文件系统（正常）"
+
+msgid ", active"
+msgstr "，活动"
+
+msgid "\r\nSYSTEMS FOUND (WINDOWS AND LINUX)\r\n"
+msgstr "\r\n找到的系统（WINDOWS 和 LINUX）\r\n"
+
+msgid "  None\r\n"
+msgstr "  无\r\n"
+
+msgid " build "
+msgstr " 版本 "
+
+msgid "       What may have caused this: "
+msgstr "       可能的原因： "
+
+msgid "    What it will take:\r\n"
+msgstr "    需要做的事：\r\n"
+
+msgid "\r\nOTHER FINDINGS\r\n"
+msgstr "\r\n其他发现\r\n"
+
+msgid "EFI system partition (start-up partition)"
+msgstr "EFI 系统分区（启动分区）"
+
+msgid "Reserved partition (MSR)"
+msgstr "保留分区（MSR）"
+
+msgid "Recovery partition"
+msgstr "恢复分区"
+
+msgid "Active partition (start-up partition)"
+msgstr "活动分区（启动分区）"
+
+msgid "Data partition"
+msgstr "数据分区"
+
+msgid "Extended partition (holds other partitions)"
+msgstr "扩展分区（包含其他分区）"
+
+msgid "Dynamic disk partition"
+msgstr "动态磁盘分区"
+
+msgid "Empty partition"
+msgstr "空分区"
+
+msgid "Unknown partition"
+msgstr "未知分区"
+
+msgid "Start-up (EFI)"
+msgstr "启动（EFI）"
+
+msgid "Reserved"
+msgstr "保留"
+
+msgid "Recovery"
+msgstr "恢复"
+
+msgid "Start-up (active)"
+msgstr "启动（活动）"
+
+msgid "Data"
+msgstr "数据"
+
+msgid "Extended"
+msgstr "扩展"
+
+msgid "Dynamic"
+msgstr "动态"
+
+msgid "Empty"
+msgstr "空"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Disk "
+msgstr "磁盘 "
+
+msgid ", partition "
+msgstr "，分区 "
+
+msgid "Linux swap"
+msgstr "Linux 交换分区"
+
+msgid " bytes at "
+msgstr " 字节，位置 "
+
+msgid " on disk "
+msgstr " ，磁盘 "
+
+msgid "The disk could not be opened for writing."
+msgstr "无法以写入方式打开磁盘。"
+
+msgid "The saved copy does not match this disk's sector size."
+msgstr "保存的副本与此磁盘的扇区大小不匹配。"
+
+msgid "Windows refused to write to the disk (error "
+msgstr "Windows 拒绝写入磁盘（错误 "
+
+msgid "Windows refused to change the partition table (error "
+msgstr "Windows 拒绝更改分区表（错误 "
+
+msgid " again"
+msgstr " （再次）"
+
+msgid "The partition table could not be read."
+msgstr "无法读取分区表。"
+
+msgid "A partition table could not be written to the disk (error "
+msgstr "无法将分区表写入磁盘（错误 "
+
+msgid "This disk already has 4 main partitions, the most an MBR disk can have. Delete or move one first."
+msgstr "此磁盘已经有 4 个主分区，这是 MBR 磁盘的上限。请先删除或移动其中一个。"
+
+msgid "An MBR disk cannot hold partitions beyond 2 TB."
+msgstr "MBR 磁盘无法容纳超过 2 TB 的分区。"
+
+msgid "The partition table is full."
+msgstr "分区表已满。"
+
+msgid " of disk "
+msgstr " ，磁盘 "
+
+msgid "Only MBR disks have an active partition."
+msgstr "只有 MBR 磁盘才有活动分区。"
+
+msgid "That partition was not found on the disk."
+msgstr "在磁盘上找不到该分区。"
+
+msgid "A drive letter could not be given to the partition (error "
+msgstr "无法为分区分配驱动器号（错误 "
+
+msgid " bytes)"
+msgstr " 字节）"
+
+msgid "The PC could not be restarted (error "
+msgstr "无法重启电脑（错误 "
+
+msgid "). Restart it by hand."
+msgstr "）。请手动重启。"
+
+msgid "The PC could not be shut down (error "
+msgstr "无法关闭电脑（错误 "
+
+msgid "). Shut it down by hand."
+msgstr "）。请手动关机。"
+
+msgid "The PC could not go into hibernation (error "
+msgstr "电脑无法进入休眠（错误 "
+
+msgid ")."
+msgstr "）。"
+
+msgid "The PC did not accept the request (error "
+msgstr "电脑没有接受该请求（错误 "
+
+msgid "). Open the firmware settings with its key while the PC starts instead."
+msgstr "）。请改为在电脑启动时按相应的键打开固件设置。"
+
+msgid "SD card"
+msgstr "SD 卡"
+
+msgid "Virtual"
+msgstr "虚拟"
+
+msgid "The disk has no partition table. It is empty, brand new, or its table was wiped."
+msgstr "此磁盘没有分区表。它是空的、全新的，或者分区表已被清除。"
+
+msgid "The disk's start-up code (in the first sector) is empty, so an older PC cannot start from it."
+msgstr "磁盘的启动代码（位于第一个扇区）是空的，因此较旧的电脑无法从它启动。"
+
+msgid "The main copy of the partition table is damaged."
+msgstr "分区表的主副本已损坏。"
+
+msgid "The backup copy of the partition table is not at the end of the disk. The disk was probably copied to a bigger one."
+msgstr "分区表的备份副本不在磁盘末尾。磁盘可能被复制到了更大的磁盘上。"
+
+msgid " runs past the end of the disk, so part of it is missing. The disk was probably copied to a smaller one."
+msgstr " 超出了磁盘末尾，因此有一部分丢失了。磁盘可能被复制到了更小的磁盘上。"
+
+msgid " overlaps another partition. One of them will be damaged when written to."
+msgstr " 与另一个分区重叠。写入时其中一个会被损坏。"
+
+msgid " has no readable file system. It is empty, or its file system is damaged."
+msgstr " 没有可读的文件系统。它是空的，或者文件系统已损坏。"
+
+msgid " is locked by BitLocker. It needs its recovery key before it can be checked."
+msgstr " 已被 BitLocker 锁定。需要恢复密钥才能检查。"
+
+msgid " is marked as needing a disk check."
+msgstr " 被标记为需要磁盘检查。"
+
+msgid "This is a dynamic disk. Windows can start from it, but its parts can only be checked roughly here."
+msgstr "这是一个动态磁盘。Windows 可以从它启动，但在这里只能粗略检查它的各个部分。"
+
+msgid "Create a partition"
+msgstr "创建分区"
+
+msgid "Makes a new partition in this unused space, prepares it with a file system and can give it a drive letter."
+msgstr "在这块未使用的空间中创建一个新分区，用文件系统对其进行准备，并可以为它分配驱动器号。"
+
+msgid "Unused space is part of the disk that belongs to no partition, so nothing can be stored there yet. A new partition turns it into a drive you can use."
+msgstr "未使用的空间是磁盘上不属于任何分区的部分，因此还不能在那里存放任何东西。新建分区会把它变成可以使用的驱动器。"
+
+msgid "Delete the partition"
+msgstr "删除分区"
+
+msgid "Removes the partition. Its space becomes unused. Undo puts the partition table back, which usually brings the partition and its files back, as long as nothing new was written there in the meantime."
+msgstr "删除该分区。它的空间会变为未使用。撤销会恢复分区表，通常能找回该分区及其文件，前提是这期间没有向那里写入新内容。"
+
+msgid "Deleting a partition removes its entry from the disk's table of contents; the files are not wiped at once, but they can no longer be reached."
+msgstr "删除分区会从磁盘的目录中删除它的条目；文件不会立即被抹掉，但已无法访问。"
+
+msgid "Format"
+msgstr "格式化"
+
+msgid "Prepares the partition with a new, empty file system. Everything on it is erased. This cannot be undone."
+msgstr "用一个新的空文件系统准备该分区。其中的所有内容都会被清除。此操作无法撤销。"
+
+msgid "A file system is the way files are organised on a partition. NTFS is Windows' own; FAT32 is understood by almost everything (but holds files of at most 4 GB); exFAT suits USB sticks and memory cards."
+msgstr "文件系统是分区上组织文件的方式。NTFS 是 Windows 自己的格式；FAT32 几乎所有设备都能识别（但单个文件最大 4 GB）；exFAT 适合 U 盘和存储卡。"
+
+msgid "Make it bigger"
+msgstr "扩大"
+
+msgid "Grows the partition into the unused space right after it. The files on it stay. This cannot be undone (it can be made smaller again)."
+msgstr "将分区扩展到紧随其后的未使用空间中。其中的文件会保留。此操作无法撤销（但之后可以再缩小）。"
+
+msgid "A partition can only grow into unused space that comes directly after it on the disk."
+msgstr "分区只能扩展到磁盘上紧随其后的未使用空间中。"
+
+msgid "Make it smaller"
+msgstr "缩小"
+
+msgid "Gives up space at the end of the partition, which becomes unused space for a new partition. The files on it stay. This cannot be undone (it can be made bigger again)."
+msgstr "让出分区末尾的空间，变成可用于新分区的未使用空间。其中的文件会保留。此操作无法撤销（但之后可以再扩大）。"
+
+msgid "Windows can only give up free space that is at the end of the partition, so it may be able to shrink less than the free space shown."
+msgstr "Windows 只能让出位于分区末尾的可用空间，因此可缩小的量可能少于显示的可用空间。"
+
+msgid "Change the drive letter"
+msgstr "更改驱动器号"
+
+msgid "Gives the partition a drive letter (like E:), or a different one, so it appears in File Explorer. Nothing on it changes. Programs that remember the old letter may not find their files."
+msgstr "为分区分配一个驱动器号（例如 E:）或更换驱动器号，使它显示在文件资源管理器中。其中的内容不会改变。记住旧驱动器号的程序可能找不到它们的文件。"
+
+msgid "A drive letter is only a name Windows uses for a partition; the partition itself does not change."
+msgstr "驱动器号只是 Windows 为分区使用的名称；分区本身不会改变。"
+
+msgid "Remove the drive letter"
+msgstr "删除驱动器号"
+
+msgid "Hides the partition from File Explorer. Nothing on it changes, and it can get a letter again any time."
+msgstr "在文件资源管理器中隐藏该分区。其中的内容不会改变，随时可以重新分配驱动器号。"
+
+msgid "Start-up and recovery partitions normally have no letter, so they cannot be changed by accident."
+msgstr "启动分区和恢复分区通常没有驱动器号，这样就不会被意外更改。"
+
+msgid "Rename"
+msgstr "重命名"
+
+msgid "Changes the name shown next to the drive letter (for example \"Photos\"). Nothing on it changes."
+msgstr "更改显示在驱动器号旁边的名称（例如 \"照片\"）。其中的内容不会改变。"
+
+msgid "Mark as active"
+msgstr "标记为活动"
+
+msgid "Older PCs (legacy BIOS) start from the partition marked active. Only one partition per disk can be active."
+msgstr "较旧的电脑（传统 BIOS）从标记为活动的分区启动。每个磁盘只能有一个活动分区。"
+
+msgid "\"Active\" only matters for disks with an MBR partition table on PCs that start in legacy (BIOS) mode."
+msgstr "\"活动\" 只对使用 MBR 分区表、并以传统（BIOS）模式启动的电脑上的磁盘有意义。"
+
+msgid "Mark as not active"
+msgstr "标记为非活动"
+
+msgid "Removes the active mark, so an older PC (legacy BIOS) will no longer try to start from this partition."
+msgstr "删除活动标记，使较旧的电脑（传统 BIOS）不再尝试从此分区启动。"
+
+msgid "Make it a normal data partition"
+msgstr "改为普通数据分区"
+
+msgid "Changes the partition's type to an ordinary data partition, so Windows shows it and lets you use it. Its files stay."
+msgstr "将分区类型更改为普通数据分区，让 Windows 显示它并允许你使用它。其中的文件会保留。"
+
+msgid "Every partition carries a type that tells systems what it is for: data, start-up (EFI), recovery and so on."
+msgstr "每个分区都带有一个类型，告诉系统它的用途：数据、启动（EFI）、恢复等。"
+
+msgid "Make it a start-up (EFI) partition"
+msgstr "改为启动（EFI）分区"
+
+msgid "Changes the partition's type so the PC's firmware treats it as a start-up partition. It must use FAT32. Its files stay."
+msgstr "更改分区类型，让电脑的固件把它当作启动分区。它必须使用 FAT32。其中的文件会保留。"
+
+msgid "The EFI system partition is the small partition a modern PC starts from; it holds the boot managers of Windows and Linux."
+msgstr "EFI 系统分区是现代电脑用来启动的小分区；它存放着 Windows 和 Linux 的启动管理器。"
+
+msgid "Make it a recovery partition"
+msgstr "改为恢复分区"
+
+msgid "Changes the partition's type to a hidden recovery partition, the kind that holds Windows' repair tools. Windows then hides it and protects it. Its files stay."
+msgstr "将分区类型更改为隐藏的恢复分区，也就是存放 Windows 修复工具的那种分区。之后 Windows 会隐藏并保护它。其中的文件会保留。"
+
+msgid "Check for errors"
+msgstr "检查错误"
+
+msgid "Runs the Windows disk check, which repairs damaged file-system records. Files in damaged places can be lost, as with any disk check. This cannot be undone."
+msgstr "运行 Windows 磁盘检查，修复损坏的文件系统记录。与任何磁盘检查一样，位于损坏位置的文件可能会丢失。此操作无法撤销。"
+
+msgid "Set up as GPT"
+msgstr "设置为 GPT"
+
+msgid "Gives this empty disk a partition table, so partitions can be made on it. GPT is the modern kind, for UEFI PCs and disks over 2 TB."
+msgstr "为这个空磁盘创建分区表，以便在上面创建分区。GPT 是现代格式，适用于 UEFI 电脑和超过 2 TB 的磁盘。"
+
+msgid "A new disk has no partition table yet, so Windows cannot use it until it is set up."
+msgstr "新磁盘还没有分区表，因此在设置好之前 Windows 无法使用它。"
+
+msgid "Set up as MBR"
+msgstr "设置为 MBR"
+
+msgid "Gives this empty disk an older-style MBR partition table: for older PCs (legacy BIOS) and disks up to 2 TB."
+msgstr "为这个空磁盘创建旧式 MBR 分区表：适用于较旧的电脑（传统 BIOS）和最大 2 TB 的磁盘。"
+
+msgid "Change to GPT"
+msgstr "转换为 GPT"
+
+msgid "Changes this disk's empty partition table from MBR to GPT."
+msgstr "将此磁盘的空分区表从 MBR 转换为 GPT。"
+
+msgid "MBR is the older kind of partition table (up to 2 TB, 4 main partitions); GPT is the modern kind (huge disks, 128 partitions, needed for UEFI start-up)."
+msgstr "MBR 是较旧的分区表格式（最大 2 TB，4 个主分区）；GPT 是现代格式（支持超大磁盘、128 个分区，UEFI 启动必需）。"
+
+msgid "Change to MBR"
+msgstr "转换为 MBR"
+
+msgid "Changes this disk's empty partition table from GPT to MBR."
+msgstr "将此磁盘的空分区表从 GPT 转换为 MBR。"
+
+msgid "Change to GPT, keeping Windows and files"
+msgstr "转换为 GPT，保留 Windows 和文件"
+
+msgid "Uses Windows' own MBR2GPT tool to change the disk to GPT without deleting anything, and makes the start-up partition a UEFI one. Afterwards the PC must be switched from legacy (BIOS/CSM) to UEFI mode in its firmware settings, or Windows will not start. This cannot be undone here."
+msgstr "使用 Windows 自带的 MBR2GPT 工具将磁盘转换为 GPT 而不删除任何内容，并将启动分区改为 UEFI 启动分区。之后必须在电脑的固件设置中从传统（BIOS/CSM）模式切换到 UEFI 模式，否则 Windows 无法启动。此操作无法在这里撤销。"
+
+msgid "This is the usual step before switching on Secure Boot or upgrading to Windows 11 on an older installation."
+msgstr "在较旧的安装上开启 Secure Boot 或升级到 Windows 11 之前，通常都要先做这一步。"
+
+msgid "Wipe the disk"
+msgstr "清空磁盘"
+
+msgid "Removes the whole partition table, so the disk looks empty and new. Undo can put the table back (and with it the partitions), as long as nothing new was written to the disk in the meantime."
+msgstr "删除整个分区表，让磁盘看起来是空的、全新的。撤销可以恢复分区表（连同分区），前提是这期间没有向磁盘写入新内容。"
+
+msgid "This only erases the disk's table of contents, not every byte; to destroy the data for good a disk-erasing tool is needed."
+msgstr "这只会抹掉磁盘的目录，而不是每个字节；要彻底销毁数据，需要使用磁盘擦除工具。"
+
+msgid "Bring online"
+msgstr "联机"
+
+msgid "Switches the disk on for Windows, so its partitions can be used. Windows leaves some disks offline, for example a second disk with a copied Windows."
+msgstr "为 Windows 启用该磁盘，使其分区可以使用。Windows 会让某些磁盘保持脱机，例如装有复制的 Windows 的第二个磁盘。"
+
+msgid "Take offline"
+msgstr "脱机"
+
+msgid "Switches the disk off for Windows: its drives disappear until it is brought online again. Nothing on it changes."
+msgstr "为 Windows 停用该磁盘：在重新联机之前，它的驱动器会消失。其中的内容不会改变。"
+
+msgid "Unlock BitLocker"
+msgstr "解锁 BitLocker"
+
+msgid "Opens the drive with its 48-digit BitLocker recovery key, so its files can be read and checked. Nothing on it changes, and it locks again when the PC restarts."
+msgstr "用 48 位 BitLocker 恢复密钥打开驱动器，以便读取和检查其中的文件。其中的内容不会改变，电脑重启后它会再次锁定。"
+
+msgid "BitLocker encrypts a whole drive. Without the key, nothing on it can be read: not by Windows, not by this program. Unlock it before changing anything else on this disk."
+msgstr "BitLocker 会加密整个驱动器。没有密钥，就无法读取其中的任何内容：Windows 不行，本程序也不行。在更改此磁盘上的其他任何内容之前，请先解锁它。"
+
+msgid "Find lost partitions"
+msgstr "查找丢失的分区"
+
+msgid "Looks through unused space for partitions that were deleted or lost (NTFS, FAT32, exFAT, Linux ext). Only reads the disk; what is found can be put back afterwards. Quick: looks where partitions normally start, takes minutes. Full: reads every sector, can take hours."
+msgstr "在未使用的空间中查找已删除或丢失的分区（NTFS、FAT32、exFAT、Linux ext）。只读取磁盘；找到的分区之后可以恢复。快速：在分区通常开始的位置查找，需要几分钟。完整：读取每个扇区，可能需要数小时。"
+
+msgid "Deleting a partition only removes its entry from the disk's table of contents. Until something new is written there, the files are still on the disk and the partition can often be put back."
+msgstr "删除分区只会从磁盘的目录中删除它的条目。在那里写入新内容之前，文件仍在磁盘上，分区通常可以恢复。"
+
+msgid "Recover deleted files"
+msgstr "恢复已删除的文件"
+
+msgid "Looks for deleted files on this drive and copies the ones you choose to another drive. Nothing is written to this drive. Quick: reads Windows' list of files (NTFS). Full: also reads the whole drive, finding files after a quick format and pictures and PDFs by their contents."
+msgstr "在此驱动器上查找已删除的文件，并将你选择的文件复制到另一个驱动器。不会向此驱动器写入任何内容。快速：读取 Windows 的文件列表（NTFS）。完整：还会读取整个驱动器，可以找到快速格式化后的文件，并按内容找到图片和 PDF。"
+
+msgid "A deleted file stays on the disk until its space is used for something new. Stop using the drive as soon as you notice, and save what you recover to a different drive."
+msgstr "已删除的文件会一直留在磁盘上，直到它的空间被新内容占用。一旦发现，请立即停止使用该驱动器，并将恢复的内容保存到其他驱动器上。"
+
+msgid "Make it bigger using the partition after it"
+msgstr "用其后的分区扩大"
+
+msgid "Deletes the partition right after this one and adds its space (and any unused space after it) to this partition. Everything on the deleted partition is lost. The files on this partition stay."
+msgstr "删除紧随此分区之后的分区，并将它的空间（以及其后的任何未使用空间）添加到此分区。被删除分区上的所有内容都会丢失。此分区上的文件会保留。"
+
+msgid "A partition can only grow into space directly after it, never into space before it."
+msgstr "分区只能扩展到紧随其后的空间中，绝不能扩展到它前面的空间。"
+
+msgid "Allow writing"
+msgstr "允许写入"
+
+msgid "Clears the disk's read-only mark, which can stop Windows from changing anything on it. A switch on the disk or card itself is not affected."
+msgstr "清除磁盘的只读标记，该标记会阻止 Windows 更改其中的任何内容。磁盘或存储卡本身上的开关不受影响。"
+
+msgid "This is the drive the running Windows is on."
+msgstr "这是当前运行的 Windows 所在的驱动器。"
+
+msgid "The running Windows starts from this partition."
+msgstr "当前运行的 Windows 从此分区启动。"
+
+msgid "This program runs from this drive."
+msgstr "本程序从此驱动器运行。"
+
+msgid "The backups are kept on this drive. Choose another backup folder first."
+msgstr "备份保存在此驱动器上。请先选择其他备份文件夹。"
+
+msgid "The disk was not found."
+msgstr "找不到该磁盘。"
+
+msgid "A partition on this disk is in use: "
+msgstr "此磁盘上有分区正在使用： "
+
+msgid "This MBR disk already has four main partitions, the most it can hold."
+msgstr "此 MBR 磁盘已经有四个主分区，这是它能容纳的最大数量。"
+
+msgid "Unused space inside an existing extended partition cannot be used from here; use Disk Management."
+msgstr "无法在这里使用现有扩展分区内的未使用空间；请使用磁盘管理。"
+
+msgid " is installed here; changing the partition's type would hide it."
+msgstr " 安装在这里；更改分区类型会将它隐藏。"
+
+msgid "The BitLocker tool (manage-bde.exe) is not part of this system."
+msgstr "此系统中没有 BitLocker 工具（manage-bde.exe）。"
+
+msgid "The drive is locked by BitLocker. Unlock it first."
+msgstr "该驱动器已被 BitLocker 锁定。请先解锁。"
+
+msgid "The drive the running Windows is on cannot change its letter."
+msgstr "当前运行的 Windows 所在的驱动器无法更改驱动器号。"
+
+msgid "There is no unused space right after it."
+msgstr "它后面没有紧邻的未使用空间。"
+
+msgid "Only NTFS partitions can be made bigger here."
+msgstr "这里只能扩大 NTFS 分区。"
+
+msgid "There is no partition right after it."
+msgstr "它后面没有紧邻的分区。"
+
+msgid "The partition after it is in use: "
+msgstr "其后的分区正在使用： "
+
+msgid "The partition after it is a start-up or reserved partition, which must stay."
+msgstr "其后的分区是启动分区或保留分区，必须保留。"
+
+msgid "The space after it is an extended partition; use Disk Management."
+msgstr "其后的空间是扩展分区；请使用磁盘管理。"
+
+msgid " is installed on the partition after it."
+msgstr " 安装在其后的分区上。"
+
+msgid "Only readable NTFS partitions can be made smaller here."
+msgstr "这里只能缩小可读的 NTFS 分区。"
+
+msgid "It has almost no free space to give up."
+msgstr "它几乎没有可让出的可用空间。"
+
+msgid "A start-up partition must use FAT32. Format it as FAT32 first."
+msgstr "启动分区必须使用 FAT32。请先将它格式化为 FAT32。"
+
+msgid "The MBR2GPT tool is part of Windows 10 (version 1703) and newer; it is not on this system."
+msgstr "MBR2GPT 工具是 Windows 10（版本 1703）及更高版本的一部分；此系统上没有它。"
+
+msgid "The disk was not found. Scan again."
+msgstr "找不到该磁盘。请重新扫描。"
+
+msgid "Nothing was changed: "
+msgstr "未做任何更改： "
+
+msgid "this is not possible for this partition or disk."
+msgstr "此分区或磁盘无法执行此操作。"
+
+msgid "Nothing was changed, because the backup failed. "
+msgstr "由于备份失败，未做任何更改。 "
+
+msgid "The drive is now called \""
+msgstr "该驱动器现在名为 \""
+
+msgid "The name could not be changed ("
+msgstr "无法更改名称（"
+
+msgid "The disk is now GPT. Before Windows can start again, switch the PC to UEFI mode (CSM / Legacy off) in its firmware settings."
+msgstr "该磁盘现在是 GPT。在 Windows 能再次启动之前，请在电脑的固件设置中切换到 UEFI 模式（关闭 CSM / Legacy）。"
+
+msgid "The disk could not be changed. MBR2GPT said: "
+msgstr "无法更改该磁盘。MBR2GPT 的提示： "
+
+msgid "diskpart script:\r\n"
+msgstr "diskpart 脚本：\r\n"
+
+msgid "The new partition was made"
+msgstr "新分区已创建"
+
+msgid " and is drive "
+msgstr " ，驱动器号为 "
+
+msgid "The partition was deleted. Its space is now unused."
+msgstr "分区已删除。它的空间现在未使用。"
+
+msgid "The partition was formatted as "
+msgstr "分区已格式化为 "
+
+msgid "The partition is "
+msgstr "分区已 "
+
+msgid " MB bigger."
+msgstr " MB，已扩大。"
+
+msgid "The partition after it was deleted and its space added."
+msgstr "其后的分区已删除，其空间已添加。"
+
+msgid " MB smaller. The space is now unused."
+msgstr " MB，已缩小。这部分空间现在未使用。"
+
+msgid "The partition is now drive "
+msgstr "该分区现在是驱动器 "
+
+msgid ": done."
+msgstr "：完成。"
+
+msgid "Windows did not allow it. Diskpart said:\n"
+msgstr "Windows 不允许此操作。Diskpart 的提示：\n"
+
+msgid "The file is too small to be a registry file."
+msgstr "该文件太小，不可能是注册表文件。"
+
+msgid "The file does not start like a registry file. It is damaged or was overwritten."
+msgstr "该文件的开头不像注册表文件。它已损坏或被覆盖。"
+
+msgid "The registry file's header is damaged."
+msgstr "注册表文件的文件头已损坏。"
+
+msgid "The registry file was not saved cleanly the last time (often after a power cut). Windows can usually repair this by itself."
+msgstr "注册表文件上次没有正常保存（通常是断电后）。Windows 通常可以自行修复。"
+
+msgid "The file is missing."
+msgstr "该文件丢失。"
+
+msgid "The file could not be read."
+msgstr "无法读取该文件。"
+
+msgid "The file could not be copied (error "
+msgstr "无法复制该文件（错误 "
+
+msgid "The file is damaged and could not be opened."
+msgstr "该文件已损坏，无法打开。"
+
+msgid "The file could not be opened (error "
+msgstr "无法打开该文件（错误 "
+
+msgid "The file was loaded but could not be read."
+msgstr "该文件已加载，但无法读取。"
+
+msgid "Windows' data protection is not available here, so the key was not saved."
+msgstr "此处无法使用 Windows 的数据保护，因此密钥未保存。"
+
+msgid "The file for saved keys could not be written: "
+msgstr "无法写入保存密钥的文件： "
+
+msgid "The partition could not be read."
+msgstr "无法读取该分区。"
+
+msgid "This is not an ext2, ext3 or ext4 file system."
+msgstr "这不是 ext2、ext3 或 ext4 文件系统。"
+
+msgid "Unusual block size."
+msgstr "异常的块大小。"
+
+msgid "The file system header is damaged."
+msgstr "文件系统头已损坏。"
+
+msgid "Linux (encrypted)"
+msgstr "Linux（已加密）"
+
+msgid "Linux ("
+msgstr "Linux（"
+
+msgid ", encrypted"
+msgstr "，已加密"
+
+msgid "What is a Linux boot loader? Linux is usually started by a program called GRUB (or systemd-boot). Its files sit in a folder on the start-up partition, next to Windows Boot Manager, and a small settings file tells it on which partition Linux lives. When Linux is deleted, this folder is often left behind."
+msgstr "什么是 Linux 启动加载程序？Linux 通常由一个名为 GRUB（或 systemd-boot）的程序启动。它的文件位于启动分区上的一个文件夹中，与 Windows Boot Manager 相邻，还有一个小设置文件告诉它 Linux 位于哪个分区。删除 Linux 后，这个文件夹常常会被遗留下来。"
+
+msgid "A Linux boot loader leads nowhere: "
+msgstr "有一个 Linux 启动加载程序指向不存在的位置： "
+
+msgid " on the start-up partition ("
+msgstr " ，位于启动分区上（"
+
+msgid ") holds the boot loader of "
+msgstr "）存放着以下系统的启动加载程序： "
+
+msgid ", but the partition it starts Linux from is not on any disk now. That Linux was probably deleted, or its partition was formatted. If you pick it in the PC's boot menu, you get a GRUB error or a \"grub rescue>\" prompt.\n\nIf you no longer use that Linux, removing the folder is safe: it only takes a few MB and nothing else needs it."
+msgstr "，但它用来启动 Linux 的分区现在不在任何磁盘上。那个 Linux 可能已被删除，或其分区已被格式化。如果你在电脑的启动菜单中选择它，会出现 GRUB 错误或 \"grub rescue>\" 提示符。\n\n如果你不再使用那个 Linux，删除该文件夹是安全的：它只占几 MB，其他任何东西都不需要它。"
+
+msgid "Remove the leftover "
+msgstr "删除残留的 "
+
+msgid " boot loader"
+msgstr " 启动加载程序"
+
+msgid "A Linux boot loader was found: "
+msgstr "找到了一个 Linux 启动加载程序： "
+
+msgid " holds a Linux boot loader, but no matching Linux was found on the disks. Its Linux may be on a disk that is not connected, or use a file system this program cannot look into."
+msgstr " 存放着一个 Linux 启动加载程序，但在磁盘上没有找到对应的 Linux。它的 Linux 可能位于未连接的磁盘上，或使用了本程序无法查看的文件系统。"
+
+msgid "Linux kernel "
+msgstr "Linux 内核 "
+
+msgid " Secure Boot is on."
+msgstr " Secure Boot 已开启。"
+
+msgid "Secure Boot is on, but this Linux starts without the signed \"shim\" loader, so the PC may refuse to start it. Turn Secure Boot off in the PC's firmware settings, or reinstall GRUB with Secure Boot support from Linux."
+msgstr "Secure Boot 已开启，但此 Linux 不经过已签名的 \"shim\" 加载程序启动，因此电脑可能会拒绝启动它。请在电脑的固件设置中关闭 Secure Boot，或在 Linux 中重新安装支持 Secure Boot 的 GRUB。"
+
+msgid "This Linux is on a GPT disk but the PC was started in legacy (BIOS) mode. It only starts this way if GRUB was set up for it (with a \"BIOS boot\" partition)."
+msgstr "此 Linux 位于 GPT 磁盘上，但电脑是以传统（BIOS）模式启动的。只有当 GRUB 为此做了设置（有 \"BIOS boot\" 分区）时，它才能以这种方式启动。"
+
+msgid "The disk with this Linux ("
+msgstr "装有此 Linux 的磁盘（"
+
+msgid ", GPT"
+msgstr "，GPT"
+
+msgid ", MBR"
+msgstr "，MBR"
+
+msgid "The main copy of the disk's partition table is damaged."
+msgstr "磁盘分区表的主副本已损坏。"
+
+msgid "No Linux boot loader (GRUB) was found on any start-up partition. Something deleted it: often a Windows reinstall or repair, or formatting the start-up partition. Linux itself is still there."
+msgstr "在任何启动分区上都没有找到 Linux 启动加载程序（GRUB）。有东西删除了它：通常是重新安装或修复 Windows，或格式化启动分区。Linux 本身仍然在。"
+
+msgid "Reinstall GRUB, the Linux boot loader."
+msgstr "重新安装 Linux 启动加载程序 GRUB。"
+
+msgid "The start-up partition with the Linux boot loader is there and can be read."
+msgstr "装有 Linux 启动加载程序的启动分区存在且可以读取。"
+
+msgid "), so Linux only starts while that disk is connected."
+msgstr "），因此只有在连接该磁盘时，Linux 才能启动。"
+
+msgid "Cannot be checked until the boot loader is back."
+msgstr "在启动加载程序恢复之前无法检查。"
+
+msgid "The PC's start-up list could not be read here."
+msgstr "无法在此读取电脑的启动列表。"
+
+msgid "The PC's own start-up list has no entry for this Linux, so the PC never offers to start it. This often happens after a Windows update or a firmware update."
+msgstr "电脑自己的启动列表中没有此 Linux 的条目，因此电脑从不提供启动它的选项。这通常发生在 Windows 更新或固件更新之后。"
+
+msgid "The PC's own start-up list has this Linux as \""
+msgstr "电脑自己的启动列表中有此 Linux，名称为 \""
+
+msgid "\", and it starts first."
+msgstr "\"，并且它会优先启动。"
+
+msgid "The PC's start-up list has an entry for this Linux (\""
+msgstr "电脑的启动列表中有此 Linux 的条目（\""
+
+msgid "\"), but it is switched off, so the PC never tries it."
+msgstr "\"），但它被关闭了，因此电脑从不尝试它。"
+
+msgid "The PC's start-up list has this Linux (\""
+msgstr "电脑的启动列表中有此 Linux（\""
+
+msgid "\"), but "
+msgstr "\"），但 "
+
+msgid " starts first. To start Linux, pick it in the PC's boot menu (often F12, F11, F8 or Esc while the PC starts), or make it start first. When GRUB starts first, it usually shows a menu with Windows in it too."
+msgstr " 会先启动。要启动 Linux，请在电脑的启动菜单中选择它（通常在电脑启动时按 F12、F11、F8 或 Esc），或让它优先启动。如果 GRUB 先启动，它通常会显示一个也包含 Windows 的菜单。"
+
+msgid "The Linux boot loader file is damaged."
+msgstr "Linux 启动加载程序文件已损坏。"
+
+msgid "The Linux boot loader is in place"
+msgstr "Linux 启动加载程序已就绪"
+
+msgid "Missing (see the step before)."
+msgstr "丢失（见上一步）。"
+
+msgid "The boot loader's settings are built into it, so this program cannot see where it looks for Linux. That is normal for some Linux versions."
+msgstr "启动加载程序的设置内置在其中，因此本程序看不到它在哪里查找 Linux。对于某些 Linux 版本，这是正常的。"
+
+msgid "The boot loader looks for Linux on the right partition ("
+msgstr "启动加载程序在正确的分区上查找 Linux（"
+
+msgid "The boot loader looks for Linux on another partition ("
+msgstr "启动加载程序在另一个分区上查找 Linux（"
+
+msgid "), not on this Linux's partition. It may be starting a different Linux."
+msgstr "），而不是此 Linux 的分区。它可能在启动另一个 Linux。"
+
+msgid "The boot loader looks for Linux on a partition that is not on any disk now. Starting Linux ends at a \"grub rescue>\" prompt."
+msgstr "启动加载程序在一个现在不在任何磁盘上的分区中查找 Linux。启动 Linux 会停在 \"grub rescue>\" 提示符处。"
+
+msgid ", /boot is "
+msgstr "，/boot 是 "
+
+msgid "Point GRUB to the right partition again (Boot-Repair does this)."
+msgstr "让 GRUB 重新指向正确的分区（Boot-Repair 可以完成此操作）。"
+
+msgid "Disk start-up code"
+msgstr "磁盘启动代码"
+
+msgid "The disk's start-up code is GRUB, the Linux boot loader."
+msgstr "磁盘的启动代码是 Linux 启动加载程序 GRUB。"
+
+msgid "GRUB in the MBR"
+msgstr "MBR 中的 GRUB"
+
+msgid "The disk's start-up code is not GRUB (usually Windows replaced it). The PC goes straight to Windows and never offers Linux."
+msgstr "磁盘的启动代码不是 GRUB（通常是 Windows 替换了它）。电脑会直接进入 Windows，从不提供 Linux 选项。"
+
+msgid "The disk's start-up code is empty, so the PC cannot start from this disk."
+msgstr "磁盘的启动代码是空的，因此电脑无法从此磁盘启动。"
+
+msgid "MBR without GRUB"
+msgstr "没有 GRUB 的 MBR"
+
+msgid "Write GRUB to the disk again (Boot-Repair does this)."
+msgstr "将 GRUB 重新写入磁盘（Boot-Repair 可以完成此操作）。"
+
+msgid "unknown file system"
+msgstr "未知文件系统"
+
+msgid "The partition with Linux is there and this program can look inside it."
+msgstr "装有 Linux 的分区存在，本程序可以查看其中的内容。"
+
+msgid "The Linux partition is encrypted (LUKS). Linux asks for its password while starting. Its contents cannot be checked from here."
+msgstr "Linux 分区已加密（LUKS）。Linux 启动时会要求输入密码。无法在这里检查其内容。"
+
+msgid "The Linux partition is there, but it uses "
+msgstr "Linux 分区存在，但它使用的是 "
+
+msgid ", which this program cannot look inside. The next steps cannot be checked from here."
+msgstr "，本程序无法查看其中的内容。无法在这里检查后续步骤。"
+
+msgid "Cannot be checked: the file system cannot be read from Windows."
+msgstr "无法检查：无法从 Windows 读取该文件系统。"
+
+msgid "No Linux kernel (the heart of Linux) was found in /boot. An update probably failed halfway, or /boot is on a partition that is missing."
+msgstr "在 /boot 中没有找到 Linux 内核（Linux 的核心）。可能是更新中途失败，或者 /boot 位于一个丢失的分区上。"
+
+msgid "Reinstall the Linux kernel."
+msgstr "重新安装 Linux 内核。"
+
+msgid "The Linux kernel is in place"
+msgstr "Linux 内核已就绪"
+
+msgid ", plus "
+msgstr "，另有 "
+
+msgid " older one(s) to fall back on."
+msgstr " 个较旧的内核可供回退。"
+
+msgid "The menu file the boot loader shows (with the Linux kernels to choose from) is in place."
+msgstr "启动加载程序显示的菜单文件（包含可选择的 Linux 内核）已就绪。"
+
+msgid "The GRUB menu file (/boot/grub/grub.cfg) is missing, so GRUB stops at a \"grub>\" prompt."
+msgstr "GRUB 菜单文件（/boot/grub/grub.cfg）丢失，因此 GRUB 会停在 \"grub>\" 提示符处。"
+
+msgid "Rebuild the GRUB menu (\"sudo update-grub\")."
+msgstr "重建 GRUB 菜单（\"sudo update-grub\"）。"
+
+msgid "Linux's list of partitions to use (/etc/fstab) is missing."
+msgstr "Linux 要使用的分区列表（/etc/fstab）丢失。"
+
+msgid "Recreate /etc/fstab."
+msgstr "重新创建 /etc/fstab。"
+
+msgid "Linux expects partitions that are not on any disk now ("
+msgstr "Linux 需要一些现在不在任何磁盘上的分区（"
+
+msgid "). It stops at an \"emergency mode\" prompt while starting."
+msgstr "）。它会在启动时停在 \"emergency mode\" 提示符处。"
+
+msgid "Correct /etc/fstab so it names the partitions that are there now."
+msgstr "修改 /etc/fstab，让它列出现在存在的分区。"
+
+msgid "). It may wait a minute and a half while starting, or stop at an emergency prompt."
+msgstr "）。它可能会在启动时等待一分半钟，或停在紧急模式提示符处。"
+
+msgid "Every partition Linux expects to use (in /etc/fstab) is there."
+msgstr "Linux 需要使用的每个分区（在 /etc/fstab 中）都存在。"
+
+msgid "Windows cannot safely change Linux's own files. Start the PC from a Linux USB stick (for example Ubuntu's \"Try Ubuntu\"), connect to the internet, install the free tool \"Boot-Repair\" (sudo add-apt-repository ppa:yannubuntu/boot-repair, then sudo apt install boot-repair) and choose \"Recommended repair\". A Linux-savvy friend can also do it by hand."
+msgstr "Windows 无法安全地更改 Linux 自己的文件。请从 Linux U 盘启动电脑（例如 Ubuntu 的 \"Try Ubuntu\"），连接互联网，安装免费工具 \"Boot-Repair\"（sudo add-apt-repository ppa:yannubuntu/boot-repair，然后 sudo apt install boot-repair），并选择 \"Recommended repair\"。熟悉 Linux 的朋友也可以手动完成。"
+
+msgid "Something this Linux needs to start is missing or damaged."
+msgstr "此 Linux 启动所需的某些内容丢失或已损坏。"
+
+msgid "It may start, but some things need attention."
+msgstr "它可能可以启动，但有些问题需要注意。"
+
+msgid "Looks fine so far"
+msgstr "目前看起来正常"
+
+msgid "Everything that can be checked from Windows is in place. The inside of its partition could not be checked."
+msgstr "能从 Windows 检查的内容都已就绪。无法检查其分区内部。"
+
+msgid "Everything this Linux needs to start is in place."
+msgstr "此 Linux 启动所需的一切都已就绪。"
+
+msgid "Work is still running"
+msgstr "仍有工作正在进行"
+
+msgid "A scan or a repair is still running. Closing now can leave a repair half done. Wait until it finishes."
+msgstr "扫描或修复仍在进行。现在关闭可能会让修复只完成一半。请等它完成。"
+
+msgid "Keep waiting"
+msgstr "继续等待"
+
+msgid "Undo: nothing to undo (Ctrl+Z)"
+msgstr "撤销：没有可撤销的操作（Ctrl+Z）"
+
+msgid "Redo: nothing to redo (Ctrl+Y)"
+msgstr "重做：没有可重做的操作（Ctrl+Y）"
+
+msgid "Undo \""
+msgstr "撤销 \""
+
+msgid "\" (Ctrl+Z)"
+msgstr "\"（Ctrl+Z）"
+
+msgid "Redo: undo \""
+msgstr "重做：撤销 \""
+
+msgid "\" (Ctrl+Y)"
+msgstr "\"（Ctrl+Y）"
+
+msgid "Back (Alt+Left)"
+msgstr "后退（Alt+Left）"
+
+msgid "Forward (Alt+Right)"
+msgstr "前进（Alt+Right）"
+
+msgid "Home: everything found on this PC (Ctrl+H)"
+msgstr "主页：在这台电脑上找到的所有内容（Ctrl+H）"
+
+msgid "Scan all disks again (Ctrl+R)"
+msgstr "重新扫描所有磁盘（Ctrl+R）"
+
+msgid "Save the report as a text file (Ctrl+S)"
+msgstr "将报告保存为文本文件（Ctrl+S）"
+
+msgid "Settings, backup folder, languages and About"
+msgstr "设置、备份文件夹、语言和关于"
+
+msgid "Boot Doctor · "
+msgstr "Boot Doctor · "
+
+msgid " · Report"
+msgstr " · 报告"
+
+msgid "Boot Doctor · Report"
+msgstr "Boot Doctor · 报告"
+
+msgid " · Boot chain"
+msgstr " · 启动链"
+
+msgid "Boot Doctor · Boot chain"
+msgstr "Boot Doctor · 启动链"
+
+msgid "Boot Doctor · Disks and partitions"
+msgstr "Boot Doctor · 磁盘和分区"
+
+msgid "Boot Doctor · About"
+msgstr "Boot Doctor · 关于"
+
+msgid "Boot Doctor · Recover deleted files"
+msgstr "Boot Doctor · 恢复已删除的文件"
+
+msgid "Boot Doctor · History and backups"
+msgstr "Boot Doctor · 历史记录和备份"
+
+msgid "Scanning"
+msgstr "正在扫描"
+
+msgid "Not scanned yet"
+msgstr "尚未扫描"
+
+msgid "disk"
+msgstr "个磁盘"
+
+msgid "disks"
+msgstr "个磁盘"
+
+msgid "partition"
+msgstr "个分区"
+
+msgid "partitions"
+msgstr "个分区"
+
+msgid "system found"
+msgstr "个系统已找到"
+
+msgid "systems found"
+msgstr "个系统已找到"
+
+msgid "needs attention"
+msgstr "项需要注意"
+
+msgid "need attention"
+msgstr "项需要注意"
+
+msgid " · Nothing needs attention"
+msgstr " · 没有需要注意的问题"
+
+msgid " · Backups: "
+msgstr " · 备份： "
+
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgid "Home"
+msgstr "主页"
+
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgid "Scan again"
+msgstr "重新扫描"
+
+msgid "Alt+← / Alt+→"
+msgstr "Alt+← / Alt+→"
+
+msgid "Back and forward"
+msgstr "后退和前进"
+
+msgid "Ctrl+Z / Ctrl+Y"
+msgstr "Ctrl+Z / Ctrl+Y"
+
+msgid "Undo and redo the last change"
+msgstr "撤销和重做上一次更改"
+
+msgid "Ctrl+1 … 4"
+msgstr "Ctrl+1 … 4"
+
+msgid "Report, boot chain, disks, history"
+msgstr "报告、启动链、磁盘、历史记录"
+
+msgid "Choose a Windows (report and boot chain)"
+msgstr "选择一个 Windows（报告和启动链）"
+
+msgid "Step through the boot chain"
+msgstr "逐步查看启动链"
+
+msgid "Enter"
+msgstr "Enter"
+
+msgid "Show details, or carry out the first fix of a step"
+msgstr "显示详细信息，或执行某一步的第一个修复"
+
+msgid "Page up / down"
+msgstr "Page up / down"
+
+msgid "Scroll"
+msgstr "滚动"
+
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgid "Back up the start-up setup now"
+msgstr "立即备份启动配置"
+
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+msgid "Save the report as a text file"
+msgstr "将报告保存为文本文件"
+
+msgid "Old copy in Windows.old"
+msgstr "Windows.old 中的旧副本"
+
+msgid "Inside the folder "
+msgstr "位于文件夹中： "
+
+msgid "Starts first"
+msgstr "优先启动"
+
+msgid "In the start-up menu"
+msgstr "在启动菜单中"
+
+msgid "In the PC's start-up list"
+msgstr "在电脑的启动列表中"
+
+msgid "Not in the PC's start-up list"
+msgstr "不在电脑的启动列表中"
+
+msgid "Not in the start-up menu"
+msgstr "不在启动菜单中"
+
+msgid "Looking at your disks"
+msgstr "正在查看你的磁盘"
+
+msgid "Every disk and partition is checked for Windows and for what it needs to start. This takes a few seconds."
+msgstr "正在检查每个磁盘和分区中是否有 Windows 及其启动所需的内容。这需要几秒钟。"
+
+msgid "Press Scan (Ctrl+R) to look at every disk."
+msgstr "按 “扫描”（Ctrl+R）查看每个磁盘。"
+
+msgid "Systems found"
+msgstr "找到的系统"
+
+msgid "Whole PC"
+msgstr "整台电脑"
+
+msgid "thing needs attention"
+msgstr "项需要注意"
+
+msgid "things need attention"
+msgstr "项需要注意"
+
+msgid "Everything looks fine"
+msgstr "一切看起来正常"
+
+msgid "None"
+msgstr "无"
+
+msgid "No Windows or Linux was found on this PC"
+msgstr "在这台电脑上没有找到 Windows 或 Linux"
+
+msgid "Found "
+msgstr "找到 "
+
+msgid "Windows installation"
+msgstr "个 Windows 安装"
+
+msgid "Windows installations"
+msgstr "个 Windows 安装"
+
+msgid " and "
+msgstr " 和 "
+
+msgid "Linux system"
+msgstr "个 Linux 系统"
+
+msgid "Linux systems"
+msgstr "个 Linux 系统"
+
+msgid "starts fine"
+msgstr "可以正常启动"
+
+msgid "start fine"
+msgstr "可以正常启动"
+
+msgid "has small problems"
+msgstr "有小问题"
+
+msgid "have small problems"
+msgstr "有小问题"
+
+msgid "cannot start"
+msgstr "无法启动"
+
+msgid "Checked from "
+msgstr "检查环境： "
+
+msgid " · The PC starts in "
+msgstr " · 电脑启动模式： "
+
+msgid "UEFI mode"
+msgstr "UEFI 模式"
+
+msgid "legacy (BIOS) mode"
+msgstr "传统（BIOS）模式"
+
+msgid "Nothing to check"
+msgstr "没有可检查的内容"
+
+msgid "About Secure Boot"
+msgstr "关于 Secure Boot"
+
+msgid "Secure Boot: on"
+msgstr "Secure Boot：开启"
+
+msgid "Secure Boot: off"
+msgstr "Secure Boot：关闭"
+
+msgid "New to this? How a PC starts"
+msgstr "初次接触？电脑是如何启动的"
+
+msgid "Hide explanations"
+msgstr "隐藏说明"
+
+msgid "Show explanations"
+msgstr "显示说明"
+
+msgid "Systems on this PC"
+msgstr "这台电脑上的系统"
+
+msgid "Other findings"
+msgstr "其他发现"
+
+msgid " · build "
+msgstr " · 版本 "
+
+msgid "What it will take:  "
+msgstr "需要做的事：  "
+
+msgid "Fix it"
+msgstr "修复"
+
+msgid "Fix it ("
+msgstr "修复（"
+
+msgid " steps)"
+msgstr " 个步骤）"
+
+msgid "Show details"
+msgstr "显示详细信息"
+
+msgid "Boot chain"
+msgstr "启动链"
+
+msgid "What does this mean?"
+msgstr "这是什么意思？"
+
+msgid ": not possible here. "
+msgstr "：此处无法执行。 "
+
+msgid "Back to the whole PC"
+msgstr "返回整台电脑"
+
+msgid "Show the boot chain"
+msgstr "显示启动链"
+
+msgid "What it will take"
+msgstr "需要做的事"
+
+msgid "Fix everything"
+msgstr "全部修复"
+
+msgid "Nothing. This Linux needs no repairs to start."
+msgstr "无。此 Linux 无需修复即可启动。"
+
+msgid "Nothing. This Windows needs no repairs to start."
+msgstr "无。此 Windows 无需修复即可启动。"
+
+msgid "Windows.old cannot be made to start. Copy the files you need out of it; Windows deletes it by itself after a while."
+msgstr "Windows.old 无法启动。请从中复制出你需要的文件；一段时间后 Windows 会自动删除它。"
+
+msgid "No repair is known for what was found. The steps below tell more."
+msgstr "对于发现的问题，没有已知的修复方法。下面的步骤有更多说明。"
+
+msgid " This cannot be undone."
+msgstr " 此操作无法撤销。"
+
+msgid "Not possible here: "
+msgstr "此处无法执行： "
+
+msgid "Do step "
+msgstr "执行步骤 "
+
+msgid "Why it seems to be stuck in a loop"
+msgstr "为什么它似乎陷入了循环"
+
+msgid "Signs of earlier trouble"
+msgstr "之前出过问题的迹象"
+
+msgid "Step by step, as the PC starts"
+msgstr "按电脑启动的顺序逐步查看"
+
+msgid "When the PC is switched on, these steps happen one after another. Each step needs the one before it, so the first step with a problem is where starting stops."
+msgstr "电脑开机后，这些步骤会一个接一个地进行。每一步都依赖前一步，因此第一个出问题的步骤就是启动停止的地方。"
+
+msgid "Step "
+msgstr "步骤 "
+
+msgid "What may have caused this:"
+msgstr "可能的原因："
+
+msgid "What is this step?"
+msgstr "这一步是什么？"
+
+msgid "For a technician:"
+msgstr "供技术人员参考："
+
+msgid "No disks were found"
+msgstr "未找到磁盘"
+
+msgid "Windows does not see any disk. Check the cables, or the storage mode (AHCI, RAID or VMD) in the PC's firmware settings."
+msgstr "Windows 看不到任何磁盘。请检查电缆，或电脑固件设置中的存储模式（AHCI、RAID 或 VMD）。"
+
+msgid "Click a disk's name, a partition or unused space to see what can be done with it. Everything that changes the disk is explained first, asks before it starts, and backs up the partition table, so most changes can be undone (Ctrl+Z)."
+msgstr "单击磁盘名称、分区或未使用的空间，查看可以对它执行的操作。任何会更改磁盘的操作都会先说明，开始前会询问你，并备份分区表，因此大多数更改都可以撤销（Ctrl+Z）。"
+
+msgid "Working with disks"
+msgstr "使用磁盘"
+
+msgid "No partition table"
+msgstr "没有分区表"
+
+msgid " · Removable"
+msgstr " · 可移动"
+
+msgid "problem"
+msgstr "个问题"
+
+msgid "problems"
+msgstr "个问题"
+
+msgid "Not set up: no partition table. Click the disk's name to set it up."
+msgstr "未设置：没有分区表。单击磁盘名称来设置它。"
+
+msgid "No partitions"
+msgstr "没有分区"
+
+msgid "Missing: start-up partition"
+msgstr "缺少：启动分区"
+
+msgid "Unused space"
+msgstr "未使用的空间"
+
+msgid "Locked"
+msgstr "已锁定"
+
+msgid "Linux file system"
+msgstr "Linux 文件系统"
+
+msgid "Not readable"
+msgstr "无法读取"
+
+msgid "Colours: blue top edge = data, accent = start-up partition, grey = reserved or recovery. A red outline marks a partition with a problem. Right-click for a menu."
+msgstr "颜色：蓝色上边缘 = 数据，强调色 = 启动分区，灰色 = 保留或恢复分区。红色轮廓表示分区有问题。右键单击可打开菜单。"
+
+msgid "not set up"
+msgstr "未设置"
+
+msgid "Unused space · "
+msgstr "未使用的空间 · "
+
+msgid " on Disk "
+msgstr " ，位于磁盘 "
+
+msgid " free"
+msgstr " 可用"
+
+msgid " · active"
+msgstr " · 活动"
+
+msgid " · BitLocker, locked"
+msgstr " · BitLocker，已锁定"
+
+msgid " · BitLocker"
+msgstr " · BitLocker"
+
+msgid "Not possible here:\n"
+msgstr "此处无法执行：\n"
+
+msgid " is not possible here"
+msgstr " 在此处无法执行"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Quick search"
+msgstr "快速搜索"
+
+msgid "Full search"
+msgstr "完整搜索"
+
+msgid "Size"
+msgstr "大小"
+
+msgid "How big the new partition is. All of the unused space is chosen at first."
+msgstr "新分区的大小。默认选择全部未使用的空间。"
+
+msgid "Kind"
+msgstr "类型"
+
+msgid "Data: an ordinary drive. Start-up: where a PC starts from (FAT32, about 100-300 MB). Recovery: hidden, for repair tools."
+msgstr "数据：普通驱动器。启动：电脑启动的位置（FAT32，约 100-300 MB）。恢复：隐藏分区，用于存放修复工具。"
+
+msgid "File system"
+msgstr "文件系统"
+
+msgid "NTFS for Windows drives; FAT32 for start-up partitions and devices; exFAT for USB sticks."
+msgstr "Windows 驱动器用 NTFS；启动分区和设备用 FAT32；U 盘用 exFAT。"
+
+msgid "Quick format"
+msgstr "快速格式化"
+
+msgid "A quick format takes seconds. A full one also checks every sector, which takes long on a big disk."
+msgstr "快速格式化只需几秒钟。完整格式化还会检查每个扇区，在大磁盘上需要很长时间。"
+
+msgid "Give it a drive letter"
+msgstr "分配驱动器号"
+
+msgid "So it shows up in File Explorer"
+msgstr "使它显示在文件资源管理器中"
+
+msgid "Next"
+msgstr "下一步"
+
+msgid "System"
+msgstr "系统"
+
+msgid "New volume"
+msgstr "新加卷"
+
+msgid "Everything on "
+msgstr "以下位置的所有内容 "
+
+msgid " will be erased."
+msgstr " 都将被清除。"
+
+msgid "Format "
+msgstr "格式化 "
+
+msgid "Make "
+msgstr "调整 "
+
+msgid " bigger"
+msgstr " ：扩大"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "How much of the unused space after it to add."
+msgstr "要添加多少紧随其后的未使用空间。"
+
+msgid " smaller"
+msgstr " ：缩小"
+
+msgid "Give up"
+msgstr "让出"
+
+msgid "Windows can only give up free space that lies at the end of the drive. If it refuses, try a smaller amount."
+msgstr "Windows 只能让出位于驱动器末尾的可用空间。如果它拒绝，请尝试较小的数值。"
+
+msgid "No drive letter is free"
+msgstr "没有可用的驱动器号"
+
+msgid "All letters from D: to Z: are in use. Remove a letter from another drive first."
+msgstr "从 D: 到 Z: 的所有驱动器号都已被使用。请先删除另一个驱动器的驱动器号。"
+
+msgid "Type the new letter. Free letters: "
+msgstr "输入新的驱动器号。可用的驱动器号： "
+
+msgid "That letter cannot be used"
+msgstr "不能使用该驱动器号"
+
+msgid "Choose one of the free letters."
+msgstr "请选择一个可用的驱动器号。"
+
+msgid "Rename "
+msgstr "重命名 "
+
+msgid "The name shown next to the drive letter. NTFS allows 32 characters, FAT32 11."
+msgstr "显示在驱动器号旁边的名称。NTFS 允许 32 个字符，FAT32 允许 11 个。"
+
+msgid "Wipe "
+msgstr "清空 "
+
+msgid "This removes every partition on the disk, so all its drives disappear. To make sure the right disk is wiped, type its number ("
+msgstr "此操作会删除磁盘上的所有分区，因此它的所有驱动器都会消失。为确保清空的是正确的磁盘，请在下方输入它的编号（"
+
+msgid ") below.\n\nThe partition table is backed up first, so Undo can bring the partitions back if nothing new is written to the disk."
+msgstr "）。\n\n分区表会先备份，因此只要没有向磁盘写入新内容，撤销就能恢复这些分区。"
+
+msgid "Nothing was wiped"
+msgstr "未清空任何内容"
+
+msgid "The number typed is not this disk's number."
+msgstr "输入的编号不是此磁盘的编号。"
+
+msgid "Name of the drive"
+msgstr "驱动器名称"
+
+msgid "The name shown next to the drive letter (it can be changed later)."
+msgstr "显示在驱动器号旁边的名称（之后可以更改）。"
+
+msgid "Installed here: "
+msgstr "安装在此处： "
+
+msgid "Everything on it will be lost. Copy anything you need somewhere else first.\n\n"
+msgstr "其中的所有内容都会丢失。请先把需要的内容复制到其他地方。\n\n"
+
+msgid "Careful: a drive on this PC is locked by BitLocker, so what is inside it cannot be seen. Unlock it first if it may hold Windows or files you need.\n\n"
+msgstr "注意：这台电脑上有一个驱动器被 BitLocker 锁定，因此看不到其中的内容。如果其中可能有 Windows 或你需要的文件，请先解锁它。\n\n"
+
+msgid "The partition table is backed up first; Undo (Ctrl+Z) or History can put it back."
+msgstr "分区表会先备份；撤销（Ctrl+Z）或历史记录可以恢复它。"
+
+msgid "The partition table is backed up first, but this change itself cannot be undone."
+msgstr "分区表会先备份，但这项更改本身无法撤销。"
+
+msgid "\n\nFor a technician (diskpart):\n"
+msgstr "\n\n供技术人员参考（diskpart）：\n"
+
+msgid "No backup folder"
+msgstr "没有备份文件夹"
+
+msgid "Nothing was changed, because there is no folder to keep backups in. Choose one with the settings button."
+msgstr "由于没有用于保存备份的文件夹，未做任何更改。请用设置按钮选择一个。"
+
+msgid "Console · commands this program runs"
+msgstr "控制台 · 本程序运行的命令"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "Nothing has run yet. Every command a scan, repair or disk change runs shows up here, with what it answered."
+msgstr "尚未运行任何命令。扫描、修复或磁盘更改运行的每条命令都会显示在这里，并附带它的回应。"
+
+msgid "Settings…"
+msgstr "设置…"
+
+msgid "Console, explanations and language"
+msgstr "控制台、说明和语言"
+
+msgid "Backup folder…"
+msgstr "备份文件夹…"
+
+msgid "Choose where backups are kept"
+msgstr "选择备份的保存位置"
+
+msgid "Make a template for a new language…"
+msgstr "为新语言制作模板…"
+
+msgid "Save every text of this program in a file, ready to translate into another language"
+msgstr "将本程序的所有文本保存到一个文件中，以便翻译成其他语言"
+
+msgid "Add a language pack…"
+msgstr "添加语言包…"
+
+msgid "Add your own translation, or a corrected one, from a .lang file"
+msgstr "从 .lang 文件添加你自己的翻译或修正后的翻译"
+
+msgid "Saved BitLocker keys…"
+msgstr "已保存的 BitLocker 密钥…"
+
+msgid "The recovery keys remembered on this PC: see which drives they are for, or delete them"
+msgstr "这台电脑上记住的恢复密钥：查看它们对应哪些驱动器，或删除它们"
+
+msgid "About PATio Boot Doctor"
+msgstr "关于 PATio Boot Doctor"
+
+msgid "Version, licence and contact"
+msgstr "版本、许可和联系方式"
+
+msgid "Display"
+msgstr "显示"
+
+msgid "Show the command console"
+msgstr "显示命令控制台"
+
+msgid "A panel at the bottom that shows every command this program runs (diskpart, bcdedit, ...) and what it answered"
+msgstr "底部的一个面板，显示本程序运行的每条命令（diskpart、bcdedit 等）及其回应"
+
+msgid "Show explanations for beginners"
+msgstr "为初学者显示说明"
+
+msgid "Short \"What is this?\" boxes next to each step and finding"
+msgstr "在每个步骤和发现旁边显示简短的 \"这是什么？\" 说明框"
+
+msgid "Language"
+msgstr "语言"
+
+msgid "The language of this program. Add your own with the Settings menu > Add a language pack."
+msgstr "本程序的语言。可通过 设置菜单 > 添加语言包 添加你自己的语言。"
+
+msgid "Settings"
+msgstr "设置"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Add a language pack"
+msgstr "添加语言包"
+
+msgid "The language pack was not added"
+msgstr "未添加语言包"
+
+msgid "Language pack added"
+msgstr "已添加语言包"
+
+msgid "{0} is now available. Switch to it now?"
+msgstr "{0} 现在可用。立即切换到该语言吗？"
+
+msgid "Not now"
+msgstr "以后再说"
+
+msgid "Switch"
+msgstr "切换"
+
+msgid "Save a template for a new language"
+msgstr "保存新语言的模板"
+
+msgid "My language"
+msgstr "我的语言"
+
+msgid "Template saved"
+msgstr "模板已保存"
+
+msgid "{0}\n\nOpen it in a text editor (or a translation editor such as Poedit), set @code (two letters, for example \"sv\") and @name "
+msgstr "{0}\n\n请在文本编辑器（或 Poedit 等翻译编辑器）中打开它，设置 @code（两个字母，例如 \"sv\"）和 @name "
+
+msgid "The template was not saved"
+msgstr "未保存模板"
+
+msgid "No browser or e-mail program here"
+msgstr "这里没有浏览器或电子邮件程序"
+
+msgid "This system cannot open links (Windows PE has no browser). Write it down: "
+msgstr "此系统无法打开链接（Windows PE 没有浏览器）。请记下来： "
+
+msgid "Free for personal use"
+msgstr "个人使用免费"
+
+msgid "PATio Boot Doctor is free for you to use at home: on your own PCs and on those of your family and friends. No time limit, no adverts, nothing to unlock."
+msgstr "PATio Boot Doctor 可在家中免费使用：用于你自己的电脑，以及家人和朋友的电脑。没有时间限制，没有广告，没有需要解锁的功能。"
+
+msgid "Using it for work?"
+msgstr "用于工作？"
+
+msgid "If you use it in a business, a repair shop or an IT department, or to look after other people's PCs for pay, please get in touch for a business licence. It is fairly priced, and it keeps these tools growing and improving."
+msgstr "如果你在企业、维修店或 IT 部门中使用它，或者有偿维护他人的电脑，请联系我们获取商业许可。价格公道，而且能让这些工具不断发展和改进。"
+
+msgid "Contact"
+msgstr "联系方式"
+
+msgid "E-mail"
+msgstr "电子邮件"
+
+msgid "Website"
+msgstr "网站"
+
+msgid "Made by MusPC with PatKit. It uses only Windows' own tools to make changes (diskpart, bcdedit, bcdboot, DISM and others), and always backs up first."
+msgstr "由 MusPC 使用 PatKit 制作。它只使用 Windows 自带的工具进行更改（diskpart、bcdedit、bcdboot、DISM 等），并且总是先备份。"
+
+msgid "PowerShell is not available here"
+msgstr "此处无法使用 PowerShell"
+
+msgid "The command prompt is not available here"
+msgstr "此处无法使用命令提示符"
+
+msgid "This Windows PE or recovery system was made without PowerShell. Use the command prompt instead."
+msgstr "此 Windows PE 或恢复系统在制作时没有包含 PowerShell。请改用命令提示符。"
+
+msgid "cmd.exe was not found."
+msgstr "未找到 cmd.exe。"
+
+msgid "It could not be opened"
+msgstr "无法打开它"
+
+msgid "No recovery image was found"
+msgstr "未找到恢复映像"
+
+msgid "A rescue stick is made from the Windows Recovery Environment (Winre.wim) of this PC, or from a Windows install USB stick.\n\n- Turn the recovery environment on: open the command prompt (admin) and type: reagentc /enable\n- Or plug in a Windows 10 or 11 install USB stick.\n\nThen scan again (Ctrl+R) and try once more."
+msgstr "救援 U 盘是用这台电脑的 Windows 恢复环境（Winre.wim）或 Windows 安装 U 盘制作的。\n\n- 打开恢复环境：以管理员身份打开命令提示符，然后输入：reagentc /enable\n- 或者插入 Windows 10 或 11 安装 U 盘。\n\n然后重新扫描（Ctrl+R），再试一次。"
+
+msgid "Plug in a USB stick"
+msgstr "请插入 U 盘"
+
+msgid "Plug in a USB stick of 1 GB or more. Everything on it will be erased, so use an empty one or copy its files first. Then scan again (Ctrl+R) and try once more."
+msgstr "请插入一个 1 GB 或更大的 U 盘。其中的所有内容都会被清除，因此请使用空 U 盘，或先复制出其中的文件。然后重新扫描（Ctrl+R），再试一次。"
+
+msgid "Make the rescue stick on this disk (erases it)"
+msgstr "在此磁盘上制作救援 U 盘（会清除其内容）"
+
+msgid "Make a rescue USB stick on "
+msgstr "制作救援 U 盘，目标： "
+
+msgid "Everything on this stick will be erased"
+msgstr "此 U 盘上的所有内容都将被清除"
+
+msgid "\n\nIt is made from: "
+msgstr "\n\n制作来源： "
+
+msgid "). Making it takes about 5 to 15 minutes.\n\nTo make sure the right disk is erased, type its number ("
+msgstr "）。制作大约需要 5 到 15 分钟。\n\n为确保清除的是正确的磁盘，请输入它的编号（"
+
+msgid ") below."
+msgstr "）。"
+
+msgid "Make the stick"
+msgstr "制作 U 盘"
+
+msgid "Nothing was erased"
+msgstr "未清除任何内容"
+
+msgid "Making the rescue USB stick"
+msgstr "正在制作救援 U 盘"
+
+msgid "Starting"
+msgstr "正在开始"
+
+msgid "Close"
+msgstr "关闭"
+
+msgid "Restart into firmware settings"
+msgstr "重启进入固件设置"
+
+msgid "Secure Boot"
+msgstr "Secure Boot"
+
+msgid "Restart now?"
+msgstr "立即重启？"
+
+msgid "The PC restarts straight into its firmware settings in 10 seconds. Save your work and close other programs first."
+msgstr "电脑将在 10 秒后直接重启进入固件设置。请先保存你的工作并关闭其他程序。"
+
+msgid "Restart"
+msgstr "重启"
+
+msgid ": too old for Secure Boot"
+msgstr "：太旧，不支持 Secure Boot"
+
+msgid ": starts without the signed \"shim\" loader"
+msgstr "：不经过已签名的 \"shim\" 加载程序启动"
+
+msgid "Switching Secure Boot on can stop a system from starting at the next start, if that system or one of its drivers is not signed."
+msgstr "开启 Secure Boot 后，如果某个系统或其驱动程序没有签名，该系统可能在下次启动时无法启动。"
+
+msgid " Nothing on this PC is known to need it off, but older tools, USB sticks and some drivers can still be refused."
+msgstr " 目前没有发现这台电脑上有需要关闭它的东西，但较旧的工具、U 盘和某些驱动程序仍可能被拒绝。"
+
+msgid " On this PC these would not start any more:"
+msgstr " 在这台电脑上，以下系统将无法再启动："
+
+msgid "\n\nBitLocker is in use: Windows may ask for the recovery key once. Have it ready (aka.ms/myrecoverykey)."
+msgstr "\n\n正在使用 BitLocker：Windows 可能会要求输入一次恢复密钥。请准备好它（aka.ms/myrecoverykey）。"
+
+msgid "\n\nBefore you go on:\n1. Take a photo of this window with your phone now, so the steps below are with you while the firmware settings are on screen.\n2. In the firmware settings, take a photo of each page before you change anything on it, and of every change you make, before you choose \"Save and exit\". Then you can set everything back exactly.\n3. If the PC does not start afterwards: open the firmware settings again with the same key, set Secure Boot back to Disabled (and anything else back as in your photos), then save and exit.\n\n"
+msgstr "\n\n继续之前：\n1. 现在用手机给这个窗口拍张照片，这样在固件设置显示在屏幕上时，你也能看到下面的步骤。\n2. 在固件设置中，更改任何页面之前先拍下该页面，每做一项更改也拍下来，然后再选择 \"Save and exit\"。这样你就可以把一切准确地改回去。\n3. 如果之后电脑无法启动：用同一个键再次打开固件设置，将 Secure Boot 改回 Disabled（其他设置也按照片改回去），然后保存并退出。\n\n"
+
+msgid "Before you switch Secure Boot on"
+msgstr "开启 Secure Boot 之前"
+
+msgid "I have taken the photo"
+msgstr "我已拍好照片"
+
+msgid "Restarting into the firmware settings"
+msgstr "正在重启进入固件设置"
+
+msgid "in 10 seconds. Press Esc or the stop button to cancel."
+msgstr "将在 10 秒后进行。按 Esc 或停止按钮取消。"
+
+msgid " second"
+msgstr " 秒"
+
+msgid " seconds"
+msgstr " 秒"
+
+msgid "This puts back what \""
+msgstr "此操作会从备份中恢复 \""
+
+msgid "\" changed, from its backup. What is there now is saved first, so Redo can make the change again."
+msgstr "\" 所做的更改。当前的内容会先保存，因此重做可以再次进行该更改。"
+
+msgid "Redo?"
+msgstr "重做？"
+
+msgid "\n\nIf the disks were changed in other ways since then, the result can differ. The disks are scanned again afterwards."
+msgstr "\n\n如果此后磁盘有其他更改，结果可能会不同。之后会重新扫描磁盘。"
+
+msgid "Redo"
+msgstr "重做"
+
+msgid "Undo"
+msgstr "撤销"
+
+msgid "Automatic backups"
+msgstr "自动备份"
+
+msgid "Before every change, this program saves a copy of what it is about to change. At the start of every session it also saves the start-up settings and partition tables of all disks. Undo puts a change back."
+msgstr "每次更改之前，本程序都会保存一份即将更改内容的副本。每次会话开始时，它还会保存所有磁盘的启动设置和分区表。撤销可以恢复更改。"
+
+msgid "Backups are kept in: "
+msgstr "备份保存在： "
+
+msgid "Back up now"
+msgstr "立即备份"
+
+msgid "Change folder"
+msgstr "更改文件夹"
+
+msgid "No sessions yet."
+msgstr "还没有会话。"
+
+msgid " · this session"
+msgstr " · 本次会话"
+
+msgid "entry"
+msgstr "个条目"
+
+msgid "entries"
+msgstr "个条目"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Not finished"
+msgstr "未完成"
+
+msgid "Failed"
+msgstr "失败"
+
+msgid "Undone"
+msgstr "已撤销"
+
+msgid "Everything found on this PC (↑ / ↓)"
+msgstr "在这台电脑上找到的所有内容（↑ / ↓）"
+
+msgid "\n\nWhat may have caused this: "
+msgstr "\n\n可能的原因： "
+
+msgid "\nClick for details, double-click or Enter to carry out its first fix"
+msgstr "\n单击查看详细信息，双击或按 Enter 执行它的第一个修复"
+
+msgid "\nClick to see it in the boot chain"
+msgstr "\n单击在启动链中查看"
+
+msgid "Carry out every step of the plan for "
+msgstr "依次执行以下系统的计划中的每一步： "
+
+msgid ", one after another. You are asked first."
+msgstr "。会先询问你。"
+
+msgid "Everything found about this Windows, and what it takes to make it start"
+msgstr "关于此 Windows 的所有发现，以及让它启动需要做的事"
+
+msgid "Show every step this Windows needs to start, as a chain (Ctrl+2)"
+msgstr "以链条形式显示此 Windows 启动所需的每一步（Ctrl+2）"
+
+msgid "Back to everything found on this PC"
+msgstr "返回在这台电脑上找到的所有内容"
+
+msgid "\nDrive "
+msgstr "\n驱动器 "
+
+msgid "\nMarked active (legacy start-up)"
+msgstr "\n已标记为活动（传统启动）"
+
+msgid "\nEncrypted with BitLocker, locked"
+msgstr "\n已使用 BitLocker 加密，已锁定"
+
+msgid "\nEncrypted with BitLocker, unlocked"
+msgstr "\n已使用 BitLocker 加密，已解锁"
+
+msgid "\nMarked as needing a disk check"
+msgstr "\n已标记为需要磁盘检查"
+
+msgid "\nLinux id: "
+msgstr "\nLinux ID： "
+
+msgid "\nRuns past the end of the disk"
+msgstr "\n超出了磁盘末尾"
+
+msgid "\nOverlaps another partition"
+msgstr "\n与另一个分区重叠"
+
+msgid "\nClick for what can be done with it, or right-click for a menu"
+msgstr "\n单击查看可以对它执行的操作，或右键单击打开菜单"
+
+msgid "A Windows on this disk has no start-up partition. Open the report to create one."
+msgstr "此磁盘上的一个 Windows 没有启动分区。打开报告来创建一个。"
+
+msgid "What Secure Boot is, whether it is on, and how to switch it on or off"
+msgstr "Secure Boot 是什么、是否已开启，以及如何开启或关闭它"
+
+msgid "Open a command prompt with administrator rights (for typing commands such as diskpart or bcdedit yourself)"
+msgstr "以管理员权限打开命令提示符（用于自己输入 diskpart 或 bcdedit 等命令）"
+
+msgid "Open PowerShell with administrator rights"
+msgstr "以管理员权限打开 PowerShell"
+
+msgid "Make a USB stick that starts PATio Boot Doctor on any PC, even one whose Windows does not start. Everything on the stick is erased."
+msgstr "制作一个能在任何电脑上启动 PATio Boot Doctor 的 U 盘，即使该电脑的 Windows 无法启动也可以。U 盘上的所有内容都会被清除。"
+
+msgid "Drag to make the console taller or shorter"
+msgstr "拖动以调整控制台的高度"
+
+msgid "Close the console (Settings brings it back)"
+msgstr "关闭控制台（可在设置中重新打开）"
+
+msgid "Clear the console"
+msgstr "清除控制台"
+
+msgid "Every command this program runs, and what it answered. Scroll with the mouse wheel."
+msgstr "本程序运行的每条命令及其回应。用鼠标滚轮滚动。"
+
+msgid "Write an e-mail to info@muspc.com"
+msgstr "给 info@muspc.com 写电子邮件"
+
+msgid "Open www.muspc.com"
+msgstr "打开 www.muspc.com"
+
+msgid "Unused space: click to see what can be done with it (create a partition), or right-click for a menu"
+msgstr "未使用的空间：单击查看可以对它执行的操作（创建分区），或右键单击打开菜单"
+
+msgid "Click for what can be done with the whole disk (set up, convert, wipe, online / offline)"
+msgstr "单击查看可以对整个磁盘执行的操作（设置、转换、清空、联机 / 脱机）"
+
+msgid "Hide the short explanations of what each thing is"
+msgstr "隐藏关于每项内容的简短说明"
+
+msgid "Show short explanations of what each thing is, for people new to this"
+msgstr "为初次接触的用户显示关于每项内容的简短说明"
+
+msgid "Put back what this change altered. What is there now is backed up first, so the undo can be undone too."
+msgstr "恢复此更改所改动的内容。当前的内容会先备份，因此撤销本身也可以撤销。"
+
+msgid "Delete this session's backups from the disk. This cannot be undone."
+msgstr "从磁盘中删除本次会话的备份。此操作无法撤销。"
+
+msgid "\nThis change cannot be undone."
+msgstr "\n此更改无法撤销。"
+
+msgid "Save the start-up settings and partition tables of all disks now (Ctrl+B)"
+msgstr "立即保存所有磁盘的启动设置和分区表（Ctrl+B）"
+
+msgid "Choose another folder for backups. Use a drive that is not being repaired."
+msgstr "为备份选择另一个文件夹。请使用不在修复范围内的驱动器。"
+
+msgid "Scroll with the mouse wheel or Page up / Page down"
+msgstr "用鼠标滚轮或 Page up / Page down 滚动"
+
+msgid "\nClick to choose it (or not) for recovering"
+msgstr "\n单击选择（或取消选择）要恢复的文件"
+
+msgid "Show only this kind of file"
+msgstr "只显示此类文件"
+
+msgid "Choose every file shown"
+msgstr "选择显示的所有文件"
+
+msgid "Choose none of the files shown"
+msgstr "取消选择显示的所有文件"
+
+msgid "Copy the chosen files to a folder on another drive"
+msgstr "将选择的文件复制到另一个驱动器上的文件夹中"
+
+msgid "Back to Disks and partitions"
+msgstr "返回磁盘和分区"
+
+msgid "Put this partition back in the partition table. Its contents are not touched; Undo removes it again."
+msgstr "将此分区放回分区表。不会触碰其内容；撤销会再次删除它。"
+
+msgid "Read every sector of the unused space. This can take hours on a big disk."
+msgstr "读取未使用空间的每个扇区。在大磁盘上可能需要数小时。"
+
+msgid "Close this list"
+msgstr "关闭此列表"
+
+msgid "Go on: you are asked once more before anything changes"
+msgstr "继续：在做任何更改之前会再询问你一次"
+
+msgid "Close the preview; nothing changes"
+msgstr "关闭预览；不做任何更改"
+
+msgid "Use only the unused space right after it"
+msgstr "只使用紧随其后的未使用空间"
+
+msgid "Delete the partition right after it and use its space"
+msgstr "删除紧随其后的分区并使用它的空间"
+
+msgid "Delete this saved key?"
+msgstr "删除此已保存的密钥？"
+
+msgid "The BitLocker recovery key for {0} (saved {1}) is deleted from this PC. Keep a copy elsewhere (your Microsoft account, a printout) if you may need it again."
+msgstr "{0} 的 BitLocker 恢复密钥（保存于 {1}）将从这台电脑中删除。如果之后可能还需要，请在其他地方保留一份副本（Microsoft 帐户、打印件）。"
+
+msgid "Key deleted"
+msgstr "密钥已删除"
+
+msgid "The key was not deleted"
+msgstr "未删除密钥"
+
+msgid "Delete all saved keys?"
+msgstr "删除所有已保存的密钥？"
+
+msgid "Every BitLocker recovery key remembered on this PC is deleted. Keep copies elsewhere if you may need them again."
+msgstr "这台电脑上记住的所有 BitLocker 恢复密钥都将被删除。如果之后可能还需要，请在其他地方保留副本。"
+
+msgid "Delete all"
+msgstr "全部删除"
+
+msgid "All saved keys deleted"
+msgstr "所有已保存的密钥都已删除"
+
+msgid "The keys were not deleted"
+msgstr "未删除密钥"
+
+msgid "Use this folder"
+msgstr "使用此文件夹"
+
+msgid "This folder cannot be used"
+msgstr "无法使用此文件夹"
+
+msgid "Nothing can be written to "
+msgstr "无法写入以下位置： "
+
+msgid "Backup folder changed"
+msgstr "备份文件夹已更改"
+
+msgid "New backups go to "
+msgstr "新的备份将保存到 "
+
+msgid "The backup folder was not changed"
+msgstr "备份文件夹未更改"
+
+msgid "Delete these backups?"
+msgstr "删除这些备份？"
+
+msgid "The backups of the session from "
+msgstr "以下时间开始的会话的备份 "
+
+msgid " are deleted from the disk. Its changes then cannot be undone any more."
+msgstr " 将从磁盘中删除。之后它的更改将无法再撤销。"
+
+msgid "Not all backups were deleted"
+msgstr "未删除所有备份"
+
+msgid "Some files in "
+msgstr "以下位置中的一些文件 "
+
+msgid " are in use or read-only."
+msgstr " 正在使用或为只读。"
+
+msgid "Save the report"
+msgstr "保存报告"
+
+msgid "Report saved"
+msgstr "报告已保存"
+
+msgid "The report was not saved"
+msgstr "未保存报告"
+
+msgid "The file "
+msgstr "文件 "
+
+msgid " could not be written. Choose another folder."
+msgstr " 无法写入。请选择另一个文件夹。"
+
+msgid "Reading disks"
+msgstr "正在读取磁盘"
+
+msgid "Saving a backup of the start-up setup"
+msgstr "正在保存启动配置的备份"
+
+msgid "Unlock BitLocker first?"
+msgstr "先解锁 BitLocker？"
+
+msgid "{0} is locked by BitLocker, so what is inside it cannot be seen. Windows may well be inside it, and the start-up entries and files this change touches may belong to it.\n\nUnlock it first and scan again; then decide."
+msgstr "{0} 已被 BitLocker 锁定，因此看不到其中的内容。Windows 很可能就在其中，此更改涉及的启动条目和文件也可能属于它。\n\n请先解锁并重新扫描，然后再决定。"
+
+msgid "Unlock first"
+msgstr "先解锁"
+
+msgid "Go on anyway"
+msgstr "仍然继续"
+
+msgid "This is done:\n\n"
+msgstr "将执行以下操作：\n\n"
+
+msgid "These steps are done, one after another:\n\n"
+msgstr "将依次执行以下步骤：\n\n"
+
+msgid "Before anything changes, a copy of what will change is saved in\n"
+msgstr "在做任何更改之前，会先将要更改的内容保存一份副本到\n"
+
+msgid "\nso History can undo it."
+msgstr "\n以便在历史记录中撤销。"
+
+msgid " Steps marked \"cannot be undone\" are the exception."
+msgstr " 标记为 \"无法撤销\" 的步骤除外。"
+
+msgid "Repair "
+msgstr "修复 "
+
+msgid "Do all steps"
+msgstr "执行所有步骤"
+
+msgid "Repairing"
+msgstr "正在修复"
+
+msgid "Stopped before: "
+msgstr "在此之前停止： "
+
+msgid "What this change altered on "
+msgstr "此更改在以下位置所改动的内容 "
+
+msgid " is put back from its backup. What is there now is saved first, so this undo can be undone too.\n\nIf the disks were changed since then, the result can be different from before. Scan again afterwards."
+msgstr " 将从备份中恢复。当前的内容会先保存，因此这次撤销本身也可以撤销。\n\n如果此后磁盘有过更改，结果可能与之前不同。之后请重新扫描。"
+
+msgid "Redoing"
+msgstr "正在重做"
+
+msgid "Undoing"
+msgstr "正在撤销"
+
+msgid "Choose a folder for backups first."
+msgstr "请先选择备份文件夹。"
+
+msgid "Backing up"
+msgstr "正在备份"
+
+msgid "Start-up settings and partition tables"
+msgstr "启动设置和分区表"
+
+msgid "Start-up setup, backed up on request"
+msgstr "启动配置，按要求备份"
+
+msgid "Restart cancelled"
+msgstr "已取消重启"
+
+msgid "Nothing was changed."
+msgstr "未做任何更改。"
+
+msgid "Working"
+msgstr "正在处理"
+
+msgid "\n\nThe key is remembered on this PC (encrypted for your Windows account). Settings menu > Saved BitLocker keys deletes it."
+msgstr "\n\n密钥已记在这台电脑上（已为你的 Windows 帐户加密）。可在 设置菜单 > 已保存的 BitLocker 密钥 中删除它。"
+
+msgid "Backups cannot be saved"
+msgstr "无法保存备份"
+
+msgid "\n\nRepairs stay off until a backup folder is chosen with the settings button."
+msgstr "\n\n在用设置按钮选择备份文件夹之前，修复功能将保持关闭。"
+
+msgid "Scan finished"
+msgstr "扫描完成"
+
+msgid " on "
+msgstr " ，位于 "
+
+msgid "thing needs"
+msgstr "项内容需要"
+
+msgid "things need"
+msgstr "项内容需要"
+
+msgid " attention."
+msgstr " 注意。"
+
+msgid "Nothing needs attention."
+msgstr "没有需要注意的问题。"
+
+msgid "Backed up"
+msgstr "已备份"
+
+msgid "The start-up setup of all disks was saved. See History."
+msgstr "所有磁盘的启动配置都已保存。请查看历史记录。"
+
+msgid "The backup was not complete"
+msgstr "备份未完成"
+
+msgid "Redone"
+msgstr "已重做"
+
+msgid "The undo was not complete"
+msgstr "撤销未完成"
+
+msgid "Rescue USB stick ready"
+msgstr "救援 U 盘已就绪"
+
+msgid "The rescue stick was not made"
+msgstr "未制作救援 U 盘"
+
+msgid "Not done"
+msgstr "未完成"
+
+msgid "Repair finished"
+msgstr "修复完成"
+
+msgid "Repair stopped"
+msgstr "修复已停止"
+
+msgid "Done."
+msgstr "完成。"
+
+msgid "Something went wrong."
+msgstr "出了点问题。"
+
+msgid "\n\nThe disks were scanned again, so the report shows how things are now."
+msgstr "\n\n已重新扫描磁盘，因此报告显示的是当前的状况。"
+
+msgid "Microsoft DiskPart\r\n\r\nDisk 1 is now the selected disk.\r\nPartition 1 is now the selected partition.\r\nDiskPart successfully assigned the drive letter or mount point."
+msgstr "Microsoft DiskPart\r\n\r\nDisk 1 is now the selected disk.\r\nPartition 1 is now the selected partition.\r\nDiskPart successfully assigned the drive letter or mount point."
+
+msgid "It runs into a partition that exists now, so it was partly overwritten or that partition was made over it."
+msgstr "它延伸到了一个现在存在的分区中，因此它已被部分覆盖，或者那个分区是在它上面创建的。"
+
+msgid "Disks and partitions"
+msgstr "磁盘和分区"
+
+msgid "Recovered files"
+msgstr "已恢复的文件"
+
+msgid "History"
+msgstr "历史记录"
+
+msgid "Tools"
+msgstr "工具"
+
+msgid "Make a USB rescue disk"
+msgstr "制作 USB 救援盘"
+
+msgid "Command prompt"
+msgstr "命令提示符"
+
+msgid "PowerShell"
+msgstr "PowerShell"
+
+msgid "Language: "
+msgstr "语言： "
+
+msgid "Shutting down in"
+msgstr "即将关机，倒计时"
+
+msgid "Restarting in"
+msgstr "即将重启，倒计时"
+
+msgid "Hibernating in"
+msgstr "即将休眠，倒计时"
+
+msgid "Shut down"
+msgstr "关机"
+
+msgid "Hibernate"
+msgstr "休眠"
+
+msgid "Everything found on this PC, and what it takes to fix it (Ctrl+H)"
+msgstr "在这台电脑上找到的所有内容，以及修复它们需要做的事（Ctrl+H）"
+
+msgid "Every step a system needs to start, shown as a chain (Ctrl+2)"
+msgstr "以链条形式显示系统启动所需的每一步（Ctrl+2）"
+
+msgid "Disks and partitions: create, delete, resize, unlock BitLocker, find lost partitions and recover deleted files (Ctrl+3)"
+msgstr "磁盘和分区：创建、删除、调整大小、解锁 BitLocker、查找丢失的分区和恢复已删除的文件（Ctrl+3）"
+
+msgid "The deleted files found by the last search"
+msgstr "上次搜索找到的已删除文件"
+
+msgid "Backups and every change, with undo (Ctrl+4)"
+msgstr "备份和每一项更改，可撤销（Ctrl+4）"
+
+msgid "Change the language of this program"
+msgstr "更改本程序的语言"
+
+msgid "Shut the PC down now or after a time you choose"
+msgstr "立即关闭电脑，或在你选择的时间后关闭"
+
+msgid "Restart the PC now or after a time you choose"
+msgstr "立即重启电脑，或在你选择的时间后重启"
+
+msgid "Save everything that is open to the disk and switch off; it all comes back at the next start"
+msgstr "将所有打开的内容保存到磁盘并关闭电源；下次启动时一切都会恢复"
+
+msgid "Cancel the timed shut down, restart or hibernation"
+msgstr "取消定时关机、重启或休眠"
+
+msgid "Now"
+msgstr "立即"
+
+msgid "In {0} minutes"
+msgstr "{0} 分钟后"
+
+msgid "In 1 hour"
+msgstr "1 小时后"
+
+msgid "In 2 hours"
+msgstr "2 小时后"
+
+msgid "In 1 minute"
+msgstr "1 分钟后"
+
+msgid "At a time I choose…"
+msgstr "在我选择的时间…"
+
+msgid "Cancel the timer"
+msgstr "取消定时"
+
+msgid "shut down"
+msgstr "关机"
+
+msgid "restart"
+msgstr "重启"
+
+msgid "hibernate"
+msgstr "休眠"
+
+msgid "Everything that is open is saved to the disk and the PC switches off. It all comes back at the next start."
+msgstr "所有打开的内容都会保存到磁盘，然后电脑关闭电源。下次启动时一切都会恢复。"
+
+msgid "Programs that are open are closed; unsaved work in them is lost."
+msgstr "打开的程序将被关闭；其中未保存的工作会丢失。"
+
+msgid "\n\nWork is still running here: it waits until that has finished."
+msgstr "\n\n这里仍有工作在进行：会等它完成后再执行。"
+
+msgid "Shut down now?"
+msgstr "立即关机？"
+
+msgid "Hibernate now?"
+msgstr "立即休眠？"
+
+msgid "When?"
+msgstr "什么时候？"
+
+msgid "Type in how many minutes to {0} (for example 45), or a time of day (for example 23:30)."
+msgstr "输入多少分钟后{0}（例如 45），或一天中的某个时间（例如 23:30）。"
+
+msgid "Set the timer"
+msgstr "设置定时"
+
+msgid "That is not a time"
+msgstr "这不是一个有效的时间"
+
+msgid "Type a number of minutes (1 to 1440) or a time of day such as 23:30."
+msgstr "请输入分钟数（1 到 1440）或一天中的时间，例如 23:30。"
+
+msgid "Shut down timer set"
+msgstr "已设置定时关机"
+
+msgid "Restart timer set"
+msgstr "已设置定时重启"
+
+msgid "Hibernate timer set"
+msgstr "已设置定时休眠"
+
+msgid "In {0}. Cancel it at the bottom of the left pane."
+msgstr "{0}后。可在左侧窗格底部取消。"
+
+msgid "Timer cancelled"
+msgstr "已取消定时"
+
+msgid "The PC stays on."
+msgstr "电脑保持开机。"
+
+msgid "Shutting down in 1 minute"
+msgstr "1 分钟后关机"
+
+msgid "Restarting in 1 minute"
+msgstr "1 分钟后重启"
+
+msgid "Hibernating in 1 minute"
+msgstr "1 分钟后休眠"
+
+msgid "Save your work in other programs."
+msgstr "请保存你在其他程序中的工作。"
+
+msgid "It did not work"
+msgstr "操作未成功"
+
+msgid "Type the 48-digit recovery key of {0}. You find it in your Microsoft account (aka.ms/myrecoverykey), on a printout, or with your IT department. The dashes are added for you."
+msgstr "请输入 {0} 的 48 位恢复密钥。你可以在 Microsoft 帐户（aka.ms/myrecoverykey）、打印件中找到它，或向你的 IT 部门索取。短横线会自动添加。"
+
+msgid "\n\nA key saved on this PC on {0} for this drive was filled in."
+msgstr "\n\n已填入 {0} 在这台电脑上为此驱动器保存的密钥。"
+
+msgid "BitLocker recovery key"
+msgstr "BitLocker 恢复密钥"
+
+msgid "Unlock"
+msgstr "解锁"
+
+msgid "That is not a recovery key"
+msgstr "这不是恢复密钥"
+
+msgid "A BitLocker recovery key has 48 digits, in 8 groups of 6. Check it and try again."
+msgstr "BitLocker 恢复密钥有 48 位数字，分为 8 组，每组 6 位。请检查后重试。"
+
+msgid "One of the groups of 6 digits is mistyped (each group of a real key can be divided by 11). Check it and try again."
+msgstr "其中一组 6 位数字输入有误（真实密钥的每一组都能被 11 整除）。请检查后重试。"
+
+msgid "Do not save the key"
+msgstr "不保存密钥"
+
+msgid "Remember it on this PC"
+msgstr "在这台电脑上记住它"
+
+msgid "Saved BitLocker keys"
+msgstr "已保存的 BitLocker 密钥"
+
+msgid "No recovery keys are saved on this PC. When you unlock a drive, choose \"Remember it on this PC\" to save its key here (encrypted, for your Windows account only)."
+msgstr "这台电脑上没有保存恢复密钥。解锁驱动器时，选择 \"在这台电脑上记住它\" 即可将其密钥保存在这里（已加密，仅限你的 Windows 帐户）。"
+
+msgid "Click a key to delete it"
+msgstr "单击某个密钥将其删除"
+
+msgid "Delete all saved keys"
+msgstr "删除所有已保存的密钥"
+
+msgid "Measuring what can be removed"
+msgstr "正在计算可以删除的内容"
+
+msgid "About {0} can be freed. Personal files, programs and settings are not touched. Files in use are left alone."
+msgstr "大约可以释放 {0}。不会触碰个人文件、程序和设置。正在使用的文件会保留。"
+
+msgid "Remove"
+msgstr "删除"
+
+msgid "This is not possible for this kind of partition."
+msgstr "此类分区无法执行此操作。"
+
+msgid "There is nothing after it to use"
+msgstr "它后面没有可以使用的空间"
+
+msgid "A partition can only grow into space right after it. There is no unused space and no partition right after this one."
+msgstr "分区只能扩展到紧随其后的空间中。此分区后面既没有未使用的空间，也没有紧邻的分区。"
+
+msgid "Unused"
+msgstr "未使用"
+
+msgid "deleted"
+msgstr "已删除"
+
+msgid "Preview: make {0} smaller"
+msgstr "预览：缩小 {0}"
+
+msgid "Preview: make {0} bigger"
+msgstr "预览：扩大 {0}"
+
+msgid "Use the unused space after it ({0})"
+msgstr "使用其后的未使用空间（{0}）"
+
+msgid "Delete {0} after it and use its space"
+msgstr "删除其后的 {0} 并使用它的空间"
+
+msgid "Afterwards"
+msgstr "完成后"
+
+msgid "Changing partitions is safe in almost all cases, but a power cut or a crash while it runs can damage the drive and lose data. Back up important files first, keep a laptop plugged in, and close other programs."
+msgstr "在几乎所有情况下更改分区都是安全的，但运行时断电或崩溃可能会损坏驱动器并丢失数据。请先备份重要文件，笔记本电脑请保持接通电源，并关闭其他程序。"
+
+msgid "Everything on {0} is erased."
+msgstr "{0} 上的所有内容都会被清除。"
+
+msgid " It is a recovery partition: Windows' troubleshoot options are on it. After this, recreate them from the report (\"Recreate the recovery partition\"), which takes 1 GB back."
+msgstr " 这是一个恢复分区：Windows 的疑难解答选项就在上面。完成后，请在报告中重新创建它们（\"重新创建恢复分区\"），这会重新占用 1 GB。"
+
+msgid " This drive uses BitLocker: have its recovery key ready."
+msgstr " 此驱动器使用了 BitLocker：请准备好它的恢复密钥。"
+
+msgid "Full search for lost partitions"
+msgstr "完整搜索丢失的分区"
+
+msgid "Quick search for lost partitions"
+msgstr "快速搜索丢失的分区"
+
+msgid "Search finished"
+msgstr "搜索完成"
+
+msgid "No lost partitions were found."
+msgstr "没有找到丢失的分区。"
+
+msgid "lost partition found"
+msgstr "个丢失的分区已找到"
+
+msgid "lost partitions found"
+msgstr "个丢失的分区已找到"
+
+msgid "Lost partitions · full search"
+msgstr "丢失的分区 · 完整搜索"
+
+msgid "Lost partitions · quick search"
+msgstr "丢失的分区 · 快速搜索"
+
+msgid "Nothing was found. The partitions were probably overwritten."
+msgstr "什么也没找到。这些分区可能已被覆盖。"
+
+msgid "Nothing was found where partitions normally start. The full search reads every sector and also finds the backup copies file systems keep."
+msgstr "在分区通常开始的位置什么也没找到。完整搜索会读取每个扇区，还能找到文件系统保存的备份副本。"
+
+msgid " · starts at "
+msgstr " · 起始位置 "
+
+msgid "Put it back"
+msgstr "恢复它"
+
+msgid "Found through its backup copy (its first sector is damaged). "
+msgstr "通过其备份副本找到（它的第一个扇区已损坏）。 "
+
+msgid "Full search (slow)"
+msgstr "完整搜索（较慢）"
+
+msgid "The {0} partition ({1}) is put back in the partition table of Disk {2}, where it was. Its files are not touched; nothing is written inside it.\n\nIf the files look wrong afterwards, Undo (Ctrl+Z) removes it from the table again."
+msgstr "{0} 分区（{1}）将被放回磁盘 {2} 的分区表中原来的位置。不会触碰其中的文件；不会向其内部写入任何内容。\n\n如果之后文件看起来不对，撤销（Ctrl+Z）会再次将它从分区表中删除。"
+
+msgid "\n\nIts first sector is damaged: after putting it back, run \"Check for errors\" on it, which repairs the first sector from the backup copy."
+msgstr "\n\n它的第一个扇区已损坏：恢复后，请对它运行 \"检查错误\"，这会用备份副本修复第一个扇区。"
+
+msgid "Put the partition back?"
+msgstr "恢复该分区？"
+
+msgid "Restore a lost partition"
+msgstr "恢复丢失的分区"
+
+msgid "Good"
+msgstr "良好"
+
+msgid "May be damaged"
+msgstr "可能已损坏"
+
+msgid "Probably overwritten"
+msgstr "可能已被覆盖"
+
+msgid "Full search for deleted files"
+msgstr "完整搜索已删除的文件"
+
+msgid "Quick search for deleted files"
+msgstr "快速搜索已删除的文件"
+
+msgid "No search yet"
+msgstr "尚未搜索"
+
+msgid "In Disks and partitions, click a partition and choose \"Recover deleted files\"."
+msgstr "在“磁盘和分区”中单击一个分区，然后选择 \"恢复已删除的文件\"。"
+
+msgid "Deleted files on {0}"
+msgstr "{0} 上已删除的文件"
+
+msgid " · full search"
+msgstr " · 完整搜索"
+
+msgid " · quick search"
+msgstr " · 快速搜索"
+
+msgid "Save recovered files to a different drive, never to this one: writing here can overwrite the very files you want back."
+msgstr "请将恢复的文件保存到其他驱动器，切勿保存到此驱动器：在这里写入可能会覆盖你想找回的文件。"
+
+msgid "Recover {0} files…"
+msgstr "恢复 {0} 个文件…"
+
+msgid "Recover chosen files…"
+msgstr "恢复所选文件…"
+
+msgid "Choose all shown"
+msgstr "选择显示的全部"
+
+msgid "Choose none"
+msgstr "全不选"
+
+msgid "Back to the disks"
+msgstr "返回磁盘"
+
+msgid "All"
+msgstr "全部"
+
+msgid "Pictures"
+msgstr "图片"
+
+msgid "Documents"
+msgstr "文档"
+
+msgid "Music and videos"
+msgstr "音乐和视频"
+
+msgid "Archives"
+msgstr "压缩包"
+
+msgid "Other"
+msgstr "其他"
+
+msgid "No files chosen"
+msgstr "未选择文件"
+
+msgid "Click the files you want back (or \"Choose all shown\"), then try again."
+msgstr "单击你想找回的文件（或 \"选择显示的全部\"），然后重试。"
+
+msgid "Where should the files go? (another drive)"
+msgstr "文件要保存到哪里？（另一个驱动器）"
+
+msgid "Recover here"
+msgstr "恢复到这里"
+
+msgid "Choose another drive"
+msgstr "选择另一个驱动器"
+
+msgid "This folder is on the drive the files are recovered from. Writing there can overwrite the deleted files. Choose a folder on another drive, for example a USB stick."
+msgstr "此文件夹位于要从中恢复文件的驱动器上。在那里写入可能会覆盖已删除的文件。请选择另一个驱动器上的文件夹，例如 U 盘。"
+
+msgid "Recovering files"
+msgstr "正在恢复文件"
+
+msgid "{0} files, {1}"
+msgstr "{0} 个文件，{1}"
+
+msgid "{0} files were recovered to {1}."
+msgstr "已将 {0} 个文件恢复到 {1}。"
+
+msgid "{0} files came back only partly or not at all; their space was probably used again."
+msgstr "{0} 个文件只恢复了一部分或完全没有恢复；它们的空间可能已被再次使用。"
+
+msgid "Recovered, with some problems"
+msgstr "已恢复，但有一些问题"
+
+msgid "Files recovered"
+msgstr "文件已恢复"
+
+msgid "{0} files found. Files marked \"may be damaged\" had part of their space used again since they were deleted."
+msgstr "找到 {0} 个文件。标记为 \"可能已损坏\" 的文件在删除后有部分空间被再次使用。"
+
+msgid "Looking for lost partitions"
+msgstr "正在查找丢失的分区"
+
+msgid "Looking for lost partitions, sector by sector"
+msgstr "正在逐个扇区查找丢失的分区"
+
+msgid "Its size is not written in its first sector, so all unused space after it is used."
+msgstr "它的第一个扇区中没有写明大小，因此使用其后的全部未使用空间。"
+
+msgid "It starts inside a partition that exists now."
+msgstr "它从一个现在存在的分区内部开始。"
+
+msgid "It does not start on a sector boundary."
+msgstr "它的起始位置不在扇区边界上。"
+
+msgid "The partition is back in the partition table. Its files were not touched. If it has no drive letter, give it one in Disks and partitions."
+msgstr "该分区已回到分区表中。其中的文件未被触碰。如果它没有驱动器号，请在“磁盘和分区”中为它分配一个。"
+
+msgid "The partition could not be put back. "
+msgstr "无法恢复该分区。 "
+
+msgid "The partition could not be opened."
+msgstr "无法打开该分区。"
+
+msgid "This drive is locked by BitLocker. Unlock it first: its contents cannot be read while it is locked."
+msgstr "此驱动器已被 BitLocker 锁定。请先解锁：锁定期间无法读取其内容。"
+
+msgid "The file list of this drive is damaged. The full scan can still find files by their contents."
+msgstr "此驱动器的文件列表已损坏。完整扫描仍可按内容找到文件。"
+
+msgid "Reading the file list"
+msgstr "正在读取文件列表"
+
+msgid "(folder unknown)"
+msgstr "（文件夹未知）"
+
+msgid "(folder unknown)\\"
+msgstr "（文件夹未知）\\"
+
+msgid "A quick search only works on NTFS drives (most Windows drives). Use the full scan: it finds pictures and PDFs by their contents on any drive."
+msgstr "快速搜索只适用于 NTFS 驱动器（大多数 Windows 驱动器）。请使用完整扫描：它可以在任何驱动器上按内容找到图片和 PDF。"
+
+msgid "Reading the whole drive"
+msgstr "正在读取整个驱动器"
+
+msgid "(found by the deep scan)"
+msgstr "（通过深度扫描找到）"
+
+msgid "(found by contents)\\Documents"
+msgstr "（按内容找到）\\Documents"
+
+msgid "(found by contents)\\Pictures"
+msgstr "（按内容找到）\\Pictures"
+
+msgid "No deleted files were found."
+msgstr "没有找到已删除的文件。"
+
+msgid "Could not create "
+msgstr "无法创建 "
+
+msgid "Only partly recovered: "
+msgstr "仅部分恢复： "
+
+msgid "Windows has no volume for "
+msgstr "Windows 没有对应的卷： "
+
+msgid ", so it cannot be opened."
+msgstr "，因此无法打开。"
+
+msgid "No free drive letter is left."
+msgstr "已没有可用的驱动器号。"
+
+msgid "There is no start-up partition to put the files on. Create one first."
+msgstr "没有可以存放文件的启动分区。请先创建一个。"
+
+msgid "The start-up partition could not be marked active. "
+msgstr "无法将启动分区标记为活动。 "
+
+msgid "Marked "
+msgstr "已标记 "
+
+msgid "bcdboot.exe, the Windows tool that writes start-up files, was not found here."
+msgstr "这里找不到 bcdboot.exe（用于写入启动文件的 Windows 工具）。"
+
+msgid "Fresh start-up files were written and this Windows now starts first."
+msgstr "已写入新的启动文件，此 Windows 现在会优先启动。"
+
+msgid "The start-up files could not be written. The tool said: "
+msgstr "无法写入启动文件。工具的提示： "
+
+msgid "The start-up settings were not found."
+msgstr "未找到启动设置。"
+
+msgid "The start-up settings could not be changed. "
+msgstr "无法更改启动设置。 "
+
+msgid "Windows' settings file could not be opened. "
+msgstr "无法打开 Windows 的设置文件。 "
+
+msgid "Turned on "
+msgstr "已启用 "
+
+msgid "The disk drivers are turned on again."
+msgstr "磁盘驱动程序已重新启用。"
+
+msgid "The disk drivers were already on."
+msgstr "磁盘驱动程序原本就已启用。"
+
+msgid "The unfinished set-up mark is cleared."
+msgstr "未完成的安装标记已清除。"
+
+msgid "The set-up mark could not be changed."
+msgstr "无法更改安装标记。"
+
+msgid "No Windows was chosen."
+msgstr "没有选择 Windows。"
+
+msgid "Taking the repair tools from the Windows install stick"
+msgstr "正在从 Windows 安装 U 盘获取修复工具"
+
+msgid "No copy of Windows' repair tools (Winre.wim) was found on this PC. Plug in a Windows install USB stick of the same Windows version (with sources\\install.wim), scan again and try once more."
+msgstr "在这台电脑上没有找到 Windows 修复工具的副本（Winre.wim）。请插入相同 Windows 版本的 Windows 安装 U 盘（包含 sources\\install.wim），重新扫描后再试一次。"
+
+msgid "There is no room for a recovery partition: no unused space on the disk, and the Windows partition has less than 4 GB free to give up 1 GB. Free up space first."
+msgstr "没有空间容纳恢复分区：磁盘上没有未使用的空间，而且 Windows 分区的可用空间不足 4 GB，无法让出 1 GB。请先释放空间。"
+
+msgid "This MBR disk already has four partitions, the most it can hold."
+msgstr "此 MBR 磁盘已经有四个分区，这是它能容纳的最大数量。"
+
+msgid "Making the recovery partition"
+msgstr "正在创建恢复分区"
+
+msgid "The recovery partition could not be made. "
+msgstr "无法创建恢复分区。 "
+
+msgid "Copying the repair tools"
+msgstr "正在复制修复工具"
+
+msgid "Switching the troubleshoot options on"
+msgstr "正在启用疑难解答选项"
+
+msgid "The recovery partition was made, but the repair tools could not be copied onto it. "
+msgstr "恢复分区已创建，但无法将修复工具复制到其中。 "
+
+msgid "The recovery partition was recreated and the troubleshoot options are switched on."
+msgstr "恢复分区已重新创建，疑难解答选项已启用。"
+
+msgid "The recovery partition was recreated with the repair tools on it. Windows could not be told about it from here: in Windows, open the command prompt (admin) and type: reagentc /enable"
+msgstr "恢复分区已重新创建，修复工具已在其中。但无法从这里通知 Windows：请在 Windows 中以管理员身份打开命令提示符，然后输入：reagentc /enable"
+
+msgid "The partition was not found."
+msgstr "未找到该分区。"
+
+msgid "Not renamed, because it already exists: "
+msgstr "未重命名，因为它已存在： "
+
+msgid "Renamed "
+msgstr "已重命名 "
+
+msgid "Could not rename "
+msgstr "无法重命名 "
+
+msgid "Windows' folders have their own names again. Scan again to check this Windows."
+msgstr "Windows 的文件夹已恢复原名。请重新扫描以检查此 Windows。"
+
+msgid "Not every folder could be renamed. See the details."
+msgstr "并非所有文件夹都能重命名。请查看详细信息。"
+
+msgid "This Windows is shown in the start-up menu again."
+msgstr "此 Windows 已重新显示在启动菜单中。"
+
+msgid "Automatic Repair is off for this Windows. Start the PC and note the error message it shows; that tells what to fix next."
+msgstr "已为此 Windows 关闭自动修复。请启动电脑并记下它显示的错误消息；它会告诉你接下来要修复什么。"
+
+msgid "The entry was removed from the start-up settings and the menu."
+msgstr "该条目已从启动设置和菜单中删除。"
+
+msgid "The entry was taken off the start-up menu."
+msgstr "该条目已从启动菜单中移除。"
+
+msgid "The PC is restarting into its firmware settings."
+msgstr "电脑正在重启进入固件设置。"
+
+msgid "The start-up partition was not found."
+msgstr "未找到启动分区。"
+
+msgid "The PC's start-up list is full."
+msgstr "电脑的启动列表已满。"
+
+msgid "Wrote "
+msgstr "已写入 "
+
+msgid " for "
+msgstr " ，用于 "
+
+msgid " and added it to BootOrder.\r\n"
+msgstr " 并已将其添加到 BootOrder。\r\n"
+
+msgid "Linux was added to the PC's start-up list. Pick it in the PC's boot menu, or use \"Make Linux start first\"."
+msgstr "Linux 已添加到电脑的启动列表。请在电脑的启动菜单中选择它，或使用 \"让 Linux 优先启动\"。"
+
+msgid "The entry was written, but it could not be added to the start-up order."
+msgstr "条目已写入，但无法添加到启动顺序中。"
+
+msgid "The entry was not found."
+msgstr "未找到该条目。"
+
+msgid " now starts first. Its menu usually lets you choose Windows too."
+msgstr " 现在会优先启动。它的菜单通常也可以选择 Windows。"
+
+msgid "The PC did not allow its start-up order to be changed (error "
+msgstr "电脑不允许更改其启动顺序（错误 "
+
+msgid "The leftover boot loader was removed."
+msgstr "残留的启动加载程序已删除。"
+
+msgid "Some files of the boot loader could not be deleted."
+msgstr "启动加载程序的部分文件无法删除。"
+
+msgid " and took it out of BootOrder.\r\n"
+msgstr " 并已将其从 BootOrder 中移除。\r\n"
+
+msgid "The entry was removed from the PC's start-up list."
+msgstr "该条目已从电脑的启动列表中删除。"
+
+msgid "The entry was taken out of the start-up order, but the PC did not allow the entry itself to be deleted (error "
+msgstr "该条目已从启动顺序中移除，但电脑不允许删除条目本身（错误 "
+
+msgid " is now the active start-up partition."
+msgstr " 现在是活动启动分区。"
+
+msgid "Both copies of the partition table were written again."
+msgstr "分区表的两份副本都已重新写入。"
+
+msgid "The disk or its start-up partition was not found."
+msgstr "未找到该磁盘或其启动分区。"
+
+msgid "bootsect.exe is not available here."
+msgstr "此处无法使用 bootsect.exe。"
+
+msgid "Fresh start-up code was written to the disk and the start-up partition."
+msgstr "已向磁盘和启动分区写入新的启动代码。"
+
+msgid "The start-up code could not be written. "
+msgstr "无法写入启动代码。 "
+
+msgid "The new start-up partition could not be created. "
+msgstr "无法创建新的启动分区。 "
+
+msgid "\r\n> bcdboot "
+msgstr "\r\n> bcdboot "
+
+msgid "A new start-up partition was created and fresh start-up files were put on it."
+msgstr "已创建新的启动分区，并在其中放入了新的启动文件。"
+
+msgid "The partition was created, but the start-up files could not be written. Try \"Rebuild the start-up files\" after scanning again."
+msgstr "分区已创建，但无法写入启动文件。请重新扫描后尝试 \"重建启动文件\"。"
+
+msgid "The disk check could not finish. "
+msgstr "磁盘检查无法完成。 "
+
+msgid "The drive is in use, so the check runs the next time Windows starts."
+msgstr "驱动器正在使用中，因此检查将在 Windows 下次启动时运行。"
+
+msgid "The disk check found and repaired errors."
+msgstr "磁盘检查发现并修复了错误。"
+
+msgid "The disk check finished. No errors needed repair."
+msgstr "磁盘检查已完成。没有需要修复的错误。"
+
+msgid "The drive is unlocked. Scan again to check it."
+msgstr "驱动器已解锁。请重新扫描以检查它。"
+
+msgid "The drive could not be unlocked. Check the recovery key and try again."
+msgstr "无法解锁驱动器。请检查恢复密钥后重试。"
+
+msgid "Put back the backup copy of "
+msgstr "已恢复以下项的备份副本： "
+
+msgid "The registry's backup copy was put back."
+msgstr "注册表的备份副本已恢复。"
+
+msgid "The backup copy could not be put back. "
+msgstr "无法恢复备份副本。 "
+
+msgid "Repairing Windows system files. This takes 10 to 30 minutes"
+msgstr "正在修复 Windows 系统文件。这需要 10 到 30 分钟"
+
+msgid "The file check did not finish. It may need the same Windows version to run it."
+msgstr "文件检查未完成。可能需要用相同版本的 Windows 来运行它。"
+
+msgid "Some damaged files could not be repaired."
+msgstr "部分损坏的文件无法修复。"
+
+msgid "Damaged Windows files were repaired."
+msgstr "已修复损坏的 Windows 文件。"
+
+msgid "The file check finished."
+msgstr "文件检查已完成。"
+
+msgid "Undoing unfinished updates"
+msgstr "正在撤销未完成的更新"
+
+msgid "The updates could not be undone. "
+msgstr "无法撤销更新。 "
+
+msgid "This Windows is already at the top of the drive."
+msgstr "此 Windows 已经位于驱动器的顶层。"
+
+msgid "Left in place (the top of the drive already has it): "
+msgstr "保留在原处（驱动器顶层已有同名项）： "
+
+msgid "Windows was moved back to the top of the drive ("
+msgstr "Windows 已移回驱动器的顶层（"
+
+msgid " items"
+msgstr " 个项目"
+
+msgid " left in place"
+msgstr " 个保留在原处"
+
+msgid "Windows could not be moved back."
+msgstr "无法将 Windows 移回。"
+
+msgid "The troubleshoot options are switched on. They appear by themselves when Windows cannot start (or hold Shift while choosing Restart)."
+msgstr "疑难解答选项已启用。当 Windows 无法启动时，它们会自动出现（也可以在选择 “重启” 时按住 Shift）。"
+
+msgid "Windows' tool did not switch them on. "
+msgstr "Windows 的工具没有启用它们。 "
+
+msgid " files removed, "
+msgstr " 个文件已删除， "
+
+msgid " in use and left."
+msgstr " 个正在使用，已保留。"
+
+msgid "{0} freed ({1} files). {2} is free now."
+msgstr "已释放 {0}（{1} 个文件）。现在可用 {2}。"
+
+msgid "This fix is not known."
+msgstr "未知的修复方法。"
+
+msgid " Start the PC from a Windows USB stick or Windows' recovery tools and run this program there."
+msgstr " 请从 Windows U 盘或 Windows 恢复工具启动电脑，并在那里运行本程序。"
+
+msgid "The tool for this (bootsect.exe) is only part of Windows' recovery tools and install USB sticks."
+msgstr "用于此操作的工具（bootsect.exe）只包含在 Windows 恢复工具和安装 U 盘中。"
+
+msgid "This PC cannot be asked to open its firmware settings from here. Restart it and press its settings key (often Delete, F2, F10, F1 or Esc) right after switching it on."
+msgstr "无法从这里让这台电脑打开固件设置。请重启电脑，并在开机后立即按设置键（通常是 Delete、F2、F10、F1 或 Esc）。"
+
+msgid "This program cannot change the PC's start-up list here. Remove the entry in the PC's firmware settings (often under \"Boot\")."
+msgstr "本程序无法在这里更改电脑的启动列表。请在电脑的固件设置中删除该条目（通常在 \"Boot\" 下）。"
+
+msgid "Windows' tool for this (reagentc.exe) is not part of this system."
+msgstr "此系统中没有用于此操作的 Windows 工具（reagentc.exe）。"
+
+msgid "diskpart.exe is not part of this system."
+msgstr "此系统中没有 diskpart.exe。"
+
+msgid "DISM is not part of this system."
+msgstr "此系统中没有 DISM。"
+
+msgid "The file checker (sfc.exe) is not part of this system."
+msgstr "此系统中没有文件检查器（sfc.exe）。"
+
+msgid "There is not enough free space: the Windows drive needs at least 2 GB free to give up 300 MB."
+msgstr "可用空间不足：Windows 驱动器至少需要 2 GB 可用空间才能让出 300 MB。"
+
+msgid "This is the Windows that is running now."
+msgstr "这是当前正在运行的 Windows。"
+
+msgid "bcdboot.exe, the Windows tool that writes start-up files, is not part of this system."
+msgstr "此系统中没有 bcdboot.exe（用于写入启动文件的 Windows 工具）。"
+
+msgid "Saved "
+msgstr "已保存 "
+
+msgid " start-up settings file"
+msgstr " 个启动设置文件"
+
+msgid " start-up settings files"
+msgstr " 个启动设置文件"
+
+msgid " and the partition tables of every disk."
+msgstr " 以及每个磁盘的分区表。"
+
+msgid "Windows Recovery Environment on "
+msgstr "Windows 恢复环境，位于 "
+
+msgid "Windows install or rescue media on "
+msgstr "Windows 安装或救援介质，位于 "
+
+msgid "Windows Recovery Environment of "
+msgstr "以下系统的 Windows 恢复环境： "
+
+msgid "The USB stick was not found. Plug it in again and scan again."
+msgstr "未找到 U 盘。请重新插入并重新扫描。"
+
+msgid "DISM, the Windows tool that opens system images, is not part of this system."
+msgstr "此系统中没有 DISM（用于打开系统映像的 Windows 工具）。"
+
+msgid "Copying the recovery image"
+msgstr "正在复制恢复映像"
+
+msgid "The recovery image could not be copied. Is there 1 GB free on "
+msgstr "无法复制恢复映像。以下位置是否有 1 GB 可用空间： "
+
+msgid "Opening the image"
+msgstr "正在打开映像"
+
+msgid "The image could not be opened. DISM said: "
+msgstr "无法打开映像。DISM 的提示： "
+
+msgid "Stopped. Nothing was written to the USB stick."
+msgstr "已停止。没有向 U 盘写入任何内容。"
+
+msgid "Adding PATio Boot Doctor to the image"
+msgstr "正在将 PATio Boot Doctor 添加到映像"
+
+msgid "The start-up files needed for the stick (bootmgfw.efi, boot.sdi) were not found in the image or in this Windows."
+msgstr "在映像或此 Windows 中没有找到 U 盘所需的启动文件（bootmgfw.efi、boot.sdi）。"
+
+msgid "Saving the image (this takes a few minutes)"
+msgstr "正在保存映像（需要几分钟）"
+
+msgid "The image could not be saved. "
+msgstr "无法保存映像。 "
+
+msgid "Writing the start-up settings"
+msgstr "正在写入启动设置"
+
+msgid "The start-up settings for the stick could not be written."
+msgstr "无法写入 U 盘的启动设置。"
+
+msgid "Preparing the USB stick (everything on it is erased)"
+msgstr "正在准备 U 盘（其中的所有内容都会被清除）"
+
+msgid "No free drive letter is left for the USB stick."
+msgstr "已没有可用于 U 盘的驱动器号。"
+
+msgid "The USB stick could not be prepared. Diskpart said: "
+msgstr "无法准备 U 盘。Diskpart 的提示： "
+
+msgid "Copying to the USB stick"
+msgstr "正在复制到 U 盘"
+
+msgid "Checking the stick"
+msgstr "正在检查 U 盘"
+
+msgid "The rescue USB stick is ready (drive "
+msgstr "救援 U 盘已就绪（驱动器 "
+
+msgid "). To use it, plug it in, switch the PC on, open the PC's boot menu (often F12, F11, F8 or Esc) and choose the stick. PATio Boot Doctor starts by itself."
+msgstr "）。使用方法：插入 U 盘，打开电脑，打开电脑的启动菜单（通常按 F12、F11、F8 或 Esc），然后选择该 U 盘。PATio Boot Doctor 会自动启动。"
+
+msgid "The stick was made, but some files are missing on it. Try again, or use another stick."
+msgstr "U 盘已制作好，但其中缺少一些文件。请重试，或换一个 U 盘。"
+
+msgid "Temporary files"
+msgstr "临时文件"
+
+msgid "Files programs and Windows leave behind while they work. Safe to remove."
+msgstr "程序和 Windows 在运行时留下的文件。可以安全删除。"
+
+msgid "Windows Update downloads"
+msgstr "Windows 更新下载内容"
+
+msgid "Updates that were already downloaded. Windows downloads again whatever it still needs."
+msgstr "已经下载的更新。Windows 会重新下载它仍然需要的内容。"
+
+msgid "Crash reports"
+msgstr "崩溃报告"
+
+msgid "Memory dumps and error reports written after a crash. Only a technician looking into a crash needs them."
+msgstr "崩溃后写入的内存转储和错误报告。只有调查崩溃的技术人员才需要它们。"
+
+msgid "Browser caches"
+msgstr "浏览器缓存"
+
+msgid "Copies of web pages the browsers keep to load sites faster. Removing them signs no one out and keeps bookmarks and passwords; sites load a little slower once."
+msgstr "浏览器为更快加载网站而保存的网页副本。删除它们不会让任何人退出登录，也会保留书签和密码；网站第一次加载会稍慢一些。"
+
+msgid "cmd.exe /c \""
+msgstr "cmd.exe /c \""
+
+msgid "Stopping…"
+msgstr "正在停止…"
+
+msgid "Themes and appearance (F9)"
+msgstr "主题和外观（F9）"
+
+msgid "Keyboard shortcuts (F1)"
+msgstr "键盘快捷键（F1）"
+
+msgid "Minimize"
+msgstr "最小化"
+
+msgid "Restore down"
+msgstr "向下还原"
+
+msgid "Maximize"
+msgstr "最大化"
+
+msgid "Close (Alt+F4)"
+msgstr "关闭（Alt+F4）"
+
+msgid "Dismiss (Esc)"
+msgstr "关闭（Esc）"
+
+msgid "Stop (Esc)"
+msgstr "停止（Esc）"
+
+msgid "Press Enter"
+msgstr "按 Enter"
+
+msgid "Press Esc"
+msgstr "按 Esc"
+
+msgid "Tab switches"
+msgstr "Tab 切换"
+
+msgid "Less (Down arrow)"
+msgstr "更少（下箭头）"
+
+msgid "More (Up arrow)"
+msgstr "更多（上箭头）"
+
+msgid "Scroll with the mouse wheel or Page Up / Page Down"
+msgstr "用鼠标滚轮或 Page Up / Page Down 滚动"
+
+msgid "Up one folder (Ctrl+Up)"
+msgstr "向上一级文件夹（Ctrl+Up）"
+
+msgid "Theme"
+msgstr "主题"
+
+msgid "Appearance"
+msgstr "外观"
+
+msgid "Automatic"
+msgstr "自动"
+
+msgid "Light"
+msgstr "浅色"
+
+msgid "Dark"
+msgstr "深色"
+
+msgid "Follow Windows"
+msgstr "跟随 Windows"
+
+msgid "Ctrl+Shift+L switches"
+msgstr "Ctrl+Shift+L 切换"
+
+msgid "File manager"
+msgstr "文件管理器"
+
+msgid "No other tools yet. Put programs in the PatSuite folder."
+msgstr "还没有其他工具。请将程序放入 PatSuite 文件夹。"
+
+msgid "Open PatSuite folder"
+msgstr "打开 PatSuite 文件夹"
+
+msgid "Couldn't start “"
+msgstr "无法启动 “"
+
+msgid "PatSuite folder"
+msgstr "PatSuite 文件夹"
+
+msgid "This help"
+msgstr "本帮助"
+
+msgid "Themes"
+msgstr "主题"
+
+msgid "Ctrl+Shift+L"
+msgstr "Ctrl+Shift+L"
+
+msgid "Switch light / dark"
+msgstr "切换浅色 / 深色"
+
+msgid "Alt+F4"
+msgstr "Alt+F4"
+
+msgid "Quit"
+msgstr "退出"
+
+msgid "Esc to close"
+msgstr "按 Esc 关闭"
+
+msgid "Local disk"
+msgstr "本地磁盘"
+
+msgid "Removable"
+msgstr "可移动"
+
+msgid "CD / DVD"
+msgstr "CD / DVD"
+
+msgid "Network"
+msgstr "网络"
+
+msgid "RAM disk"
+msgstr "RAM 磁盘"
+
+msgid "\nDouble-click or Enter to open"
+msgstr "\n双击或按 Enter 打开"
+
+msgid "Can't open “"
+msgstr "无法打开 “"
+
+msgid "\nDouble-click or Enter to choose"
+msgstr "\n双击或按 Enter 选择"
+
+msgid "” isn't a folder. Check the path, or browse to it."
+msgstr "” 不是文件夹。请检查路径，或浏览到该位置。"
+
+msgid "Open a drive, then choose a folder inside it."
+msgstr "请打开一个驱动器，然后在其中选择一个文件夹。"
+
+msgid "Type a file name, or pick one from the list."
+msgstr "请输入文件名，或从列表中选择一个。"
+
+msgid "Pick a file from the list, or type its path."
+msgstr "请从列表中选择一个文件，或输入其路径。"
+
+msgid "Type a file name, not a folder."
+msgstr "请输入文件名，而不是文件夹名。"
+
+msgid "” isn't a file. Pick one from the list, or check the path."
+msgstr "” 不是文件。请从列表中选择一个，或检查路径。"
+
+msgid "No drives found"
+msgstr "未找到驱动器"
+
+msgid "No images detected in this folder"
+msgstr "此文件夹中未检测到映像"
+
+msgid "Nothing to show here"
+msgstr "这里没有可显示的内容"
+
+msgid "No folders inside"
+msgstr "里面没有文件夹"
+
+msgid "Detected images · double-click to pick · Ctrl+↑ up"
+msgstr "检测到的映像 · 双击选择 · Ctrl+↑ 向上"
+
+msgid "Double-click a file to pick it · Ctrl+↑ up"
+msgstr "双击文件进行选择 · Ctrl+↑ 向上"
+
+msgid "Enter opens · Ctrl+Enter chooses · Ctrl+↑ up"
+msgstr "Enter 打开 · Ctrl+Enter 选择 · Ctrl+↑ 向上"
+

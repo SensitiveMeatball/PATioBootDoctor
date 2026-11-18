@@ -1,0 +1,4810 @@
+# PATio Boot Doctor: every text the program shows, in English.
+# Made by tools\extract-strings.ps1 when the program is built. Do not edit: copy it to <code>.lang to translate.
+
+@code ko
+@name 한국어
+@rtl no
+
+msgid "Could not start "
+msgstr "시작할 수 없음: "
+
+msgid "Skipped "
+msgstr "건너뜀: "
+
+msgid "Could not copy "
+msgstr "복사할 수 없음: "
+
+msgid "The backup folder "
+msgstr "백업 폴더 "
+
+msgid " cannot be written to."
+msgstr " 에 쓸 수 없습니다."
+
+msgid "Session started on "
+msgstr "세션 시작: "
+
+msgid "Started: "
+msgstr "시작: "
+
+msgid "Could not back up "
+msgstr "백업할 수 없음: "
+
+msgid "Could not back up the folder "
+msgstr "폴더를 백업할 수 없음: "
+
+msgid "Could not read the disk to back it up."
+msgstr "백업하려고 디스크를 읽을 수 없습니다."
+
+msgid "Could not write the backup file."
+msgstr "백업 파일을 쓸 수 없습니다."
+
+msgid "Could not back up the start-up settings: "
+msgstr "부팅 설정을 백업할 수 없음: "
+
+msgid "Could not write the backup of "
+msgstr "다음의 백업을 쓸 수 없음: "
+
+msgid "Done: "
+msgstr "완료: "
+
+msgid "Failed: "
+msgstr "실패: "
+
+msgid "Undo "
+msgstr "실행 취소 "
+
+msgid ": its partition is not there now.\n"
+msgstr ": 해당 파티션이 지금 없습니다.\n"
+
+msgid "Put back "
+msgstr "복원함: "
+
+msgid "Could not put back "
+msgstr "복원할 수 없음: "
+
+msgid "Removed "
+msgstr "제거함: "
+
+msgid "Skipped the folder "
+msgstr "건너뛴 폴더: "
+
+msgid " files in "
+msgstr " 개 파일, 위치: "
+
+msgid "Skipped the partition table of disk "
+msgstr "파티션 테이블을 건너뜀: 디스크 "
+
+msgid ": that disk is not connected now.\n"
+msgstr ": 해당 디스크가 지금 연결되어 있지 않습니다.\n"
+
+msgid "The saved copy of the partition table is missing.\n"
+msgstr "저장해 둔 파티션 테이블 사본이 없습니다.\n"
+
+msgid " bytes at the start or end of Disk "
+msgstr " 바이트(시작 또는 끝 부분), 디스크 "
+
+msgid "The saved copy of "
+msgstr "다음의 저장된 사본: "
+
+msgid " is missing.\n"
+msgstr " — 없습니다.\n"
+
+msgid "Could not put the old name back.\n"
+msgstr "이전 이름을 되돌릴 수 없습니다.\n"
+
+msgid "Put back the name \""
+msgstr "이름을 되돌림: \""
+
+msgid "Moved "
+msgstr "되돌림: "
+
+msgid " back to "
+msgstr " → "
+
+msgid "Could not move "
+msgstr "되돌리지 못함: "
+
+msgid " back: "
+msgstr " — 오류: "
+
+msgid "Put back what \""
+msgstr "되돌림: \""
+
+msgid "\" changed."
+msgstr "\"이(가) 바꾼 내용."
+
+msgid "Some things could not be put back."
+msgstr "일부 항목을 되돌리지 못했습니다."
+
+msgid "The start-up settings have no boot manager section, so nothing can be started from them."
+msgstr "부팅 설정에 부팅 관리자 섹션이 없어서 아무것도 시작할 수 없습니다."
+
+msgid "The start-up settings list no system to start."
+msgstr "부팅 설정에 시작할 시스템이 없습니다."
+
+msgid "The start-up settings file is damaged: "
+msgstr "부팅 설정 파일이 손상되었습니다: "
+
+msgid "The start-up settings file could not be read. "
+msgstr "부팅 설정 파일을 읽을 수 없습니다. "
+
+msgid "Windows PE (build 26100)"
+msgstr "Windows PE (빌드 26100)"
+
+msgid "ThinkCentre M70q"
+msgstr "ThinkCentre M70q"
+
+msgid "Samsung SSD 980"
+msgstr "Samsung SSD 980"
+
+msgid "WDC WD10EZEX"
+msgstr "WDC WD10EZEX"
+
+msgid "SanDisk Ultra"
+msgstr "SanDisk Ultra"
+
+msgid "The backup copy of the partition table is missing or damaged."
+msgstr "파티션 테이블의 백업 사본이 없거나 손상되었습니다."
+
+msgid "Professional"
+msgstr "Professional"
+
+msgid "C: · Disk 0, partition 3"
+msgstr "C: · 디스크 0, 파티션 3"
+
+msgid "Running now"
+msgstr "지금 실행 중"
+
+msgid "This is the Windows you are using now. Everything it needs to start is in place."
+msgstr "지금 사용 중인 Windows입니다. 시작에 필요한 것이 모두 갖춰져 있습니다."
+
+msgid "PC firmware"
+msgstr "PC 펌웨어"
+
+msgid "Disk"
+msgstr "디스크"
+
+msgid "Start-up partition"
+msgstr "부팅 파티션"
+
+msgid "Boot manager"
+msgstr "부팅 관리자"
+
+msgid "Start-up settings"
+msgstr "부팅 설정"
+
+msgid "Windows partition"
+msgstr "Windows 파티션"
+
+msgid "Windows loader"
+msgstr "Windows 로더"
+
+msgid "Core system files"
+msgstr "핵심 시스템 파일"
+
+msgid "System settings"
+msgstr "시스템 설정"
+
+msgid "Starting up"
+msgstr "시작 중"
+
+msgid "D: · Disk 1, partition 1"
+msgstr "D: · 디스크 1, 파티션 1"
+
+msgid "Stuck in a restart loop"
+msgstr "다시 시작이 반복됨"
+
+msgid "This Windows keeps failing to start."
+msgstr "이 Windows가 계속 시작에 실패합니다."
+
+msgid "Automatic Repair ran on 9 Nov 2026 because Windows could not start."
+msgstr "Windows를 시작할 수 없어서 2026년 11월 9일에 자동 복구가 실행되었습니다."
+
+msgid "Windows crashed with a blue screen 3 times since 8 Nov 2026."
+msgstr "2026년 11월 8일 이후 Windows가 블루스크린으로 3번 멈췄습니다."
+
+msgid "Windows updates are waiting to finish installing."
+msgstr "Windows 업데이트가 설치를 마치기를 기다리고 있습니다."
+
+msgid "The start-up partition is there and can be read. It is on another disk (Disk 0), so this Windows only starts while that disk is connected."
+msgstr "부팅 파티션이 있고 읽을 수 있습니다. 다른 디스크(디스크 0)에 있으므로 이 Windows는 그 디스크가 연결되어 있을 때만 시작됩니다."
+
+msgid "Disk 0, partition 1 (100 MB, FAT32)"
+msgstr "디스크 0, 파티션 1 (100 MB, FAT32)"
+
+msgid "This Windows is not in the start-up menu, so it never starts (it is inactive). The menu only lists the other Windows."
+msgstr "이 Windows는 부팅 메뉴에 없어서 시작되지 않습니다(비활성 상태). 메뉴에는 다른 Windows만 있습니다."
+
+msgid "No entry with osdevice Disk 1, partition 1 and systemroot \\Windows"
+msgstr "osdevice 디스크 1, 파티션 1 및 systemroot \\Windows 인 항목이 없음"
+
+msgid "E: · Disk 1, partition 2"
+msgstr "E: · 디스크 1, 파티션 2"
+
+msgid "Moved into a folder"
+msgstr "폴더 안으로 옮겨짐"
+
+msgid "This Windows sits inside the folder \"Old PC\\\", so it cannot start. It was probably copied or moved there."
+msgstr "이 Windows는 \"Old PC\\\" 폴더 안에 있어서 시작할 수 없습니다. 아마 그곳으로 복사되었거나 옮겨졌을 것입니다."
+
+msgid "After the move, copies fresh start-up files and writes a start-up entry for this Windows."
+msgstr "옮긴 후 새 부팅 파일을 복사하고 이 Windows의 부팅 항목을 씁니다."
+
+msgid "Location"
+msgstr "위치"
+
+msgid "Ubuntu 24.04.1 LTS"
+msgstr "Ubuntu 24.04.1 LTS"
+
+msgid "6.8.0-45-generic"
+msgstr "6.8.0-45-generic"
+
+msgid "6.8.0-41-generic"
+msgstr "6.8.0-41-generic"
+
+msgid "Linux kernel 6.8.0-45-generic"
+msgstr "Linux 커널 6.8.0-45-generic"
+
+msgid "Disk 1, partition 3 (ext4)"
+msgstr "디스크 1, 파티션 3 (ext4)"
+
+msgid "Disk 1, partition 3"
+msgstr "디스크 1, 파티션 3"
+
+msgid "Starts from the boot menu"
+msgstr "부팅 메뉴에서 시작"
+
+msgid "This Linux is fine. Another system starts first; to start Linux, pick it in the PC's boot menu, or make it start first."
+msgstr "이 Linux는 정상입니다. 다른 시스템이 먼저 시작됩니다. Linux를 시작하려면 PC의 부팅 메뉴에서 선택하거나 먼저 시작되도록 설정하세요."
+
+msgid "The start-up partition with the Linux boot loader is there and can be read. It is on another disk (Disk 0), so Linux only starts while that disk is connected."
+msgstr "Linux 부트 로더가 있는 부팅 파티션이 있고 읽을 수 있습니다. 다른 디스크(디스크 0)에 있으므로 Linux는 그 디스크가 연결되어 있을 때만 시작됩니다."
+
+msgid "PC's start-up list"
+msgstr "PC의 부팅 목록"
+
+msgid "The PC's start-up list has this Linux (\"ubuntu\"), but \"Windows Boot Manager\" starts first. To start Linux, pick it in the PC's boot menu (often F12, F11, F8 or Esc while the PC starts), or make it start first. When GRUB starts first, it usually shows a menu with Windows in it too."
+msgstr "PC의 부팅 목록에 이 Linux(\"ubuntu\")가 있지만 \"Windows Boot Manager\"가 먼저 시작됩니다. Linux를 시작하려면 PC의 부팅 메뉴에서 선택하거나(PC가 시작될 때 보통 F12, F11, F8 또는 Esc) 먼저 시작되도록 설정하세요. GRUB이 먼저 시작되면 보통 Windows도 포함된 메뉴가 표시됩니다."
+
+msgid "Linux boot loader"
+msgstr "Linux 부트 로더"
+
+msgid "GRUB settings"
+msgstr "GRUB 설정"
+
+msgid "Linux partition"
+msgstr "Linux 파티션"
+
+msgid "Linux kernel"
+msgstr "Linux 커널"
+
+msgid "GRUB menu"
+msgstr "GRUB 메뉴"
+
+msgid "Linux settings"
+msgstr "Linux 설정"
+
+msgid "A start-up menu entry leads nowhere: \"Windows 7\""
+msgstr "부팅 메뉴 항목이 아무 데도 연결되지 않음: \"Windows 7\""
+
+msgid "The start-up menu on Disk 0, partition 1 lists \"Windows 7\", but the partition it points to is not on any disk now. If someone picks it in the start-up menu, the PC shows an error. It also makes the menu confusing."
+msgstr "디스크 0, 파티션 1의 부팅 메뉴에 \"Windows 7\"이(가) 있지만, 이 항목이 가리키는 파티션은 이제 어느 디스크에도 없습니다. 부팅 메뉴에서 이 항목을 선택하면 PC에 오류가 표시됩니다. 메뉴도 헷갈리게 만듭니다."
+
+msgid "The PC's start-up list has an entry that leads nowhere: \"fedora\""
+msgstr "PC의 부팅 목록에 아무 데도 연결되지 않는 항목이 있음: \"fedora\""
+
+msgid "\"fedora\" (Fedora (Linux)) is in the start-up list kept inside the PC, but its start-up file (\\EFI\\fedora\\shimx64.efi) is no longer on Disk 0, partition 1. The system it used to start (Fedora (Linux)) was probably deleted or uninstalled, but its line stayed behind. The PC tries it every time it starts, which can slow starting down or show an error before Windows appears.\n\nFor a technician: Boot0003, \\EFI\\fedora\\shimx64.efi"
+msgstr "\"fedora\"(Fedora (Linux))이(가) PC 안에 저장된 부팅 목록에 있지만, 해당 부팅 파일(\\EFI\\fedora\\shimx64.efi)이 디스크 0, 파티션 1에 더 이상 없습니다. 이 항목으로 시작하던 시스템(Fedora (Linux))은 아마 삭제되었거나 제거되었지만 항목만 남았습니다. PC가 시작할 때마다 이 항목을 시도하므로 시작이 느려지거나 Windows가 나타나기 전에 오류가 표시될 수 있습니다.\n\n기술자용 정보: Boot0003, \\EFI\\fedora\\shimx64.efi"
+
+msgid "Start-up setup when the session began"
+msgstr "세션 시작 시의 부팅 구성"
+
+msgid "All disks"
+msgstr "모든 디스크"
+
+msgid "Saved 1 start-up settings file and the partition tables of every disk."
+msgstr "부팅 설정 파일 1개와 모든 디스크의 파티션 테이블을 저장했습니다."
+
+msgid "Undo unfinished updates"
+msgstr "완료되지 않은 업데이트 취소"
+
+msgid "Windows 10 (64-bit) in D:\\Windows"
+msgstr "D:\\Windows의 Windows 10 (64비트)"
+
+msgid "The unfinished updates were undone."
+msgstr "완료되지 않은 업데이트를 취소했습니다."
+
+msgid "Add it to the start-up menu"
+msgstr "부팅 메뉴에 추가"
+
+msgid "This Windows was added to the start-up menu."
+msgstr "이 Windows를 부팅 메뉴에 추가했습니다."
+
+msgid "Windows 11 (build 26100)"
+msgstr "Windows 11 (빌드 26100)"
+
+msgid "Make it start first"
+msgstr "먼저 시작되도록 설정"
+
+msgid "Windows 11 (64-bit) in C:\\Windows"
+msgstr "C:\\Windows의 Windows 11 (64비트)"
+
+msgid "This Windows now starts first."
+msgstr "이제 이 Windows가 먼저 시작됩니다."
+
+msgid "Fine"
+msgstr "정상"
+
+msgid "Note"
+msgstr "참고"
+
+msgid "Warning"
+msgstr "경고"
+
+msgid "Problem"
+msgstr "문제"
+
+msgid "Not checked"
+msgstr "확인 안 됨"
+
+msgid " (32-bit)"
+msgstr " (32비트)"
+
+msgid " (ARM)"
+msgstr " (ARM)"
+
+msgid " (64-bit)"
+msgstr " (64비트)"
+
+msgid "Windows"
+msgstr "Windows"
+
+msgid "Rebuild the start-up files"
+msgstr "부팅 파일 다시 만들기"
+
+msgid "Copies fresh start-up files from this Windows to the start-up partition, writes a new start-up entry for it and puts it first."
+msgstr "이 Windows에서 새 부팅 파일을 부팅 파티션으로 복사하고, 새 부팅 항목을 쓴 다음 맨 앞에 둡니다."
+
+msgid "About a minute. Personal files are not touched. The old start-up files are backed up first."
+msgstr "약 1분. 개인 파일은 건드리지 않습니다. 이전 부팅 파일은 먼저 백업됩니다."
+
+msgid "Adds this Windows to the menu shown when the PC starts, after the systems that are already there."
+msgstr "PC가 시작될 때 표시되는 메뉴에 이 Windows를 이미 있는 시스템 다음에 추가합니다."
+
+msgid "About a minute. The other systems keep starting as before."
+msgstr "약 1분. 다른 시스템은 전과 같이 시작됩니다."
+
+msgid "Show it in the start-up menu"
+msgstr "부팅 메뉴에 표시"
+
+msgid "This Windows has a start-up entry, but the entry is hidden from the menu. This puts it back in the menu."
+msgstr "이 Windows에는 부팅 항목이 있지만 메뉴에서 숨겨져 있습니다. 이 작업은 항목을 다시 메뉴에 표시합니다."
+
+msgid "A few seconds."
+msgstr "몇 초."
+
+msgid "Makes this Windows the one that starts when nobody chooses in the start-up menu."
+msgstr "부팅 메뉴에서 아무것도 선택하지 않았을 때 이 Windows가 시작되도록 합니다."
+
+msgid "Mark the start-up partition as active"
+msgstr "부팅 파티션을 활성으로 표시"
+
+msgid "Older PCs (legacy BIOS) only start from the partition marked \"active\". This sets that mark on the right partition."
+msgstr "오래된 PC(레거시 BIOS)는 \"활성\"으로 표시된 파티션에서만 시작합니다. 이 작업은 올바른 파티션에 그 표시를 합니다."
+
+msgid "A few seconds. The partition table is backed up first."
+msgstr "몇 초. 파티션 테이블은 먼저 백업됩니다."
+
+msgid "Write new start-up code to the disk"
+msgstr "디스크에 새 부팅 코드 쓰기"
+
+msgid "Writes fresh start-up code to the first sector of the disk and of the start-up partition, so an older PC (legacy BIOS) can start from it."
+msgstr "디스크와 부팅 파티션의 첫 번째 섹터에 새 부팅 코드를 써서 오래된 PC(레거시 BIOS)가 시작할 수 있게 합니다."
+
+msgid "A few seconds. The old first sectors are backed up first. Other systems' start-up menus (for example Linux GRUB) on this disk are replaced."
+msgstr "몇 초. 이전 첫 번째 섹터는 먼저 백업됩니다. 이 디스크에 있는 다른 시스템의 부팅 메뉴(예: Linux GRUB)는 대체됩니다."
+
+msgid "Create a new start-up partition"
+msgstr "새 부팅 파티션 만들기"
+
+msgid "Makes a small start-up partition (300 MB) in free space on the disk, taking the room from the end of the Windows partition if needed, and puts fresh start-up files on it."
+msgstr "디스크의 빈 공간에 작은 부팅 파티션(300 MB)을 만들고(필요하면 Windows 파티션 끝에서 공간을 가져옴) 새 부팅 파일을 넣습니다."
+
+msgid "A few minutes. The Windows partition gets 300 MB smaller. Copy important files somewhere safe first if you can."
+msgstr "몇 분. Windows 파티션이 300 MB 작아집니다. 가능하면 먼저 중요한 파일을 안전한 곳에 복사하세요."
+
+msgid "Repair the partition table"
+msgstr "파티션 테이블 복구"
+
+msgid "Writes both copies of the partition table again from the copy that Windows can still read. The partitions themselves are not moved."
+msgstr "Windows가 아직 읽을 수 있는 사본에서 파티션 테이블의 두 사본을 다시 씁니다. 파티션 자체는 옮기지 않습니다."
+
+msgid "A few seconds. The old table is backed up first."
+msgstr "몇 초. 이전 테이블은 먼저 백업됩니다."
+
+msgid "Check and repair the drive"
+msgstr "드라이브 검사 및 복구"
+
+msgid "Runs the Windows disk check, which repairs damaged file-system records. Files in damaged places can be lost, as with any disk check."
+msgstr "Windows 디스크 검사를 실행하여 손상된 파일 시스템 기록을 복구합니다. 다른 디스크 검사와 마찬가지로 손상된 위치에 있는 파일은 잃을 수 있습니다."
+
+msgid "From a few minutes to an hour on a large drive. This cannot be undone."
+msgstr "몇 분에서 큰 드라이브는 1시간까지. 실행 취소할 수 없습니다."
+
+msgid "Unlock with the BitLocker recovery key"
+msgstr "BitLocker 복구 키로 잠금 해제"
+
+msgid "This drive is encrypted. Type its 48-digit recovery key to unlock it, so it can be checked and repaired. You find the key in your Microsoft account (aka.ms/myrecoverykey), on a printout, or with your IT department."
+msgstr "이 드라이브는 암호화되어 있습니다. 검사하고 복구할 수 있도록 48자리 복구 키를 입력하여 잠금을 해제하세요. 키는 Microsoft 계정(aka.ms/myrecoverykey), 인쇄물 또는 IT 부서에서 찾을 수 있습니다."
+
+msgid "A few seconds. Nothing is changed on the drive."
+msgstr "몇 초. 드라이브에서 아무것도 바뀌지 않습니다."
+
+msgid "Put back the registry's backup copy"
+msgstr "레지스트리 백업 사본 복원"
+
+msgid "Windows' settings file (registry) is damaged. Windows keeps an automatic backup copy of it, and this puts that copy back. Settings changed since the backup was made are lost."
+msgstr "Windows 설정 파일(레지스트리)이 손상되었습니다. Windows는 이 파일의 백업 사본을 자동으로 보관하며, 이 작업은 그 사본을 복원합니다. 백업 이후 바뀐 설정은 사라집니다."
+
+msgid "A few seconds. The damaged file is kept in the backup, so it can be put back too."
+msgstr "몇 초. 손상된 파일은 백업에 보관되므로 그것도 되돌릴 수 있습니다."
+
+msgid "Repair Windows system files"
+msgstr "Windows 시스템 파일 복구"
+
+msgid "Runs the Windows file checker, which puts back damaged or missing Windows files from Windows' own store of originals."
+msgstr "Windows 파일 검사기를 실행하여 손상되거나 없는 Windows 파일을 Windows 자체 원본 저장소에서 복원합니다."
+
+msgid "10 to 30 minutes. Personal files and programs are not touched. This cannot be undone, but it only puts back Windows' own files."
+msgstr "10~30분. 개인 파일과 프로그램은 건드리지 않습니다. 실행 취소할 수 없지만 Windows 자체 파일만 복원합니다."
+
+msgid "Turn the disk drivers back on"
+msgstr "디스크 드라이버 다시 켜기"
+
+msgid "Windows needs a few drivers to read its own disk while it starts. Some of them are turned off, which causes the stop error INACCESSIBLE_BOOT_DEVICE. This turns them back on."
+msgstr "Windows는 시작하는 동안 자체 디스크를 읽기 위해 몇 가지 드라이버가 필요합니다. 그중 일부가 꺼져 있어서 중지 오류 INACCESSIBLE_BOOT_DEVICE가 발생합니다. 이 작업은 드라이버를 다시 켭니다."
+
+msgid "A few seconds. The settings file is backed up first."
+msgstr "몇 초. 설정 파일은 먼저 백업됩니다."
+
+msgid "Clear the unfinished set-up mark"
+msgstr "완료되지 않은 설치 표시 지우기"
+
+msgid "Windows is marked as still being set up, so it keeps restarting into set-up (\"The computer restarted unexpectedly\"). This clears the mark. Only do this on a Windows that was already working before."
+msgstr "Windows가 아직 설치 중으로 표시되어 있어서 계속 설치 화면으로 다시 시작됩니다(\"컴퓨터가 예기치 않게 다시 시작되었습니다\"). 이 작업은 그 표시를 지웁니다. 이전에 정상적으로 작동하던 Windows에서만 사용하세요."
+
+msgid "Windows updates that were half installed can make Windows restart over and over. This undoes the updates that are still waiting to finish."
+msgstr "절반만 설치된 Windows 업데이트 때문에 Windows가 계속 다시 시작될 수 있습니다. 이 작업은 아직 완료를 기다리는 업데이트를 취소합니다."
+
+msgid "5 to 20 minutes. Those updates can be installed again later from Windows Update."
+msgstr "5~20분. 해당 업데이트는 나중에 Windows 업데이트에서 다시 설치할 수 있습니다."
+
+msgid "Show the real error instead of Automatic Repair"
+msgstr "자동 복구 대신 실제 오류 표시"
+
+msgid "Turns off Automatic Repair for this Windows, so the PC stops going round in circles and shows the actual error message on screen. You can turn it back on with Undo."
+msgstr "이 Windows의 자동 복구를 꺼서 PC가 같은 과정을 반복하지 않고 실제 오류 메시지를 화면에 표시하게 합니다. 실행 취소로 다시 켤 수 있습니다."
+
+msgid "Move Windows back to the top of the drive"
+msgstr "Windows를 드라이브 최상위로 다시 옮기기"
+
+msgid "This Windows sits inside a folder, where it cannot start. This moves its folders (Windows, Program Files, Users and the rest) back to the top of the drive, where they belong."
+msgstr "이 Windows는 폴더 안에 있어서 시작할 수 없습니다. 이 작업은 Windows 폴더(Windows, Program Files, Users 등)를 원래 있어야 할 드라이브 최상위로 다시 옮깁니다."
+
+msgid "A few seconds: the files are only renamed, not copied. Undo moves them back."
+msgstr "몇 초. 파일은 복사하지 않고 이름만 바꿉니다. 실행 취소하면 다시 옮겨집니다."
+
+msgid "Remove this entry"
+msgstr "이 항목 제거"
+
+msgid "Deletes this line from the start-up settings, so it no longer appears in the start-up menu. No Windows, files or partitions are touched."
+msgstr "부팅 설정에서 이 줄을 삭제하여 더 이상 부팅 메뉴에 나타나지 않게 합니다. Windows, 파일, 파티션은 건드리지 않습니다."
+
+msgid "A few seconds. The start-up settings are backed up first, so Undo brings the entry back."
+msgstr "몇 초. 부팅 설정은 먼저 백업되므로 실행 취소하면 항목이 돌아옵니다."
+
+msgid "Only hide it from the menu"
+msgstr "메뉴에서 숨기기만 하기"
+
+msgid "Keeps the entry in the start-up settings but takes it off the start-up menu. Choose this if you think the system may come back (for example a disk you will connect again)."
+msgstr "항목을 부팅 설정에 남겨 두되 부팅 메뉴에서는 뺍니다. 시스템이 다시 돌아올 수 있다고 생각되면(예: 다시 연결할 디스크) 이 방법을 선택하세요."
+
+msgid "A few seconds. Undo puts it back in the menu."
+msgstr "몇 초. 실행 취소하면 메뉴에 다시 표시됩니다."
+
+msgid "Restart into the PC's firmware settings"
+msgstr "PC 펌웨어 설정으로 다시 시작"
+
+msgid "Restarts the PC straight into its firmware settings screen (where Secure Boot, the start-up order and CSM are switched). Close your programs first."
+msgstr "PC를 펌웨어 설정 화면(Secure Boot, 부팅 순서, CSM을 바꾸는 곳)으로 바로 다시 시작합니다. 먼저 프로그램을 닫으세요."
+
+msgid "The PC restarts at once. Nothing on the disks changes."
+msgstr "PC가 즉시 다시 시작됩니다. 디스크에서는 아무것도 바뀌지 않습니다."
+
+msgid "Add Linux to the PC's start-up list"
+msgstr "PC의 부팅 목록에 Linux 추가"
+
+msgid "Writes a new entry into the start-up list kept inside the PC, pointing to this Linux's boot loader. Nothing on any disk changes."
+msgstr "PC 안에 저장된 부팅 목록에 이 Linux의 부트 로더를 가리키는 새 항목을 씁니다. 디스크에서는 아무것도 바뀌지 않습니다."
+
+msgid "A few seconds. Undo removes the entry again."
+msgstr "몇 초. 실행 취소하면 항목이 다시 제거됩니다."
+
+msgid "Make Linux start first"
+msgstr "Linux가 먼저 시작되도록 설정"
+
+msgid "Moves this Linux to the top of the PC's start-up list. Its boot loader (GRUB) usually shows a menu where Windows can still be chosen."
+msgstr "이 Linux를 PC 부팅 목록의 맨 위로 옮깁니다. 부트 로더(GRUB)는 보통 Windows도 선택할 수 있는 메뉴를 표시합니다."
+
+msgid "A few seconds. Undo puts the old order back."
+msgstr "몇 초. 실행 취소하면 이전 순서로 돌아갑니다."
+
+msgid "Remove the leftover boot loader"
+msgstr "남은 부트 로더 제거"
+
+msgid "Deletes the boot loader folder of a Linux that is gone from the start-up partition, and its line in the PC's start-up list."
+msgstr "부팅 파티션에서 이미 없어진 Linux의 부트 로더 폴더를 삭제하고, PC 부팅 목록에서 해당 줄도 삭제합니다."
+
+msgid "A few seconds. The folder and the entry are backed up first, so Undo brings them back."
+msgstr "몇 초. 폴더와 항목은 먼저 백업되므로 실행 취소하면 돌아옵니다."
+
+msgid "Repair Linux from a Linux USB stick"
+msgstr "Linux USB 메모리로 Linux 복구"
+
+msgid "This needs to be done from Linux itself:"
+msgstr "이 작업은 Linux 자체에서 해야 합니다:"
+
+msgid "About 15 minutes with a Linux USB stick and an internet connection."
+msgstr "Linux USB 메모리와 인터넷 연결이 있으면 약 15분."
+
+msgid "Switch the troubleshoot options back on"
+msgstr "문제 해결 옵션 다시 켜기"
+
+msgid "Windows' repair tools (the blue \"Choose an option\" screen with Troubleshoot, Startup Repair and System Restore) are on this PC but switched off. This switches them on again with Windows' own tool (reagentc)."
+msgstr "Windows 복구 도구(문제 해결, 시동 복구, 시스템 복원이 있는 파란색 \"옵션 선택\" 화면)가 이 PC에 있지만 꺼져 있습니다. 이 작업은 Windows 자체 도구(reagentc)로 이 도구를 다시 켭니다."
+
+msgid "A few seconds. No partition changes."
+msgstr "몇 초. 파티션은 바뀌지 않습니다."
+
+msgid "Recreate the recovery partition"
+msgstr "복구 파티션 다시 만들기"
+
+msgid "Makes a new hidden recovery partition (about 1 GB) and puts Windows' repair tools on it, so the blue \"Choose an option\" screen with Troubleshoot, Startup Repair and System Restore works again. Uses unused space or an empty recovery partition if there is one; otherwise it takes 1 GB from the end of the Windows partition."
+msgstr "숨겨진 복구 파티션(약 1 GB)을 새로 만들고 Windows 복구 도구를 넣어서, 문제 해결, 시동 복구, 시스템 복원이 있는 파란색 \"옵션 선택\" 화면이 다시 작동하게 합니다. 사용하지 않는 공간이나 빈 복구 파티션이 있으면 사용하고, 없으면 Windows 파티션 끝에서 1 GB를 가져옵니다."
+
+msgid "A few minutes. Making the Windows partition smaller is safe in almost all cases, but a power cut during it can damage the drive: back up important files first, and keep a laptop plugged in. This cannot be undone here."
+msgstr "몇 분. Windows 파티션을 줄이는 것은 거의 항상 안전하지만, 도중에 전원이 끊기면 드라이브가 손상될 수 있습니다. 먼저 중요한 파일을 백업하고 노트북은 전원을 연결해 두세요. 여기서는 실행 취소할 수 없습니다."
+
+msgid "Free up space"
+msgstr "공간 확보"
+
+msgid "Removes files Windows does not need: temporary files, downloaded updates, crash reports and, if you choose, browser caches. You see how much each frees before anything is removed."
+msgstr "Windows에 필요 없는 파일을 제거합니다. 임시 파일, 다운로드된 업데이트, 오류 보고서, 그리고 선택하면 브라우저 캐시도 제거합니다. 제거하기 전에 각 항목이 확보하는 공간을 볼 수 있습니다."
+
+msgid "A minute or two. Personal files, programs and settings are not touched. Removed files cannot be put back (none of them are needed)."
+msgstr "1~2분. 개인 파일, 프로그램, 설정은 건드리지 않습니다. 제거한 파일은 되돌릴 수 없습니다(모두 필요 없는 파일입니다)."
+
+msgid "Make the Windows partition bigger"
+msgstr "Windows 파티션 늘리기"
+
+msgid "Adds unused space right after the Windows partition to it, or, if you choose, deletes the partition right after it and adds that space. Space before it cannot be used. You see a preview of the disk before anything changes."
+msgstr "Windows 파티션 바로 뒤의 사용하지 않는 공간을 이 파티션에 추가하거나, 선택하면 바로 뒤의 파티션을 삭제하고 그 공간을 추가합니다. 앞쪽 공간은 사용할 수 없습니다. 바뀌기 전에 디스크 미리 보기를 볼 수 있습니다."
+
+msgid "A minute. Changing partitions always carries a small risk: back up important files first. Deleting the partition after it erases everything on that partition."
+msgstr "1분. 파티션을 바꾸는 일에는 항상 약간의 위험이 있으므로 먼저 중요한 파일을 백업하세요. 뒤의 파티션을 삭제하면 그 파티션의 모든 내용이 지워집니다."
+
+msgid "Give Windows' folders their names back"
+msgstr "Windows 폴더 이름 되돌리기"
+
+msgid "Windows only starts from folders with their own names (Windows, System32, config). This renames the folders found back to those names. Nothing is copied or deleted."
+msgstr "Windows는 원래 이름(Windows, System32, config)의 폴더에서만 시작됩니다. 이 작업은 찾은 폴더의 이름을 원래 이름으로 되돌립니다. 아무것도 복사하거나 삭제하지 않습니다."
+
+msgid "A few seconds. Undo renames them back."
+msgstr "몇 초. 실행 취소하면 이름이 다시 바뀝니다."
+
+msgid "Remove it from the PC's start-up list"
+msgstr "PC의 부팅 목록에서 제거"
+
+msgid "Deletes this line from the list of start-up choices kept inside the PC itself (not on any disk). Nothing on any disk changes."
+msgstr "PC 자체(디스크가 아님)에 저장된 부팅 선택 목록에서 이 줄을 삭제합니다. 디스크에서는 아무것도 바뀌지 않습니다."
+
+msgid "A few seconds. The entry is backed up first, so Undo brings it back."
+msgstr "몇 초. 항목은 먼저 백업되므로 실행 취소하면 돌아옵니다."
+
+msgid "Starting a PC is like a relay race: each runner hands a baton to the next. First the PC's built-in program (firmware) wakes up and looks at the disk. On the disk it finds a small start-up partition with Windows Boot Manager. The boot manager reads a short list of start-up settings to learn where Windows is, then hands over to the Windows loader, which loads the heart of Windows, its drivers and its settings. If any runner drops the baton, starting stops there. The Boot chain view shows these runners in order, so you can see exactly where it stops."
+msgstr "PC 시작은 이어달리기와 같습니다. 각 주자가 다음 주자에게 바통을 넘깁니다. 먼저 PC에 내장된 프로그램(펌웨어)이 깨어나 디스크를 살펴봅니다. 디스크에서 Windows Boot Manager가 있는 작은 부팅 파티션을 찾습니다. 부팅 관리자는 짧은 부팅 설정 목록을 읽어 Windows가 어디 있는지 알아낸 다음 Windows 로더에 넘기고, 로더는 Windows의 핵심과 드라이버, 설정을 불러옵니다. 어느 주자든 바통을 놓치면 시작은 거기서 멈춥니다. 부팅 단계 보기에서는 이 주자들을 순서대로 보여 주므로 정확히 어디서 멈추는지 알 수 있습니다."
+
+msgid "What is a start-up menu entry? When a PC has more than one system, a menu appears when it starts. Each line in that menu is an entry that says where a system lives (which disk, which partition, which folder). When that system is deleted, moved, or its disk is taken out, the entry stays behind and leads nowhere. Removing such an entry deletes nothing else: it only tidies up the menu."
+msgstr "부팅 메뉴 항목이란? PC에 시스템이 둘 이상 있으면 시작할 때 메뉴가 나타납니다. 메뉴의 각 줄은 시스템이 있는 위치(어느 디스크, 어느 파티션, 어느 폴더)를 알려 주는 항목입니다. 그 시스템이 삭제되거나 옮겨지거나 디스크가 빠지면 항목만 남아 아무 데도 연결되지 않습니다. 그런 항목을 제거해도 다른 것은 아무것도 삭제되지 않으며 메뉴만 정리됩니다."
+
+msgid "What is the PC's own start-up list? Newer PCs keep a short list inside the PC itself (in the firmware, not on any disk) of things they can start: Windows Boot Manager, Linux, USB sticks, the network. You see it in the boot menu that opens with a key while the PC starts (often F12, F11, F8 or Esc). When a system is removed, its line can stay in that list. Removing the line changes nothing on any disk."
+msgstr "PC 자체 부팅 목록이란? 최신 PC는 시작할 수 있는 대상(Windows Boot Manager, Linux, USB 메모리, 네트워크)의 짧은 목록을 PC 자체(디스크가 아닌 펌웨어)에 보관합니다. PC가 시작될 때 키(보통 F12, F11, F8 또는 Esc)를 누르면 열리는 부팅 메뉴에서 볼 수 있습니다. 시스템을 제거해도 그 줄이 목록에 남을 수 있습니다. 그 줄을 제거해도 디스크에서는 아무것도 바뀌지 않습니다."
+
+msgid "What is a partition table? A disk is divided into parts called partitions, for example a small start-up partition and a big C: drive. A tiny table at the very start of the disk (with a spare copy at the end, on newer disks) records where each part begins and ends, like the table of contents of a book. If the table is damaged, the PC cannot find anything on the disk, even though the files are still there."
+msgstr "파티션 테이블이란? 디스크는 파티션이라는 여러 부분으로 나뉩니다. 예를 들어 작은 부팅 파티션과 큰 C: 드라이브가 있습니다. 디스크 맨 앞의 작은 표(최신 디스크는 끝에 예비 사본도 있음)가 책의 목차처럼 각 부분의 시작과 끝을 기록합니다. 이 표가 손상되면 파일이 그대로 있어도 PC가 디스크에서 아무것도 찾지 못합니다."
+
+msgid "What is Secure Boot? It is a safety check built into newer PCs. When it is on, the PC only starts programs that carry a valid digital signature, like a passport check at the door. That stops harmful programs (bootkits) from hiding in the start-up process before Windows or your antivirus runs.\n\nWindows 8, 10 and 11 are signed, and so are most big Linux systems (Ubuntu, Fedora, openSUSE, Mint) through a helper called shim. Windows 7, older Windows, many smaller Linux systems and some repair tools are not signed, so they only start with Secure Boot off.\n\nKeep it on if everything you use starts with it on. Turn it off only for a system or tool that refuses to start, and back on afterwards if you can. Switching it does not change or delete anything on the disks. If the Windows drive is encrypted with BitLocker, have its recovery key ready: Windows may ask for it once after Secure Boot is switched."
+msgstr "Secure Boot란? 최신 PC에 내장된 안전 검사입니다. 켜져 있으면 PC는 문 앞에서 여권을 확인하듯 올바른 디지털 서명이 있는 프로그램만 시작합니다. 이렇게 하면 해로운 프로그램(부트킷)이 Windows나 백신 프로그램이 실행되기 전에 시작 과정에 숨는 것을 막을 수 있습니다.\n\nWindows 8, 10, 11은 서명되어 있으며, 대부분의 주요 Linux 시스템(Ubuntu, Fedora, openSUSE, Mint)도 shim이라는 도우미를 통해 서명되어 있습니다. Windows 7, 이전 Windows, 많은 소규모 Linux 시스템과 일부 복구 도구는 서명되지 않았으므로 Secure Boot가 꺼져 있어야만 시작됩니다.\n\n사용하는 모든 것이 Secure Boot를 켠 상태에서 시작된다면 켜 두세요. 시작을 거부하는 시스템이나 도구가 있을 때만 끄고, 가능하면 나중에 다시 켜세요. 켜고 꺼도 디스크의 내용은 바뀌거나 삭제되지 않습니다. Windows 드라이브가 BitLocker로 암호화되어 있다면 복구 키를 준비해 두세요. Secure Boot를 바꾼 후 Windows가 한 번 키를 요청할 수 있습니다."
+
+msgid "This PC was started in legacy (BIOS) mode, which has no Secure Boot. Secure Boot only works in UEFI mode."
+msgstr "이 PC는 Secure Boot가 없는 레거시(BIOS) 모드로 시작되었습니다. Secure Boot는 UEFI 모드에서만 작동합니다."
+
+msgid "Whether Secure Boot is on could not be read here."
+msgstr "여기서는 Secure Boot가 켜져 있는지 읽을 수 없습니다."
+
+msgid "Secure Boot is on."
+msgstr "Secure Boot가 켜져 있습니다."
+
+msgid "Secure Boot is off, and its keys are cleared (\"Setup mode\"). To switch it on, first restore the factory keys in the firmware settings."
+msgstr "Secure Boot가 꺼져 있고 키가 지워져 있습니다(\"Setup mode\"). 켜려면 먼저 펌웨어 설정에서 공장 기본 키를 복원하세요."
+
+msgid "Secure Boot is off."
+msgstr "Secure Boot가 꺼져 있습니다."
+
+msgid "Delete or F2"
+msgstr "Delete 또는 F2"
+
+msgid "the Boot or Security tab"
+msgstr "Boot 또는 Security 탭"
+
+msgid "How to switch Secure Boot on:\n"
+msgstr "Secure Boot를 켜는 방법:\n"
+
+msgid "How to switch Secure Boot off:\n"
+msgstr "Secure Boot를 끄는 방법:\n"
+
+msgid "1. Use \"Restart into the PC's firmware settings\", or restart the PC and press "
+msgstr "1. \"PC 펌웨어 설정으로 다시 시작\"을 사용하거나, PC를 다시 시작하고 "
+
+msgid " right after switching it on.\n"
+msgstr " 키를 전원을 켜자마자 누르세요.\n"
+
+msgid "1. Restart the PC and press "
+msgstr "1. PC를 다시 시작하고 "
+
+msgid " right after switching it on, until the firmware settings appear.\n"
+msgstr " 키를 전원을 켜자마자 펌웨어 설정이 나타날 때까지 누르세요.\n"
+
+msgid "3. Set \"Secure Boot\" to Enabled. If it is greyed out: switch \"CSM\" or \"Legacy\" support off and set the OS type to \"Windows UEFI mode\".\n"
+msgstr "3. \"Secure Boot\"를 Enabled로 설정하세요. 회색으로 표시되어 바꿀 수 없으면 \"CSM\" 또는 \"Legacy\" 지원을 끄고 OS 유형을 \"Windows UEFI mode\"로 설정하세요.\n"
+
+msgid "4. If it says Setup mode or keys are missing, choose \"Restore factory keys\" (or \"Install default keys\").\n"
+msgstr "4. Setup mode라고 나오거나 키가 없다고 나오면 \"Restore factory keys\"(또는 \"Install default keys\")를 선택하세요.\n"
+
+msgid "3. Set \"Secure Boot\" to Disabled. On some PCs you first set the OS type to \"Other OS\", or set a supervisor password to unlock the option.\n"
+msgstr "3. \"Secure Boot\"를 Disabled로 설정하세요. 일부 PC에서는 먼저 OS 유형을 \"Other OS\"로 설정하거나, 관리자(supervisor) 암호를 설정해야 이 옵션을 바꿀 수 있습니다.\n"
+
+msgid "4. Leave CSM / Legacy as it is, unless the system you want to start needs it.\n"
+msgstr "4. 시작하려는 시스템에 필요하지 않다면 CSM / Legacy는 그대로 두세요.\n"
+
+msgid "5. Save and exit (often F10). The PC restarts."
+msgstr "5. 저장하고 종료하세요(보통 F10). PC가 다시 시작됩니다."
+
+msgid "\n\nThis PC: "
+msgstr "\n\n이 PC: "
+
+msgid "Every PC has a small built-in program on a chip on its main board, called the firmware (UEFI on newer PCs, BIOS on older ones). It is the first thing that runs when you press the power button. It checks the hardware and then looks for a disk to start from. UEFI and BIOS start Windows in different ways, so Windows must be set up for the way your PC starts."
+msgstr "모든 PC에는 메인보드의 칩에 펌웨어라는 작은 내장 프로그램이 있습니다(최신 PC는 UEFI, 오래된 PC는 BIOS). 전원 단추를 누르면 가장 먼저 실행됩니다. 하드웨어를 확인한 다음 시작할 디스크를 찾습니다. UEFI와 BIOS는 Windows를 시작하는 방식이 다르므로 Windows는 PC가 시작하는 방식에 맞게 설정되어 있어야 합니다."
+
+msgid "The disk (hard disk or SSD) stores Windows and your files. At its very start there is a small table that says how the disk is divided into parts (partitions), like the table of contents of a book. If the disk cannot be read or that table is damaged, the PC cannot find Windows."
+msgstr "디스크(하드 디스크 또는 SSD)에는 Windows와 파일이 저장됩니다. 디스크 맨 앞에는 책의 목차처럼 디스크가 어떻게 여러 부분(파티션)으로 나뉘는지 알려 주는 작은 표가 있습니다. 디스크를 읽을 수 없거나 그 표가 손상되면 PC는 Windows를 찾을 수 없습니다."
+
+msgid "Besides the big partition with Windows (usually C:), the disk has a small hidden partition used only for starting: the EFI system partition on newer PCs, or the \"active\" partition on older ones. It holds the few files the PC needs to begin starting Windows. You normally never see it, and it has no drive letter."
+msgstr "Windows가 있는 큰 파티션(보통 C:) 외에도 디스크에는 시작에만 쓰이는 작은 숨겨진 파티션이 있습니다. 최신 PC에서는 EFI 시스템 파티션, 오래된 PC에서는 \"활성\" 파티션입니다. 여기에는 PC가 Windows 시작을 시작하는 데 필요한 몇 가지 파일이 들어 있습니다. 보통은 보이지 않으며 드라이브 문자도 없습니다."
+
+msgid "Windows Boot Manager is a small program on the start-up partition. The firmware starts it, and it decides which Windows to start, showing a menu when there is more than one. On newer PCs the PC also keeps its own list of start-up choices, and Windows Boot Manager must be in it."
+msgstr "Windows Boot Manager는 부팅 파티션에 있는 작은 프로그램입니다. 펌웨어가 이 프로그램을 시작하면, 이 프로그램이 시작할 Windows를 정하고 둘 이상이면 메뉴를 표시합니다. 최신 PC는 자체 부팅 선택 목록도 보관하며, 그 목록에 Windows Boot Manager가 있어야 합니다."
+
+msgid "The start-up settings (called BCD) are a short list that Windows Boot Manager reads. Each line says \"this Windows is on this partition, in this folder\". If the line is missing or points to the wrong place, that Windows cannot start, even if Windows itself is perfectly fine."
+msgstr "부팅 설정(BCD)은 Windows Boot Manager가 읽는 짧은 목록입니다. 각 줄은 \"이 Windows는 이 파티션의 이 폴더에 있다\"라고 알려 줍니다. 줄이 없거나 잘못된 곳을 가리키면 Windows 자체는 아무 문제가 없어도 그 Windows는 시작할 수 없습니다."
+
+msgid "This is the partition where Windows is installed, usually drive C:. To start, it must be readable: not damaged, not locked by BitLocker encryption, and with some free space left."
+msgstr "Windows가 설치된 파티션으로, 보통 C: 드라이브입니다. 시작하려면 읽을 수 있어야 합니다. 즉 손상되지 않고, BitLocker 암호화로 잠겨 있지 않고, 여유 공간이 조금은 있어야 합니다."
+
+msgid "The Windows loader (a file called winload) is what actually starts loading Windows into the PC's memory. Windows Boot Manager hands over to it."
+msgstr "Windows 로더(winload라는 파일)는 Windows를 실제로 PC 메모리에 불러오기 시작하는 프로그램입니다. Windows Boot Manager가 여기로 넘겨줍니다."
+
+msgid "These are the heart of Windows (the kernel) and the first drivers it needs, for example the ones that let Windows read its own disk. If one of them is missing or damaged, Windows stops with a blue screen while it starts."
+msgstr "Windows의 핵심(커널)과 처음 필요한 드라이버입니다. 예를 들어 Windows가 자체 디스크를 읽게 해 주는 드라이버가 있습니다. 이 중 하나라도 없거나 손상되면 Windows는 시작하는 동안 블루스크린으로 멈춥니다."
+
+msgid "Windows keeps its settings in a few special files called the registry. Windows reads them very early, for example to know which drivers to load. A damaged registry file means Windows cannot finish starting."
+msgstr "Windows는 레지스트리라는 몇 개의 특별한 파일에 설정을 보관합니다. Windows는 이 파일을 아주 일찍, 예를 들어 어떤 드라이버를 불러올지 알기 위해 읽습니다. 레지스트리 파일이 손상되면 Windows가 시작을 마칠 수 없습니다."
+
+msgid "The last step: Windows starts its services and shows the sign-in screen. If something goes wrong here, Windows may restart over and over (a restart loop) or keep opening Automatic Repair."
+msgstr "마지막 단계: Windows가 서비스를 시작하고 로그인 화면을 표시합니다. 여기서 문제가 생기면 Windows가 계속 다시 시작되거나(다시 시작 반복) 자동 복구가 계속 열릴 수 있습니다."
+
+msgid "Newer PCs keep a short list inside the PC itself (not on any disk) of systems they can start, in order. The PC starts the first one that works. Windows and Linux each add their own line. Windows updates sometimes move Windows back to the top, so Linux then seems to have vanished; it is only lower in the list."
+msgstr "최신 PC는 시작할 수 있는 시스템의 짧은 목록을 순서대로 PC 자체(디스크가 아님)에 보관합니다. PC는 작동하는 첫 번째 항목을 시작합니다. Windows와 Linux는 각각 자신의 줄을 추가합니다. Windows 업데이트가 가끔 Windows를 다시 맨 위로 옮기는데, 그러면 Linux가 사라진 것처럼 보이지만 목록에서 아래로 내려갔을 뿐입니다."
+
+msgid "Linux is started by a small program called GRUB (sometimes with a helper called shim, which makes it work with Secure Boot, or by systemd-boot). It lives in a folder on the start-up partition, next to Windows Boot Manager."
+msgstr "Linux는 GRUB이라는 작은 프로그램으로 시작됩니다(Secure Boot와 함께 작동하게 해 주는 shim이라는 도우미를 쓰기도 하고, systemd-boot로 시작되기도 합니다). 부팅 파티션의 폴더에 Windows Boot Manager와 나란히 있습니다."
+
+msgid "A tiny settings file next to GRUB says on which partition Linux lives, using that partition's id. If the partition was formatted or deleted, the id no longer matches anything and GRUB stops at a \"grub rescue>\" prompt."
+msgstr "GRUB 옆의 작은 설정 파일이 파티션 ID로 Linux가 어느 파티션에 있는지 알려 줍니다. 그 파티션이 포맷되거나 삭제되면 ID가 더 이상 맞지 않아 GRUB이 \"grub rescue>\" 프롬프트에서 멈춥니다."
+
+msgid "On older PCs (legacy BIOS) the very first sector of the disk holds a little start-up program. For Linux this is GRUB. Installing or repairing Windows often replaces it with Windows' own, and then the PC no longer offers Linux."
+msgstr "오래된 PC(레거시 BIOS)에서는 디스크의 첫 번째 섹터에 작은 시작 프로그램이 있습니다. Linux에서는 GRUB입니다. Windows를 설치하거나 복구하면 이것이 Windows 자체 프로그램으로 바뀌는 경우가 많고, 그러면 PC에서 더 이상 Linux를 선택할 수 없습니다."
+
+msgid "This is the partition where Linux is installed. Linux uses its own file systems (ext4, btrfs, XFS), which Windows cannot open. This program can look inside ext2, ext3 and ext4, read-only; it never writes to them."
+msgstr "Linux가 설치된 파티션입니다. Linux는 Windows가 열 수 없는 자체 파일 시스템(ext4, btrfs, XFS)을 사용합니다. 이 프로그램은 ext2, ext3, ext4 내부를 읽기 전용으로 볼 수 있으며 절대 쓰지 않습니다."
+
+msgid "The kernel is the heart of Linux, kept in the /boot folder as files named vmlinuz. Linux keeps one or two older kernels too, so that if an update goes wrong you can pick an older one in the GRUB menu."
+msgstr "커널은 Linux의 핵심으로, /boot 폴더에 vmlinuz라는 이름의 파일로 보관됩니다. Linux는 이전 커널도 한두 개 보관하므로 업데이트가 잘못되면 GRUB 메뉴에서 이전 커널을 선택할 수 있습니다."
+
+msgid "The GRUB menu is the list of choices GRUB shows when the PC starts (Linux, older kernels, often Windows too). It is a file called grub.cfg. Without it, GRUB only shows a bare \"grub>\" prompt."
+msgstr "GRUB 메뉴는 PC가 시작될 때 GRUB이 보여 주는 선택 목록입니다(Linux, 이전 커널, 흔히 Windows도 포함). grub.cfg라는 파일입니다. 이 파일이 없으면 GRUB은 빈 \"grub>\" 프롬프트만 표시합니다."
+
+msgid "Linux keeps a list of the partitions it uses (the file /etc/fstab): where Linux is, where /boot is, the swap space and so on. If a partition in that list is gone, Linux stops while starting and shows an \"emergency mode\" prompt."
+msgstr "Linux는 사용하는 파티션 목록(/etc/fstab 파일)을 보관합니다. Linux가 있는 곳, /boot가 있는 곳, 스왑 공간 등입니다. 그 목록에 있는 파티션이 없어지면 Linux는 시작하는 동안 멈추고 \"emergency mode\" 프롬프트를 표시합니다."
+
+msgid "Windows only starts when it sits at the top of its drive (for example C:\\Windows). A Windows inside another folder is usually a copy made while backing up or moving files, or the old Windows kept after an upgrade (Windows.old)."
+msgstr "Windows는 드라이브 최상위(예: C:\\Windows)에 있을 때만 시작됩니다. 다른 폴더 안에 있는 Windows는 보통 파일을 백업하거나 옮기면서 만든 복사본이거나, 업그레이드 후 남은 이전 Windows(Windows.old)입니다."
+
+msgid "Ubuntu (Linux)"
+msgstr "Ubuntu (Linux)"
+
+msgid "Debian (Linux)"
+msgstr "Debian (Linux)"
+
+msgid "Fedora (Linux)"
+msgstr "Fedora (Linux)"
+
+msgid "openSUSE (Linux)"
+msgstr "openSUSE (Linux)"
+
+msgid "Arch Linux"
+msgstr "Arch Linux"
+
+msgid "Manjaro (Linux)"
+msgstr "Manjaro (Linux)"
+
+msgid "CentOS (Linux)"
+msgstr "CentOS (Linux)"
+
+msgid "Rocky Linux"
+msgstr "Rocky Linux"
+
+msgid "AlmaLinux"
+msgstr "AlmaLinux"
+
+msgid "Red Hat (Linux)"
+msgstr "Red Hat (Linux)"
+
+msgid "Kali Linux"
+msgstr "Kali Linux"
+
+msgid "Linux Mint"
+msgstr "Linux Mint"
+
+msgid "Pop!_OS (Linux)"
+msgstr "Pop!_OS (Linux)"
+
+msgid "Zorin OS (Linux)"
+msgstr "Zorin OS (Linux)"
+
+msgid "KDE neon (Linux)"
+msgstr "KDE neon (Linux)"
+
+msgid "elementary OS (Linux)"
+msgstr "elementary OS (Linux)"
+
+msgid "EndeavourOS (Linux)"
+msgstr "EndeavourOS (Linux)"
+
+msgid "Linux"
+msgstr "Linux"
+
+msgid "Linux (GRUB)"
+msgstr "Linux (GRUB)"
+
+msgid "rEFInd boot menu"
+msgstr "rEFInd 부팅 메뉴"
+
+msgid "Clover boot menu"
+msgstr "Clover 부팅 메뉴"
+
+msgid "OpenCore boot menu"
+msgstr "OpenCore 부팅 메뉴"
+
+msgid "PC maker's tools (HP)"
+msgstr "PC 제조사 도구 (HP)"
+
+msgid "PC maker's tools (Dell)"
+msgstr "PC 제조사 도구 (Dell)"
+
+msgid "PC maker's tools (Lenovo)"
+msgstr "PC 제조사 도구 (Lenovo)"
+
+msgid "a USB stick or another system"
+msgstr "USB 메모리 또는 다른 시스템"
+
+msgid "another system"
+msgstr "다른 시스템"
+
+msgid "Remove the leftover Windows start-up files"
+msgstr "남은 Windows 부팅 파일 제거"
+
+msgid "Deletes the Windows Boot Manager folder (\\EFI\\Microsoft) from this start-up partition, and its line in the PC's start-up list. No Windows, personal files or other partitions are touched, and the start-up files of the Windows you use are on another partition."
+msgstr "이 부팅 파티션에서 Windows Boot Manager 폴더(\\EFI\\Microsoft)를 삭제하고, PC 부팅 목록에서 해당 줄도 삭제합니다. Windows, 개인 파일, 다른 파티션은 건드리지 않으며, 사용 중인 Windows의 부팅 파일은 다른 파티션에 있습니다."
+
+msgid "Use \"Rebuild the start-up files\" in the report of "
+msgstr "다음 항목의 보고서에서 \"부팅 파일 다시 만들기\"를 사용하세요: "
+
+msgid ": that writes new, correct settings."
+msgstr ". 새롭고 올바른 설정을 씁니다."
+
+msgid "The start-up menu's first choice is missing"
+msgstr "부팅 메뉴의 첫 번째 선택 항목이 없음"
+
+msgid "The start-up settings on "
+msgstr "다음의 부팅 설정: "
+
+msgid " say to start an entry that does not exist."
+msgstr " — 존재하지 않는 항목을 시작하라고 되어 있습니다."
+
+msgid " list no system"
+msgstr " — 시스템이 없음"
+
+msgid "The settings file is intact, but it names no system to start, although "
+msgstr "설정 파일은 손상되지 않았지만 시작할 시스템이 지정되어 있지 않습니다. 하지만 "
+
+msgid " starts through this partition. "
+msgstr " 은(는) 이 파티션을 통해 시작됩니다. "
+
+msgid "Leftover Windows start-up files on "
+msgstr "남은 Windows 부팅 파일 위치: "
+
+msgid "This start-up partition still holds Windows Boot Manager and its settings, but the settings list no system to start: the Windows they belonged to is gone, or its entry was removed. Nothing is damaged. "
+msgstr "이 부팅 파티션에는 아직 Windows Boot Manager와 그 설정이 있지만, 설정에 시작할 시스템이 없습니다. 해당 Windows가 없어졌거나 항목이 제거되었습니다. 손상된 것은 없습니다. "
+
+msgid "The PC's start-up list tries this partition first, shows an error, and only then goes on to the next choice."
+msgstr "PC 부팅 목록이 이 파티션을 먼저 시도하여 오류를 표시한 후에야 다음 선택 항목으로 넘어갑니다."
+
+msgid "This PC does not start from this partition, so the files do no harm where they are."
+msgstr "이 PC는 이 파티션에서 시작하지 않으므로 이 파일들은 지금 위치에서 해가 되지 않습니다."
+
+msgid " If the PC is ever started from Disk "
+msgstr " PC를 디스크 "
+
+msgid ", it shows a start-up error instead of a system.\n\nYou can leave the files, or remove them to tidy up. If an entry was removed by mistake, Undo in the backups list brings it back."
+msgstr "에서 시작하면 시스템 대신 시작 오류가 표시됩니다.\n\n파일을 그대로 두거나 정리하기 위해 제거할 수 있습니다. 항목을 실수로 제거했다면 백업 목록의 실행 취소로 되돌릴 수 있습니다."
+
+msgid "Damaged start-up settings on "
+msgstr "손상된 부팅 설정 위치: "
+
+msgid "\n\nNo Windows found on this PC starts through this partition, so these are leftover files. Removing them is safe."
+msgstr "\n\n이 PC에서 찾은 어떤 Windows도 이 파티션을 통해 시작하지 않으므로 이 파일들은 남은 파일입니다. 제거해도 안전합니다."
+
+msgid "\n\nNo Windows found on this PC uses these settings. If a Windows should start from this disk, it was not found: check that its disk is connected and unlocked."
+msgstr "\n\n이 PC에서 찾은 어떤 Windows도 이 설정을 사용하지 않습니다. 이 디스크에서 시작해야 하는 Windows가 있다면 찾지 못한 것입니다. 디스크가 연결되어 있고 잠금이 해제되어 있는지 확인하세요."
+
+msgid "the partition it points to is not on any disk now"
+msgstr "이 항목이 가리키는 파티션은 이제 어느 디스크에도 없습니다"
+
+msgid "A start-up entry points to a drive locked by BitLocker: \""
+msgstr "부팅 항목이 BitLocker로 잠긴 드라이브를 가리킴: \""
+
+msgid "The start-up menu on {0} lists \"{1}\" on {2}, but that drive is encrypted with BitLocker and locked, so it cannot be checked. Windows is very likely inside it.\n\nDo not remove this entry. Unlock the drive first (with its 48-digit recovery key) and scan again: only then can it be seen whether the entry is fine."
+msgstr "{0}의 부팅 메뉴에 {2}의 \"{1}\"이(가) 있지만, 그 드라이브는 BitLocker로 암호화되어 잠겨 있어 확인할 수 없습니다. Windows가 그 안에 있을 가능성이 매우 높습니다.\n\n이 항목을 제거하지 마세요. 먼저 드라이브의 잠금을 해제하고(48자리 복구 키 사용) 다시 검사하세요. 그래야만 항목이 정상인지 알 수 있습니다."
+
+msgid "BitLocker encrypts a whole drive. While it is locked, no program can see the Windows inside it, so a working start-up entry looks as if it leads nowhere."
+msgstr "BitLocker는 드라이브 전체를 암호화합니다. 잠겨 있는 동안에는 어떤 프로그램도 그 안의 Windows를 볼 수 없으므로, 정상적인 부팅 항목도 아무 데도 연결되지 않는 것처럼 보입니다."
+
+msgid "there is no Windows in "
+msgstr "다음 위치에 Windows가 "
+
+msgid " any more"
+msgstr " 더 이상 없습니다"
+
+msgid "A start-up menu entry leads nowhere: \""
+msgstr "부팅 메뉴 항목이 아무 데도 연결되지 않음: \""
+
+msgid "The start-up menu on "
+msgstr "다음 위치의 부팅 메뉴: "
+
+msgid " lists \""
+msgstr " — 항목 \""
+
+msgid "\", but "
+msgstr "\"이(가) 있지만, "
+
+msgid "It is even set to start first, so every time the PC starts it tries this entry, fails, and you see an error or a blue screen."
+msgstr "게다가 먼저 시작되도록 설정되어 있어서 PC가 시작할 때마다 이 항목을 시도하다 실패하고 오류나 블루스크린이 표시됩니다."
+
+msgid "This PC does not start from that menu now, so it does no harm today. But if the PC is ever started from Disk "
+msgstr "이 PC는 지금 그 메뉴에서 시작하지 않으므로 현재는 해가 되지 않습니다. 하지만 PC를 디스크 "
+
+msgid ", it tries this entry first and fails. It is probably left over from a copied (cloned) disk."
+msgstr "에서 시작하면 이 항목을 먼저 시도하다 실패합니다. 아마 복제한 디스크에서 남은 항목일 것입니다."
+
+msgid "If someone picks it in the start-up menu, the PC shows an error. It also makes the menu confusing."
+msgstr "부팅 메뉴에서 이 항목을 선택하면 PC에 오류가 표시됩니다. 메뉴도 헷갈리게 만듭니다."
+
+msgid "It is hidden from the menu, so it does no harm; it is only leftover clutter."
+msgstr "메뉴에서 숨겨져 있으므로 해가 되지 않습니다. 남은 잡동사니일 뿐입니다."
+
+msgid "\n\nNote: "
+msgstr "\n\n참고: "
+
+msgid " has no start-up entry. If this entry used to belong to it (because it was moved), use \"Rebuild the start-up files\" in its report instead: that writes a correct entry. Then remove this one."
+msgstr " — 부팅 항목이 없습니다. 이 항목이 원래 그것의 항목이었다면(옮겨졌기 때문에) 대신 해당 보고서에서 \"부팅 파일 다시 만들기\"를 사용하세요. 올바른 항목이 쓰입니다. 그런 다음 이 항목을 제거하세요."
+
+msgid "\n\nCareful: a drive on this PC is locked by BitLocker. The Windows this entry belongs to may be inside it. Unlock the locked drive first and scan again before removing anything."
+msgstr "\n\n주의: 이 PC의 드라이브 하나가 BitLocker로 잠겨 있습니다. 이 항목이 속한 Windows가 그 안에 있을 수 있습니다. 무엇이든 제거하기 전에 먼저 잠긴 드라이브를 해제하고 다시 검사하세요."
+
+msgid "\n\nIt is the only system these start-up settings list, and no Windows on this PC starts through that partition. The whole set of leftover Windows start-up files there can be removed in one go."
+msgstr "\n\n이 부팅 설정에 있는 유일한 시스템이며, 이 PC의 어떤 Windows도 그 파티션을 통해 시작하지 않습니다. 그곳에 남은 Windows 부팅 파일 전체를 한 번에 제거할 수 있습니다."
+
+msgid "The start-up menu lists an entry that does not exist"
+msgstr "부팅 메뉴에 존재하지 않는 항목이 있음"
+
+msgid " has a line ("
+msgstr " — 설정이 사라진 줄이 있음("
+
+msgid ") whose settings are gone. It shows up as an empty or broken choice."
+msgstr "). 비어 있거나 깨진 선택 항목으로 나타납니다."
+
+msgid "Take it off the menu"
+msgstr "메뉴에서 빼기"
+
+msgid "the disk it is on is not connected now"
+msgstr "해당 디스크가 지금 연결되어 있지 않습니다"
+
+msgid "its start-up file ("
+msgstr "해당 부팅 파일("
+
+msgid ") is no longer on "
+msgstr ")이 더 이상 다음 위치에 없습니다: "
+
+msgid "The PC's start-up list has an entry that leads nowhere: \""
+msgstr "PC의 부팅 목록에 아무 데도 연결되지 않는 항목이 있음: \""
+
+msgid ") is in the start-up list kept inside the PC, but "
+msgstr ")이(가) PC 안에 저장된 부팅 목록에 있지만, "
+
+msgid "If it belongs to a USB stick or a disk you connect now and then, keep it. If that disk is gone for good, remove the entry."
+msgstr "USB 메모리나 가끔 연결하는 디스크의 항목이라면 그대로 두세요. 그 디스크가 영영 없어졌다면 항목을 제거하세요."
+
+msgid "The system it used to start ("
+msgstr "이 항목으로 시작하던 시스템("
+
+msgid ") was probably deleted or uninstalled, but its line stayed behind."
+msgstr ")은 아마 삭제되었거나 제거되었지만 항목만 남았습니다."
+
+msgid " The PC tries it every time it starts, which can slow starting down or show an error before Windows appears."
+msgstr " PC가 시작할 때마다 이 항목을 시도하므로 시작이 느려지거나 Windows가 나타나기 전에 오류가 표시될 수 있습니다."
+
+msgid "\n\nCareful: a drive on this PC is locked by BitLocker. Unlock it first and scan again before removing anything."
+msgstr "\n\n주의: 이 PC의 드라이브 하나가 BitLocker로 잠겨 있습니다. 무엇이든 제거하기 전에 먼저 잠금을 해제하고 다시 검사하세요."
+
+msgid "\n\nFor a technician: "
+msgstr "\n\n기술자용 정보: "
+
+msgid "The start-up entry \""
+msgstr "부팅 항목 \""
+
+msgid "\" expects Windows in "
+msgstr "\"은(는) Windows가 이 드라이브의 다음 위치에 있다고 예상합니다: "
+
+msgid " on this drive, but it is now in "
+msgstr " — 하지만 지금은 다음 위치에 있습니다: "
+
+msgid "\" points to a partition that is no longer there. Windows may have been moved or copied to this drive from there."
+msgstr "\"이(가) 더 이상 없는 파티션을 가리킵니다. Windows가 그곳에서 이 드라이브로 옮겨졌거나 복사되었을 수 있습니다."
+
+msgid "The PC starts in UEFI mode, the modern way of starting."
+msgstr "PC가 최신 시작 방식인 UEFI 모드로 시작합니다."
+
+msgid "UEFI firmware"
+msgstr "UEFI 펌웨어"
+
+msgid ", Secure Boot on"
+msgstr ", Secure Boot 켜짐"
+
+msgid ", Secure Boot off"
+msgstr ", Secure Boot 꺼짐"
+
+msgid "The PC starts in UEFI mode, but this Windows is on an older-style (MBR) disk. It can only start if \"Legacy\" or \"CSM\" is turned on in the PC's firmware settings, or after a start-up partition is created for it."
+msgstr "PC는 UEFI 모드로 시작하지만 이 Windows는 이전 방식(MBR) 디스크에 있습니다. PC 펌웨어 설정에서 \"Legacy\" 또는 \"CSM\"을 켜거나, 이 Windows용 부팅 파티션을 만든 후에만 시작할 수 있습니다."
+
+msgid "This is a 32-bit Windows. Most PCs that start in UEFI mode cannot start 32-bit Windows; turn on \"Legacy\" or \"CSM\" in the firmware settings."
+msgstr "32비트 Windows입니다. UEFI 모드로 시작하는 대부분의 PC는 32비트 Windows를 시작할 수 없습니다. 펌웨어 설정에서 \"Legacy\" 또는 \"CSM\"을 켜세요."
+
+msgid "Secure Boot is on, but "
+msgstr "Secure Boot가 켜져 있지만 "
+
+msgid " was made before Secure Boot existed, so the PC refuses to start it. Switch Secure Boot off in the PC's firmware settings."
+msgstr " — Secure Boot가 생기기 전에 만들어져서 PC가 시작을 거부합니다. PC 펌웨어 설정에서 Secure Boot를 끄세요."
+
+msgid " Secure Boot is off. Windows 11 still starts, but it is less protected, Windows may say the PC is not supported, and some games refuse to run. You can switch it on in the firmware settings."
+msgstr " Secure Boot가 꺼져 있습니다. Windows 11은 시작되지만 보호가 약해지고, Windows가 지원되지 않는 PC라고 표시할 수 있으며, 일부 게임은 실행되지 않습니다. 펌웨어 설정에서 켤 수 있습니다."
+
+msgid " Secure Boot is on, which protects the start against harmful programs."
+msgstr " Secure Boot가 켜져 있어 해로운 프로그램으로부터 시작을 보호합니다."
+
+msgid " Secure Boot is off."
+msgstr " Secure Boot가 꺼져 있습니다."
+
+msgid "The PC starts in legacy (BIOS) mode, the older way of starting."
+msgstr "PC가 이전 시작 방식인 레거시(BIOS) 모드로 시작합니다."
+
+msgid "Legacy BIOS firmware (or UEFI with CSM)"
+msgstr "레거시 BIOS 펌웨어(또는 CSM을 사용하는 UEFI)"
+
+msgid "This Windows is on a GPT disk, which can only start in UEFI mode, but the PC was started in legacy (BIOS) mode. Turn on UEFI mode in the PC's firmware settings (often called \"Boot mode\", or turn \"CSM\" off)."
+msgstr "이 Windows는 UEFI 모드에서만 시작할 수 있는 GPT 디스크에 있지만, PC는 레거시(BIOS) 모드로 시작되었습니다. PC 펌웨어 설정에서 UEFI 모드를 켜세요(보통 \"Boot mode\"라고 하거나 \"CSM\"을 끕니다)."
+
+msgid "BIOS boot + GPT disk"
+msgstr "BIOS 부팅 + GPT 디스크"
+
+msgid "The disk cannot be read. It may be failing or badly connected."
+msgstr "디스크를 읽을 수 없습니다. 고장 나고 있거나 연결이 불량할 수 있습니다."
+
+msgid "no partition table"
+msgstr "파티션 테이블 없음"
+
+msgid "The disk with this Windows ("
+msgstr "이 Windows가 있는 디스크("
+
+msgid ") can be read and its partition table is fine."
+msgstr ")를 읽을 수 있고 파티션 테이블도 정상입니다."
+
+msgid "The main copy of the disk's partition table is damaged. Windows is using the backup copy for now."
+msgstr "디스크 파티션 테이블의 기본 사본이 손상되었습니다. 지금은 Windows가 백업 사본을 사용하고 있습니다."
+
+msgid "The backup copy of the disk's partition table is damaged. Windows still starts, but there is no safety copy."
+msgstr "디스크 파티션 테이블의 백업 사본이 손상되었습니다. Windows는 시작되지만 안전 사본이 없습니다."
+
+msgid "The backup copy of the partition table is not at the end of the disk. This happens after copying a disk to a bigger one."
+msgstr "파티션 테이블의 백업 사본이 디스크 끝에 없습니다. 디스크를 더 큰 디스크로 복사한 후에 생기는 일입니다."
+
+msgid "The Windows partition runs past the end of the disk, so part of it is missing. The disk was probably copied to a smaller one."
+msgstr "Windows 파티션이 디스크 끝을 넘어가서 일부가 없습니다. 디스크를 더 작은 디스크로 복사했을 가능성이 높습니다."
+
+msgid "The Windows partition overlaps another partition. One of them gets damaged when written to."
+msgstr "Windows 파티션이 다른 파티션과 겹칩니다. 쓰기를 하면 둘 중 하나가 손상됩니다."
+
+msgid "There is no EFI system partition (the small start-up partition a UEFI PC starts from). It is missing or was deleted."
+msgstr "EFI 시스템 파티션(UEFI PC가 시작하는 작은 부팅 파티션)이 없습니다. 없거나 삭제되었습니다."
+
+msgid "The start-up partition cannot be opened."
+msgstr "부팅 파티션을 열 수 없습니다."
+
+msgid "The start-up partition is damaged: its files cannot be read."
+msgstr "부팅 파티션이 손상되어 파일을 읽을 수 없습니다."
+
+msgid "The start-up partition is there and can be read."
+msgstr "부팅 파티션이 있고 읽을 수 있습니다."
+
+msgid "The start-up partition uses "
+msgstr "부팅 파티션이 사용하는 "
+
+msgid ", which the PC's firmware cannot read. It must be FAT32."
+msgstr "은(는) PC 펌웨어가 읽을 수 없는 형식입니다. FAT32여야 합니다."
+
+msgid "The start-up partition is almost full ("
+msgstr "부팅 파티션이 거의 가득 찼습니다("
+
+msgid " free). New start-up files may not fit."
+msgstr " 남음). 새 부팅 파일이 들어가지 않을 수 있습니다."
+
+msgid " It is on another disk (Disk "
+msgstr " 다른 디스크(디스크 "
+
+msgid "), so this Windows only starts while that disk is connected."
+msgstr ")에 있으므로 이 Windows는 그 디스크가 연결되어 있을 때만 시작됩니다."
+
+msgid "No partition on this disk is marked \"active\", so an older PC (legacy BIOS) does not know where to start."
+msgstr "이 디스크의 어떤 파티션도 \"활성\"으로 표시되어 있지 않아서 오래된 PC(레거시 BIOS)가 어디서 시작할지 모릅니다."
+
+msgid "The active (start-up) partition cannot be read. Its file system is damaged."
+msgstr "활성(부팅) 파티션을 읽을 수 없습니다. 파일 시스템이 손상되었습니다."
+
+msgid "The active start-up partition is there and can be read."
+msgstr "활성 부팅 파티션이 있고 읽을 수 있습니다."
+
+msgid "Cannot be checked until the start-up partition is fixed."
+msgstr "부팅 파티션을 고칠 때까지 확인할 수 없습니다."
+
+msgid "Windows Boot Manager is on the start-up partition."
+msgstr "부팅 파티션에 Windows Boot Manager가 있습니다."
+
+msgid "The PC's own start-up list has no "
+msgstr "PC 자체 부팅 목록에 이 파티션의 "
+
+msgid "entry for Windows Boot Manager on this partition."
+msgstr "Windows Boot Manager 항목이 없습니다."
+
+msgid " It may still start through the standard fallback file."
+msgstr " 그래도 표준 대체 파일을 통해 시작될 수 있습니다."
+
+msgid " So the PC does not try to start it."
+msgstr " 그래서 PC가 시작을 시도하지 않습니다."
+
+msgid "No firmware Boot#### entry for bootmgfw.efi on "
+msgstr "bootmgfw.efi에 대한 펌웨어 Boot#### 항목이 없음: "
+
+msgid "The disk's start-up code (in its first sector) is empty, so the PC cannot begin starting from this disk."
+msgstr "디스크의 부팅 코드(첫 번째 섹터)가 비어 있어서 PC가 이 디스크에서 시작을 시작할 수 없습니다."
+
+msgid "MBR boot code is zero"
+msgstr "MBR 부팅 코드가 0임"
+
+msgid "Windows Boot Manager (the file \"bootmgr\") is missing from the start-up partition."
+msgstr "부팅 파티션에 Windows Boot Manager(\"bootmgr\" 파일)가 없습니다."
+
+msgid "The start-up partition's first sector is damaged."
+msgstr "부팅 파티션의 첫 번째 섹터가 손상되었습니다."
+
+msgid "The disk's start-up code and Windows Boot Manager are in place."
+msgstr "디스크의 부팅 코드와 Windows Boot Manager가 갖춰져 있습니다."
+
+msgid "The start-up settings file (BCD) is missing, so Windows Boot Manager does not know which Windows to start."
+msgstr "부팅 설정 파일(BCD)이 없어서 Windows Boot Manager가 어떤 Windows를 시작할지 모릅니다."
+
+msgid ": no entry with osdevice "
+msgstr ": osdevice가 다음인 항목이 없음: "
+
+msgid " and systemroot "
+msgstr " , systemroot: "
+
+msgid "Windows was moved: "
+msgstr "Windows가 옮겨짐: "
+
+msgid "The start-up settings have no entry for this Windows, so it is never started."
+msgstr "부팅 설정에 이 Windows의 항목이 없어서 시작되지 않습니다."
+
+msgid ", entry "
+msgstr ", 항목 "
+
+msgid "\" path "
+msgstr "\" 경로 "
+
+msgid "The start-up entry for this Windows points to a loader file that is not there ("
+msgstr "이 Windows의 부팅 항목이 없는 로더 파일을 가리킵니다("
+
+msgid "The start-up entry is made for legacy (BIOS) start-up, but the PC starts in UEFI mode."
+msgstr "부팅 항목이 레거시(BIOS) 시작용으로 만들어졌지만 PC는 UEFI 모드로 시작합니다."
+
+msgid "The start-up entry is made for UEFI start-up, but the PC started in legacy (BIOS) mode."
+msgstr "부팅 항목이 UEFI 시작용으로 만들어졌지만 PC는 레거시(BIOS) 모드로 시작되었습니다."
+
+msgid "The start-up entry loads Windows' loader from another partition than the one Windows is on."
+msgstr "부팅 항목이 Windows가 있는 파티션이 아닌 다른 파티션에서 Windows 로더를 불러옵니다."
+
+msgid "This Windows has a start-up entry, but it is hidden from the start-up menu, so it never starts."
+msgstr "이 Windows에는 부팅 항목이 있지만 부팅 메뉴에서 숨겨져 있어서 시작되지 않습니다."
+
+msgid "The start-up settings list this Windows"
+msgstr "부팅 설정에 이 Windows가 있습니다"
+
+msgid ", and it starts first."
+msgstr ", 그리고 먼저 시작됩니다."
+
+msgid " The menu is set to wait 0 seconds, so you never see it."
+msgstr " 메뉴 대기 시간이 0초로 설정되어 있어서 메뉴가 보이지 않습니다."
+
+msgid "The Windows drive is locked by BitLocker encryption. It must be unlocked with its recovery key before it can be checked."
+msgstr "Windows 드라이브가 BitLocker 암호화로 잠겨 있습니다. 확인하려면 먼저 복구 키로 잠금을 해제해야 합니다."
+
+msgid "The partition with Windows can be read."
+msgstr "Windows가 있는 파티션을 읽을 수 있습니다."
+
+msgid "The Windows drive is marked as needing a disk check. Windows may run the check while starting, or get stuck on it."
+msgstr "Windows 드라이브에 디스크 검사가 필요하다고 표시되어 있습니다. Windows가 시작하는 동안 검사를 실행하거나 검사에서 멈출 수 있습니다."
+
+msgid "The Windows drive is almost full ("
+msgstr "Windows 드라이브가 거의 가득 찼습니다("
+
+msgid " free). Windows needs some free space to start and to update. Delete or move some files."
+msgstr " 남음). Windows가 시작하고 업데이트하려면 여유 공간이 필요합니다. 파일을 일부 삭제하거나 옮기세요."
+
+msgid " It is encrypted with BitLocker and unlocked right now."
+msgstr " BitLocker로 암호화되어 있으며 지금은 잠금 해제되어 있습니다."
+
+msgid "Cannot be checked while the drive is locked."
+msgstr "드라이브가 잠겨 있는 동안에는 확인할 수 없습니다."
+
+msgid "Windows' loader, the file that starts Windows itself, is in place."
+msgstr "Windows 자체를 시작하는 파일인 Windows 로더가 갖춰져 있습니다."
+
+msgid "Some of the files Windows needs to start are "
+msgstr "Windows 시작에 필요한 파일 중 일부가 다음 상태입니다: "
+
+msgid "Missing: "
+msgstr "없음: "
+
+msgid "Damaged: "
+msgstr "손상됨: "
+
+msgid "The Windows core and the drivers it needs to read its disk are in place."
+msgstr "Windows 핵심과 디스크를 읽는 데 필요한 드라이버가 갖춰져 있습니다."
+
+msgid "ntoskrnl.exe, hal.dll, ci.dll, ntfs.sys, disk.sys and others"
+msgstr "ntoskrnl.exe, hal.dll, ci.dll, ntfs.sys, disk.sys 등"
+
+msgid "The spare copy of the start-up files that Windows keeps (to rebuild them) is missing. Rebuilding the start-up files from this Windows will not work until system files are repaired."
+msgstr "Windows가 (부팅 파일을 다시 만들기 위해) 보관하는 부팅 파일 예비 사본이 없습니다. 시스템 파일을 복구할 때까지 이 Windows에서 부팅 파일을 다시 만들 수 없습니다."
+
+msgid "This Windows' spare start-up files are missing. Repair the system files first."
+msgstr "이 Windows의 예비 부팅 파일이 없습니다. 먼저 시스템 파일을 복구하세요."
+
+msgid "Windows' settings file (registry, part "
+msgstr "Windows 설정 파일(레지스트리, 부분 "
+
+msgid ") is damaged. "
+msgstr ")이 손상되었습니다. "
+
+msgid " There is no usable automatic backup copy of it. Start Windows' recovery tools and choose System Restore, if restore points exist."
+msgstr " 사용할 수 있는 자동 백업 사본이 없습니다. 복원 지점이 있다면 Windows 복구 도구를 시작하고 시스템 복원을 선택하세요."
+
+msgid "Windows' settings file (registry) looks fine."
+msgstr "Windows 설정 파일(레지스트리)이 정상으로 보입니다."
+
+msgid "SYSTEM, SOFTWARE"
+msgstr "SYSTEM, SOFTWARE"
+
+msgid "Drivers Windows needs to read its own disk while starting are turned off. Windows then stops with INACCESSIBLE_BOOT_DEVICE."
+msgstr "Windows가 시작하는 동안 자체 디스크를 읽는 데 필요한 드라이버가 꺼져 있습니다. 그러면 Windows가 INACCESSIBLE_BOOT_DEVICE로 멈춥니다."
+
+msgid "Services with the wrong Start value: "
+msgstr "Start 값이 잘못된 서비스: "
+
+msgid "The driver for this disk's controller ("
+msgstr "이 디스크의 컨트롤러 드라이버("
+
+msgid ") does not load while Windows starts. If Windows stops with INACCESSIBLE_BOOT_DEVICE (common after moving the disk to another PC), turning it on usually fixes it."
+msgstr ")가 Windows 시작 중에 로드되지 않습니다. Windows가 INACCESSIBLE_BOOT_DEVICE로 멈춘다면(디스크를 다른 PC로 옮긴 후 흔함), 드라이버를 켜면 대개 해결됩니다."
+
+msgid "Controller driver with Start not 0: "
+msgstr "Start가 0이 아닌 컨트롤러 드라이버: "
+
+msgid "Windows is marked as still being set up (SystemSetupInProgress "
+msgstr "Windows가 아직 설치 중으로 표시되어 있습니다(SystemSetupInProgress "
+
+msgid ", SetupType "
+msgstr ", SetupType "
+
+msgid "). This causes the \"computer restarted unexpectedly\" loop."
+msgstr "). 이 때문에 \"컴퓨터가 예기치 않게 다시 시작되었습니다\" 반복이 생깁니다."
+
+msgid "Windows is marked as still being set up, which can make it restart into set-up again and again."
+msgstr "Windows가 아직 설치 중으로 표시되어 있어서 계속 설치 화면으로 다시 시작될 수 있습니다."
+
+msgid "Automatic Repair ran on "
+msgstr "자동 복구 실행 날짜: "
+
+msgid " because Windows could not start."
+msgstr " — Windows를 시작할 수 없었기 때문입니다."
+
+msgid "Windows crashed with a blue screen "
+msgstr "Windows가 블루스크린으로 멈춘 횟수: "
+
+msgid " time"
+msgstr " 번"
+
+msgid " times"
+msgstr " 번"
+
+msgid " since "
+msgstr " , 기간: 다음 이후 "
+
+msgid "An upgrade to a newer Windows was started recently."
+msgstr "최근에 새 Windows로의 업그레이드가 시작되었습니다."
+
+msgid "This Windows is running now, so it started fine."
+msgstr "이 Windows는 지금 실행 중이므로 정상적으로 시작되었습니다."
+
+msgid "This Windows is running now. Earlier trouble was found, listed below."
+msgstr "이 Windows는 지금 실행 중입니다. 이전에 있었던 문제가 발견되었으며 아래에 나와 있습니다."
+
+msgid "Windows seems to be stuck in a loop: it starts, fails and restarts, or keeps going into Automatic Repair."
+msgstr "Windows가 반복 상태에 빠진 것 같습니다. 시작하고, 실패하고, 다시 시작하거나 계속 자동 복구로 들어갑니다."
+
+msgid "No restart loop was found, but there are signs of earlier trouble."
+msgstr "다시 시작 반복은 없지만 이전에 문제가 있었던 흔적이 있습니다."
+
+msgid "No signs that Windows keeps restarting or failing to start."
+msgstr "Windows가 계속 다시 시작되거나 시작에 실패하는 흔적이 없습니다."
+
+msgid "This is the Windows that is running now. Start the PC from a Windows USB stick or Windows' recovery tools and run this program there."
+msgstr "지금 실행 중인 Windows입니다. Windows USB 메모리나 Windows 복구 도구로 PC를 시작한 다음 그곳에서 이 프로그램을 실행하세요."
+
+msgid "This is the Windows you are using now, so it starts. Some things still need attention."
+msgstr "지금 사용 중인 Windows이므로 시작됩니다. 그래도 확인이 필요한 부분이 있습니다."
+
+msgid "Will not start"
+msgstr "시작되지 않음"
+
+msgid "Something this Windows needs to start is missing or damaged."
+msgstr "이 Windows 시작에 필요한 것이 없거나 손상되었습니다."
+
+msgid "May have trouble starting"
+msgstr "시작에 문제가 있을 수 있음"
+
+msgid "Inactive"
+msgstr "비활성"
+
+msgid "It should start, but some things need attention."
+msgstr "시작될 것 같지만 확인이 필요한 부분이 있습니다."
+
+msgid "This Windows looks healthy but is not in the start-up menu, so it never starts."
+msgstr "이 Windows는 정상으로 보이지만 부팅 메뉴에 없어서 시작되지 않습니다."
+
+msgid "Should start normally"
+msgstr "정상적으로 시작될 것임"
+
+msgid "Everything this Windows needs to start is in place."
+msgstr "이 Windows 시작에 필요한 것이 모두 갖춰져 있습니다."
+
+msgid "Old copy kept after an upgrade"
+msgstr "업그레이드 후 남은 이전 사본"
+
+msgid "Windows keeps the previous Windows in Windows.old for a while after an upgrade. It cannot be started, but files can be copied out of it."
+msgstr "Windows는 업그레이드 후 한동안 이전 Windows를 Windows.old에 보관합니다. 시작할 수는 없지만 파일을 꺼내 복사할 수 있습니다."
+
+msgid "This Windows sits inside the folder \""
+msgstr "이 Windows는 다음 폴더 안에 있습니다: \""
+
+msgid "\", so it cannot start. It was probably copied or moved there."
+msgstr "\" 그래서 시작할 수 없습니다. 아마 그곳으로 복사되었거나 옮겨졌을 것입니다."
+
+msgid " To start it again, its folders must go back to the top of the drive."
+msgstr " 다시 시작하려면 폴더를 드라이브 최상위로 되돌려야 합니다."
+
+msgid "The top of this drive already has its own Windows folder. Move that one away first, or copy the user files you need out of this folder."
+msgstr "이 드라이브의 최상위에 이미 Windows 폴더가 있습니다. 먼저 그 폴더를 다른 곳으로 옮기거나, 이 폴더에서 필요한 사용자 파일을 복사해 내세요."
+
+msgid "Secure Boot was switched on (by you, by a firmware update, or because the firmware settings were reset to their defaults)."
+msgstr "Secure Boot가 켜졌습니다(사용자가 켰거나, 펌웨어 업데이트 때문이거나, 펌웨어 설정이 기본값으로 초기화되었기 때문입니다)."
+
+msgid "The firmware settings were reset (after a firmware update or when the small battery on the main board ran flat), they were changed by hand, or the disk came from another PC."
+msgstr "펌웨어 설정이 초기화되었거나(펌웨어 업데이트 후 또는 메인보드의 작은 배터리가 방전되었을 때), 직접 바뀌었거나, 디스크를 다른 PC에서 가져왔습니다."
+
+msgid "A loose or failing cable, a failing disk, or the disk was copied (cloned) to another disk of a different size."
+msgstr "케이블이 헐겁거나 고장 나고 있거나, 디스크가 고장 나고 있거나, 디스크를 크기가 다른 디스크로 복사(복제)했습니다."
+
+msgid "It was deleted while making room for another system, the disk was copied without it, Windows was installed while another disk was connected (so the start-up partition went to that disk), or a partitioning tool removed or reformatted it."
+msgstr "다른 시스템을 위한 공간을 만들다가 삭제되었거나, 디스크를 복사할 때 빠졌거나, 다른 디스크가 연결된 상태에서 Windows를 설치했거나(그래서 부팅 파티션이 그 디스크로 감), 파티션 도구가 제거하거나 다시 포맷했습니다."
+
+msgid "A Windows update interrupted by a power cut, an antivirus that removed it, another system's installer (often Linux) that replaced it, or disk errors."
+msgstr "정전으로 중단된 Windows 업데이트, 이 파일을 제거한 백신 프로그램, 이를 대체한 다른 시스템의 설치 프로그램(흔히 Linux), 또는 디스크 오류."
+
+msgid "A Windows update or repair interrupted by a power cut, the disk was copied or moved to another PC, another boot manager was installed over it, or Windows was moved to another partition."
+msgstr "정전으로 중단된 Windows 업데이트나 복구, 디스크를 다른 PC로 복사하거나 옮김, 다른 부팅 관리자를 덮어 설치함, 또는 Windows를 다른 파티션으로 옮김."
+
+msgid "BitLocker locks the drive after firmware or hardware changes; a power cut while writing leaves it needing a disk check; or the drive ran full."
+msgstr "펌웨어나 하드웨어가 바뀐 후 BitLocker가 드라이브를 잠그거나, 쓰는 도중 정전이 되어 디스크 검사가 필요하게 되었거나, 드라이브가 가득 찼습니다."
+
+msgid "An update that failed halfway, an antivirus that quarantined a file, disk errors, or a cleaning tool that removed files it should not have."
+msgstr "도중에 실패한 업데이트, 파일을 격리한 백신 프로그램, 디스크 오류, 또는 지우지 말아야 할 파일을 지운 정리 도구."
+
+msgid "A power cut while Windows was saving its settings, a failing disk, or the disk was moved to a PC with a different disk controller, so the right driver was not set to load."
+msgstr "Windows가 설정을 저장하는 중의 정전, 고장 나는 디스크, 또는 디스크를 다른 디스크 컨트롤러가 있는 PC로 옮겨서 올바른 드라이버가 로드되도록 설정되지 않음."
+
+msgid "An update or driver installed shortly before it began, a failing disk or memory, malware, or a setting changed just before the trouble started."
+msgstr "문제가 시작되기 직전에 설치한 업데이트나 드라이버, 고장 나는 디스크나 메모리, 악성 프로그램, 또는 문제 직전에 바꾼 설정."
+
+msgid "The Windows folders were copied or moved while backing up or reorganising files, or a reset kept the old Windows in a folder."
+msgstr "파일을 백업하거나 정리하면서 Windows 폴더를 복사하거나 옮겼거나, 초기화가 이전 Windows를 폴더에 남겼습니다."
+
+msgid "A Windows or firmware update removed or moved Linux's entry, or the firmware settings were reset to their defaults."
+msgstr "Windows나 펌웨어 업데이트가 Linux 항목을 제거하거나 옮겼거나, 펌웨어 설정이 기본값으로 초기화되었습니다."
+
+msgid "Windows was reinstalled or repaired (it rewrites the start-up partition), or the start-up partition was formatted."
+msgstr "Windows를 다시 설치하거나 복구했거나(부팅 파티션을 다시 씀), 부팅 파티션이 포맷되었습니다."
+
+msgid "The Linux partition was deleted, formatted or recreated (which gives it a new id), or the disk was copied."
+msgstr "Linux 파티션이 삭제, 포맷 또는 다시 만들어졌거나(새 ID가 부여됨), 디스크가 복사되었습니다."
+
+msgid "Windows was installed or repaired after Linux, and wrote its own start-up code over GRUB."
+msgstr "Linux 다음에 Windows를 설치하거나 복구하여 GRUB 위에 Windows 자체 부팅 코드를 썼습니다."
+
+msgid "A Linux update failed halfway, or /boot ran out of space during an update."
+msgstr "Linux 업데이트가 도중에 실패했거나, 업데이트 중에 /boot 공간이 부족해졌습니다."
+
+msgid "\"update-grub\" failed or was interrupted, or /boot was cleaned up by hand."
+msgstr "\"update-grub\"이 실패하거나 중단되었거나, /boot를 직접 정리했습니다."
+
+msgid "A partition was removed or reformatted after Linux was set up, or a disk was disconnected."
+msgstr "Linux를 설정한 후 파티션을 제거하거나 다시 포맷했거나, 디스크 연결을 끊었습니다."
+
+msgid "The disk is not detected (cable, or the storage mode RAID / VMD in the firmware settings needs a driver), the system partition was deleted or formatted, or it is locked by BitLocker."
+msgstr "디스크가 감지되지 않거나(케이블 문제, 또는 펌웨어 설정의 RAID / VMD 저장 모드에 드라이버가 필요함), 시스템 파티션이 삭제 또는 포맷되었거나, BitLocker로 잠겨 있습니다."
+
+msgid "This PC"
+msgstr "이 PC"
+
+msgid "No Windows or Linux found"
+msgstr "Windows나 Linux를 찾을 수 없음"
+
+msgid "No disk was found at all."
+msgstr "디스크를 하나도 찾을 수 없습니다."
+
+msgid "None of the disks can be read."
+msgstr "어떤 디스크도 읽을 수 없습니다."
+
+msgid " disk was found and can be read."
+msgstr " 개의 디스크를 찾았고 읽을 수 있습니다."
+
+msgid " disks were found and can be read."
+msgstr " 개의 디스크를 찾았고 읽을 수 있습니다."
+
+msgid "No EFI system partition (start-up partition) was found on any disk."
+msgstr "어떤 디스크에서도 EFI 시스템 파티션(부팅 파티션)을 찾을 수 없습니다."
+
+msgid "No partition is marked active, so an older PC has nothing to start from."
+msgstr "활성으로 표시된 파티션이 없어서 오래된 PC가 시작할 곳이 없습니다."
+
+msgid "A start-up partition was found."
+msgstr "부팅 파티션을 찾았습니다."
+
+msgid "Cannot be checked without a start-up partition."
+msgstr "부팅 파티션이 없으면 확인할 수 없습니다."
+
+msgid "A boot manager is on the start-up partition."
+msgstr "부팅 파티션에 부팅 관리자가 있습니다."
+
+msgid "There is no boot manager on the start-up partition."
+msgstr "부팅 파티션에 부팅 관리자가 없습니다."
+
+msgid "No start-up settings (BCD) were found."
+msgstr "부팅 설정(BCD)을 찾을 수 없습니다."
+
+msgid "The start-up settings list "
+msgstr "부팅 설정에 "
+
+msgid " system(s), but none of them was found on the disks."
+msgstr " 개의 시스템이 있지만, 디스크에서 하나도 찾을 수 없습니다."
+
+msgid "Systems"
+msgstr "시스템"
+
+msgid "No Windows or Linux was found on any disk, so there is nothing for the PC to start. Starting stops here."
+msgstr "어떤 디스크에서도 Windows나 Linux를 찾을 수 없어서 PC가 시작할 것이 없습니다. 시작은 여기서 멈춥니다."
+
+msgid "A system (Windows or Linux) is the program that actually runs the PC. Everything before this step only exists to find and start it."
+msgstr "시스템(Windows 또는 Linux)은 실제로 PC를 실행하는 프로그램입니다. 이 단계 이전의 모든 것은 시스템을 찾아 시작하기 위해서만 있습니다."
+
+msgid "Nothing to start"
+msgstr "시작할 것이 없음"
+
+msgid "No Windows or Linux was found."
+msgstr "Windows나 Linux를 찾을 수 없습니다."
+
+msgid "Running in the Windows Recovery Environment (WinRE)"
+msgstr "Windows 복구 환경(WinRE)에서 실행 중"
+
+msgid "WinRE is Windows' own small repair system. It opens by itself after Windows fails to start twice, or from Settings > Recovery > Advanced start-up > Troubleshoot > Advanced options. It runs from memory (drive X:), so anything saved on X: is gone after a restart; your disks keep their normal content."
+msgstr "WinRE는 Windows 자체의 작은 복구 시스템입니다. Windows가 두 번 시작에 실패하면 저절로 열리며, 설정 > 복구 > 고급 시작 옵션 > 문제 해결 > 고급 옵션에서도 열 수 있습니다. 메모리(X: 드라이브)에서 실행되므로 X:에 저장한 것은 다시 시작하면 사라집니다. 디스크의 내용은 그대로 유지됩니다."
+
+msgid "Next steps: work through the report below. Repairs here are safe, because the Windows on the disk is not running. When you are done, close this program and choose \"Continue\" (or restart) to start Windows. If it fails again, WinRE opens again by itself."
+msgstr "다음 단계: 아래 보고서를 차례로 살펴보세요. 디스크의 Windows가 실행 중이 아니므로 여기서 하는 복구는 안전합니다. 다 끝나면 이 프로그램을 닫고 \"계속\"(또는 다시 시작)을 선택하여 Windows를 시작하세요. 다시 실패하면 WinRE가 저절로 다시 열립니다."
+
+msgid "Running in Windows PE"
+msgstr "Windows PE에서 실행 중"
+
+msgid "Windows PE is a small Windows started from a USB stick, a DVD or the network, made for installing and repairing PCs. It runs from memory (drive X:), so anything saved on X: is gone after a restart. The drive letters of your disks may differ from the ones you know."
+msgstr "Windows PE는 USB 메모리, DVD 또는 네트워크에서 시작하는 작은 Windows로, PC를 설치하고 복구하기 위해 만들어졌습니다. 메모리(X: 드라이브)에서 실행되므로 X:에 저장한 것은 다시 시작하면 사라집니다. 디스크의 드라이브 문자가 평소와 다를 수 있습니다."
+
+msgid "Next steps: work through the report below. Repairs here are safe, because the Windows on the disk is not running. Backups are kept on a real disk, not on X:. When you are done, remove the USB stick or DVD and restart, so the PC starts from its own disk."
+msgstr "다음 단계: 아래 보고서를 차례로 살펴보세요. 디스크의 Windows가 실행 중이 아니므로 여기서 하는 복구는 안전합니다. 백업은 X:가 아닌 실제 디스크에 보관됩니다. 다 끝나면 USB 메모리나 DVD를 빼고 다시 시작하여 PC가 자체 디스크에서 시작하게 하세요."
+
+msgid "Running in a virtual machine ("
+msgstr "가상 머신에서 실행 중("
+
+msgid "This \"PC\" is simulated by "
+msgstr "이 \"PC\"는 다음이 시뮬레이션한 것입니다: "
+
+msgid "Next steps: take a snapshot (checkpoint) of the virtual machine before repairs, so you can go back in one click. To change Secure Boot or the start-up order, switch the virtual machine off and change its settings in "
+msgstr "다음 단계: 복구하기 전에 가상 머신의 스냅샷(검사점)을 만들어 두면 클릭 한 번으로 되돌릴 수 있습니다. Secure Boot나 부팅 순서를 바꾸려면 가상 머신을 끄고 다음에서 설정을 바꾸세요: "
+
+msgid "Windows is running from a virtual disk file (VHD)"
+msgstr "Windows가 가상 디스크 파일(VHD)에서 실행 중"
+
+msgid "This Windows lives inside a single large file (a VHD or VHDX) on a real disk, and starts from it directly. Its start-up files are on the real disk's start-up partition, while Windows itself is inside the file."
+msgstr "이 Windows는 실제 디스크에 있는 하나의 큰 파일(VHD 또는 VHDX) 안에 있으며 그 파일에서 바로 시작합니다. 부팅 파일은 실제 디스크의 부팅 파티션에 있고, Windows 자체는 파일 안에 있습니다."
+
+msgid "Next steps: before repairs, copy the VHD file somewhere safe if you can (it is the whole Windows). Never move or rename the file: the start-up settings point to its exact place."
+msgstr "다음 단계: 복구하기 전에 가능하면 VHD 파일을 안전한 곳에 복사하세요(그 파일이 Windows 전체입니다). 파일을 절대 옮기거나 이름을 바꾸지 마세요. 부팅 설정이 그 정확한 위치를 가리킵니다."
+
+msgid "Windows is in Safe Mode"
+msgstr "Windows가 안전 모드입니다"
+
+msgid "Safe Mode starts Windows with only the most basic drivers, to get past a driver or program that stops it from starting normally."
+msgstr "안전 모드는 가장 기본적인 드라이버만으로 Windows를 시작하여, 정상 시작을 막는 드라이버나 프로그램을 피해 갑니다."
+
+msgid "Next steps: check the report below; restarting normally leaves Safe Mode."
+msgstr "다음 단계: 아래 보고서를 확인하세요. 정상적으로 다시 시작하면 안전 모드가 끝납니다."
+
+msgid "Windows' folders were found under other names"
+msgstr "Windows 폴더가 다른 이름으로 발견됨"
+
+msgid "On {0} there are folders that hold a Windows (its heart, its loader and its settings), but under other names: {1}. Windows only starts from folders called Windows, System32 and config, so this one cannot start as it is. They were probably renamed by hand, by a program or by a failed update."
+msgstr "{0}에 Windows(핵심, 로더, 설정)가 들어 있는 폴더가 있지만 이름이 다릅니다: {1}. Windows는 Windows, System32, config라는 폴더에서만 시작되므로 이대로는 시작할 수 없습니다. 아마 직접, 또는 프로그램이나 실패한 업데이트가 이름을 바꿨을 것입니다."
+
+msgid "\n\nA folder called Windows already exists next to it, so it cannot simply be renamed back. Look at both folders first (for example with the command prompt) and rename one by hand."
+msgstr "\n\n그 옆에 이미 Windows라는 폴더가 있어서 단순히 이름을 되돌릴 수 없습니다. 먼저 두 폴더를 살펴보고(예: 명령 프롬프트 사용) 하나의 이름을 직접 바꾸세요."
+
+msgid "\n\nAfter renaming, scan again: if the Windows folder is inside another folder, the report then offers to move it back to the top of the drive."
+msgstr "\n\n이름을 바꾼 후 다시 검사하세요. Windows 폴더가 다른 폴더 안에 있으면 보고서에서 드라이브 최상위로 다시 옮기기를 제안합니다."
+
+msgid "Windows looks for itself by fixed names: the folder Windows at the top of the drive, with System32 inside it, and config inside that for its settings. A different name is enough to stop it from starting, even though every file is still there."
+msgstr "Windows는 정해진 이름으로 자신을 찾습니다. 드라이브 최상위의 Windows 폴더, 그 안의 System32, 그리고 그 안에 설정이 들어 있는 config입니다. 모든 파일이 그대로 있어도 이름 하나만 달라도 시작이 안 됩니다."
+
+msgid "The troubleshoot options are the blue \"Choose an option\" screen Windows opens when it cannot start: Startup Repair, System Restore, uninstalling updates, the command prompt and \"Reset this PC\". They live in a small hidden recovery partition (or inside Windows itself)."
+msgstr "문제 해결 옵션은 Windows가 시작할 수 없을 때 여는 파란색 \"옵션 선택\" 화면입니다. 시동 복구, 시스템 복원, 업데이트 제거, 명령 프롬프트, \"이 PC 초기화\"가 있습니다. 작은 숨겨진 복구 파티션(또는 Windows 자체) 안에 있습니다."
+
+msgid "The troubleshoot options of {0} are switched off or have no partition of their own"
+msgstr "{0}의 문제 해결 옵션이 꺼져 있거나 자체 파티션이 없음"
+
+msgid "Windows' repair tools are inside this Windows (in System32\\Recovery), so they can be switched on again without changing any partition. Recreating a recovery partition keeps them safe even if the Windows partition is damaged."
+msgstr "Windows 복구 도구가 이 Windows 안(System32\\Recovery)에 있으므로 파티션을 바꾸지 않고 다시 켤 수 있습니다. 복구 파티션을 다시 만들면 Windows 파티션이 손상되어도 도구가 안전하게 유지됩니다."
+
+msgid "The troubleshoot options of {0} are missing"
+msgstr "{0}의 문제 해결 옵션이 없음"
+
+msgid "When this Windows cannot start, it cannot show its repair tools (the blue \"Choose an option\" screen): the recovery partition is gone or empty. They can be recreated from a copy of the tools found on this PC or on a Windows install USB stick."
+msgstr "이 Windows가 시작할 수 없을 때 복구 도구(파란색 \"옵션 선택\" 화면)를 표시할 수 없습니다. 복구 파티션이 없거나 비어 있습니다. 이 PC나 Windows 설치 USB 메모리에서 찾은 도구 사본으로 다시 만들 수 있습니다."
+
+msgid " This drive uses BitLocker: have its recovery key ready, Windows may ask for it at the next start."
+msgstr " 이 드라이브는 BitLocker를 사용합니다. 다음 시작 때 Windows가 복구 키를 요청할 수 있으니 준비해 두세요."
+
+msgid "The Windows drive is almost full ({0} free)"
+msgstr "Windows 드라이브가 거의 가득 참({0} 남음)"
+
+msgid "{0} has only {1} free of {2}. Windows needs free room to start, to install updates and to undo failed ones; with too little it can get stuck restarting or show errors.\n\nFirst free up space (nothing personal is removed). If that is not enough, the partition can be made bigger with unused space right after it, or with the partition after it."
+msgstr "{0}에는 {2} 중 {1}만 남아 있습니다. Windows가 시작하고, 업데이트를 설치하고, 실패한 업데이트를 되돌리려면 여유 공간이 필요합니다. 공간이 너무 적으면 다시 시작을 반복하거나 오류를 표시할 수 있습니다.\n\n먼저 공간을 확보하세요(개인 파일은 제거되지 않습니다). 그래도 부족하면 바로 뒤의 사용하지 않는 공간이나 뒤의 파티션을 이용하여 파티션을 늘릴 수 있습니다."
+
+msgid "A partition can only grow into space that comes right after it on the disk, never into space before it. Unused space elsewhere first has to be moved, which this program does not do."
+msgstr "파티션은 디스크에서 바로 뒤에 있는 공간으로만 늘릴 수 있으며 앞쪽 공간으로는 늘릴 수 없습니다. 다른 곳의 사용하지 않는 공간은 먼저 옮겨야 하는데, 이 프로그램은 그 작업을 하지 않습니다."
+
+msgid " is locked by BitLocker"
+msgstr " — BitLocker로 잠겨 있음"
+
+msgid "This drive is encrypted and locked, so it cannot be checked for Windows. Unlock it with its recovery key and scan again. Do this first, before any other change on this PC: start-up entries that seem to lead nowhere may belong to a Windows inside this drive."
+msgstr "이 드라이브는 암호화되어 잠겨 있어서 Windows가 있는지 확인할 수 없습니다. 복구 키로 잠금을 해제하고 다시 검사하세요. 이 PC에서 다른 것을 바꾸기 전에 이 작업을 먼저 하세요. 아무 데도 연결되지 않는 것처럼 보이는 부팅 항목이 이 드라이브 안의 Windows에 속할 수 있습니다."
+
+msgid "BitLocker encrypts a whole drive. Without its 48-digit recovery key nothing on it can be read. The key is in the Microsoft account of the PC's owner (aka.ms/myrecoverykey), on a printout, or with the IT department."
+msgstr "BitLocker는 드라이브 전체를 암호화합니다. 48자리 복구 키가 없으면 그 안의 아무것도 읽을 수 없습니다. 키는 PC 소유자의 Microsoft 계정(aka.ms/myrecoverykey), 인쇄물 또는 IT 부서에 있습니다."
+
+msgid "Check "
+msgstr "확인: "
+
+msgid "\nIf this disk held Windows or your files, do not set it up again: a partition recovery tool (such as PATio LifeSaver) can often find the lost partitions."
+msgstr "\n이 디스크에 Windows나 파일이 있었다면 다시 설정하지 마세요. 파티션 복구 도구(예: PATio LifeSaver)로 잃어버린 파티션을 찾을 수 있는 경우가 많습니다."
+
+msgid " Linux is also on this PC: afterwards Windows starts first. Linux stays installed; use \"Make Linux start first\" in its report to bring its menu back."
+msgstr " 이 PC에는 Linux도 있습니다. 작업 후에는 Windows가 먼저 시작됩니다. Linux는 설치된 상태로 남습니다. Linux 메뉴를 되돌리려면 해당 보고서에서 \"Linux가 먼저 시작되도록 설정\"을 사용하세요."
+
+msgid " Linux is also on this PC: on this older (BIOS) PC this replaces GRUB, so Linux then needs repairing from a Linux USB stick."
+msgstr " 이 PC에는 Linux도 있습니다. 이 오래된(BIOS) PC에서는 이 작업이 GRUB을 대체하므로, 그 후 Linux USB 메모리로 Linux를 복구해야 합니다."
+
+msgid "Administrator rights are needed"
+msgstr "관리자 권한이 필요합니다"
+
+msgid "Windows only shows disks to programs started as administrator. Close this program, right-click it and choose \"Run as administrator\"."
+msgstr "Windows는 관리자로 시작한 프로그램에만 디스크를 보여 줍니다. 이 프로그램을 닫고 마우스 오른쪽 단추로 클릭한 다음 \"관리자 권한으로 실행\"을 선택하세요."
+
+msgid "Windows is probably inside a drive locked by BitLocker"
+msgstr "Windows가 BitLocker로 잠긴 드라이브 안에 있을 가능성이 높음"
+
+msgid "No Windows could be seen, but {0} is encrypted with BitLocker and locked. Windows is very likely inside it.\n\nUnlock it first, with its 48-digit recovery key. Until then, do not remove start-up entries, delete partitions or rebuild anything: they may all belong to the Windows inside the locked drive."
+msgstr "Windows를 찾을 수 없지만 {0}이(가) BitLocker로 암호화되어 잠겨 있습니다. Windows가 그 안에 있을 가능성이 매우 높습니다.\n\n먼저 48자리 복구 키로 잠금을 해제하세요. 그 전에는 부팅 항목을 제거하거나, 파티션을 삭제하거나, 무엇이든 다시 만들지 마세요. 모두 잠긴 드라이브 안의 Windows에 속할 수 있습니다."
+
+msgid "No Windows was found"
+msgstr "Windows를 찾을 수 없음"
+
+msgid "Only Linux was found on this PC. "
+msgstr "이 PC에서는 Linux만 찾았습니다. "
+
+msgid "None of the disks has a Windows folder that could be started. If you expected one:\n- The disk may not be detected. Check its cable, or the storage mode (AHCI/RAID/VMD) in the PC's firmware settings.\n- A drive may be locked by BitLocker (listed above, if so).\n- The partition may have been deleted. A partition recovery tool (such as PATio LifeSaver) can often find it again."
+msgstr "어떤 디스크에도 시작할 수 있는 Windows 폴더가 없습니다. Windows가 있어야 한다면:\n- 디스크가 감지되지 않았을 수 있습니다. 케이블이나 PC 펌웨어 설정의 저장 모드(AHCI/RAID/VMD)를 확인하세요.\n- 드라이브가 BitLocker로 잠겨 있을 수 있습니다(그렇다면 위에 나와 있습니다).\n- 파티션이 삭제되었을 수 있습니다. 파티션 복구 도구(예: PATio LifeSaver)로 다시 찾을 수 있는 경우가 많습니다."
+
+msgid "Reading disks and partitions"
+msgstr "디스크와 파티션 읽는 중"
+
+msgid "Reading the start-up settings"
+msgstr "부팅 설정 읽는 중"
+
+msgid "Looking for Windows on "
+msgstr "Windows 찾는 중: "
+
+msgid "Looking for Linux"
+msgstr "Linux 찾는 중"
+
+msgid "Checking each system"
+msgstr "각 시스템 확인 중"
+
+msgid "Done"
+msgstr "완료"
+
+msgid "PATio Boot Doctor report, "
+msgstr "PATio Boot Doctor 보고서, "
+
+msgid "\r\nChecked from: "
+msgstr "\r\n확인한 환경: "
+
+msgid "Firmware: "
+msgstr "펌웨어: "
+
+msgid "Legacy BIOS"
+msgstr "레거시 BIOS"
+
+msgid "DISKS\r\n"
+msgstr "디스크\r\n"
+
+msgid "no file system (normal)"
+msgstr "파일 시스템 없음(정상)"
+
+msgid ", active"
+msgstr ", 활성"
+
+msgid "\r\nSYSTEMS FOUND (WINDOWS AND LINUX)\r\n"
+msgstr "\r\n발견된 시스템(WINDOWS 및 LINUX)\r\n"
+
+msgid "  None\r\n"
+msgstr "  없음\r\n"
+
+msgid " build "
+msgstr " 빌드 "
+
+msgid "       What may have caused this: "
+msgstr "       원인일 수 있는 것: "
+
+msgid "    What it will take:\r\n"
+msgstr "    필요한 작업:\r\n"
+
+msgid "\r\nOTHER FINDINGS\r\n"
+msgstr "\r\n기타 발견 사항\r\n"
+
+msgid "EFI system partition (start-up partition)"
+msgstr "EFI 시스템 파티션(부팅 파티션)"
+
+msgid "Reserved partition (MSR)"
+msgstr "예약 파티션(MSR)"
+
+msgid "Recovery partition"
+msgstr "복구 파티션"
+
+msgid "Active partition (start-up partition)"
+msgstr "활성 파티션(부팅 파티션)"
+
+msgid "Data partition"
+msgstr "데이터 파티션"
+
+msgid "Extended partition (holds other partitions)"
+msgstr "확장 파티션(다른 파티션을 포함)"
+
+msgid "Dynamic disk partition"
+msgstr "동적 디스크 파티션"
+
+msgid "Empty partition"
+msgstr "빈 파티션"
+
+msgid "Unknown partition"
+msgstr "알 수 없는 파티션"
+
+msgid "Start-up (EFI)"
+msgstr "부팅(EFI)"
+
+msgid "Reserved"
+msgstr "예약됨"
+
+msgid "Recovery"
+msgstr "복구"
+
+msgid "Start-up (active)"
+msgstr "부팅(활성)"
+
+msgid "Data"
+msgstr "데이터"
+
+msgid "Extended"
+msgstr "확장"
+
+msgid "Dynamic"
+msgstr "동적"
+
+msgid "Empty"
+msgstr "비어 있음"
+
+msgid "Unknown"
+msgstr "알 수 없음"
+
+msgid "Disk "
+msgstr "디스크 "
+
+msgid ", partition "
+msgstr ", 파티션 "
+
+msgid "Linux swap"
+msgstr "Linux 스왑"
+
+msgid " bytes at "
+msgstr " 바이트, 위치 "
+
+msgid " on disk "
+msgstr " , 디스크 "
+
+msgid "The disk could not be opened for writing."
+msgstr "디스크를 쓰기용으로 열 수 없습니다."
+
+msgid "The saved copy does not match this disk's sector size."
+msgstr "저장된 사본이 이 디스크의 섹터 크기와 맞지 않습니다."
+
+msgid "Windows refused to write to the disk (error "
+msgstr "Windows가 디스크 쓰기를 거부했습니다(오류 "
+
+msgid "Windows refused to change the partition table (error "
+msgstr "Windows가 파티션 테이블 변경을 거부했습니다(오류 "
+
+msgid " again"
+msgstr " 다시"
+
+msgid "The partition table could not be read."
+msgstr "파티션 테이블을 읽을 수 없습니다."
+
+msgid "A partition table could not be written to the disk (error "
+msgstr "디스크에 파티션 테이블을 쓸 수 없습니다(오류 "
+
+msgid "This disk already has 4 main partitions, the most an MBR disk can have. Delete or move one first."
+msgstr "이 디스크에는 이미 MBR 디스크의 최대치인 기본 파티션 4개가 있습니다. 먼저 하나를 삭제하거나 옮기세요."
+
+msgid "An MBR disk cannot hold partitions beyond 2 TB."
+msgstr "MBR 디스크는 2 TB를 넘는 위치에 파티션을 둘 수 없습니다."
+
+msgid "The partition table is full."
+msgstr "파티션 테이블이 가득 찼습니다."
+
+msgid " of disk "
+msgstr " , 디스크 "
+
+msgid "Only MBR disks have an active partition."
+msgstr "활성 파티션은 MBR 디스크에만 있습니다."
+
+msgid "That partition was not found on the disk."
+msgstr "디스크에서 해당 파티션을 찾을 수 없습니다."
+
+msgid "A drive letter could not be given to the partition (error "
+msgstr "파티션에 드라이브 문자를 지정할 수 없습니다(오류 "
+
+msgid " bytes)"
+msgstr " 바이트)"
+
+msgid "The PC could not be restarted (error "
+msgstr "PC를 다시 시작할 수 없습니다(오류 "
+
+msgid "). Restart it by hand."
+msgstr "). 직접 다시 시작하세요."
+
+msgid "The PC could not be shut down (error "
+msgstr "PC를 종료할 수 없습니다(오류 "
+
+msgid "). Shut it down by hand."
+msgstr "). 직접 종료하세요."
+
+msgid "The PC could not go into hibernation (error "
+msgstr "PC를 최대 절전 모드로 전환할 수 없습니다(오류 "
+
+msgid ")."
+msgstr ")."
+
+msgid "The PC did not accept the request (error "
+msgstr "PC가 요청을 받아들이지 않았습니다(오류 "
+
+msgid "). Open the firmware settings with its key while the PC starts instead."
+msgstr "). 대신 PC가 시작될 때 해당 키를 눌러 펌웨어 설정을 여세요."
+
+msgid "SD card"
+msgstr "SD 카드"
+
+msgid "Virtual"
+msgstr "가상"
+
+msgid "The disk has no partition table. It is empty, brand new, or its table was wiped."
+msgstr "디스크에 파티션 테이블이 없습니다. 비어 있거나, 새 디스크이거나, 테이블이 지워졌습니다."
+
+msgid "The disk's start-up code (in the first sector) is empty, so an older PC cannot start from it."
+msgstr "디스크의 부팅 코드(첫 번째 섹터)가 비어 있어서 오래된 PC가 이 디스크에서 시작할 수 없습니다."
+
+msgid "The main copy of the partition table is damaged."
+msgstr "파티션 테이블의 기본 사본이 손상되었습니다."
+
+msgid "The backup copy of the partition table is not at the end of the disk. The disk was probably copied to a bigger one."
+msgstr "파티션 테이블의 백업 사본이 디스크 끝에 없습니다. 디스크를 더 큰 디스크로 복사했을 가능성이 높습니다."
+
+msgid " runs past the end of the disk, so part of it is missing. The disk was probably copied to a smaller one."
+msgstr " — 디스크 끝을 넘어가서 일부가 없습니다. 디스크를 더 작은 디스크로 복사했을 가능성이 높습니다."
+
+msgid " overlaps another partition. One of them will be damaged when written to."
+msgstr " — 다른 파티션과 겹칩니다. 쓰기를 하면 둘 중 하나가 손상됩니다."
+
+msgid " has no readable file system. It is empty, or its file system is damaged."
+msgstr " — 읽을 수 있는 파일 시스템이 없습니다. 비어 있거나 파일 시스템이 손상되었습니다."
+
+msgid " is locked by BitLocker. It needs its recovery key before it can be checked."
+msgstr " — BitLocker로 잠겨 있습니다. 확인하려면 복구 키가 필요합니다."
+
+msgid " is marked as needing a disk check."
+msgstr " — 디스크 검사가 필요하다고 표시되어 있습니다."
+
+msgid "This is a dynamic disk. Windows can start from it, but its parts can only be checked roughly here."
+msgstr "동적 디스크입니다. Windows는 여기서 시작할 수 있지만, 이곳에서는 각 부분을 대략적으로만 확인할 수 있습니다."
+
+msgid "Create a partition"
+msgstr "파티션 만들기"
+
+msgid "Makes a new partition in this unused space, prepares it with a file system and can give it a drive letter."
+msgstr "이 사용하지 않는 공간에 새 파티션을 만들고 파일 시스템으로 준비한 다음 드라이브 문자를 지정할 수 있습니다."
+
+msgid "Unused space is part of the disk that belongs to no partition, so nothing can be stored there yet. A new partition turns it into a drive you can use."
+msgstr "사용하지 않는 공간은 어느 파티션에도 속하지 않는 디스크의 부분이라 아직 아무것도 저장할 수 없습니다. 새 파티션을 만들면 사용할 수 있는 드라이브가 됩니다."
+
+msgid "Delete the partition"
+msgstr "파티션 삭제"
+
+msgid "Removes the partition. Its space becomes unused. Undo puts the partition table back, which usually brings the partition and its files back, as long as nothing new was written there in the meantime."
+msgstr "파티션을 제거합니다. 그 공간은 사용하지 않는 공간이 됩니다. 실행 취소하면 파티션 테이블이 되돌아오며, 그동안 새로 쓴 것이 없다면 대개 파티션과 파일도 돌아옵니다."
+
+msgid "Deleting a partition removes its entry from the disk's table of contents; the files are not wiped at once, but they can no longer be reached."
+msgstr "파티션을 삭제하면 디스크 목차에서 항목이 제거됩니다. 파일이 바로 지워지지는 않지만 더 이상 접근할 수 없습니다."
+
+msgid "Format"
+msgstr "포맷"
+
+msgid "Prepares the partition with a new, empty file system. Everything on it is erased. This cannot be undone."
+msgstr "파티션을 비어 있는 새 파일 시스템으로 준비합니다. 그 안의 모든 내용이 지워집니다. 실행 취소할 수 없습니다."
+
+msgid "A file system is the way files are organised on a partition. NTFS is Windows' own; FAT32 is understood by almost everything (but holds files of at most 4 GB); exFAT suits USB sticks and memory cards."
+msgstr "파일 시스템은 파티션에서 파일을 정리하는 방식입니다. NTFS는 Windows 고유 방식이고, FAT32는 거의 모든 기기가 이해하며(파일당 최대 4 GB), exFAT은 USB 메모리와 메모리 카드에 적합합니다."
+
+msgid "Make it bigger"
+msgstr "늘리기"
+
+msgid "Grows the partition into the unused space right after it. The files on it stay. This cannot be undone (it can be made smaller again)."
+msgstr "파티션을 바로 뒤의 사용하지 않는 공간으로 늘립니다. 파일은 그대로 유지됩니다. 실행 취소할 수 없습니다(다시 줄일 수는 있습니다)."
+
+msgid "A partition can only grow into unused space that comes directly after it on the disk."
+msgstr "파티션은 디스크에서 바로 뒤에 오는 사용하지 않는 공간으로만 늘릴 수 있습니다."
+
+msgid "Make it smaller"
+msgstr "줄이기"
+
+msgid "Gives up space at the end of the partition, which becomes unused space for a new partition. The files on it stay. This cannot be undone (it can be made bigger again)."
+msgstr "파티션 끝의 공간을 내주어 새 파티션용 사용하지 않는 공간으로 만듭니다. 파일은 그대로 유지됩니다. 실행 취소할 수 없습니다(다시 늘릴 수는 있습니다)."
+
+msgid "Windows can only give up free space that is at the end of the partition, so it may be able to shrink less than the free space shown."
+msgstr "Windows는 파티션 끝에 있는 여유 공간만 내줄 수 있으므로, 표시된 여유 공간보다 적게 줄어들 수 있습니다."
+
+msgid "Change the drive letter"
+msgstr "드라이브 문자 변경"
+
+msgid "Gives the partition a drive letter (like E:), or a different one, so it appears in File Explorer. Nothing on it changes. Programs that remember the old letter may not find their files."
+msgstr "파티션에 드라이브 문자(예: E:)를 지정하거나 다른 문자로 바꿔 파일 탐색기에 표시되게 합니다. 내용은 바뀌지 않습니다. 이전 문자를 기억하는 프로그램은 파일을 찾지 못할 수 있습니다."
+
+msgid "A drive letter is only a name Windows uses for a partition; the partition itself does not change."
+msgstr "드라이브 문자는 Windows가 파티션에 붙이는 이름일 뿐이며 파티션 자체는 바뀌지 않습니다."
+
+msgid "Remove the drive letter"
+msgstr "드라이브 문자 제거"
+
+msgid "Hides the partition from File Explorer. Nothing on it changes, and it can get a letter again any time."
+msgstr "파일 탐색기에서 파티션을 숨깁니다. 내용은 바뀌지 않으며 언제든지 다시 문자를 지정할 수 있습니다."
+
+msgid "Start-up and recovery partitions normally have no letter, so they cannot be changed by accident."
+msgstr "부팅 파티션과 복구 파티션에는 보통 문자가 없으므로 실수로 바뀌지 않습니다."
+
+msgid "Rename"
+msgstr "이름 바꾸기"
+
+msgid "Changes the name shown next to the drive letter (for example \"Photos\"). Nothing on it changes."
+msgstr "드라이브 문자 옆에 표시되는 이름(예: \"사진\")을 바꿉니다. 내용은 바뀌지 않습니다."
+
+msgid "Mark as active"
+msgstr "활성으로 표시"
+
+msgid "Older PCs (legacy BIOS) start from the partition marked active. Only one partition per disk can be active."
+msgstr "오래된 PC(레거시 BIOS)는 활성으로 표시된 파티션에서 시작합니다. 디스크마다 하나의 파티션만 활성일 수 있습니다."
+
+msgid "\"Active\" only matters for disks with an MBR partition table on PCs that start in legacy (BIOS) mode."
+msgstr "\"활성\"은 레거시(BIOS) 모드로 시작하는 PC의 MBR 파티션 테이블 디스크에서만 의미가 있습니다."
+
+msgid "Mark as not active"
+msgstr "비활성으로 표시"
+
+msgid "Removes the active mark, so an older PC (legacy BIOS) will no longer try to start from this partition."
+msgstr "활성 표시를 제거하여 오래된 PC(레거시 BIOS)가 더 이상 이 파티션에서 시작하려 하지 않게 합니다."
+
+msgid "Make it a normal data partition"
+msgstr "일반 데이터 파티션으로 만들기"
+
+msgid "Changes the partition's type to an ordinary data partition, so Windows shows it and lets you use it. Its files stay."
+msgstr "파티션 유형을 일반 데이터 파티션으로 바꿔 Windows가 표시하고 사용할 수 있게 합니다. 파일은 그대로 유지됩니다."
+
+msgid "Every partition carries a type that tells systems what it is for: data, start-up (EFI), recovery and so on."
+msgstr "모든 파티션에는 용도를 알려 주는 유형이 있습니다. 데이터, 부팅(EFI), 복구 등입니다."
+
+msgid "Make it a start-up (EFI) partition"
+msgstr "부팅(EFI) 파티션으로 만들기"
+
+msgid "Changes the partition's type so the PC's firmware treats it as a start-up partition. It must use FAT32. Its files stay."
+msgstr "파티션 유형을 바꿔 PC 펌웨어가 부팅 파티션으로 인식하게 합니다. FAT32를 사용해야 합니다. 파일은 그대로 유지됩니다."
+
+msgid "The EFI system partition is the small partition a modern PC starts from; it holds the boot managers of Windows and Linux."
+msgstr "EFI 시스템 파티션은 최신 PC가 시작하는 작은 파티션으로, Windows와 Linux의 부팅 관리자가 들어 있습니다."
+
+msgid "Make it a recovery partition"
+msgstr "복구 파티션으로 만들기"
+
+msgid "Changes the partition's type to a hidden recovery partition, the kind that holds Windows' repair tools. Windows then hides it and protects it. Its files stay."
+msgstr "파티션 유형을 Windows 복구 도구가 들어 있는 종류인 숨겨진 복구 파티션으로 바꿉니다. 그러면 Windows가 이 파티션을 숨기고 보호합니다. 파일은 그대로 유지됩니다."
+
+msgid "Check for errors"
+msgstr "오류 검사"
+
+msgid "Runs the Windows disk check, which repairs damaged file-system records. Files in damaged places can be lost, as with any disk check. This cannot be undone."
+msgstr "Windows 디스크 검사를 실행하여 손상된 파일 시스템 기록을 복구합니다. 다른 디스크 검사와 마찬가지로 손상된 위치에 있는 파일은 잃을 수 있습니다. 실행 취소할 수 없습니다."
+
+msgid "Set up as GPT"
+msgstr "GPT로 설정"
+
+msgid "Gives this empty disk a partition table, so partitions can be made on it. GPT is the modern kind, for UEFI PCs and disks over 2 TB."
+msgstr "이 빈 디스크에 파티션 테이블을 만들어 파티션을 만들 수 있게 합니다. GPT는 최신 방식으로, UEFI PC와 2 TB가 넘는 디스크용입니다."
+
+msgid "A new disk has no partition table yet, so Windows cannot use it until it is set up."
+msgstr "새 디스크에는 아직 파티션 테이블이 없으므로 설정하기 전까지 Windows가 사용할 수 없습니다."
+
+msgid "Set up as MBR"
+msgstr "MBR로 설정"
+
+msgid "Gives this empty disk an older-style MBR partition table: for older PCs (legacy BIOS) and disks up to 2 TB."
+msgstr "이 빈 디스크에 이전 방식의 MBR 파티션 테이블을 만듭니다. 오래된 PC(레거시 BIOS)와 2 TB 이하 디스크용입니다."
+
+msgid "Change to GPT"
+msgstr "GPT로 변환"
+
+msgid "Changes this disk's empty partition table from MBR to GPT."
+msgstr "이 디스크의 빈 파티션 테이블을 MBR에서 GPT로 바꿉니다."
+
+msgid "MBR is the older kind of partition table (up to 2 TB, 4 main partitions); GPT is the modern kind (huge disks, 128 partitions, needed for UEFI start-up)."
+msgstr "MBR은 이전 방식의 파티션 테이블(최대 2 TB, 기본 파티션 4개)이고, GPT는 최신 방식(매우 큰 디스크, 파티션 128개, UEFI 시작에 필요)입니다."
+
+msgid "Change to MBR"
+msgstr "MBR로 변환"
+
+msgid "Changes this disk's empty partition table from GPT to MBR."
+msgstr "이 디스크의 빈 파티션 테이블을 GPT에서 MBR로 바꿉니다."
+
+msgid "Change to GPT, keeping Windows and files"
+msgstr "Windows와 파일을 유지하면서 GPT로 변환"
+
+msgid "Uses Windows' own MBR2GPT tool to change the disk to GPT without deleting anything, and makes the start-up partition a UEFI one. Afterwards the PC must be switched from legacy (BIOS/CSM) to UEFI mode in its firmware settings, or Windows will not start. This cannot be undone here."
+msgstr "Windows 자체 MBR2GPT 도구를 사용하여 아무것도 삭제하지 않고 디스크를 GPT로 바꾸고, 부팅 파티션을 UEFI용으로 만듭니다. 그 후에는 PC 펌웨어 설정에서 레거시(BIOS/CSM) 모드를 UEFI 모드로 바꿔야 하며, 그렇지 않으면 Windows가 시작되지 않습니다. 여기서는 실행 취소할 수 없습니다."
+
+msgid "This is the usual step before switching on Secure Boot or upgrading to Windows 11 on an older installation."
+msgstr "오래된 설치에서 Secure Boot를 켜거나 Windows 11로 업그레이드하기 전에 보통 하는 단계입니다."
+
+msgid "Wipe the disk"
+msgstr "디스크 지우기"
+
+msgid "Removes the whole partition table, so the disk looks empty and new. Undo can put the table back (and with it the partitions), as long as nothing new was written to the disk in the meantime."
+msgstr "파티션 테이블 전체를 제거하여 디스크가 비어 있는 새 디스크처럼 보이게 합니다. 그동안 디스크에 새로 쓴 것이 없다면 실행 취소로 테이블(과 파티션)을 되돌릴 수 있습니다."
+
+msgid "This only erases the disk's table of contents, not every byte; to destroy the data for good a disk-erasing tool is needed."
+msgstr "디스크의 목차만 지울 뿐 모든 바이트를 지우지는 않습니다. 데이터를 완전히 없애려면 디스크 삭제 도구가 필요합니다."
+
+msgid "Bring online"
+msgstr "온라인으로 전환"
+
+msgid "Switches the disk on for Windows, so its partitions can be used. Windows leaves some disks offline, for example a second disk with a copied Windows."
+msgstr "Windows에서 디스크를 켜서 파티션을 사용할 수 있게 합니다. Windows는 일부 디스크(예: 복사한 Windows가 있는 두 번째 디스크)를 오프라인으로 둡니다."
+
+msgid "Take offline"
+msgstr "오프라인으로 전환"
+
+msgid "Switches the disk off for Windows: its drives disappear until it is brought online again. Nothing on it changes."
+msgstr "Windows에서 디스크를 끕니다. 다시 온라인으로 전환할 때까지 드라이브가 사라집니다. 내용은 바뀌지 않습니다."
+
+msgid "Unlock BitLocker"
+msgstr "BitLocker 잠금 해제"
+
+msgid "Opens the drive with its 48-digit BitLocker recovery key, so its files can be read and checked. Nothing on it changes, and it locks again when the PC restarts."
+msgstr "48자리 BitLocker 복구 키로 드라이브를 열어 파일을 읽고 확인할 수 있게 합니다. 내용은 바뀌지 않으며, PC를 다시 시작하면 다시 잠깁니다."
+
+msgid "BitLocker encrypts a whole drive. Without the key, nothing on it can be read: not by Windows, not by this program. Unlock it before changing anything else on this disk."
+msgstr "BitLocker는 드라이브 전체를 암호화합니다. 키가 없으면 Windows도 이 프로그램도 그 안의 아무것도 읽을 수 없습니다. 이 디스크에서 다른 것을 바꾸기 전에 잠금을 해제하세요."
+
+msgid "Find lost partitions"
+msgstr "잃어버린 파티션 찾기"
+
+msgid "Looks through unused space for partitions that were deleted or lost (NTFS, FAT32, exFAT, Linux ext). Only reads the disk; what is found can be put back afterwards. Quick: looks where partitions normally start, takes minutes. Full: reads every sector, can take hours."
+msgstr "사용하지 않는 공간에서 삭제되거나 잃어버린 파티션(NTFS, FAT32, exFAT, Linux ext)을 찾습니다. 디스크를 읽기만 하며, 찾은 것은 나중에 되돌릴 수 있습니다. 빠른 검사: 파티션이 보통 시작하는 위치를 살펴보며 몇 분 걸립니다. 전체 검사: 모든 섹터를 읽으며 몇 시간 걸릴 수 있습니다."
+
+msgid "Deleting a partition only removes its entry from the disk's table of contents. Until something new is written there, the files are still on the disk and the partition can often be put back."
+msgstr "파티션을 삭제하면 디스크 목차에서 항목만 제거됩니다. 그 자리에 새로 쓰기 전까지는 파일이 디스크에 남아 있어서 파티션을 되돌릴 수 있는 경우가 많습니다."
+
+msgid "Recover deleted files"
+msgstr "삭제된 파일 복구"
+
+msgid "Looks for deleted files on this drive and copies the ones you choose to another drive. Nothing is written to this drive. Quick: reads Windows' list of files (NTFS). Full: also reads the whole drive, finding files after a quick format and pictures and PDFs by their contents."
+msgstr "이 드라이브에서 삭제된 파일을 찾고, 선택한 파일을 다른 드라이브로 복사합니다. 이 드라이브에는 아무것도 쓰지 않습니다. 빠른 검사: Windows 파일 목록(NTFS)을 읽습니다. 전체 검사: 드라이브 전체도 읽어서 빠른 포맷 후의 파일과 사진, PDF를 내용으로 찾습니다."
+
+msgid "A deleted file stays on the disk until its space is used for something new. Stop using the drive as soon as you notice, and save what you recover to a different drive."
+msgstr "삭제된 파일은 그 공간이 새로운 데이터에 쓰일 때까지 디스크에 남아 있습니다. 알아차리는 즉시 드라이브 사용을 멈추고, 복구한 파일은 다른 드라이브에 저장하세요."
+
+msgid "Make it bigger using the partition after it"
+msgstr "뒤의 파티션을 이용하여 늘리기"
+
+msgid "Deletes the partition right after this one and adds its space (and any unused space after it) to this partition. Everything on the deleted partition is lost. The files on this partition stay."
+msgstr "바로 뒤의 파티션을 삭제하고 그 공간(과 그 뒤의 사용하지 않는 공간)을 이 파티션에 추가합니다. 삭제한 파티션의 모든 내용은 사라집니다. 이 파티션의 파일은 그대로 유지됩니다."
+
+msgid "A partition can only grow into space directly after it, never into space before it."
+msgstr "파티션은 바로 뒤의 공간으로만 늘릴 수 있으며 앞쪽 공간으로는 늘릴 수 없습니다."
+
+msgid "Allow writing"
+msgstr "쓰기 허용"
+
+msgid "Clears the disk's read-only mark, which can stop Windows from changing anything on it. A switch on the disk or card itself is not affected."
+msgstr "Windows가 디스크의 내용을 바꾸지 못하게 할 수 있는 읽기 전용 표시를 지웁니다. 디스크나 카드 자체에 있는 스위치에는 영향이 없습니다."
+
+msgid "This is the drive the running Windows is on."
+msgstr "실행 중인 Windows가 있는 드라이브입니다."
+
+msgid "The running Windows starts from this partition."
+msgstr "실행 중인 Windows가 이 파티션에서 시작합니다."
+
+msgid "This program runs from this drive."
+msgstr "이 프로그램이 이 드라이브에서 실행 중입니다."
+
+msgid "The backups are kept on this drive. Choose another backup folder first."
+msgstr "백업이 이 드라이브에 보관되어 있습니다. 먼저 다른 백업 폴더를 선택하세요."
+
+msgid "The disk was not found."
+msgstr "디스크를 찾을 수 없습니다."
+
+msgid "A partition on this disk is in use: "
+msgstr "이 디스크의 파티션이 사용 중입니다: "
+
+msgid "This MBR disk already has four main partitions, the most it can hold."
+msgstr "이 MBR 디스크에는 이미 최대치인 기본 파티션 4개가 있습니다."
+
+msgid "Unused space inside an existing extended partition cannot be used from here; use Disk Management."
+msgstr "기존 확장 파티션 안의 사용하지 않는 공간은 여기서 사용할 수 없습니다. 디스크 관리를 사용하세요."
+
+msgid " is installed here; changing the partition's type would hide it."
+msgstr " — 여기에 설치되어 있습니다. 파티션 유형을 바꾸면 숨겨집니다."
+
+msgid "The BitLocker tool (manage-bde.exe) is not part of this system."
+msgstr "BitLocker 도구(manage-bde.exe)가 이 시스템에 없습니다."
+
+msgid "The drive is locked by BitLocker. Unlock it first."
+msgstr "드라이브가 BitLocker로 잠겨 있습니다. 먼저 잠금을 해제하세요."
+
+msgid "The drive the running Windows is on cannot change its letter."
+msgstr "실행 중인 Windows가 있는 드라이브는 문자를 바꿀 수 없습니다."
+
+msgid "There is no unused space right after it."
+msgstr "바로 뒤에 사용하지 않는 공간이 없습니다."
+
+msgid "Only NTFS partitions can be made bigger here."
+msgstr "여기서는 NTFS 파티션만 늘릴 수 있습니다."
+
+msgid "There is no partition right after it."
+msgstr "바로 뒤에 파티션이 없습니다."
+
+msgid "The partition after it is in use: "
+msgstr "뒤의 파티션이 사용 중입니다: "
+
+msgid "The partition after it is a start-up or reserved partition, which must stay."
+msgstr "뒤의 파티션은 그대로 두어야 하는 부팅 파티션이나 예약 파티션입니다."
+
+msgid "The space after it is an extended partition; use Disk Management."
+msgstr "뒤의 공간은 확장 파티션입니다. 디스크 관리를 사용하세요."
+
+msgid " is installed on the partition after it."
+msgstr " — 뒤의 파티션에 설치되어 있습니다."
+
+msgid "Only readable NTFS partitions can be made smaller here."
+msgstr "여기서는 읽을 수 있는 NTFS 파티션만 줄일 수 있습니다."
+
+msgid "It has almost no free space to give up."
+msgstr "내줄 수 있는 여유 공간이 거의 없습니다."
+
+msgid "A start-up partition must use FAT32. Format it as FAT32 first."
+msgstr "부팅 파티션은 FAT32를 사용해야 합니다. 먼저 FAT32로 포맷하세요."
+
+msgid "The MBR2GPT tool is part of Windows 10 (version 1703) and newer; it is not on this system."
+msgstr "MBR2GPT 도구는 Windows 10(버전 1703) 이상에 포함되어 있으며, 이 시스템에는 없습니다."
+
+msgid "The disk was not found. Scan again."
+msgstr "디스크를 찾을 수 없습니다. 다시 검사하세요."
+
+msgid "Nothing was changed: "
+msgstr "아무것도 바뀌지 않았습니다: "
+
+msgid "this is not possible for this partition or disk."
+msgstr "이 파티션이나 디스크에서는 할 수 없는 작업입니다."
+
+msgid "Nothing was changed, because the backup failed. "
+msgstr "백업에 실패하여 아무것도 바뀌지 않았습니다. "
+
+msgid "The drive is now called \""
+msgstr "이제 드라이브 이름: \""
+
+msgid "The name could not be changed ("
+msgstr "이름을 바꿀 수 없습니다("
+
+msgid "The disk is now GPT. Before Windows can start again, switch the PC to UEFI mode (CSM / Legacy off) in its firmware settings."
+msgstr "이제 디스크가 GPT입니다. Windows가 다시 시작하려면 먼저 펌웨어 설정에서 PC를 UEFI 모드(CSM / Legacy 끔)로 바꾸세요."
+
+msgid "The disk could not be changed. MBR2GPT said: "
+msgstr "디스크를 바꿀 수 없습니다. MBR2GPT 메시지: "
+
+msgid "diskpart script:\r\n"
+msgstr "diskpart 스크립트:\r\n"
+
+msgid "The new partition was made"
+msgstr "새 파티션을 만들었습니다"
+
+msgid " and is drive "
+msgstr " , 드라이브 "
+
+msgid "The partition was deleted. Its space is now unused."
+msgstr "파티션을 삭제했습니다. 이제 그 공간은 사용하지 않는 공간입니다."
+
+msgid "The partition was formatted as "
+msgstr "파티션을 다음 형식으로 포맷했습니다: "
+
+msgid "The partition is "
+msgstr "파티션이 "
+
+msgid " MB bigger."
+msgstr " MB 커졌습니다."
+
+msgid "The partition after it was deleted and its space added."
+msgstr "뒤의 파티션을 삭제하고 그 공간을 추가했습니다."
+
+msgid " MB smaller. The space is now unused."
+msgstr " MB 작아졌습니다. 그 공간은 이제 사용하지 않는 공간입니다."
+
+msgid "The partition is now drive "
+msgstr "이제 파티션이 드라이브 "
+
+msgid ": done."
+msgstr ": 완료."
+
+msgid "Windows did not allow it. Diskpart said:\n"
+msgstr "Windows가 허용하지 않았습니다. Diskpart 메시지:\n"
+
+msgid "The file is too small to be a registry file."
+msgstr "레지스트리 파일이라기에는 파일이 너무 작습니다."
+
+msgid "The file does not start like a registry file. It is damaged or was overwritten."
+msgstr "파일이 레지스트리 파일 형식으로 시작하지 않습니다. 손상되었거나 덮어쓰였습니다."
+
+msgid "The registry file's header is damaged."
+msgstr "레지스트리 파일의 헤더가 손상되었습니다."
+
+msgid "The registry file was not saved cleanly the last time (often after a power cut). Windows can usually repair this by itself."
+msgstr "레지스트리 파일이 지난번에 제대로 저장되지 않았습니다(흔히 정전 후). 보통 Windows가 스스로 복구할 수 있습니다."
+
+msgid "The file is missing."
+msgstr "파일이 없습니다."
+
+msgid "The file could not be read."
+msgstr "파일을 읽을 수 없습니다."
+
+msgid "The file could not be copied (error "
+msgstr "파일을 복사할 수 없습니다(오류 "
+
+msgid "The file is damaged and could not be opened."
+msgstr "파일이 손상되어 열 수 없습니다."
+
+msgid "The file could not be opened (error "
+msgstr "파일을 열 수 없습니다(오류 "
+
+msgid "The file was loaded but could not be read."
+msgstr "파일을 불러왔지만 읽을 수 없습니다."
+
+msgid "Windows' data protection is not available here, so the key was not saved."
+msgstr "여기서는 Windows 데이터 보호를 사용할 수 없어서 키를 저장하지 않았습니다."
+
+msgid "The file for saved keys could not be written: "
+msgstr "저장된 키 파일을 쓸 수 없습니다: "
+
+msgid "The partition could not be read."
+msgstr "파티션을 읽을 수 없습니다."
+
+msgid "This is not an ext2, ext3 or ext4 file system."
+msgstr "ext2, ext3 또는 ext4 파일 시스템이 아닙니다."
+
+msgid "Unusual block size."
+msgstr "블록 크기가 특이합니다."
+
+msgid "The file system header is damaged."
+msgstr "파일 시스템 헤더가 손상되었습니다."
+
+msgid "Linux (encrypted)"
+msgstr "Linux (암호화됨)"
+
+msgid "Linux ("
+msgstr "Linux ("
+
+msgid ", encrypted"
+msgstr ", 암호화됨"
+
+msgid "What is a Linux boot loader? Linux is usually started by a program called GRUB (or systemd-boot). Its files sit in a folder on the start-up partition, next to Windows Boot Manager, and a small settings file tells it on which partition Linux lives. When Linux is deleted, this folder is often left behind."
+msgstr "Linux 부트 로더란? Linux는 보통 GRUB(또는 systemd-boot)이라는 프로그램으로 시작됩니다. 그 파일은 부팅 파티션의 폴더에 Windows Boot Manager와 나란히 있으며, 작은 설정 파일이 Linux가 어느 파티션에 있는지 알려 줍니다. Linux를 삭제하면 이 폴더가 남는 경우가 많습니다."
+
+msgid "A Linux boot loader leads nowhere: "
+msgstr "Linux 부트 로더가 아무 데도 연결되지 않음: "
+
+msgid " on the start-up partition ("
+msgstr " — 부팅 파티션("
+
+msgid ") holds the boot loader of "
+msgstr ")에 다음의 부트 로더가 있습니다: "
+
+msgid ", but the partition it starts Linux from is not on any disk now. That Linux was probably deleted, or its partition was formatted. If you pick it in the PC's boot menu, you get a GRUB error or a \"grub rescue>\" prompt.\n\nIf you no longer use that Linux, removing the folder is safe: it only takes a few MB and nothing else needs it."
+msgstr ". 하지만 Linux를 시작하는 파티션이 이제 어느 디스크에도 없습니다. 그 Linux는 아마 삭제되었거나 파티션이 포맷되었을 것입니다. PC의 부팅 메뉴에서 선택하면 GRUB 오류나 \"grub rescue>\" 프롬프트가 나타납니다.\n\n그 Linux를 더 이상 사용하지 않는다면 폴더를 제거해도 안전합니다. 몇 MB만 차지하며 다른 곳에서 필요하지 않습니다."
+
+msgid "Remove the leftover "
+msgstr "남은 항목 제거: "
+
+msgid " boot loader"
+msgstr " 부트 로더"
+
+msgid "A Linux boot loader was found: "
+msgstr "Linux 부트 로더를 찾음: "
+
+msgid " holds a Linux boot loader, but no matching Linux was found on the disks. Its Linux may be on a disk that is not connected, or use a file system this program cannot look into."
+msgstr " — Linux 부트 로더가 있지만 디스크에서 일치하는 Linux를 찾을 수 없습니다. 그 Linux는 연결되지 않은 디스크에 있거나, 이 프로그램이 볼 수 없는 파일 시스템을 사용할 수 있습니다."
+
+msgid "Linux kernel "
+msgstr "Linux 커널 "
+
+msgid " Secure Boot is on."
+msgstr " Secure Boot가 켜져 있습니다."
+
+msgid "Secure Boot is on, but this Linux starts without the signed \"shim\" loader, so the PC may refuse to start it. Turn Secure Boot off in the PC's firmware settings, or reinstall GRUB with Secure Boot support from Linux."
+msgstr "Secure Boot가 켜져 있지만 이 Linux는 서명된 \"shim\" 로더 없이 시작하므로 PC가 시작을 거부할 수 있습니다. PC 펌웨어 설정에서 Secure Boot를 끄거나, Linux에서 Secure Boot를 지원하도록 GRUB을 다시 설치하세요."
+
+msgid "This Linux is on a GPT disk but the PC was started in legacy (BIOS) mode. It only starts this way if GRUB was set up for it (with a \"BIOS boot\" partition)."
+msgstr "이 Linux는 GPT 디스크에 있지만 PC는 레거시(BIOS) 모드로 시작되었습니다. GRUB이 이 방식에 맞게 설정된 경우(\"BIOS boot\" 파티션 사용)에만 이렇게 시작됩니다."
+
+msgid "The disk with this Linux ("
+msgstr "이 Linux가 있는 디스크("
+
+msgid ", GPT"
+msgstr ", GPT"
+
+msgid ", MBR"
+msgstr ", MBR"
+
+msgid "The main copy of the disk's partition table is damaged."
+msgstr "디스크 파티션 테이블의 기본 사본이 손상되었습니다."
+
+msgid "No Linux boot loader (GRUB) was found on any start-up partition. Something deleted it: often a Windows reinstall or repair, or formatting the start-up partition. Linux itself is still there."
+msgstr "어떤 부팅 파티션에서도 Linux 부트 로더(GRUB)를 찾을 수 없습니다. 무언가가 삭제했습니다. 흔히 Windows 재설치나 복구, 또는 부팅 파티션 포맷 때문입니다. Linux 자체는 그대로 있습니다."
+
+msgid "Reinstall GRUB, the Linux boot loader."
+msgstr "Linux 부트 로더인 GRUB을 다시 설치하세요."
+
+msgid "The start-up partition with the Linux boot loader is there and can be read."
+msgstr "Linux 부트 로더가 있는 부팅 파티션이 있고 읽을 수 있습니다."
+
+msgid "), so Linux only starts while that disk is connected."
+msgstr ")에 있으므로 Linux는 그 디스크가 연결되어 있을 때만 시작됩니다."
+
+msgid "Cannot be checked until the boot loader is back."
+msgstr "부트 로더가 돌아올 때까지 확인할 수 없습니다."
+
+msgid "The PC's start-up list could not be read here."
+msgstr "여기서는 PC의 부팅 목록을 읽을 수 없습니다."
+
+msgid "The PC's own start-up list has no entry for this Linux, so the PC never offers to start it. This often happens after a Windows update or a firmware update."
+msgstr "PC 자체 부팅 목록에 이 Linux 항목이 없어서 PC가 Linux 시작을 제안하지 않습니다. Windows 업데이트나 펌웨어 업데이트 후에 자주 생깁니다."
+
+msgid "The PC's own start-up list has this Linux as \""
+msgstr "PC 자체 부팅 목록에 이 Linux가 다음 이름으로 있습니다: \""
+
+msgid "\", and it starts first."
+msgstr "\" 그리고 먼저 시작됩니다."
+
+msgid "The PC's start-up list has an entry for this Linux (\""
+msgstr "PC의 부팅 목록에 이 Linux 항목(\""
+
+msgid "\"), but it is switched off, so the PC never tries it."
+msgstr "\")이 있지만 꺼져 있어서 PC가 시도하지 않습니다."
+
+msgid "The PC's start-up list has this Linux (\""
+msgstr "PC의 부팅 목록에 이 Linux(\""
+
+msgid "\"), but "
+msgstr "\")가 있지만, "
+
+msgid " starts first. To start Linux, pick it in the PC's boot menu (often F12, F11, F8 or Esc while the PC starts), or make it start first. When GRUB starts first, it usually shows a menu with Windows in it too."
+msgstr " — 이(가) 먼저 시작됩니다. Linux를 시작하려면 PC의 부팅 메뉴에서 선택하거나(PC가 시작될 때 보통 F12, F11, F8 또는 Esc) 먼저 시작되도록 설정하세요. GRUB이 먼저 시작되면 보통 Windows도 포함된 메뉴가 표시됩니다."
+
+msgid "The Linux boot loader file is damaged."
+msgstr "Linux 부트 로더 파일이 손상되었습니다."
+
+msgid "The Linux boot loader is in place"
+msgstr "Linux 부트 로더가 갖춰져 있습니다"
+
+msgid "Missing (see the step before)."
+msgstr "없음(이전 단계 참조)."
+
+msgid "The boot loader's settings are built into it, so this program cannot see where it looks for Linux. That is normal for some Linux versions."
+msgstr "부트 로더의 설정이 내부에 들어 있어서 이 프로그램은 Linux를 어디서 찾는지 볼 수 없습니다. 일부 Linux 버전에서는 정상입니다."
+
+msgid "The boot loader looks for Linux on the right partition ("
+msgstr "부트 로더가 올바른 파티션에서 Linux를 찾습니다("
+
+msgid "The boot loader looks for Linux on another partition ("
+msgstr "부트 로더가 다른 파티션에서 Linux를 찾습니다("
+
+msgid "), not on this Linux's partition. It may be starting a different Linux."
+msgstr "). 이 Linux의 파티션이 아닙니다. 다른 Linux를 시작하고 있을 수 있습니다."
+
+msgid "The boot loader looks for Linux on a partition that is not on any disk now. Starting Linux ends at a \"grub rescue>\" prompt."
+msgstr "부트 로더가 이제 어느 디스크에도 없는 파티션에서 Linux를 찾습니다. Linux 시작이 \"grub rescue>\" 프롬프트에서 끝납니다."
+
+msgid ", /boot is "
+msgstr ", /boot: "
+
+msgid "Point GRUB to the right partition again (Boot-Repair does this)."
+msgstr "GRUB이 올바른 파티션을 다시 가리키게 하세요(Boot-Repair가 해 줍니다)."
+
+msgid "Disk start-up code"
+msgstr "디스크 부팅 코드"
+
+msgid "The disk's start-up code is GRUB, the Linux boot loader."
+msgstr "디스크의 부팅 코드가 Linux 부트 로더인 GRUB입니다."
+
+msgid "GRUB in the MBR"
+msgstr "MBR의 GRUB"
+
+msgid "The disk's start-up code is not GRUB (usually Windows replaced it). The PC goes straight to Windows and never offers Linux."
+msgstr "디스크의 부팅 코드가 GRUB이 아닙니다(보통 Windows가 대체함). PC가 바로 Windows로 가며 Linux를 선택할 수 없습니다."
+
+msgid "The disk's start-up code is empty, so the PC cannot start from this disk."
+msgstr "디스크의 부팅 코드가 비어 있어서 PC가 이 디스크에서 시작할 수 없습니다."
+
+msgid "MBR without GRUB"
+msgstr "GRUB 없는 MBR"
+
+msgid "Write GRUB to the disk again (Boot-Repair does this)."
+msgstr "디스크에 GRUB을 다시 쓰세요(Boot-Repair가 해 줍니다)."
+
+msgid "unknown file system"
+msgstr "알 수 없는 파일 시스템"
+
+msgid "The partition with Linux is there and this program can look inside it."
+msgstr "Linux가 있는 파티션이 있고 이 프로그램이 내부를 볼 수 있습니다."
+
+msgid "The Linux partition is encrypted (LUKS). Linux asks for its password while starting. Its contents cannot be checked from here."
+msgstr "Linux 파티션이 암호화되어 있습니다(LUKS). Linux는 시작할 때 암호를 묻습니다. 여기서는 내용을 확인할 수 없습니다."
+
+msgid "The Linux partition is there, but it uses "
+msgstr "Linux 파티션이 있지만 사용하는 파일 시스템은 "
+
+msgid ", which this program cannot look inside. The next steps cannot be checked from here."
+msgstr "이며, 이 프로그램은 그 내부를 볼 수 없습니다. 다음 단계는 여기서 확인할 수 없습니다."
+
+msgid "Cannot be checked: the file system cannot be read from Windows."
+msgstr "확인할 수 없음: Windows에서는 파일 시스템을 읽을 수 없습니다."
+
+msgid "No Linux kernel (the heart of Linux) was found in /boot. An update probably failed halfway, or /boot is on a partition that is missing."
+msgstr "/boot에서 Linux 커널(Linux의 핵심)을 찾을 수 없습니다. 아마 업데이트가 도중에 실패했거나 /boot가 없어진 파티션에 있을 것입니다."
+
+msgid "Reinstall the Linux kernel."
+msgstr "Linux 커널을 다시 설치하세요."
+
+msgid "The Linux kernel is in place"
+msgstr "Linux 커널이 갖춰져 있습니다"
+
+msgid ", plus "
+msgstr ", 그리고 대비용 이전 커널 "
+
+msgid " older one(s) to fall back on."
+msgstr " 개."
+
+msgid "The menu file the boot loader shows (with the Linux kernels to choose from) is in place."
+msgstr "부트 로더가 보여 주는 메뉴 파일(선택할 Linux 커널 목록)이 갖춰져 있습니다."
+
+msgid "The GRUB menu file (/boot/grub/grub.cfg) is missing, so GRUB stops at a \"grub>\" prompt."
+msgstr "GRUB 메뉴 파일(/boot/grub/grub.cfg)이 없어서 GRUB이 \"grub>\" 프롬프트에서 멈춥니다."
+
+msgid "Rebuild the GRUB menu (\"sudo update-grub\")."
+msgstr "GRUB 메뉴를 다시 만드세요(\"sudo update-grub\")."
+
+msgid "Linux's list of partitions to use (/etc/fstab) is missing."
+msgstr "Linux가 사용할 파티션 목록(/etc/fstab)이 없습니다."
+
+msgid "Recreate /etc/fstab."
+msgstr "/etc/fstab을 다시 만드세요."
+
+msgid "Linux expects partitions that are not on any disk now ("
+msgstr "Linux가 이제 어느 디스크에도 없는 파티션을 기대합니다("
+
+msgid "). It stops at an \"emergency mode\" prompt while starting."
+msgstr "). 시작하는 동안 \"emergency mode\" 프롬프트에서 멈춥니다."
+
+msgid "Correct /etc/fstab so it names the partitions that are there now."
+msgstr "지금 있는 파티션을 가리키도록 /etc/fstab을 수정하세요."
+
+msgid "). It may wait a minute and a half while starting, or stop at an emergency prompt."
+msgstr "). 시작하는 동안 1분 30초 정도 기다리거나 비상 프롬프트에서 멈출 수 있습니다."
+
+msgid "Every partition Linux expects to use (in /etc/fstab) is there."
+msgstr "Linux가 사용할 것으로 기대하는 모든 파티션(/etc/fstab)이 있습니다."
+
+msgid "Windows cannot safely change Linux's own files. Start the PC from a Linux USB stick (for example Ubuntu's \"Try Ubuntu\"), connect to the internet, install the free tool \"Boot-Repair\" (sudo add-apt-repository ppa:yannubuntu/boot-repair, then sudo apt install boot-repair) and choose \"Recommended repair\". A Linux-savvy friend can also do it by hand."
+msgstr "Windows는 Linux 자체 파일을 안전하게 바꿀 수 없습니다. Linux USB 메모리로 PC를 시작하고(예: Ubuntu의 \"Try Ubuntu\"), 인터넷에 연결한 다음 무료 도구 \"Boot-Repair\"를 설치하고(sudo add-apt-repository ppa:yannubuntu/boot-repair 다음에 sudo apt install boot-repair) \"Recommended repair\"를 선택하세요. Linux를 잘 아는 지인이 직접 해 줄 수도 있습니다."
+
+msgid "Something this Linux needs to start is missing or damaged."
+msgstr "이 Linux 시작에 필요한 것이 없거나 손상되었습니다."
+
+msgid "It may start, but some things need attention."
+msgstr "시작될 수 있지만 확인이 필요한 부분이 있습니다."
+
+msgid "Looks fine so far"
+msgstr "지금까지는 정상으로 보임"
+
+msgid "Everything that can be checked from Windows is in place. The inside of its partition could not be checked."
+msgstr "Windows에서 확인할 수 있는 것은 모두 갖춰져 있습니다. 파티션 내부는 확인할 수 없었습니다."
+
+msgid "Everything this Linux needs to start is in place."
+msgstr "이 Linux 시작에 필요한 것이 모두 갖춰져 있습니다."
+
+msgid "Work is still running"
+msgstr "작업이 아직 진행 중입니다"
+
+msgid "A scan or a repair is still running. Closing now can leave a repair half done. Wait until it finishes."
+msgstr "검사나 복구가 아직 진행 중입니다. 지금 닫으면 복구가 절반만 될 수 있습니다. 끝날 때까지 기다리세요."
+
+msgid "Keep waiting"
+msgstr "계속 기다리기"
+
+msgid "Undo: nothing to undo (Ctrl+Z)"
+msgstr "실행 취소: 취소할 작업 없음(Ctrl+Z)"
+
+msgid "Redo: nothing to redo (Ctrl+Y)"
+msgstr "다시 실행: 다시 실행할 작업 없음(Ctrl+Y)"
+
+msgid "Undo \""
+msgstr "실행 취소: \""
+
+msgid "\" (Ctrl+Z)"
+msgstr "\" (Ctrl+Z)"
+
+msgid "Redo: undo \""
+msgstr "다시 실행: \""
+
+msgid "\" (Ctrl+Y)"
+msgstr "\" 취소를 되돌림 (Ctrl+Y)"
+
+msgid "Back (Alt+Left)"
+msgstr "뒤로(Alt+왼쪽 화살표)"
+
+msgid "Forward (Alt+Right)"
+msgstr "앞으로(Alt+오른쪽 화살표)"
+
+msgid "Home: everything found on this PC (Ctrl+H)"
+msgstr "홈: 이 PC에서 찾은 모든 것(Ctrl+H)"
+
+msgid "Scan all disks again (Ctrl+R)"
+msgstr "모든 디스크 다시 검사(Ctrl+R)"
+
+msgid "Save the report as a text file (Ctrl+S)"
+msgstr "보고서를 텍스트 파일로 저장(Ctrl+S)"
+
+msgid "Settings, backup folder, languages and About"
+msgstr "설정, 백업 폴더, 언어 및 정보"
+
+msgid "Boot Doctor · "
+msgstr "Boot Doctor · "
+
+msgid " · Report"
+msgstr " · 보고서"
+
+msgid "Boot Doctor · Report"
+msgstr "Boot Doctor · 보고서"
+
+msgid " · Boot chain"
+msgstr " · 부팅 단계"
+
+msgid "Boot Doctor · Boot chain"
+msgstr "Boot Doctor · 부팅 단계"
+
+msgid "Boot Doctor · Disks and partitions"
+msgstr "Boot Doctor · 디스크 및 파티션"
+
+msgid "Boot Doctor · About"
+msgstr "Boot Doctor · 정보"
+
+msgid "Boot Doctor · Recover deleted files"
+msgstr "Boot Doctor · 삭제된 파일 복구"
+
+msgid "Boot Doctor · History and backups"
+msgstr "Boot Doctor · 기록 및 백업"
+
+msgid "Scanning"
+msgstr "검사 중"
+
+msgid "Not scanned yet"
+msgstr "아직 검사하지 않음"
+
+msgid "disk"
+msgstr "디스크"
+
+msgid "disks"
+msgstr "디스크"
+
+msgid "partition"
+msgstr "파티션"
+
+msgid "partitions"
+msgstr "파티션"
+
+msgid "system found"
+msgstr "개 시스템 발견"
+
+msgid "systems found"
+msgstr "개 시스템 발견"
+
+msgid "needs attention"
+msgstr "개 확인 필요"
+
+msgid "need attention"
+msgstr "개 확인 필요"
+
+msgid " · Nothing needs attention"
+msgstr " · 확인이 필요한 항목 없음"
+
+msgid " · Backups: "
+msgstr " · 백업: "
+
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+msgid "Home"
+msgstr "홈"
+
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+msgid "Scan again"
+msgstr "다시 검사"
+
+msgid "Alt+← / Alt+→"
+msgstr "Alt+← / Alt+→"
+
+msgid "Back and forward"
+msgstr "뒤로 및 앞으로"
+
+msgid "Ctrl+Z / Ctrl+Y"
+msgstr "Ctrl+Z / Ctrl+Y"
+
+msgid "Undo and redo the last change"
+msgstr "마지막 변경 실행 취소 및 다시 실행"
+
+msgid "Ctrl+1 … 4"
+msgstr "Ctrl+1 … 4"
+
+msgid "Report, boot chain, disks, history"
+msgstr "보고서, 부팅 단계, 디스크, 기록"
+
+msgid "Choose a Windows (report and boot chain)"
+msgstr "Windows 선택(보고서 및 부팅 단계)"
+
+msgid "Step through the boot chain"
+msgstr "부팅 단계를 차례로 이동"
+
+msgid "Enter"
+msgstr "Enter"
+
+msgid "Show details, or carry out the first fix of a step"
+msgstr "자세한 정보 표시 또는 단계의 첫 번째 해결 방법 실행"
+
+msgid "Page up / down"
+msgstr "Page Up / Page Down"
+
+msgid "Scroll"
+msgstr "스크롤"
+
+msgid "Ctrl+B"
+msgstr "Ctrl+B"
+
+msgid "Back up the start-up setup now"
+msgstr "지금 부팅 구성 백업"
+
+msgid "Ctrl+S"
+msgstr "Ctrl+S"
+
+msgid "Save the report as a text file"
+msgstr "보고서를 텍스트 파일로 저장"
+
+msgid "Old copy in Windows.old"
+msgstr "Windows.old의 이전 사본"
+
+msgid "Inside the folder "
+msgstr "다음 폴더 안: "
+
+msgid "Starts first"
+msgstr "먼저 시작됨"
+
+msgid "In the start-up menu"
+msgstr "부팅 메뉴에 있음"
+
+msgid "In the PC's start-up list"
+msgstr "PC의 부팅 목록에 있음"
+
+msgid "Not in the PC's start-up list"
+msgstr "PC의 부팅 목록에 없음"
+
+msgid "Not in the start-up menu"
+msgstr "부팅 메뉴에 없음"
+
+msgid "Looking at your disks"
+msgstr "디스크를 살펴보는 중"
+
+msgid "Every disk and partition is checked for Windows and for what it needs to start. This takes a few seconds."
+msgstr "모든 디스크와 파티션에서 Windows와 시작에 필요한 것을 확인합니다. 몇 초 걸립니다."
+
+msgid "Press Scan (Ctrl+R) to look at every disk."
+msgstr "모든 디스크를 살펴보려면 검사(Ctrl+R)를 누르세요."
+
+msgid "Systems found"
+msgstr "발견된 시스템"
+
+msgid "Whole PC"
+msgstr "PC 전체"
+
+msgid "thing needs attention"
+msgstr "개 항목 확인 필요"
+
+msgid "things need attention"
+msgstr "개 항목 확인 필요"
+
+msgid "Everything looks fine"
+msgstr "모두 정상으로 보입니다"
+
+msgid "None"
+msgstr "없음"
+
+msgid "No Windows or Linux was found on this PC"
+msgstr "이 PC에서 Windows나 Linux를 찾을 수 없습니다"
+
+msgid "Found "
+msgstr "발견: "
+
+msgid "Windows installation"
+msgstr "개 Windows 설치"
+
+msgid "Windows installations"
+msgstr "개 Windows 설치"
+
+msgid " and "
+msgstr " 및 "
+
+msgid "Linux system"
+msgstr "개 Linux 시스템"
+
+msgid "Linux systems"
+msgstr "개 Linux 시스템"
+
+msgid "starts fine"
+msgstr "정상적으로 시작됨"
+
+msgid "start fine"
+msgstr "정상적으로 시작됨"
+
+msgid "has small problems"
+msgstr "작은 문제 있음"
+
+msgid "have small problems"
+msgstr "작은 문제 있음"
+
+msgid "cannot start"
+msgstr "시작할 수 없음"
+
+msgid "Checked from "
+msgstr "확인한 환경: "
+
+msgid " · The PC starts in "
+msgstr " · PC 시작 방식: "
+
+msgid "UEFI mode"
+msgstr "UEFI 모드"
+
+msgid "legacy (BIOS) mode"
+msgstr "레거시(BIOS) 모드"
+
+msgid "Nothing to check"
+msgstr "확인할 것 없음"
+
+msgid "About Secure Boot"
+msgstr "Secure Boot 정보"
+
+msgid "Secure Boot: on"
+msgstr "Secure Boot: 켜짐"
+
+msgid "Secure Boot: off"
+msgstr "Secure Boot: 꺼짐"
+
+msgid "New to this? How a PC starts"
+msgstr "처음이신가요? PC가 시작되는 방식"
+
+msgid "Hide explanations"
+msgstr "설명 숨기기"
+
+msgid "Show explanations"
+msgstr "설명 표시"
+
+msgid "Systems on this PC"
+msgstr "이 PC의 시스템"
+
+msgid "Other findings"
+msgstr "기타 발견 사항"
+
+msgid " · build "
+msgstr " · 빌드 "
+
+msgid "What it will take:  "
+msgstr "필요한 작업:  "
+
+msgid "Fix it"
+msgstr "해결"
+
+msgid "Fix it ("
+msgstr "해결("
+
+msgid " steps)"
+msgstr " 단계)"
+
+msgid "Show details"
+msgstr "자세한 정보 표시"
+
+msgid "Boot chain"
+msgstr "부팅 단계"
+
+msgid "What does this mean?"
+msgstr "무슨 뜻인가요?"
+
+msgid ": not possible here. "
+msgstr ": 여기서는 할 수 없음. "
+
+msgid "Back to the whole PC"
+msgstr "PC 전체로 돌아가기"
+
+msgid "Show the boot chain"
+msgstr "부팅 단계 표시"
+
+msgid "What it will take"
+msgstr "필요한 작업"
+
+msgid "Fix everything"
+msgstr "모두 해결"
+
+msgid "Nothing. This Linux needs no repairs to start."
+msgstr "없음. 이 Linux는 시작하는 데 복구가 필요 없습니다."
+
+msgid "Nothing. This Windows needs no repairs to start."
+msgstr "없음. 이 Windows는 시작하는 데 복구가 필요 없습니다."
+
+msgid "Windows.old cannot be made to start. Copy the files you need out of it; Windows deletes it by itself after a while."
+msgstr "Windows.old는 시작하도록 만들 수 없습니다. 필요한 파일을 복사해 내세요. 일정 시간이 지나면 Windows가 스스로 삭제합니다."
+
+msgid "No repair is known for what was found. The steps below tell more."
+msgstr "발견된 문제에 대해 알려진 복구 방법이 없습니다. 아래 단계에서 자세히 알려 줍니다."
+
+msgid " This cannot be undone."
+msgstr " 실행 취소할 수 없습니다."
+
+msgid "Not possible here: "
+msgstr "여기서는 할 수 없음: "
+
+msgid "Do step "
+msgstr "단계 실행: "
+
+msgid "Why it seems to be stuck in a loop"
+msgstr "반복 상태에 빠진 것 같은 이유"
+
+msgid "Signs of earlier trouble"
+msgstr "이전에 있었던 문제의 흔적"
+
+msgid "Step by step, as the PC starts"
+msgstr "PC가 시작되는 순서대로 한 단계씩"
+
+msgid "When the PC is switched on, these steps happen one after another. Each step needs the one before it, so the first step with a problem is where starting stops."
+msgstr "PC를 켜면 이 단계들이 차례로 진행됩니다. 각 단계는 앞 단계가 필요하므로, 문제가 있는 첫 번째 단계에서 시작이 멈춥니다."
+
+msgid "Step "
+msgstr "단계 "
+
+msgid "What may have caused this:"
+msgstr "원인일 수 있는 것:"
+
+msgid "What is this step?"
+msgstr "이 단계는 무엇인가요?"
+
+msgid "For a technician:"
+msgstr "기술자용 정보:"
+
+msgid "No disks were found"
+msgstr "디스크를 찾을 수 없음"
+
+msgid "Windows does not see any disk. Check the cables, or the storage mode (AHCI, RAID or VMD) in the PC's firmware settings."
+msgstr "Windows가 디스크를 하나도 보지 못합니다. 케이블이나 PC 펌웨어 설정의 저장 모드(AHCI, RAID 또는 VMD)를 확인하세요."
+
+msgid "Click a disk's name, a partition or unused space to see what can be done with it. Everything that changes the disk is explained first, asks before it starts, and backs up the partition table, so most changes can be undone (Ctrl+Z)."
+msgstr "디스크 이름, 파티션 또는 사용하지 않는 공간을 클릭하면 할 수 있는 작업을 볼 수 있습니다. 디스크를 바꾸는 작업은 모두 먼저 설명하고, 시작하기 전에 묻고, 파티션 테이블을 백업하므로 대부분의 변경은 실행 취소(Ctrl+Z)할 수 있습니다."
+
+msgid "Working with disks"
+msgstr "디스크 작업"
+
+msgid "No partition table"
+msgstr "파티션 테이블 없음"
+
+msgid " · Removable"
+msgstr " · 이동식"
+
+msgid "problem"
+msgstr "문제"
+
+msgid "problems"
+msgstr "문제"
+
+msgid "Not set up: no partition table. Click the disk's name to set it up."
+msgstr "설정되지 않음: 파티션 테이블이 없습니다. 디스크 이름을 클릭하여 설정하세요."
+
+msgid "No partitions"
+msgstr "파티션 없음"
+
+msgid "Missing: start-up partition"
+msgstr "없음: 부팅 파티션"
+
+msgid "Unused space"
+msgstr "사용하지 않는 공간"
+
+msgid "Locked"
+msgstr "잠김"
+
+msgid "Linux file system"
+msgstr "Linux 파일 시스템"
+
+msgid "Not readable"
+msgstr "읽을 수 없음"
+
+msgid "Colours: blue top edge = data, accent = start-up partition, grey = reserved or recovery. A red outline marks a partition with a problem. Right-click for a menu."
+msgstr "색: 파란색 위쪽 테두리 = 데이터, 강조 색 = 부팅 파티션, 회색 = 예약 또는 복구. 빨간색 윤곽선은 문제가 있는 파티션입니다. 마우스 오른쪽 단추를 클릭하면 메뉴가 열립니다."
+
+msgid "not set up"
+msgstr "설정되지 않음"
+
+msgid "Unused space · "
+msgstr "사용하지 않는 공간 · "
+
+msgid " on Disk "
+msgstr " , 디스크 "
+
+msgid " free"
+msgstr " 사용 가능"
+
+msgid " · active"
+msgstr " · 활성"
+
+msgid " · BitLocker, locked"
+msgstr " · BitLocker, 잠김"
+
+msgid " · BitLocker"
+msgstr " · BitLocker"
+
+msgid "Not possible here:\n"
+msgstr "여기서는 할 수 없음:\n"
+
+msgid " is not possible here"
+msgstr " — 여기서는 할 수 없습니다"
+
+msgid "Cancel"
+msgstr "취소"
+
+msgid "Quick search"
+msgstr "빠른 검색"
+
+msgid "Full search"
+msgstr "전체 검색"
+
+msgid "Size"
+msgstr "크기"
+
+msgid "How big the new partition is. All of the unused space is chosen at first."
+msgstr "새 파티션의 크기입니다. 처음에는 사용하지 않는 공간 전체가 선택됩니다."
+
+msgid "Kind"
+msgstr "종류"
+
+msgid "Data: an ordinary drive. Start-up: where a PC starts from (FAT32, about 100-300 MB). Recovery: hidden, for repair tools."
+msgstr "데이터: 일반 드라이브. 부팅: PC가 시작하는 곳(FAT32, 약 100~300 MB). 복구: 숨겨짐, 복구 도구용."
+
+msgid "File system"
+msgstr "파일 시스템"
+
+msgid "NTFS for Windows drives; FAT32 for start-up partitions and devices; exFAT for USB sticks."
+msgstr "Windows 드라이브에는 NTFS, 부팅 파티션과 기기에는 FAT32, USB 메모리에는 exFAT."
+
+msgid "Quick format"
+msgstr "빠른 포맷"
+
+msgid "A quick format takes seconds. A full one also checks every sector, which takes long on a big disk."
+msgstr "빠른 포맷은 몇 초 걸립니다. 전체 포맷은 모든 섹터도 검사하므로 큰 디스크에서는 오래 걸립니다."
+
+msgid "Give it a drive letter"
+msgstr "드라이브 문자 지정"
+
+msgid "So it shows up in File Explorer"
+msgstr "파일 탐색기에 표시되도록"
+
+msgid "Next"
+msgstr "다음"
+
+msgid "System"
+msgstr "시스템"
+
+msgid "New volume"
+msgstr "새 볼륨"
+
+msgid "Everything on "
+msgstr "다음의 모든 내용: "
+
+msgid " will be erased."
+msgstr " — 지워집니다."
+
+msgid "Format "
+msgstr "포맷: "
+
+msgid "Make "
+msgstr "크기 변경: "
+
+msgid " bigger"
+msgstr " 늘리기"
+
+msgid "Add"
+msgstr "추가"
+
+msgid "How much of the unused space after it to add."
+msgstr "뒤의 사용하지 않는 공간 중 추가할 양입니다."
+
+msgid " smaller"
+msgstr " 줄이기"
+
+msgid "Give up"
+msgstr "내주기"
+
+msgid "Windows can only give up free space that lies at the end of the drive. If it refuses, try a smaller amount."
+msgstr "Windows는 드라이브 끝에 있는 여유 공간만 내줄 수 있습니다. 거부되면 더 적은 양으로 해 보세요."
+
+msgid "No drive letter is free"
+msgstr "사용할 수 있는 드라이브 문자가 없음"
+
+msgid "All letters from D: to Z: are in use. Remove a letter from another drive first."
+msgstr "D:부터 Z:까지 모든 문자가 사용 중입니다. 먼저 다른 드라이브의 문자를 제거하세요."
+
+msgid "Type the new letter. Free letters: "
+msgstr "새 문자를 입력하세요. 사용 가능한 문자: "
+
+msgid "That letter cannot be used"
+msgstr "그 문자는 사용할 수 없음"
+
+msgid "Choose one of the free letters."
+msgstr "사용 가능한 문자 중 하나를 선택하세요."
+
+msgid "Rename "
+msgstr "이름 바꾸기: "
+
+msgid "The name shown next to the drive letter. NTFS allows 32 characters, FAT32 11."
+msgstr "드라이브 문자 옆에 표시되는 이름입니다. NTFS는 32자, FAT32는 11자까지 가능합니다."
+
+msgid "Wipe "
+msgstr "지우기: "
+
+msgid "This removes every partition on the disk, so all its drives disappear. To make sure the right disk is wiped, type its number ("
+msgstr "디스크의 모든 파티션을 제거하므로 모든 드라이브가 사라집니다. 올바른 디스크를 지우는지 확인하기 위해 디스크 번호("
+
+msgid ") below.\n\nThe partition table is backed up first, so Undo can bring the partitions back if nothing new is written to the disk."
+msgstr ")를 아래에 입력하세요.\n\n파티션 테이블은 먼저 백업되므로, 디스크에 새로 쓴 것이 없다면 실행 취소로 파티션을 되돌릴 수 있습니다."
+
+msgid "Nothing was wiped"
+msgstr "아무것도 지우지 않았음"
+
+msgid "The number typed is not this disk's number."
+msgstr "입력한 번호가 이 디스크의 번호가 아닙니다."
+
+msgid "Name of the drive"
+msgstr "드라이브 이름"
+
+msgid "The name shown next to the drive letter (it can be changed later)."
+msgstr "드라이브 문자 옆에 표시되는 이름입니다(나중에 바꿀 수 있음)."
+
+msgid "Installed here: "
+msgstr "여기에 설치됨: "
+
+msgid "Everything on it will be lost. Copy anything you need somewhere else first.\n\n"
+msgstr "그 안의 모든 내용이 사라집니다. 필요한 것은 먼저 다른 곳에 복사하세요.\n\n"
+
+msgid "Careful: a drive on this PC is locked by BitLocker, so what is inside it cannot be seen. Unlock it first if it may hold Windows or files you need.\n\n"
+msgstr "주의: 이 PC의 드라이브 하나가 BitLocker로 잠겨 있어 내부를 볼 수 없습니다. Windows나 필요한 파일이 있을 수 있다면 먼저 잠금을 해제하세요.\n\n"
+
+msgid "The partition table is backed up first; Undo (Ctrl+Z) or History can put it back."
+msgstr "파티션 테이블은 먼저 백업되며, 실행 취소(Ctrl+Z)나 기록에서 되돌릴 수 있습니다."
+
+msgid "The partition table is backed up first, but this change itself cannot be undone."
+msgstr "파티션 테이블은 먼저 백업되지만, 이 변경 자체는 실행 취소할 수 없습니다."
+
+msgid "\n\nFor a technician (diskpart):\n"
+msgstr "\n\n기술자용 정보(diskpart):\n"
+
+msgid "No backup folder"
+msgstr "백업 폴더 없음"
+
+msgid "Nothing was changed, because there is no folder to keep backups in. Choose one with the settings button."
+msgstr "백업을 보관할 폴더가 없어서 아무것도 바뀌지 않았습니다. 설정 단추로 폴더를 선택하세요."
+
+msgid "Console · commands this program runs"
+msgstr "콘솔 · 이 프로그램이 실행하는 명령"
+
+msgid "Clear"
+msgstr "지우기"
+
+msgid "Nothing has run yet. Every command a scan, repair or disk change runs shows up here, with what it answered."
+msgstr "아직 실행된 것이 없습니다. 검사, 복구, 디스크 변경이 실행하는 모든 명령과 그 응답이 여기에 표시됩니다."
+
+msgid "Settings…"
+msgstr "설정…"
+
+msgid "Console, explanations and language"
+msgstr "콘솔, 설명 및 언어"
+
+msgid "Backup folder…"
+msgstr "백업 폴더…"
+
+msgid "Choose where backups are kept"
+msgstr "백업을 보관할 위치 선택"
+
+msgid "Make a template for a new language…"
+msgstr "새 언어용 템플릿 만들기…"
+
+msgid "Save every text of this program in a file, ready to translate into another language"
+msgstr "이 프로그램의 모든 텍스트를 다른 언어로 번역할 수 있도록 파일에 저장"
+
+msgid "Add a language pack…"
+msgstr "언어 팩 추가…"
+
+msgid "Add your own translation, or a corrected one, from a .lang file"
+msgstr ".lang 파일에서 직접 만든 번역이나 수정된 번역 추가"
+
+msgid "Saved BitLocker keys…"
+msgstr "저장된 BitLocker 키…"
+
+msgid "The recovery keys remembered on this PC: see which drives they are for, or delete them"
+msgstr "이 PC에 기억된 복구 키: 어떤 드라이브용인지 보거나 삭제"
+
+msgid "About PATio Boot Doctor"
+msgstr "PATio Boot Doctor 정보"
+
+msgid "Version, licence and contact"
+msgstr "버전, 라이선스 및 연락처"
+
+msgid "Display"
+msgstr "표시"
+
+msgid "Show the command console"
+msgstr "명령 콘솔 표시"
+
+msgid "A panel at the bottom that shows every command this program runs (diskpart, bcdedit, ...) and what it answered"
+msgstr "이 프로그램이 실행하는 모든 명령(diskpart, bcdedit, ...)과 그 응답을 보여 주는 아래쪽 패널"
+
+msgid "Show explanations for beginners"
+msgstr "초보자를 위한 설명 표시"
+
+msgid "Short \"What is this?\" boxes next to each step and finding"
+msgstr "각 단계와 발견 사항 옆의 짧은 \"이것은 무엇인가요?\" 상자"
+
+msgid "Language"
+msgstr "언어"
+
+msgid "The language of this program. Add your own with the Settings menu > Add a language pack."
+msgstr "이 프로그램의 언어입니다. 설정 메뉴 > 언어 팩 추가에서 직접 만든 언어를 추가할 수 있습니다."
+
+msgid "Settings"
+msgstr "설정"
+
+msgid "Save"
+msgstr "저장"
+
+msgid "Add a language pack"
+msgstr "언어 팩 추가"
+
+msgid "The language pack was not added"
+msgstr "언어 팩을 추가하지 않았습니다"
+
+msgid "Language pack added"
+msgstr "언어 팩을 추가했습니다"
+
+msgid "{0} is now available. Switch to it now?"
+msgstr "이제 {0}을(를) 사용할 수 있습니다. 지금 바꿀까요?"
+
+msgid "Not now"
+msgstr "나중에"
+
+msgid "Switch"
+msgstr "바꾸기"
+
+msgid "Save a template for a new language"
+msgstr "새 언어용 템플릿 저장"
+
+msgid "My language"
+msgstr "내 언어"
+
+msgid "Template saved"
+msgstr "템플릿을 저장했습니다"
+
+msgid "{0}\n\nOpen it in a text editor (or a translation editor such as Poedit), set @code (two letters, for example \"sv\") and @name "
+msgstr "{0}\n\n텍스트 편집기(또는 Poedit 같은 번역 편집기)에서 열고, @code(두 글자, 예: \"sv\")와 @name을 설정하세요. "
+
+msgid "The template was not saved"
+msgstr "템플릿을 저장하지 않았습니다"
+
+msgid "No browser or e-mail program here"
+msgstr "여기에는 브라우저나 전자 메일 프로그램이 없음"
+
+msgid "This system cannot open links (Windows PE has no browser). Write it down: "
+msgstr "이 시스템은 링크를 열 수 없습니다(Windows PE에는 브라우저가 없음). 적어 두세요: "
+
+msgid "Free for personal use"
+msgstr "개인 사용 무료"
+
+msgid "PATio Boot Doctor is free for you to use at home: on your own PCs and on those of your family and friends. No time limit, no adverts, nothing to unlock."
+msgstr "PATio Boot Doctor는 가정에서 무료로 사용할 수 있습니다. 내 PC와 가족, 친구의 PC에서 사용하세요. 기간 제한, 광고, 잠금 해제할 기능이 없습니다."
+
+msgid "Using it for work?"
+msgstr "업무용으로 사용하시나요?"
+
+msgid "If you use it in a business, a repair shop or an IT department, or to look after other people's PCs for pay, please get in touch for a business licence. It is fairly priced, and it keeps these tools growing and improving."
+msgstr "회사, 수리점, IT 부서에서 사용하거나 대가를 받고 다른 사람의 PC를 관리한다면 비즈니스 라이선스를 위해 연락해 주세요. 가격이 합리적이며, 이 도구들이 계속 성장하고 개선되는 데 도움이 됩니다."
+
+msgid "Contact"
+msgstr "연락처"
+
+msgid "E-mail"
+msgstr "전자 메일"
+
+msgid "Website"
+msgstr "웹 사이트"
+
+msgid "Made by MusPC with PatKit. It uses only Windows' own tools to make changes (diskpart, bcdedit, bcdboot, DISM and others), and always backs up first."
+msgstr "MusPC가 PatKit으로 만들었습니다. 변경할 때는 Windows 자체 도구(diskpart, bcdedit, bcdboot, DISM 등)만 사용하며, 항상 먼저 백업합니다."
+
+msgid "PowerShell is not available here"
+msgstr "여기서는 PowerShell을 사용할 수 없음"
+
+msgid "The command prompt is not available here"
+msgstr "여기서는 명령 프롬프트를 사용할 수 없음"
+
+msgid "This Windows PE or recovery system was made without PowerShell. Use the command prompt instead."
+msgstr "이 Windows PE 또는 복구 시스템은 PowerShell 없이 만들어졌습니다. 대신 명령 프롬프트를 사용하세요."
+
+msgid "cmd.exe was not found."
+msgstr "cmd.exe를 찾을 수 없습니다."
+
+msgid "It could not be opened"
+msgstr "열 수 없습니다"
+
+msgid "No recovery image was found"
+msgstr "복구 이미지를 찾을 수 없음"
+
+msgid "A rescue stick is made from the Windows Recovery Environment (Winre.wim) of this PC, or from a Windows install USB stick.\n\n- Turn the recovery environment on: open the command prompt (admin) and type: reagentc /enable\n- Or plug in a Windows 10 or 11 install USB stick.\n\nThen scan again (Ctrl+R) and try once more."
+msgstr "복구 USB는 이 PC의 Windows 복구 환경(Winre.wim)이나 Windows 설치 USB 메모리로 만듭니다.\n\n- 복구 환경 켜기: 명령 프롬프트(관리자)를 열고 다음을 입력하세요: reagentc /enable\n- 또는 Windows 10 또는 11 설치 USB 메모리를 연결하세요.\n\n그런 다음 다시 검사(Ctrl+R)하고 한 번 더 시도하세요."
+
+msgid "Plug in a USB stick"
+msgstr "USB 메모리를 연결하세요"
+
+msgid "Plug in a USB stick of 1 GB or more. Everything on it will be erased, so use an empty one or copy its files first. Then scan again (Ctrl+R) and try once more."
+msgstr "1 GB 이상의 USB 메모리를 연결하세요. 그 안의 모든 내용이 지워지므로 빈 것을 사용하거나 먼저 파일을 복사해 두세요. 그런 다음 다시 검사(Ctrl+R)하고 한 번 더 시도하세요."
+
+msgid "Make the rescue stick on this disk (erases it)"
+msgstr "이 디스크에 복구 USB 만들기(지워짐)"
+
+msgid "Make a rescue USB stick on "
+msgstr "복구 USB 만들기: "
+
+msgid "Everything on this stick will be erased"
+msgstr "이 USB 메모리의 모든 내용이 지워집니다"
+
+msgid "\n\nIt is made from: "
+msgstr "\n\n만드는 데 사용하는 원본: "
+
+msgid "). Making it takes about 5 to 15 minutes.\n\nTo make sure the right disk is erased, type its number ("
+msgstr "). 만드는 데 약 5~15분 걸립니다.\n\n올바른 디스크를 지우는지 확인하기 위해 디스크 번호("
+
+msgid ") below."
+msgstr ")를 아래에 입력하세요."
+
+msgid "Make the stick"
+msgstr "USB 만들기"
+
+msgid "Nothing was erased"
+msgstr "아무것도 지우지 않았음"
+
+msgid "Making the rescue USB stick"
+msgstr "복구 USB 만드는 중"
+
+msgid "Starting"
+msgstr "시작 중"
+
+msgid "Close"
+msgstr "닫기"
+
+msgid "Restart into firmware settings"
+msgstr "펌웨어 설정으로 다시 시작"
+
+msgid "Secure Boot"
+msgstr "Secure Boot"
+
+msgid "Restart now?"
+msgstr "지금 다시 시작할까요?"
+
+msgid "The PC restarts straight into its firmware settings in 10 seconds. Save your work and close other programs first."
+msgstr "10초 후 PC가 펌웨어 설정으로 바로 다시 시작됩니다. 먼저 작업을 저장하고 다른 프로그램을 닫으세요."
+
+msgid "Restart"
+msgstr "다시 시작"
+
+msgid ": too old for Secure Boot"
+msgstr ": Secure Boot를 쓰기에는 너무 오래됨"
+
+msgid ": starts without the signed \"shim\" loader"
+msgstr ": 서명된 \"shim\" 로더 없이 시작함"
+
+msgid "Switching Secure Boot on can stop a system from starting at the next start, if that system or one of its drivers is not signed."
+msgstr "Secure Boot를 켜면 어떤 시스템이나 그 드라이버가 서명되지 않은 경우 다음 시작 때 그 시스템이 시작되지 않을 수 있습니다."
+
+msgid " Nothing on this PC is known to need it off, but older tools, USB sticks and some drivers can still be refused."
+msgstr " 이 PC에서 꺼져 있어야 하는 것으로 알려진 것은 없지만, 오래된 도구, USB 메모리, 일부 드라이버는 여전히 거부될 수 있습니다."
+
+msgid " On this PC these would not start any more:"
+msgstr " 이 PC에서는 다음이 더 이상 시작되지 않습니다:"
+
+msgid "\n\nBitLocker is in use: Windows may ask for the recovery key once. Have it ready (aka.ms/myrecoverykey)."
+msgstr "\n\nBitLocker를 사용 중입니다. Windows가 복구 키를 한 번 요청할 수 있습니다. 준비해 두세요(aka.ms/myrecoverykey)."
+
+msgid "\n\nBefore you go on:\n1. Take a photo of this window with your phone now, so the steps below are with you while the firmware settings are on screen.\n2. In the firmware settings, take a photo of each page before you change anything on it, and of every change you make, before you choose \"Save and exit\". Then you can set everything back exactly.\n3. If the PC does not start afterwards: open the firmware settings again with the same key, set Secure Boot back to Disabled (and anything else back as in your photos), then save and exit.\n\n"
+msgstr "\n\n계속하기 전에:\n1. 지금 휴대폰으로 이 창의 사진을 찍어 두면, 펌웨어 설정 화면에서도 아래 단계를 볼 수 있습니다.\n2. 펌웨어 설정에서는 무언가를 바꾸기 전에 각 페이지의 사진을 찍고, \"Save and exit\"를 선택하기 전에 바꾼 내용마다 사진을 찍으세요. 그러면 모든 것을 정확히 되돌릴 수 있습니다.\n3. 그 후 PC가 시작되지 않으면: 같은 키로 펌웨어 설정을 다시 열고, Secure Boot를 Disabled로 되돌리고(다른 것도 사진대로 되돌림) 저장하고 종료하세요.\n\n"
+
+msgid "Before you switch Secure Boot on"
+msgstr "Secure Boot를 켜기 전에"
+
+msgid "I have taken the photo"
+msgstr "사진을 찍었습니다"
+
+msgid "Restarting into the firmware settings"
+msgstr "펌웨어 설정으로 다시 시작하는 중"
+
+msgid "in 10 seconds. Press Esc or the stop button to cancel."
+msgstr "10초 후. 취소하려면 Esc나 중지 단추를 누르세요."
+
+msgid " second"
+msgstr " 초"
+
+msgid " seconds"
+msgstr " 초"
+
+msgid "This puts back what \""
+msgstr "다음이 바꾼 내용을 백업에서 되돌립니다: \""
+
+msgid "\" changed, from its backup. What is there now is saved first, so Redo can make the change again."
+msgstr "\". 현재 상태를 먼저 저장하므로 다시 실행으로 변경을 다시 할 수 있습니다."
+
+msgid "Redo?"
+msgstr "다시 실행할까요?"
+
+msgid "\n\nIf the disks were changed in other ways since then, the result can differ. The disks are scanned again afterwards."
+msgstr "\n\n그 이후 디스크가 다른 방식으로 바뀌었다면 결과가 다를 수 있습니다. 작업 후 디스크를 다시 검사합니다."
+
+msgid "Redo"
+msgstr "다시 실행"
+
+msgid "Undo"
+msgstr "실행 취소"
+
+msgid "Automatic backups"
+msgstr "자동 백업"
+
+msgid "Before every change, this program saves a copy of what it is about to change. At the start of every session it also saves the start-up settings and partition tables of all disks. Undo puts a change back."
+msgstr "이 프로그램은 바꾸기 전에 항상 바꿀 내용의 사본을 저장합니다. 또한 각 세션을 시작할 때 모든 디스크의 부팅 설정과 파티션 테이블을 저장합니다. 실행 취소하면 변경이 되돌려집니다."
+
+msgid "Backups are kept in: "
+msgstr "백업 보관 위치: "
+
+msgid "Back up now"
+msgstr "지금 백업"
+
+msgid "Change folder"
+msgstr "폴더 변경"
+
+msgid "No sessions yet."
+msgstr "아직 세션이 없습니다."
+
+msgid " · this session"
+msgstr " · 이 세션"
+
+msgid "entry"
+msgstr "항목"
+
+msgid "entries"
+msgstr "항목"
+
+msgid "Delete"
+msgstr "삭제"
+
+msgid "Not finished"
+msgstr "완료되지 않음"
+
+msgid "Failed"
+msgstr "실패"
+
+msgid "Undone"
+msgstr "실행 취소됨"
+
+msgid "Everything found on this PC (↑ / ↓)"
+msgstr "이 PC에서 찾은 모든 것(↑ / ↓)"
+
+msgid "\n\nWhat may have caused this: "
+msgstr "\n\n원인일 수 있는 것: "
+
+msgid "\nClick for details, double-click or Enter to carry out its first fix"
+msgstr "\n클릭하면 자세한 정보, 두 번 클릭하거나 Enter를 누르면 첫 번째 해결 방법 실행"
+
+msgid "\nClick to see it in the boot chain"
+msgstr "\n클릭하면 부팅 단계에서 표시"
+
+msgid "Carry out every step of the plan for "
+msgstr "다음에 대한 계획의 모든 단계를 차례로 실행: "
+
+msgid ", one after another. You are asked first."
+msgstr ". 먼저 확인을 요청합니다."
+
+msgid "Everything found about this Windows, and what it takes to make it start"
+msgstr "이 Windows에 대해 찾은 모든 것과 시작하게 하는 데 필요한 것"
+
+msgid "Show every step this Windows needs to start, as a chain (Ctrl+2)"
+msgstr "이 Windows 시작에 필요한 모든 단계를 연결된 순서로 표시(Ctrl+2)"
+
+msgid "Back to everything found on this PC"
+msgstr "이 PC에서 찾은 모든 것으로 돌아가기"
+
+msgid "\nDrive "
+msgstr "\n드라이브 "
+
+msgid "\nMarked active (legacy start-up)"
+msgstr "\n활성으로 표시됨(레거시 시작)"
+
+msgid "\nEncrypted with BitLocker, locked"
+msgstr "\nBitLocker로 암호화됨, 잠김"
+
+msgid "\nEncrypted with BitLocker, unlocked"
+msgstr "\nBitLocker로 암호화됨, 잠금 해제됨"
+
+msgid "\nMarked as needing a disk check"
+msgstr "\n디스크 검사가 필요하다고 표시됨"
+
+msgid "\nLinux id: "
+msgstr "\nLinux ID: "
+
+msgid "\nRuns past the end of the disk"
+msgstr "\n디스크 끝을 넘어감"
+
+msgid "\nOverlaps another partition"
+msgstr "\n다른 파티션과 겹침"
+
+msgid "\nClick for what can be done with it, or right-click for a menu"
+msgstr "\n클릭하면 할 수 있는 작업 표시, 마우스 오른쪽 단추를 클릭하면 메뉴"
+
+msgid "A Windows on this disk has no start-up partition. Open the report to create one."
+msgstr "이 디스크의 Windows에 부팅 파티션이 없습니다. 보고서를 열어 만드세요."
+
+msgid "What Secure Boot is, whether it is on, and how to switch it on or off"
+msgstr "Secure Boot란 무엇인지, 켜져 있는지, 켜고 끄는 방법"
+
+msgid "Open a command prompt with administrator rights (for typing commands such as diskpart or bcdedit yourself)"
+msgstr "관리자 권한으로 명령 프롬프트 열기(diskpart나 bcdedit 같은 명령을 직접 입력할 때)"
+
+msgid "Open PowerShell with administrator rights"
+msgstr "관리자 권한으로 PowerShell 열기"
+
+msgid "Make a USB stick that starts PATio Boot Doctor on any PC, even one whose Windows does not start. Everything on the stick is erased."
+msgstr "Windows가 시작되지 않는 PC를 포함해 어떤 PC에서든 PATio Boot Doctor를 시작하는 USB 메모리를 만듭니다. USB 메모리의 모든 내용이 지워집니다."
+
+msgid "Drag to make the console taller or shorter"
+msgstr "끌어서 콘솔 높이 조절"
+
+msgid "Close the console (Settings brings it back)"
+msgstr "콘솔 닫기(설정에서 다시 표시)"
+
+msgid "Clear the console"
+msgstr "콘솔 지우기"
+
+msgid "Every command this program runs, and what it answered. Scroll with the mouse wheel."
+msgstr "이 프로그램이 실행하는 모든 명령과 그 응답입니다. 마우스 휠로 스크롤하세요."
+
+msgid "Write an e-mail to info@muspc.com"
+msgstr "info@muspc.com으로 전자 메일 쓰기"
+
+msgid "Open www.muspc.com"
+msgstr "www.muspc.com 열기"
+
+msgid "Unused space: click to see what can be done with it (create a partition), or right-click for a menu"
+msgstr "사용하지 않는 공간: 클릭하면 할 수 있는 작업(파티션 만들기) 표시, 마우스 오른쪽 단추를 클릭하면 메뉴"
+
+msgid "Click for what can be done with the whole disk (set up, convert, wipe, online / offline)"
+msgstr "클릭하면 디스크 전체에 할 수 있는 작업 표시(설정, 변환, 지우기, 온라인 / 오프라인)"
+
+msgid "Hide the short explanations of what each thing is"
+msgstr "각 항목에 대한 짧은 설명 숨기기"
+
+msgid "Show short explanations of what each thing is, for people new to this"
+msgstr "처음 사용하는 사람을 위해 각 항목에 대한 짧은 설명 표시"
+
+msgid "Put back what this change altered. What is there now is backed up first, so the undo can be undone too."
+msgstr "이 변경이 바꾼 내용을 되돌립니다. 현재 상태를 먼저 백업하므로 실행 취소도 취소할 수 있습니다."
+
+msgid "Delete this session's backups from the disk. This cannot be undone."
+msgstr "이 세션의 백업을 디스크에서 삭제합니다. 실행 취소할 수 없습니다."
+
+msgid "\nThis change cannot be undone."
+msgstr "\n이 변경은 실행 취소할 수 없습니다."
+
+msgid "Save the start-up settings and partition tables of all disks now (Ctrl+B)"
+msgstr "지금 모든 디스크의 부팅 설정과 파티션 테이블 저장(Ctrl+B)"
+
+msgid "Choose another folder for backups. Use a drive that is not being repaired."
+msgstr "백업용 다른 폴더를 선택하세요. 복구 중이 아닌 드라이브를 사용하세요."
+
+msgid "Scroll with the mouse wheel or Page up / Page down"
+msgstr "마우스 휠이나 Page Up / Page Down으로 스크롤"
+
+msgid "\nClick to choose it (or not) for recovering"
+msgstr "\n클릭하여 복구할지 선택하거나 선택 해제"
+
+msgid "Show only this kind of file"
+msgstr "이 종류의 파일만 표시"
+
+msgid "Choose every file shown"
+msgstr "표시된 파일 모두 선택"
+
+msgid "Choose none of the files shown"
+msgstr "표시된 파일 모두 선택 해제"
+
+msgid "Copy the chosen files to a folder on another drive"
+msgstr "선택한 파일을 다른 드라이브의 폴더로 복사"
+
+msgid "Back to Disks and partitions"
+msgstr "디스크 및 파티션으로 돌아가기"
+
+msgid "Put this partition back in the partition table. Its contents are not touched; Undo removes it again."
+msgstr "이 파티션을 파티션 테이블에 되돌립니다. 내용은 건드리지 않으며, 실행 취소하면 다시 제거됩니다."
+
+msgid "Read every sector of the unused space. This can take hours on a big disk."
+msgstr "사용하지 않는 공간의 모든 섹터를 읽습니다. 큰 디스크에서는 몇 시간 걸릴 수 있습니다."
+
+msgid "Close this list"
+msgstr "이 목록 닫기"
+
+msgid "Go on: you are asked once more before anything changes"
+msgstr "계속: 바뀌기 전에 한 번 더 확인을 요청합니다"
+
+msgid "Close the preview; nothing changes"
+msgstr "미리 보기 닫기, 아무것도 바뀌지 않음"
+
+msgid "Use only the unused space right after it"
+msgstr "바로 뒤의 사용하지 않는 공간만 사용"
+
+msgid "Delete the partition right after it and use its space"
+msgstr "바로 뒤의 파티션을 삭제하고 그 공간 사용"
+
+msgid "Delete this saved key?"
+msgstr "저장된 이 키를 삭제할까요?"
+
+msgid "The BitLocker recovery key for {0} (saved {1}) is deleted from this PC. Keep a copy elsewhere (your Microsoft account, a printout) if you may need it again."
+msgstr "{0}의 BitLocker 복구 키({1}에 저장됨)가 이 PC에서 삭제됩니다. 다시 필요할 수 있다면 다른 곳(Microsoft 계정, 인쇄물)에 사본을 보관하세요."
+
+msgid "Key deleted"
+msgstr "키를 삭제했습니다"
+
+msgid "The key was not deleted"
+msgstr "키를 삭제하지 않았습니다"
+
+msgid "Delete all saved keys?"
+msgstr "저장된 키를 모두 삭제할까요?"
+
+msgid "Every BitLocker recovery key remembered on this PC is deleted. Keep copies elsewhere if you may need them again."
+msgstr "이 PC에 기억된 모든 BitLocker 복구 키가 삭제됩니다. 다시 필요할 수 있다면 다른 곳에 사본을 보관하세요."
+
+msgid "Delete all"
+msgstr "모두 삭제"
+
+msgid "All saved keys deleted"
+msgstr "저장된 키를 모두 삭제했습니다"
+
+msgid "The keys were not deleted"
+msgstr "키를 삭제하지 않았습니다"
+
+msgid "Use this folder"
+msgstr "이 폴더 사용"
+
+msgid "This folder cannot be used"
+msgstr "이 폴더는 사용할 수 없음"
+
+msgid "Nothing can be written to "
+msgstr "다음 위치에 아무것도 쓸 수 없습니다: "
+
+msgid "Backup folder changed"
+msgstr "백업 폴더를 변경했습니다"
+
+msgid "New backups go to "
+msgstr "새 백업 저장 위치: "
+
+msgid "The backup folder was not changed"
+msgstr "백업 폴더를 변경하지 않았습니다"
+
+msgid "Delete these backups?"
+msgstr "이 백업을 삭제할까요?"
+
+msgid "The backups of the session from "
+msgstr "다음 세션의 백업: "
+
+msgid " are deleted from the disk. Its changes then cannot be undone any more."
+msgstr " — 디스크에서 삭제됩니다. 그러면 해당 변경을 더 이상 실행 취소할 수 없습니다."
+
+msgid "Not all backups were deleted"
+msgstr "일부 백업을 삭제하지 못했습니다"
+
+msgid "Some files in "
+msgstr "다음 위치의 일부 파일: "
+
+msgid " are in use or read-only."
+msgstr " — 사용 중이거나 읽기 전용입니다."
+
+msgid "Save the report"
+msgstr "보고서 저장"
+
+msgid "Report saved"
+msgstr "보고서를 저장했습니다"
+
+msgid "The report was not saved"
+msgstr "보고서를 저장하지 않았습니다"
+
+msgid "The file "
+msgstr "파일 "
+
+msgid " could not be written. Choose another folder."
+msgstr " 을(를) 쓸 수 없습니다. 다른 폴더를 선택하세요."
+
+msgid "Reading disks"
+msgstr "디스크 읽는 중"
+
+msgid "Saving a backup of the start-up setup"
+msgstr "부팅 구성 백업 저장 중"
+
+msgid "Unlock BitLocker first?"
+msgstr "먼저 BitLocker 잠금을 해제할까요?"
+
+msgid "{0} is locked by BitLocker, so what is inside it cannot be seen. Windows may well be inside it, and the start-up entries and files this change touches may belong to it.\n\nUnlock it first and scan again; then decide."
+msgstr "{0}이(가) BitLocker로 잠겨 있어 내부를 볼 수 없습니다. 그 안에 Windows가 있을 수 있으며, 이 변경이 건드리는 부팅 항목과 파일이 그 Windows에 속할 수 있습니다.\n\n먼저 잠금을 해제하고 다시 검사한 다음 결정하세요."
+
+msgid "Unlock first"
+msgstr "먼저 잠금 해제"
+
+msgid "Go on anyway"
+msgstr "그래도 계속"
+
+msgid "This is done:\n\n"
+msgstr "다음 작업을 합니다:\n\n"
+
+msgid "These steps are done, one after another:\n\n"
+msgstr "다음 단계를 차례로 실행합니다:\n\n"
+
+msgid "Before anything changes, a copy of what will change is saved in\n"
+msgstr "바뀌기 전에 바뀔 내용의 사본을 다음 위치에 저장합니다:\n"
+
+msgid "\nso History can undo it."
+msgstr "\n그러므로 기록에서 실행 취소할 수 있습니다."
+
+msgid " Steps marked \"cannot be undone\" are the exception."
+msgstr " \"실행 취소할 수 없음\"으로 표시된 단계는 예외입니다."
+
+msgid "Repair "
+msgstr "복구: "
+
+msgid "Do all steps"
+msgstr "모든 단계 실행"
+
+msgid "Repairing"
+msgstr "복구 중"
+
+msgid "Stopped before: "
+msgstr "다음 단계 전에 중지됨: "
+
+msgid "What this change altered on "
+msgstr "다음에서 이 변경이 바꾼 내용: "
+
+msgid " is put back from its backup. What is there now is saved first, so this undo can be undone too.\n\nIf the disks were changed since then, the result can be different from before. Scan again afterwards."
+msgstr " — 백업에서 되돌립니다. 현재 상태를 먼저 저장하므로 이 실행 취소도 취소할 수 있습니다.\n\n그 이후 디스크가 바뀌었다면 결과가 이전과 다를 수 있습니다. 작업 후 다시 검사하세요."
+
+msgid "Redoing"
+msgstr "다시 실행 중"
+
+msgid "Undoing"
+msgstr "실행 취소 중"
+
+msgid "Choose a folder for backups first."
+msgstr "먼저 백업용 폴더를 선택하세요."
+
+msgid "Backing up"
+msgstr "백업 중"
+
+msgid "Start-up settings and partition tables"
+msgstr "부팅 설정 및 파티션 테이블"
+
+msgid "Start-up setup, backed up on request"
+msgstr "요청에 따라 백업한 부팅 구성"
+
+msgid "Restart cancelled"
+msgstr "다시 시작을 취소했습니다"
+
+msgid "Nothing was changed."
+msgstr "아무것도 바뀌지 않았습니다."
+
+msgid "Working"
+msgstr "작업 중"
+
+msgid "\n\nThe key is remembered on this PC (encrypted for your Windows account). Settings menu > Saved BitLocker keys deletes it."
+msgstr "\n\n키는 이 PC에 기억됩니다(Windows 계정용으로 암호화됨). 설정 메뉴 > 저장된 BitLocker 키에서 삭제할 수 있습니다."
+
+msgid "Backups cannot be saved"
+msgstr "백업을 저장할 수 없음"
+
+msgid "\n\nRepairs stay off until a backup folder is chosen with the settings button."
+msgstr "\n\n설정 단추로 백업 폴더를 선택할 때까지 복구 기능은 꺼져 있습니다."
+
+msgid "Scan finished"
+msgstr "검사 완료"
+
+msgid " on "
+msgstr " , 위치: "
+
+msgid "thing needs"
+msgstr "개 항목 확인 필요"
+
+msgid "things need"
+msgstr "개 항목 확인 필요"
+
+msgid " attention."
+msgstr " ."
+
+msgid "Nothing needs attention."
+msgstr "확인이 필요한 항목이 없습니다."
+
+msgid "Backed up"
+msgstr "백업 완료"
+
+msgid "The start-up setup of all disks was saved. See History."
+msgstr "모든 디스크의 부팅 구성을 저장했습니다. 기록을 참조하세요."
+
+msgid "The backup was not complete"
+msgstr "백업이 완료되지 않았습니다"
+
+msgid "Redone"
+msgstr "다시 실행됨"
+
+msgid "The undo was not complete"
+msgstr "실행 취소가 완료되지 않았습니다"
+
+msgid "Rescue USB stick ready"
+msgstr "복구 USB 준비 완료"
+
+msgid "The rescue stick was not made"
+msgstr "복구 USB를 만들지 못했습니다"
+
+msgid "Not done"
+msgstr "완료되지 않음"
+
+msgid "Repair finished"
+msgstr "복구 완료"
+
+msgid "Repair stopped"
+msgstr "복구 중지됨"
+
+msgid "Done."
+msgstr "완료."
+
+msgid "Something went wrong."
+msgstr "문제가 발생했습니다."
+
+msgid "\n\nThe disks were scanned again, so the report shows how things are now."
+msgstr "\n\n디스크를 다시 검사했으므로 보고서에 현재 상태가 표시됩니다."
+
+msgid "Microsoft DiskPart\r\n\r\nDisk 1 is now the selected disk.\r\nPartition 1 is now the selected partition.\r\nDiskPart successfully assigned the drive letter or mount point."
+msgstr "Microsoft DiskPart\r\n\r\nDisk 1 is now the selected disk.\r\nPartition 1 is now the selected partition.\r\nDiskPart successfully assigned the drive letter or mount point."
+
+msgid "It runs into a partition that exists now, so it was partly overwritten or that partition was made over it."
+msgstr "지금 있는 파티션과 겹치므로 일부가 덮어쓰였거나 그 위에 파티션이 만들어졌습니다."
+
+msgid "Disks and partitions"
+msgstr "디스크 및 파티션"
+
+msgid "Recovered files"
+msgstr "복구된 파일"
+
+msgid "History"
+msgstr "기록"
+
+msgid "Tools"
+msgstr "도구"
+
+msgid "Make a USB rescue disk"
+msgstr "USB 복구 디스크 만들기"
+
+msgid "Command prompt"
+msgstr "명령 프롬프트"
+
+msgid "PowerShell"
+msgstr "PowerShell"
+
+msgid "Language: "
+msgstr "언어: "
+
+msgid "Shutting down in"
+msgstr "종료까지"
+
+msgid "Restarting in"
+msgstr "다시 시작까지"
+
+msgid "Hibernating in"
+msgstr "최대 절전 모드까지"
+
+msgid "Shut down"
+msgstr "종료"
+
+msgid "Hibernate"
+msgstr "최대 절전 모드"
+
+msgid "Everything found on this PC, and what it takes to fix it (Ctrl+H)"
+msgstr "이 PC에서 찾은 모든 것과 해결하는 데 필요한 것(Ctrl+H)"
+
+msgid "Every step a system needs to start, shown as a chain (Ctrl+2)"
+msgstr "시스템이 시작하는 데 필요한 모든 단계를 연결된 순서로 표시(Ctrl+2)"
+
+msgid "Disks and partitions: create, delete, resize, unlock BitLocker, find lost partitions and recover deleted files (Ctrl+3)"
+msgstr "디스크 및 파티션: 만들기, 삭제, 크기 조정, BitLocker 잠금 해제, 잃어버린 파티션 찾기, 삭제된 파일 복구(Ctrl+3)"
+
+msgid "The deleted files found by the last search"
+msgstr "마지막 검색에서 찾은 삭제된 파일"
+
+msgid "Backups and every change, with undo (Ctrl+4)"
+msgstr "백업과 모든 변경 내역, 실행 취소 가능(Ctrl+4)"
+
+msgid "Change the language of this program"
+msgstr "이 프로그램의 언어 변경"
+
+msgid "Shut the PC down now or after a time you choose"
+msgstr "지금 또는 선택한 시간 후에 PC 종료"
+
+msgid "Restart the PC now or after a time you choose"
+msgstr "지금 또는 선택한 시간 후에 PC 다시 시작"
+
+msgid "Save everything that is open to the disk and switch off; it all comes back at the next start"
+msgstr "열려 있는 모든 것을 디스크에 저장하고 전원을 끕니다. 다음 시작 때 모두 돌아옵니다"
+
+msgid "Cancel the timed shut down, restart or hibernation"
+msgstr "예약된 종료, 다시 시작 또는 최대 절전 모드 취소"
+
+msgid "Now"
+msgstr "지금"
+
+msgid "In {0} minutes"
+msgstr "{0}분 후"
+
+msgid "In 1 hour"
+msgstr "1시간 후"
+
+msgid "In 2 hours"
+msgstr "2시간 후"
+
+msgid "In 1 minute"
+msgstr "1분 후"
+
+msgid "At a time I choose…"
+msgstr "원하는 시간에…"
+
+msgid "Cancel the timer"
+msgstr "타이머 취소"
+
+msgid "shut down"
+msgstr "종료"
+
+msgid "restart"
+msgstr "다시 시작"
+
+msgid "hibernate"
+msgstr "최대 절전 모드"
+
+msgid "Everything that is open is saved to the disk and the PC switches off. It all comes back at the next start."
+msgstr "열려 있는 모든 것을 디스크에 저장하고 PC 전원이 꺼집니다. 다음 시작 때 모두 돌아옵니다."
+
+msgid "Programs that are open are closed; unsaved work in them is lost."
+msgstr "열려 있는 프로그램이 닫히며, 저장하지 않은 작업은 사라집니다."
+
+msgid "\n\nWork is still running here: it waits until that has finished."
+msgstr "\n\n여기서 아직 작업이 진행 중입니다. 작업이 끝날 때까지 기다립니다."
+
+msgid "Shut down now?"
+msgstr "지금 종료할까요?"
+
+msgid "Hibernate now?"
+msgstr "지금 최대 절전 모드로 전환할까요?"
+
+msgid "When?"
+msgstr "언제?"
+
+msgid "Type in how many minutes to {0} (for example 45), or a time of day (for example 23:30)."
+msgstr "{0}까지 남은 시간(분, 예: 45) 또는 시각(예: 23:30)을 입력하세요."
+
+msgid "Set the timer"
+msgstr "타이머 설정"
+
+msgid "That is not a time"
+msgstr "올바른 시간이 아님"
+
+msgid "Type a number of minutes (1 to 1440) or a time of day such as 23:30."
+msgstr "분(1~1440) 또는 23:30 같은 시각을 입력하세요."
+
+msgid "Shut down timer set"
+msgstr "종료 타이머 설정됨"
+
+msgid "Restart timer set"
+msgstr "다시 시작 타이머 설정됨"
+
+msgid "Hibernate timer set"
+msgstr "최대 절전 모드 타이머 설정됨"
+
+msgid "In {0}. Cancel it at the bottom of the left pane."
+msgstr "{0} 후. 왼쪽 창 아래쪽에서 취소할 수 있습니다."
+
+msgid "Timer cancelled"
+msgstr "타이머를 취소했습니다"
+
+msgid "The PC stays on."
+msgstr "PC가 켜진 상태로 유지됩니다."
+
+msgid "Shutting down in 1 minute"
+msgstr "1분 후 종료"
+
+msgid "Restarting in 1 minute"
+msgstr "1분 후 다시 시작"
+
+msgid "Hibernating in 1 minute"
+msgstr "1분 후 최대 절전 모드"
+
+msgid "Save your work in other programs."
+msgstr "다른 프로그램의 작업을 저장하세요."
+
+msgid "It did not work"
+msgstr "작동하지 않았습니다"
+
+msgid "Type the 48-digit recovery key of {0}. You find it in your Microsoft account (aka.ms/myrecoverykey), on a printout, or with your IT department. The dashes are added for you."
+msgstr "{0}의 48자리 복구 키를 입력하세요. 키는 Microsoft 계정(aka.ms/myrecoverykey), 인쇄물 또는 IT 부서에서 찾을 수 있습니다. 대시는 자동으로 추가됩니다."
+
+msgid "\n\nA key saved on this PC on {0} for this drive was filled in."
+msgstr "\n\n{0}에 이 PC에 저장된 이 드라이브의 키를 채워 넣었습니다."
+
+msgid "BitLocker recovery key"
+msgstr "BitLocker 복구 키"
+
+msgid "Unlock"
+msgstr "잠금 해제"
+
+msgid "That is not a recovery key"
+msgstr "복구 키가 아님"
+
+msgid "A BitLocker recovery key has 48 digits, in 8 groups of 6. Check it and try again."
+msgstr "BitLocker 복구 키는 6자리씩 8묶음, 총 48자리입니다. 확인하고 다시 시도하세요."
+
+msgid "One of the groups of 6 digits is mistyped (each group of a real key can be divided by 11). Check it and try again."
+msgstr "6자리 묶음 중 하나가 잘못 입력되었습니다(실제 키의 각 묶음은 11로 나누어떨어집니다). 확인하고 다시 시도하세요."
+
+msgid "Do not save the key"
+msgstr "키 저장 안 함"
+
+msgid "Remember it on this PC"
+msgstr "이 PC에 기억"
+
+msgid "Saved BitLocker keys"
+msgstr "저장된 BitLocker 키"
+
+msgid "No recovery keys are saved on this PC. When you unlock a drive, choose \"Remember it on this PC\" to save its key here (encrypted, for your Windows account only)."
+msgstr "이 PC에 저장된 복구 키가 없습니다. 드라이브의 잠금을 해제할 때 \"이 PC에 기억\"을 선택하면 키가 여기에 저장됩니다(암호화되며 내 Windows 계정에서만 사용)."
+
+msgid "Click a key to delete it"
+msgstr "키를 클릭하여 삭제"
+
+msgid "Delete all saved keys"
+msgstr "저장된 키 모두 삭제"
+
+msgid "Measuring what can be removed"
+msgstr "제거할 수 있는 양을 측정하는 중"
+
+msgid "About {0} can be freed. Personal files, programs and settings are not touched. Files in use are left alone."
+msgstr "약 {0}을(를) 확보할 수 있습니다. 개인 파일, 프로그램, 설정은 건드리지 않습니다. 사용 중인 파일은 그대로 둡니다."
+
+msgid "Remove"
+msgstr "제거"
+
+msgid "This is not possible for this kind of partition."
+msgstr "이 종류의 파티션에서는 할 수 없습니다."
+
+msgid "There is nothing after it to use"
+msgstr "뒤에 사용할 수 있는 것이 없음"
+
+msgid "A partition can only grow into space right after it. There is no unused space and no partition right after this one."
+msgstr "파티션은 바로 뒤의 공간으로만 늘릴 수 있습니다. 이 파티션 바로 뒤에는 사용하지 않는 공간도, 파티션도 없습니다."
+
+msgid "Unused"
+msgstr "사용 안 함"
+
+msgid "deleted"
+msgstr "삭제됨"
+
+msgid "Preview: make {0} smaller"
+msgstr "미리 보기: {0} 줄이기"
+
+msgid "Preview: make {0} bigger"
+msgstr "미리 보기: {0} 늘리기"
+
+msgid "Use the unused space after it ({0})"
+msgstr "뒤의 사용하지 않는 공간 사용({0})"
+
+msgid "Delete {0} after it and use its space"
+msgstr "뒤의 {0}을(를) 삭제하고 그 공간 사용"
+
+msgid "Afterwards"
+msgstr "작업 후"
+
+msgid "Changing partitions is safe in almost all cases, but a power cut or a crash while it runs can damage the drive and lose data. Back up important files first, keep a laptop plugged in, and close other programs."
+msgstr "파티션 변경은 거의 항상 안전하지만, 진행 중에 전원이 끊기거나 시스템이 멈추면 드라이브가 손상되어 데이터를 잃을 수 있습니다. 먼저 중요한 파일을 백업하고, 노트북은 전원을 연결해 두고, 다른 프로그램을 닫으세요."
+
+msgid "Everything on {0} is erased."
+msgstr "{0}의 모든 내용이 지워집니다."
+
+msgid " It is a recovery partition: Windows' troubleshoot options are on it. After this, recreate them from the report (\"Recreate the recovery partition\"), which takes 1 GB back."
+msgstr " 이것은 복구 파티션으로, Windows 문제 해결 옵션이 들어 있습니다. 작업 후 보고서에서 다시 만드세요(\"복구 파티션 다시 만들기\"). 이때 1 GB를 다시 사용합니다."
+
+msgid " This drive uses BitLocker: have its recovery key ready."
+msgstr " 이 드라이브는 BitLocker를 사용합니다. 복구 키를 준비해 두세요."
+
+msgid "Full search for lost partitions"
+msgstr "잃어버린 파티션 전체 검색"
+
+msgid "Quick search for lost partitions"
+msgstr "잃어버린 파티션 빠른 검색"
+
+msgid "Search finished"
+msgstr "검색 완료"
+
+msgid "No lost partitions were found."
+msgstr "잃어버린 파티션을 찾을 수 없습니다."
+
+msgid "lost partition found"
+msgstr "개의 잃어버린 파티션 발견"
+
+msgid "lost partitions found"
+msgstr "개의 잃어버린 파티션 발견"
+
+msgid "Lost partitions · full search"
+msgstr "잃어버린 파티션 · 전체 검색"
+
+msgid "Lost partitions · quick search"
+msgstr "잃어버린 파티션 · 빠른 검색"
+
+msgid "Nothing was found. The partitions were probably overwritten."
+msgstr "아무것도 찾을 수 없습니다. 파티션이 덮어쓰였을 가능성이 높습니다."
+
+msgid "Nothing was found where partitions normally start. The full search reads every sector and also finds the backup copies file systems keep."
+msgstr "파티션이 보통 시작하는 위치에서 아무것도 찾을 수 없습니다. 전체 검색은 모든 섹터를 읽으며 파일 시스템이 보관하는 백업 사본도 찾습니다."
+
+msgid " · starts at "
+msgstr " · 시작 위치 "
+
+msgid "Put it back"
+msgstr "되돌리기"
+
+msgid "Found through its backup copy (its first sector is damaged). "
+msgstr "백업 사본을 통해 찾았습니다(첫 번째 섹터가 손상됨). "
+
+msgid "Full search (slow)"
+msgstr "전체 검색(느림)"
+
+msgid "The {0} partition ({1}) is put back in the partition table of Disk {2}, where it was. Its files are not touched; nothing is written inside it.\n\nIf the files look wrong afterwards, Undo (Ctrl+Z) removes it from the table again."
+msgstr "{0} 파티션({1})을 디스크 {2}의 파티션 테이블의 원래 위치에 되돌립니다. 파일은 건드리지 않으며, 내부에는 아무것도 쓰지 않습니다.\n\n그 후 파일이 이상해 보이면 실행 취소(Ctrl+Z)로 테이블에서 다시 제거할 수 있습니다."
+
+msgid "\n\nIts first sector is damaged: after putting it back, run \"Check for errors\" on it, which repairs the first sector from the backup copy."
+msgstr "\n\n첫 번째 섹터가 손상되었습니다. 되돌린 후 \"오류 검사\"를 실행하면 백업 사본에서 첫 번째 섹터가 복구됩니다."
+
+msgid "Put the partition back?"
+msgstr "파티션을 되돌릴까요?"
+
+msgid "Restore a lost partition"
+msgstr "잃어버린 파티션 복원"
+
+msgid "Good"
+msgstr "양호"
+
+msgid "May be damaged"
+msgstr "손상되었을 수 있음"
+
+msgid "Probably overwritten"
+msgstr "덮어쓰였을 가능성 높음"
+
+msgid "Full search for deleted files"
+msgstr "삭제된 파일 전체 검색"
+
+msgid "Quick search for deleted files"
+msgstr "삭제된 파일 빠른 검색"
+
+msgid "No search yet"
+msgstr "아직 검색하지 않음"
+
+msgid "In Disks and partitions, click a partition and choose \"Recover deleted files\"."
+msgstr "디스크 및 파티션에서 파티션을 클릭하고 \"삭제된 파일 복구\"를 선택하세요."
+
+msgid "Deleted files on {0}"
+msgstr "{0}의 삭제된 파일"
+
+msgid " · full search"
+msgstr " · 전체 검색"
+
+msgid " · quick search"
+msgstr " · 빠른 검색"
+
+msgid "Save recovered files to a different drive, never to this one: writing here can overwrite the very files you want back."
+msgstr "복구한 파일은 절대 이 드라이브가 아닌 다른 드라이브에 저장하세요. 여기에 쓰면 되찾으려는 파일을 덮어쓸 수 있습니다."
+
+msgid "Recover {0} files…"
+msgstr "파일 {0}개 복구…"
+
+msgid "Recover chosen files…"
+msgstr "선택한 파일 복구…"
+
+msgid "Choose all shown"
+msgstr "표시된 파일 모두 선택"
+
+msgid "Choose none"
+msgstr "모두 선택 해제"
+
+msgid "Back to the disks"
+msgstr "디스크로 돌아가기"
+
+msgid "All"
+msgstr "모두"
+
+msgid "Pictures"
+msgstr "사진"
+
+msgid "Documents"
+msgstr "문서"
+
+msgid "Music and videos"
+msgstr "음악 및 동영상"
+
+msgid "Archives"
+msgstr "압축 파일"
+
+msgid "Other"
+msgstr "기타"
+
+msgid "No files chosen"
+msgstr "선택한 파일 없음"
+
+msgid "Click the files you want back (or \"Choose all shown\"), then try again."
+msgstr "되찾을 파일을 클릭한(또는 \"표시된 파일 모두 선택\") 다음 다시 시도하세요."
+
+msgid "Where should the files go? (another drive)"
+msgstr "파일을 어디에 저장할까요? (다른 드라이브)"
+
+msgid "Recover here"
+msgstr "여기에 복구"
+
+msgid "Choose another drive"
+msgstr "다른 드라이브 선택"
+
+msgid "This folder is on the drive the files are recovered from. Writing there can overwrite the deleted files. Choose a folder on another drive, for example a USB stick."
+msgstr "이 폴더는 파일을 복구하는 드라이브에 있습니다. 거기에 쓰면 삭제된 파일을 덮어쓸 수 있습니다. 다른 드라이브(예: USB 메모리)의 폴더를 선택하세요."
+
+msgid "Recovering files"
+msgstr "파일 복구 중"
+
+msgid "{0} files, {1}"
+msgstr "파일 {0}개, {1}"
+
+msgid "{0} files were recovered to {1}."
+msgstr "파일 {0}개를 {1}에 복구했습니다."
+
+msgid "{0} files came back only partly or not at all; their space was probably used again."
+msgstr "파일 {0}개는 일부만 복구되었거나 전혀 복구되지 않았습니다. 그 공간이 다시 사용되었을 가능성이 높습니다."
+
+msgid "Recovered, with some problems"
+msgstr "복구됨(일부 문제 있음)"
+
+msgid "Files recovered"
+msgstr "파일 복구 완료"
+
+msgid "{0} files found. Files marked \"may be damaged\" had part of their space used again since they were deleted."
+msgstr "파일 {0}개를 찾았습니다. \"손상되었을 수 있음\"으로 표시된 파일은 삭제된 후 공간의 일부가 다시 사용되었습니다."
+
+msgid "Looking for lost partitions"
+msgstr "잃어버린 파티션 찾는 중"
+
+msgid "Looking for lost partitions, sector by sector"
+msgstr "섹터별로 잃어버린 파티션 찾는 중"
+
+msgid "Its size is not written in its first sector, so all unused space after it is used."
+msgstr "첫 번째 섹터에 크기가 기록되어 있지 않아 뒤의 사용하지 않는 공간을 모두 사용합니다."
+
+msgid "It starts inside a partition that exists now."
+msgstr "지금 있는 파티션 안에서 시작합니다."
+
+msgid "It does not start on a sector boundary."
+msgstr "섹터 경계에서 시작하지 않습니다."
+
+msgid "The partition is back in the partition table. Its files were not touched. If it has no drive letter, give it one in Disks and partitions."
+msgstr "파티션이 파티션 테이블에 돌아왔습니다. 파일은 건드리지 않았습니다. 드라이브 문자가 없다면 디스크 및 파티션에서 지정하세요."
+
+msgid "The partition could not be put back. "
+msgstr "파티션을 되돌릴 수 없습니다. "
+
+msgid "The partition could not be opened."
+msgstr "파티션을 열 수 없습니다."
+
+msgid "This drive is locked by BitLocker. Unlock it first: its contents cannot be read while it is locked."
+msgstr "이 드라이브는 BitLocker로 잠겨 있습니다. 먼저 잠금을 해제하세요. 잠겨 있는 동안에는 내용을 읽을 수 없습니다."
+
+msgid "The file list of this drive is damaged. The full scan can still find files by their contents."
+msgstr "이 드라이브의 파일 목록이 손상되었습니다. 전체 검사로는 여전히 내용으로 파일을 찾을 수 있습니다."
+
+msgid "Reading the file list"
+msgstr "파일 목록 읽는 중"
+
+msgid "(folder unknown)"
+msgstr "(알 수 없는 폴더)"
+
+msgid "(folder unknown)\\"
+msgstr "(알 수 없는 폴더)\\"
+
+msgid "A quick search only works on NTFS drives (most Windows drives). Use the full scan: it finds pictures and PDFs by their contents on any drive."
+msgstr "빠른 검색은 NTFS 드라이브(대부분의 Windows 드라이브)에서만 작동합니다. 전체 검사를 사용하세요. 어떤 드라이브에서든 사진과 PDF를 내용으로 찾습니다."
+
+msgid "Reading the whole drive"
+msgstr "드라이브 전체 읽는 중"
+
+msgid "(found by the deep scan)"
+msgstr "(정밀 검사로 찾음)"
+
+msgid "(found by contents)\\Documents"
+msgstr "(내용으로 찾음)\\문서"
+
+msgid "(found by contents)\\Pictures"
+msgstr "(내용으로 찾음)\\사진"
+
+msgid "No deleted files were found."
+msgstr "삭제된 파일을 찾을 수 없습니다."
+
+msgid "Could not create "
+msgstr "만들 수 없음: "
+
+msgid "Only partly recovered: "
+msgstr "일부만 복구됨: "
+
+msgid "Windows has no volume for "
+msgstr "다음에 대한 볼륨이 Windows에 없습니다: "
+
+msgid ", so it cannot be opened."
+msgstr "그래서 열 수 없습니다."
+
+msgid "No free drive letter is left."
+msgstr "사용할 수 있는 드라이브 문자가 남아 있지 않습니다."
+
+msgid "There is no start-up partition to put the files on. Create one first."
+msgstr "파일을 넣을 부팅 파티션이 없습니다. 먼저 만드세요."
+
+msgid "The start-up partition could not be marked active. "
+msgstr "부팅 파티션을 활성으로 표시할 수 없습니다. "
+
+msgid "Marked "
+msgstr "표시함: "
+
+msgid "bcdboot.exe, the Windows tool that writes start-up files, was not found here."
+msgstr "부팅 파일을 쓰는 Windows 도구인 bcdboot.exe를 여기서 찾을 수 없습니다."
+
+msgid "Fresh start-up files were written and this Windows now starts first."
+msgstr "새 부팅 파일을 썼으며 이제 이 Windows가 먼저 시작됩니다."
+
+msgid "The start-up files could not be written. The tool said: "
+msgstr "부팅 파일을 쓸 수 없습니다. 도구 메시지: "
+
+msgid "The start-up settings were not found."
+msgstr "부팅 설정을 찾을 수 없습니다."
+
+msgid "The start-up settings could not be changed. "
+msgstr "부팅 설정을 바꿀 수 없습니다. "
+
+msgid "Windows' settings file could not be opened. "
+msgstr "Windows 설정 파일을 열 수 없습니다. "
+
+msgid "Turned on "
+msgstr "켬: "
+
+msgid "The disk drivers are turned on again."
+msgstr "디스크 드라이버를 다시 켰습니다."
+
+msgid "The disk drivers were already on."
+msgstr "디스크 드라이버가 이미 켜져 있었습니다."
+
+msgid "The unfinished set-up mark is cleared."
+msgstr "완료되지 않은 설치 표시를 지웠습니다."
+
+msgid "The set-up mark could not be changed."
+msgstr "설치 표시를 바꿀 수 없습니다."
+
+msgid "No Windows was chosen."
+msgstr "선택한 Windows가 없습니다."
+
+msgid "Taking the repair tools from the Windows install stick"
+msgstr "Windows 설치 USB에서 복구 도구를 가져오는 중"
+
+msgid "No copy of Windows' repair tools (Winre.wim) was found on this PC. Plug in a Windows install USB stick of the same Windows version (with sources\\install.wim), scan again and try once more."
+msgstr "이 PC에서 Windows 복구 도구(Winre.wim) 사본을 찾을 수 없습니다. 같은 Windows 버전의 설치 USB 메모리(sources\\install.wim 포함)를 연결하고 다시 검사한 다음 한 번 더 시도하세요."
+
+msgid "There is no room for a recovery partition: no unused space on the disk, and the Windows partition has less than 4 GB free to give up 1 GB. Free up space first."
+msgstr "복구 파티션을 만들 공간이 없습니다. 디스크에 사용하지 않는 공간이 없고, Windows 파티션의 여유 공간이 4 GB 미만이라 1 GB를 내줄 수 없습니다. 먼저 공간을 확보하세요."
+
+msgid "This MBR disk already has four partitions, the most it can hold."
+msgstr "이 MBR 디스크에는 이미 최대치인 파티션 4개가 있습니다."
+
+msgid "Making the recovery partition"
+msgstr "복구 파티션 만드는 중"
+
+msgid "The recovery partition could not be made. "
+msgstr "복구 파티션을 만들 수 없습니다. "
+
+msgid "Copying the repair tools"
+msgstr "복구 도구 복사 중"
+
+msgid "Switching the troubleshoot options on"
+msgstr "문제 해결 옵션 켜는 중"
+
+msgid "The recovery partition was made, but the repair tools could not be copied onto it. "
+msgstr "복구 파티션을 만들었지만 복구 도구를 복사할 수 없습니다. "
+
+msgid "The recovery partition was recreated and the troubleshoot options are switched on."
+msgstr "복구 파티션을 다시 만들었고 문제 해결 옵션을 켰습니다."
+
+msgid "The recovery partition was recreated with the repair tools on it. Windows could not be told about it from here: in Windows, open the command prompt (admin) and type: reagentc /enable"
+msgstr "복구 도구가 들어 있는 복구 파티션을 다시 만들었습니다. 여기서는 Windows에 알릴 수 없었습니다. Windows에서 명령 프롬프트(관리자)를 열고 다음을 입력하세요: reagentc /enable"
+
+msgid "The partition was not found."
+msgstr "파티션을 찾을 수 없습니다."
+
+msgid "Not renamed, because it already exists: "
+msgstr "이미 있어서 이름을 바꾸지 않음: "
+
+msgid "Renamed "
+msgstr "이름 바꿈: "
+
+msgid "Could not rename "
+msgstr "이름을 바꿀 수 없음: "
+
+msgid "Windows' folders have their own names again. Scan again to check this Windows."
+msgstr "Windows 폴더가 원래 이름을 되찾았습니다. 다시 검사하여 이 Windows를 확인하세요."
+
+msgid "Not every folder could be renamed. See the details."
+msgstr "일부 폴더의 이름을 바꿀 수 없습니다. 자세한 정보를 참조하세요."
+
+msgid "This Windows is shown in the start-up menu again."
+msgstr "이 Windows가 다시 부팅 메뉴에 표시됩니다."
+
+msgid "Automatic Repair is off for this Windows. Start the PC and note the error message it shows; that tells what to fix next."
+msgstr "이 Windows의 자동 복구가 꺼졌습니다. PC를 시작하고 표시되는 오류 메시지를 적어 두세요. 다음에 무엇을 고쳐야 할지 알려 줍니다."
+
+msgid "The entry was removed from the start-up settings and the menu."
+msgstr "부팅 설정과 메뉴에서 항목을 제거했습니다."
+
+msgid "The entry was taken off the start-up menu."
+msgstr "부팅 메뉴에서 항목을 뺐습니다."
+
+msgid "The PC is restarting into its firmware settings."
+msgstr "PC가 펌웨어 설정으로 다시 시작하는 중입니다."
+
+msgid "The start-up partition was not found."
+msgstr "부팅 파티션을 찾을 수 없습니다."
+
+msgid "The PC's start-up list is full."
+msgstr "PC의 부팅 목록이 가득 찼습니다."
+
+msgid "Wrote "
+msgstr "씀: "
+
+msgid " for "
+msgstr " , 대상: "
+
+msgid " and added it to BootOrder.\r\n"
+msgstr " , BootOrder에 추가함.\r\n"
+
+msgid "Linux was added to the PC's start-up list. Pick it in the PC's boot menu, or use \"Make Linux start first\"."
+msgstr "PC의 부팅 목록에 Linux를 추가했습니다. PC의 부팅 메뉴에서 선택하거나 \"Linux가 먼저 시작되도록 설정\"을 사용하세요."
+
+msgid "The entry was written, but it could not be added to the start-up order."
+msgstr "항목을 썼지만 부팅 순서에 추가할 수 없습니다."
+
+msgid "The entry was not found."
+msgstr "항목을 찾을 수 없습니다."
+
+msgid " now starts first. Its menu usually lets you choose Windows too."
+msgstr " — 이제 먼저 시작됩니다. 보통 그 메뉴에서 Windows도 선택할 수 있습니다."
+
+msgid "The PC did not allow its start-up order to be changed (error "
+msgstr "PC가 부팅 순서 변경을 허용하지 않았습니다(오류 "
+
+msgid "The leftover boot loader was removed."
+msgstr "남은 부트 로더를 제거했습니다."
+
+msgid "Some files of the boot loader could not be deleted."
+msgstr "부트 로더의 일부 파일을 삭제할 수 없습니다."
+
+msgid " and took it out of BootOrder.\r\n"
+msgstr " , BootOrder에서 뺌.\r\n"
+
+msgid "The entry was removed from the PC's start-up list."
+msgstr "PC의 부팅 목록에서 항목을 제거했습니다."
+
+msgid "The entry was taken out of the start-up order, but the PC did not allow the entry itself to be deleted (error "
+msgstr "항목을 부팅 순서에서 뺐지만, PC가 항목 자체의 삭제를 허용하지 않았습니다(오류 "
+
+msgid " is now the active start-up partition."
+msgstr " — 이제 활성 부팅 파티션입니다."
+
+msgid "Both copies of the partition table were written again."
+msgstr "파티션 테이블의 두 사본을 모두 다시 썼습니다."
+
+msgid "The disk or its start-up partition was not found."
+msgstr "디스크나 부팅 파티션을 찾을 수 없습니다."
+
+msgid "bootsect.exe is not available here."
+msgstr "여기서는 bootsect.exe를 사용할 수 없습니다."
+
+msgid "Fresh start-up code was written to the disk and the start-up partition."
+msgstr "디스크와 부팅 파티션에 새 부팅 코드를 썼습니다."
+
+msgid "The start-up code could not be written. "
+msgstr "부팅 코드를 쓸 수 없습니다. "
+
+msgid "The new start-up partition could not be created. "
+msgstr "새 부팅 파티션을 만들 수 없습니다. "
+
+msgid "\r\n> bcdboot "
+msgstr "\r\n> bcdboot "
+
+msgid "A new start-up partition was created and fresh start-up files were put on it."
+msgstr "새 부팅 파티션을 만들고 새 부팅 파일을 넣었습니다."
+
+msgid "The partition was created, but the start-up files could not be written. Try \"Rebuild the start-up files\" after scanning again."
+msgstr "파티션을 만들었지만 부팅 파일을 쓸 수 없습니다. 다시 검사한 후 \"부팅 파일 다시 만들기\"를 시도하세요."
+
+msgid "The disk check could not finish. "
+msgstr "디스크 검사를 마칠 수 없습니다. "
+
+msgid "The drive is in use, so the check runs the next time Windows starts."
+msgstr "드라이브가 사용 중이므로 다음에 Windows가 시작될 때 검사가 실행됩니다."
+
+msgid "The disk check found and repaired errors."
+msgstr "디스크 검사에서 오류를 찾아 복구했습니다."
+
+msgid "The disk check finished. No errors needed repair."
+msgstr "디스크 검사가 끝났습니다. 복구가 필요한 오류가 없습니다."
+
+msgid "The drive is unlocked. Scan again to check it."
+msgstr "드라이브 잠금을 해제했습니다. 다시 검사하여 확인하세요."
+
+msgid "The drive could not be unlocked. Check the recovery key and try again."
+msgstr "드라이브 잠금을 해제할 수 없습니다. 복구 키를 확인하고 다시 시도하세요."
+
+msgid "Put back the backup copy of "
+msgstr "백업 사본 복원: "
+
+msgid "The registry's backup copy was put back."
+msgstr "레지스트리 백업 사본을 복원했습니다."
+
+msgid "The backup copy could not be put back. "
+msgstr "백업 사본을 복원할 수 없습니다. "
+
+msgid "Repairing Windows system files. This takes 10 to 30 minutes"
+msgstr "Windows 시스템 파일 복구 중. 10~30분 걸립니다"
+
+msgid "The file check did not finish. It may need the same Windows version to run it."
+msgstr "파일 검사를 마치지 못했습니다. 같은 Windows 버전에서 실행해야 할 수 있습니다."
+
+msgid "Some damaged files could not be repaired."
+msgstr "손상된 파일 일부를 복구할 수 없습니다."
+
+msgid "Damaged Windows files were repaired."
+msgstr "손상된 Windows 파일을 복구했습니다."
+
+msgid "The file check finished."
+msgstr "파일 검사가 끝났습니다."
+
+msgid "Undoing unfinished updates"
+msgstr "완료되지 않은 업데이트 취소 중"
+
+msgid "The updates could not be undone. "
+msgstr "업데이트를 취소할 수 없습니다. "
+
+msgid "This Windows is already at the top of the drive."
+msgstr "이 Windows는 이미 드라이브 최상위에 있습니다."
+
+msgid "Left in place (the top of the drive already has it): "
+msgstr "그대로 둠(드라이브 최상위에 이미 있음): "
+
+msgid "Windows was moved back to the top of the drive ("
+msgstr "Windows를 드라이브 최상위로 다시 옮겼습니다("
+
+msgid " items"
+msgstr " 개 항목"
+
+msgid " left in place"
+msgstr " 개 그대로 둠"
+
+msgid "Windows could not be moved back."
+msgstr "Windows를 다시 옮길 수 없습니다."
+
+msgid "The troubleshoot options are switched on. They appear by themselves when Windows cannot start (or hold Shift while choosing Restart)."
+msgstr "문제 해결 옵션을 켰습니다. Windows가 시작할 수 없을 때 저절로 나타납니다(또는 Shift 키를 누른 채 다시 시작 선택)."
+
+msgid "Windows' tool did not switch them on. "
+msgstr "Windows 도구가 켜지 못했습니다. "
+
+msgid " files removed, "
+msgstr " 개 파일 제거, "
+
+msgid " in use and left."
+msgstr " 개는 사용 중이라 남김."
+
+msgid "{0} freed ({1} files). {2} is free now."
+msgstr "{0} 확보(파일 {1}개). 이제 {2} 남았습니다."
+
+msgid "This fix is not known."
+msgstr "알려진 해결 방법이 아닙니다."
+
+msgid " Start the PC from a Windows USB stick or Windows' recovery tools and run this program there."
+msgstr " Windows USB 메모리나 Windows 복구 도구로 PC를 시작한 다음 그곳에서 이 프로그램을 실행하세요."
+
+msgid "The tool for this (bootsect.exe) is only part of Windows' recovery tools and install USB sticks."
+msgstr "이 작업용 도구(bootsect.exe)는 Windows 복구 도구와 설치 USB 메모리에만 들어 있습니다."
+
+msgid "This PC cannot be asked to open its firmware settings from here. Restart it and press its settings key (often Delete, F2, F10, F1 or Esc) right after switching it on."
+msgstr "여기서는 PC에 펌웨어 설정을 열도록 요청할 수 없습니다. PC를 다시 시작하고 전원을 켜자마자 설정 키(보통 Delete, F2, F10, F1 또는 Esc)를 누르세요."
+
+msgid "This program cannot change the PC's start-up list here. Remove the entry in the PC's firmware settings (often under \"Boot\")."
+msgstr "이 프로그램은 여기서 PC의 부팅 목록을 바꿀 수 없습니다. PC 펌웨어 설정(보통 \"Boot\" 아래)에서 항목을 제거하세요."
+
+msgid "Windows' tool for this (reagentc.exe) is not part of this system."
+msgstr "이 작업용 Windows 도구(reagentc.exe)가 이 시스템에 없습니다."
+
+msgid "diskpart.exe is not part of this system."
+msgstr "diskpart.exe가 이 시스템에 없습니다."
+
+msgid "DISM is not part of this system."
+msgstr "DISM이 이 시스템에 없습니다."
+
+msgid "The file checker (sfc.exe) is not part of this system."
+msgstr "파일 검사기(sfc.exe)가 이 시스템에 없습니다."
+
+msgid "There is not enough free space: the Windows drive needs at least 2 GB free to give up 300 MB."
+msgstr "여유 공간이 부족합니다. 300 MB를 내주려면 Windows 드라이브에 최소 2 GB의 여유 공간이 필요합니다."
+
+msgid "This is the Windows that is running now."
+msgstr "지금 실행 중인 Windows입니다."
+
+msgid "bcdboot.exe, the Windows tool that writes start-up files, is not part of this system."
+msgstr "부팅 파일을 쓰는 Windows 도구인 bcdboot.exe가 이 시스템에 없습니다."
+
+msgid "Saved "
+msgstr "저장함: "
+
+msgid " start-up settings file"
+msgstr " 개 부팅 설정 파일"
+
+msgid " start-up settings files"
+msgstr " 개 부팅 설정 파일"
+
+msgid " and the partition tables of every disk."
+msgstr " 및 모든 디스크의 파티션 테이블."
+
+msgid "Windows Recovery Environment on "
+msgstr "Windows 복구 환경, 위치: "
+
+msgid "Windows install or rescue media on "
+msgstr "Windows 설치 또는 복구 미디어, 위치: "
+
+msgid "Windows Recovery Environment of "
+msgstr "Windows 복구 환경, 대상: "
+
+msgid "The USB stick was not found. Plug it in again and scan again."
+msgstr "USB 메모리를 찾을 수 없습니다. 다시 연결하고 다시 검사하세요."
+
+msgid "DISM, the Windows tool that opens system images, is not part of this system."
+msgstr "시스템 이미지를 여는 Windows 도구인 DISM이 이 시스템에 없습니다."
+
+msgid "Copying the recovery image"
+msgstr "복구 이미지 복사 중"
+
+msgid "The recovery image could not be copied. Is there 1 GB free on "
+msgstr "복구 이미지를 복사할 수 없습니다. 다음에 1 GB의 여유 공간이 있나요? "
+
+msgid "Opening the image"
+msgstr "이미지 여는 중"
+
+msgid "The image could not be opened. DISM said: "
+msgstr "이미지를 열 수 없습니다. DISM 메시지: "
+
+msgid "Stopped. Nothing was written to the USB stick."
+msgstr "중지되었습니다. USB 메모리에 아무것도 쓰지 않았습니다."
+
+msgid "Adding PATio Boot Doctor to the image"
+msgstr "이미지에 PATio Boot Doctor 추가 중"
+
+msgid "The start-up files needed for the stick (bootmgfw.efi, boot.sdi) were not found in the image or in this Windows."
+msgstr "USB에 필요한 부팅 파일(bootmgfw.efi, boot.sdi)을 이미지나 이 Windows에서 찾을 수 없습니다."
+
+msgid "Saving the image (this takes a few minutes)"
+msgstr "이미지 저장 중(몇 분 걸립니다)"
+
+msgid "The image could not be saved. "
+msgstr "이미지를 저장할 수 없습니다. "
+
+msgid "Writing the start-up settings"
+msgstr "부팅 설정 쓰는 중"
+
+msgid "The start-up settings for the stick could not be written."
+msgstr "USB용 부팅 설정을 쓸 수 없습니다."
+
+msgid "Preparing the USB stick (everything on it is erased)"
+msgstr "USB 메모리 준비 중(모든 내용이 지워짐)"
+
+msgid "No free drive letter is left for the USB stick."
+msgstr "USB 메모리에 지정할 드라이브 문자가 남아 있지 않습니다."
+
+msgid "The USB stick could not be prepared. Diskpart said: "
+msgstr "USB 메모리를 준비할 수 없습니다. Diskpart 메시지: "
+
+msgid "Copying to the USB stick"
+msgstr "USB 메모리에 복사 중"
+
+msgid "Checking the stick"
+msgstr "USB 메모리 확인 중"
+
+msgid "The rescue USB stick is ready (drive "
+msgstr "복구 USB 메모리가 준비되었습니다(드라이브 "
+
+msgid "). To use it, plug it in, switch the PC on, open the PC's boot menu (often F12, F11, F8 or Esc) and choose the stick. PATio Boot Doctor starts by itself."
+msgstr "). 사용하려면 USB를 연결하고 PC를 켠 다음, PC의 부팅 메뉴(보통 F12, F11, F8 또는 Esc)를 열고 USB를 선택하세요. PATio Boot Doctor가 저절로 시작됩니다."
+
+msgid "The stick was made, but some files are missing on it. Try again, or use another stick."
+msgstr "USB를 만들었지만 일부 파일이 없습니다. 다시 시도하거나 다른 USB 메모리를 사용하세요."
+
+msgid "Temporary files"
+msgstr "임시 파일"
+
+msgid "Files programs and Windows leave behind while they work. Safe to remove."
+msgstr "프로그램과 Windows가 작업하면서 남긴 파일입니다. 제거해도 안전합니다."
+
+msgid "Windows Update downloads"
+msgstr "Windows 업데이트 다운로드"
+
+msgid "Updates that were already downloaded. Windows downloads again whatever it still needs."
+msgstr "이미 다운로드한 업데이트입니다. Windows는 아직 필요한 것은 다시 다운로드합니다."
+
+msgid "Crash reports"
+msgstr "오류 보고서"
+
+msgid "Memory dumps and error reports written after a crash. Only a technician looking into a crash needs them."
+msgstr "시스템이 멈춘 후 기록된 메모리 덤프와 오류 보고서입니다. 문제를 조사하는 기술자에게만 필요합니다."
+
+msgid "Browser caches"
+msgstr "브라우저 캐시"
+
+msgid "Copies of web pages the browsers keep to load sites faster. Removing them signs no one out and keeps bookmarks and passwords; sites load a little slower once."
+msgstr "사이트를 더 빨리 불러오기 위해 브라우저가 보관하는 웹 페이지 사본입니다. 제거해도 로그아웃되지 않으며 즐겨찾기와 암호는 유지됩니다. 사이트가 한 번만 조금 느리게 열립니다."
+
+msgid "cmd.exe /c \""
+msgstr "cmd.exe /c \""
+
+msgid "Stopping…"
+msgstr "중지하는 중…"
+
+msgid "Themes and appearance (F9)"
+msgstr "테마 및 모양(F9)"
+
+msgid "Keyboard shortcuts (F1)"
+msgstr "바로 가기 키(F1)"
+
+msgid "Minimize"
+msgstr "최소화"
+
+msgid "Restore down"
+msgstr "이전 크기로 복원"
+
+msgid "Maximize"
+msgstr "최대화"
+
+msgid "Close (Alt+F4)"
+msgstr "닫기(Alt+F4)"
+
+msgid "Dismiss (Esc)"
+msgstr "닫기(Esc)"
+
+msgid "Stop (Esc)"
+msgstr "중지(Esc)"
+
+msgid "Press Enter"
+msgstr "Enter 누르기"
+
+msgid "Press Esc"
+msgstr "Esc 누르기"
+
+msgid "Tab switches"
+msgstr "Tab으로 전환"
+
+msgid "Less (Down arrow)"
+msgstr "줄이기(아래쪽 화살표)"
+
+msgid "More (Up arrow)"
+msgstr "늘리기(위쪽 화살표)"
+
+msgid "Scroll with the mouse wheel or Page Up / Page Down"
+msgstr "마우스 휠이나 Page Up / Page Down으로 스크롤"
+
+msgid "Up one folder (Ctrl+Up)"
+msgstr "상위 폴더로(Ctrl+위쪽 화살표)"
+
+msgid "Theme"
+msgstr "테마"
+
+msgid "Appearance"
+msgstr "모양"
+
+msgid "Automatic"
+msgstr "자동"
+
+msgid "Light"
+msgstr "밝게"
+
+msgid "Dark"
+msgstr "어둡게"
+
+msgid "Follow Windows"
+msgstr "Windows 설정 따르기"
+
+msgid "Ctrl+Shift+L switches"
+msgstr "Ctrl+Shift+L로 전환"
+
+msgid "File manager"
+msgstr "파일 관리자"
+
+msgid "No other tools yet. Put programs in the PatSuite folder."
+msgstr "아직 다른 도구가 없습니다. PatSuite 폴더에 프로그램을 넣으세요."
+
+msgid "Open PatSuite folder"
+msgstr "PatSuite 폴더 열기"
+
+msgid "Couldn't start “"
+msgstr "시작할 수 없음: “"
+
+msgid "PatSuite folder"
+msgstr "PatSuite 폴더"
+
+msgid "This help"
+msgstr "이 도움말"
+
+msgid "Themes"
+msgstr "테마"
+
+msgid "Ctrl+Shift+L"
+msgstr "Ctrl+Shift+L"
+
+msgid "Switch light / dark"
+msgstr "밝게 / 어둡게 전환"
+
+msgid "Alt+F4"
+msgstr "Alt+F4"
+
+msgid "Quit"
+msgstr "끝내기"
+
+msgid "Esc to close"
+msgstr "Esc 키로 닫기"
+
+msgid "Local disk"
+msgstr "로컬 디스크"
+
+msgid "Removable"
+msgstr "이동식"
+
+msgid "CD / DVD"
+msgstr "CD / DVD"
+
+msgid "Network"
+msgstr "네트워크"
+
+msgid "RAM disk"
+msgstr "RAM 디스크"
+
+msgid "\nDouble-click or Enter to open"
+msgstr "\n두 번 클릭하거나 Enter를 눌러 열기"
+
+msgid "Can't open “"
+msgstr "열 수 없음: “"
+
+msgid "\nDouble-click or Enter to choose"
+msgstr "\n두 번 클릭하거나 Enter를 눌러 선택"
+
+msgid "” isn't a folder. Check the path, or browse to it."
+msgstr "”은(는) 폴더가 아닙니다. 경로를 확인하거나 찾아보기로 이동하세요."
+
+msgid "Open a drive, then choose a folder inside it."
+msgstr "드라이브를 연 다음 그 안의 폴더를 선택하세요."
+
+msgid "Type a file name, or pick one from the list."
+msgstr "파일 이름을 입력하거나 목록에서 선택하세요."
+
+msgid "Pick a file from the list, or type its path."
+msgstr "목록에서 파일을 선택하거나 경로를 입력하세요."
+
+msgid "Type a file name, not a folder."
+msgstr "폴더가 아닌 파일 이름을 입력하세요."
+
+msgid "” isn't a file. Pick one from the list, or check the path."
+msgstr "”은(는) 파일이 아닙니다. 목록에서 선택하거나 경로를 확인하세요."
+
+msgid "No drives found"
+msgstr "드라이브를 찾을 수 없음"
+
+msgid "No images detected in this folder"
+msgstr "이 폴더에서 이미지를 찾지 못했습니다"
+
+msgid "Nothing to show here"
+msgstr "여기에 표시할 것이 없습니다"
+
+msgid "No folders inside"
+msgstr "안에 폴더가 없음"
+
+msgid "Detected images · double-click to pick · Ctrl+↑ up"
+msgstr "찾은 이미지 · 두 번 클릭하여 선택 · Ctrl+↑ 상위 폴더"
+
+msgid "Double-click a file to pick it · Ctrl+↑ up"
+msgstr "파일을 두 번 클릭하여 선택 · Ctrl+↑ 상위 폴더"
+
+msgid "Enter opens · Ctrl+Enter chooses · Ctrl+↑ up"
+msgstr "Enter: 열기 · Ctrl+Enter: 선택 · Ctrl+↑ 상위 폴더"
+

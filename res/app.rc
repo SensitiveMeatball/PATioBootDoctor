@@ -1,0 +1,36 @@
+// App resources. Keep "kit.rc" at the end: it brings PatKit's themes and icons.
+#include <winres.h>
+
+1 ICON "build\\gen\\app.ico"
+MUSPC_LOGO RCDATA "res\\muspc_logo.bin"
+UPDATE_PUBKEY RCDATA "res\\update-key.pub"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 0,4,0,0
+PRODUCTVERSION 0,4,0,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "PATio Commander authors"
+            VALUE "FileDescription", "PATio Boot Doctor"
+            VALUE "FileVersion", "0.4.0"
+            VALUE "LegalCopyright", "Copyright (C) 2026 PATio Commander authors"
+            VALUE "ProductName", "PATio Boot Doctor"
+            VALUE "ProductVersion", "0.4.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#include "lang\\lang.rc"
+#include "kit.rc"
