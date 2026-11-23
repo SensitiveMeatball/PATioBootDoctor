@@ -56,5 +56,6 @@ It also makes a **bootable rescue USB stick** (UEFI, Legacy, or both) so you can
 - **Available in 15 languages**, built in.
 - **Not code-signed yet**, so Windows SmartScreen may warn the first time — choose **More info → Run anyway**.
 - Your own customer data (job notes, logs, saved keys) stays on your PC; it's never part of the program.
+- **Make a suggestion** (in About): your feedback is saved on the PC first and only sent — as a GitHub issue or email — if you choose, so it works offline too.
 
 > The screenshots above use built-in **demo data**, not a real customer's PC.

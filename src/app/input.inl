@@ -190,6 +190,7 @@
             case H_LINK_MAIL: openLink(L"mailto:info@muspc.com"); break;
             case H_LINK_WEB: openLink(L"https://www.muspc.com"); break;
             case H_LINK_REVIEW: openLink(L"https://g.page/r/Cd3E4MgII6atEBM/review"); break;
+            case H_LINK_SUGGEST: makeSuggestion(); break;
             case H_DOP: askDiskOp(h.a); break;
             case H_SCAN: onCommand(C_SCAN, 0, L""); break;
             case H_UNDO: onCommand(C_UNDO, h.a, L""); break;
@@ -352,6 +353,7 @@
             case H_LINK_MAIL: return T(L"Write an e-mail to info@muspc.com");
             case H_LINK_WEB: return T(L"Open www.muspc.com");
             case H_LINK_REVIEW: return T(L"Open a Google review page for MusPC in your browser");
+            case H_LINK_SUGGEST: return T(L"Tell the maker what worked, what didn't, or what you'd like — saved on this PC first, sent only if you choose");
             case H_GAP: return T(L"Unused space: click to see what can be done with it (create a partition), or right-click for a menu");
             case H_DISKHEAD: return T(L"Click for what can be done with the whole disk (set up, convert, wipe, online / offline)");
             case H_DOP: return diskOpInfo(h.a).what;

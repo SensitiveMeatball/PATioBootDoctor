@@ -1304,6 +1304,7 @@
         linkBtn(T(L"E-mail"), L"info@muspc.com", H_LINK_MAIL);
         linkBtn(T(L"Website"), L"www.muspc.com", H_LINK_WEB);
         linkBtn(T(L"Review"), T(L"Leave a Google review"), H_LINK_REVIEW);
+        linkBtn(T(L"Feedback"), T(L"Make a suggestion"), H_LINK_SUGGEST);
         y += S(16);
         y += para(T(L"Made by MusPC with PatKit. It uses only Windows' own tools to make changes (diskpart, bcdedit, bcdboot, DISM and others), and always backs up first."),
                   cx, y, cw, fonts().small, theme().label3, true);

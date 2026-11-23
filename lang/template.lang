@@ -734,6 +734,15 @@ msgstr "Deletes this line from the list of start-up choices kept inside the PC i
 msgid "A few seconds. The entry is backed up first, so Undo brings it back."
 msgstr "A few seconds. The entry is backed up first, so Undo brings it back."
 
+msgid "Rebuild the start-up partition"
+msgstr "Rebuild the start-up partition"
+
+msgid "The start-up (EFI) partition's file system is damaged or cannot be written to, so the start-up files cannot be read or repaired. This makes a fresh, empty FAT32 file system on it (the partition itself and its type stay) and writes fresh start-up files for this Windows. Any other makers' boot folders on it (HP, Dell, Lenovo tools, Linux GRUB) are kept and put back."
+msgstr "The start-up (EFI) partition's file system is damaged or cannot be written to, so the start-up files cannot be read or repaired. This makes a fresh, empty FAT32 file system on it (the partition itself and its type stay) and writes fresh start-up files for this Windows. Any other makers' boot folders on it (HP, Dell, Lenovo tools, Linux GRUB) are kept and put back."
+
+msgid "A minute or two. A full image of the partition is saved first, so Undo puts it back exactly. If the Windows drive is encrypted with BitLocker, have its recovery key ready."
+msgstr "A minute or two. A full image of the partition is saved first, so Undo puts it back exactly. If the Windows drive is encrypted with BitLocker, have its recovery key ready."
+
 msgid "Starting a PC is like a relay race: each runner hands a baton to the next. First the PC's built-in program (firmware) wakes up and looks at the disk. On the disk it finds a small start-up partition with Windows Boot Manager. The boot manager reads a short list of start-up settings to learn where Windows is, then hands over to the Windows loader, which loads the heart of Windows, its drivers and its settings. If any runner drops the baton, starting stops there. The Boot chain view shows these runners in order, so you can see exactly where it stops."
 msgstr "Starting a PC is like a relay race: each runner hands a baton to the next. First the PC's built-in program (firmware) wakes up and looks at the disk. On the disk it finds a small start-up partition with Windows Boot Manager. The boot manager reads a short list of start-up settings to learn where Windows is, then hands over to the Windows loader, which loads the heart of Windows, its drivers and its settings. If any runner drops the baton, starting stops there. The Boot chain view shows these runners in order, so you can see exactly where it stops."
 
@@ -814,6 +823,9 @@ msgstr "The disk (hard disk or SSD) stores Windows and your files. At its very s
 
 msgid "Besides the big partition with Windows (usually C:), the disk has a small hidden partition used only for starting: the EFI system partition on newer PCs, or the \"active\" partition on older ones. It holds the few files the PC needs to begin starting Windows. You normally never see it, and it has no drive letter."
 msgstr "Besides the big partition with Windows (usually C:), the disk has a small hidden partition used only for starting: the EFI system partition on newer PCs, or the \"active\" partition on older ones. It holds the few files the PC needs to begin starting Windows. You normally never see it, and it has no drive letter."
+
+msgid "The start-up partition holds its files in a FAT32 file system, with a little map (the FAT, kept in two copies) saying where each file sits. If that map or the partition's first sector is damaged, the firmware can no longer read the start-up files, even though the partition is there and has the right size. This is the hidden fault behind \"bootrec /fixboot: Access is denied\": the files look present, but the file system underneath them is broken, so nothing can read or repair them."
+msgstr "The start-up partition holds its files in a FAT32 file system, with a little map (the FAT, kept in two copies) saying where each file sits. If that map or the partition's first sector is damaged, the firmware can no longer read the start-up files, even though the partition is there and has the right size. This is the hidden fault behind \"bootrec /fixboot: Access is denied\": the files look present, but the file system underneath them is broken, so nothing can read or repair them."
 
 msgid "Windows Boot Manager is a small program on the start-up partition. The firmware starts it, and it decides which Windows to start, showing a menu when there is more than one. On newer PCs the PC also keeps its own list of start-up choices, and Windows Boot Manager must be in it."
 msgstr "Windows Boot Manager is a small program on the start-up partition. The firmware starts it, and it decides which Windows to start, showing a menu when there is more than one. On newer PCs the PC also keeps its own list of start-up choices, and Windows Boot Manager must be in it."
@@ -1226,8 +1238,38 @@ msgstr "The active (start-up) partition cannot be read. Its file system is damag
 msgid "The active start-up partition is there and can be read."
 msgstr "The active start-up partition is there and can be read."
 
+msgid "Start-up partition files"
+msgstr "Start-up partition files"
+
 msgid "Cannot be checked until the start-up partition is fixed."
 msgstr "Cannot be checked until the start-up partition is fixed."
+
+msgid "ESP check: "
+msgstr "ESP check: "
+
+msgid "The start-up partition's file system (FAT32) is damaged. The firmware can no longer read its start-up files, and Windows' own repair (bootrec /fixboot) then fails with \"Access is denied\". The rest of the boot chain can look fine while this is wrong."
+msgstr "The start-up partition's file system (FAT32) is damaged. The firmware can no longer read its start-up files, and Windows' own repair (bootrec /fixboot) then fails with \"Access is denied\". The rest of the boot chain can look fine while this is wrong."
+
+msgid "The start-up settings (BCD) on the start-up partition do not load, although the file is there."
+msgstr "The start-up settings (BCD) on the start-up partition do not load, although the file is there."
+
+msgid "A start-up program on the start-up partition is missing or is not a 64-bit program, although the file system is sound."
+msgstr "A start-up program on the start-up partition is missing or is not a 64-bit program, although the file system is sound."
+
+msgid "The start-up partition cannot be written to, so Windows' own repair (bootrec /fixboot) fails with \"Access is denied\" and new start-up files cannot be put on it. Rebuilding the partition clears this."
+msgstr "The start-up partition cannot be written to, so Windows' own repair (bootrec /fixboot) fails with \"Access is denied\" and new start-up files cannot be put on it. Rebuilding the partition clears this."
+
+msgid "The start-up partition could not be opened for writing."
+msgstr "The start-up partition could not be opened for writing."
+
+msgid "The start-up partition's file system is sound and it can be written to."
+msgstr "The start-up partition's file system is sound and it can be written to."
+
+msgid "FAT32 checked: boot sector + backup, both FAT copies, cluster chains, bootmgfw.efi + bootx64.efi (x64), BCD"
+msgstr "FAT32 checked: boot sector + backup, both FAT copies, cluster chains, bootmgfw.efi + bootx64.efi (x64), BCD"
+
+msgid "The start-up partition can be opened and written to."
+msgstr "The start-up partition can be opened and written to."
 
 msgid "Windows Boot Manager is on the start-up partition."
 msgstr "Windows Boot Manager is on the start-up partition."
@@ -3524,14 +3566,17 @@ msgstr "The disks could not be opened."
 msgid "Stopped. The new disk is incomplete; the old one is unchanged."
 msgstr "Stopped. The new disk is incomplete; the old one is unchanged."
 
-msgid "The old disk could not be read at {0}. It may be damaged; the new disk is incomplete."
-msgstr "The old disk could not be read at {0}. It may be damaged; the new disk is incomplete."
-
 msgid "The new disk could not be written at {0}."
 msgstr "The new disk could not be written at {0}."
 
 msgid "Copying Windows: {0} of {1}"
 msgstr "Copying Windows: {0} of {1}"
+
+msgid "Unreadable areas on the old disk, zero-filled on the new one ({0} ranges, {1} total):\r\n"
+msgstr "Unreadable areas on the old disk, zero-filled on the new one ({0} ranges, {1} total):\r\n"
+
+msgid "  ... and {0} more.\r\n"
+msgstr "  ... and {0} more.\r\n"
 
 msgid "Making Windows fill its new partition"
 msgstr "Making Windows fill its new partition"
@@ -3544,6 +3589,24 @@ msgstr "Windows was copied, but its new partition could not be opened to write s
 
 msgid "Putting the troubleshoot options on the new disk"
 msgstr "Putting the troubleshoot options on the new disk"
+
+msgid "Clearing the saved drive letters so Windows assigns C: cleanly"
+msgstr "Clearing the saved drive letters so Windows assigns C: cleanly"
+
+msgid "Removed \\DosDevices\\C: from MountedDevices; Windows reassigns C: on first boot.\r\n"
+msgstr "Removed \\DosDevices\\C: from MountedDevices; Windows reassigns C: on first boot.\r\n"
+
+msgid "MountedDevices had no \\DosDevices\\C: entry (nothing to clear).\r\n"
+msgstr "MountedDevices had no \\DosDevices\\C: entry (nothing to clear).\r\n"
+
+msgid "MountedDevices: \\DosDevices\\C: could not be removed (code {0}).\r\n"
+msgstr "MountedDevices: \\DosDevices\\C: could not be removed (code {0}).\r\n"
+
+msgid "MountedDevices key not found in the migrated SYSTEM hive.\r\n"
+msgstr "MountedDevices key not found in the migrated SYSTEM hive.\r\n"
+
+msgid "Could not open the migrated SYSTEM hive to clear drive letters: "
+msgstr "Could not open the migrated SYSTEM hive to clear drive letters: "
 
 msgid "Windows was copied to {0}."
 msgstr "Windows was copied to {0}."
@@ -3559,6 +3622,9 @@ msgstr " The troubleshoot options are on its recovery partition."
 
 msgid " The troubleshoot options could not be set up; use \"Recreate the recovery partition\" for it later."
 msgstr " The troubleshoot options could not be set up; use \"Recreate the recovery partition\" for it later."
+
+msgid "\n\nWarning: {0} of the old disk could not be read ({1} unreadable areas) and was copied as blank. The old disk is failing. Check Windows afterwards (chkdsk, sfc), and recover anything important from the old disk while it still turns on. The unreadable places are listed in the console."
+msgstr "\n\nWarning: {0} of the old disk could not be read ({1} unreadable areas) and was copied as blank. The old disk is failing. Check Windows afterwards (chkdsk, sfc), and recover anything important from the old disk while it still turns on. The unreadable places are listed in the console."
 
 msgid "\n\nTo start from the new disk: choose it in the PC's boot menu (often F12, F11, F8 or Esc while the PC starts), or shut down and disconnect the old disk. The old disk is unchanged; wipe or reuse it only after the new one has started fine."
 msgstr "\n\nTo start from the new disk: choose it in the PC's boot menu (often F12, F11, F8 or Esc while the PC starts), or shut down and disconnect the old disk. The old disk is unchanged; wipe or reuse it only after the new one has started fine."
@@ -3920,6 +3986,36 @@ msgstr "A new start-up partition was created and fresh start-up files were put o
 msgid "The partition was created, but the start-up files could not be written. Try \"Rebuild the start-up files\" after scanning again."
 msgstr "The partition was created, but the start-up files could not be written. Try \"Rebuild the start-up files\" after scanning again."
 
+msgid "There is no start-up partition to rebuild. Create one first."
+msgstr "There is no start-up partition to rebuild. Create one first."
+
+msgid "Rebuilding the EFI partition is for UEFI PCs. On an older (BIOS) PC use \"Write new start-up code to the disk\"."
+msgstr "Rebuilding the EFI partition is for UEFI PCs. On an older (BIOS) PC use \"Write new start-up code to the disk\"."
+
+msgid "Kept other boot folder aside: \\EFI\\"
+msgstr "Kept other boot folder aside: \\EFI\\"
+
+msgid " BitLocker on the Windows drive was paused for the next restart."
+msgstr " BitLocker on the Windows drive was paused for the next restart."
+
+msgid " The Windows drive is encrypted with BitLocker: have its 48-digit recovery key ready, as BitLocker may ask for it once at the next start."
+msgstr " The Windows drive is encrypted with BitLocker: have its 48-digit recovery key ready, as BitLocker may ask for it once at the next start."
+
+msgid "The start-up partition could not be reformatted. "
+msgstr "The start-up partition could not be reformatted. "
+
+msgid "The start-up partition was given a fresh FAT32 file system and new start-up files, and a \"Windows Boot Manager\" entry was written to the PC's firmware."
+msgstr "The start-up partition was given a fresh FAT32 file system and new start-up files, and a \"Windows Boot Manager\" entry was written to the PC's firmware."
+
+msgid " {0} other boot folder(s) were kept and put back."
+msgstr " {0} other boot folder(s) were kept and put back."
+
+msgid " Scan again to confirm."
+msgstr " Scan again to confirm."
+
+msgid "The partition was reformatted, but the start-up files could not be written. The tool said: "
+msgstr "The partition was reformatted, but the start-up files could not be written. The tool said: "
+
 msgid "The disk check could not finish. "
 msgstr "The disk check could not finish. "
 
@@ -4066,6 +4162,9 @@ msgstr "This Windows has no start-up entry to change. Rebuild its start-up files
 
 msgid "The file checker (sfc.exe) is not part of this system."
 msgstr "The file checker (sfc.exe) is not part of this system."
+
+msgid "This is the Windows that is running now, so its start-up partition cannot be reformatted."
+msgstr "This is the Windows that is running now, so its start-up partition cannot be reformatted."
 
 msgid "There is not enough free space: the Windows drive needs at least 2 GB free to give up 300 MB."
 msgstr "There is not enough free space: the Windows drive needs at least 2 GB free to give up 300 MB."
@@ -5642,6 +5741,12 @@ msgstr "Review"
 msgid "Leave a Google review"
 msgstr "Leave a Google review"
 
+msgid "Feedback"
+msgstr "Feedback"
+
+msgid "Make a suggestion"
+msgstr "Make a suggestion"
+
 msgid "Made by MusPC with PatKit. It uses only Windows' own tools to make changes (diskpart, bcdedit, bcdboot, DISM and others), and always backs up first."
 msgstr "Made by MusPC with PatKit. It uses only Windows' own tools to make changes (diskpart, bcdedit, bcdboot, DISM and others), and always backs up first."
 
@@ -5776,6 +5881,21 @@ msgstr "Name this rescue stick"
 
 msgid "A name of your own makes each stick easy to tell apart (for example \"Workshop 1\" or \"Van kit\"). It is kept on the stick and shown when it is plugged in or started from."
 msgstr "A name of your own makes each stick easy to tell apart (for example \"Workshop 1\" or \"Van kit\"). It is kept on the stick and shown when it is plugged in or started from."
+
+msgid "Which PCs should this stick start?"
+msgstr "Which PCs should this stick start?"
+
+msgid "Most sticks should start on both kinds of PC. Choose a single kind only if a PC refuses the usual stick.\n\n"
+msgstr "Most sticks should start on both kinds of PC. Choose a single kind only if a PC refuses the usual stick.\n\n"
+
+msgid "Both"
+msgstr "Both"
+
+msgid "UEFI only"
+msgstr "UEFI only"
+
+msgid "Legacy only"
+msgstr "Legacy only"
 
 msgid "Rename this rescue stick"
 msgstr "Rename this rescue stick"
@@ -6463,6 +6583,9 @@ msgstr "Open www.muspc.com"
 
 msgid "Open a Google review page for MusPC in your browser"
 msgstr "Open a Google review page for MusPC in your browser"
+
+msgid "Tell the maker what worked, what didn't, or what you'd like — saved on this PC first, sent only if you choose"
+msgstr "Tell the maker what worked, what didn't, or what you'd like — saved on this PC first, sent only if you choose"
 
 msgid "Unused space: click to see what can be done with it (create a partition), or right-click for a menu"
 msgstr "Unused space: click to see what can be done with it (create a partition), or right-click for a menu"
@@ -8398,6 +8521,66 @@ msgstr "Every count starts again from zero."
 
 msgid "Reset"
 msgstr "Reset"
+
+msgid "The suggestion was not saved"
+msgstr "The suggestion was not saved"
+
+msgid "Before you start: PATio Boot Doctor is free, and it isn't perfect. If the data on a PC matters, make a backup before you let any tool change a disk - a PC that won't boot can also mean a failing drive, and no repair is a substitute for a backup."
+msgstr "Before you start: PATio Boot Doctor is free, and it isn't perfect. If the data on a PC matters, make a backup before you let any tool change a disk - a PC that won't boot can also mean a failing drive, and no repair is a substitute for a backup."
+
+msgid "Tell me how it went: Whether it fixed the PC or not, I'd genuinely like to know - what worked, what didn't, what confused you, and what you wish it did. The failures help as much as the wins, and every suggestion is read and taken seriously."
+msgstr "Tell me how it went: Whether it fixed the PC or not, I'd genuinely like to know - what worked, what didn't, what confused you, and what you wish it did. The failures help as much as the wins, and every suggestion is read and taken seriously."
+
+msgid "Your privacy: Nothing is sent automatically. Your note is saved on this PC first, and you choose if and when to send it - no customer's details leave the shop unless you add them yourself."
+msgstr "Your privacy: Nothing is sent automatically. Your note is saved on this PC first, and you choose if and when to send it - no customer's details leave the shop unless you add them yourself."
+
+msgid "What worked"
+msgstr "What worked"
+
+msgid "What didn't"
+msgstr "What didn't"
+
+msgid "An idea"
+msgstr "An idea"
+
+msgid "A repair that failed"
+msgstr "A repair that failed"
+
+msgid "Something else"
+msgstr "Something else"
+
+msgid "Next…"
+msgstr "Next…"
+
+msgid "Write what worked, what didn't, what confused you, or what you'd like it to do. Only what you type here is used — no customer or disk details are added."
+msgstr "Write what worked, what didn't, what confused you, or what you'd like it to do. Only what you type here is used — no customer or disk details are added."
+
+msgid "Your name or email (optional)"
+msgstr "Your name or email (optional)"
+
+msgid "Leave it blank to stay anonymous. It is only added if you later choose to send the suggestion."
+msgstr "Leave it blank to stay anonymous. It is only added if you later choose to send the suggestion."
+
+msgid "Thank you — saved on this PC"
+msgstr "Thank you — saved on this PC"
+
+msgid "Saved on this PC — send it now?"
+msgstr "Saved on this PC — send it now?"
+
+msgid "Your suggestion is saved. If this PC is online you can send it; otherwise it stays saved and you can send it later from the data folder."
+msgstr "Your suggestion is saved. If this PC is online you can send it; otherwise it stays saved and you can send it later from the data folder."
+
+msgid "Open as a GitHub issue"
+msgstr "Open as a GitHub issue"
+
+msgid "Send by email"
+msgstr "Send by email"
+
+msgid "Just save it"
+msgstr "Just save it"
+
+msgid "Suggestion: "
+msgstr "Suggestion: "
 
 msgid "Every Windows (and Linux) found on every disk. Choose which one starts when nobody chooses, which ones show in the start-up menu and what they are called there. A Windows kept in Windows.old after an upgrade can be checked and, if it is whole, brought back."
 msgstr "Every Windows (and Linux) found on every disk. Choose which one starts when nobody chooses, which ones show in the start-up menu and what they are called there. A Windows kept in Windows.old after an upgrade can be checked and, if it is whole, brought back."

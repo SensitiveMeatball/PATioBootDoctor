@@ -8,6 +8,7 @@
 #include "Keys.h"
 #include "Recover.h"
 #include "Space.h"
+#include "Suggest.h"
 #include "Repair.h"
 #include "Layout.h"
 #include "Migrate.h"
@@ -1739,6 +1740,23 @@ int runSelfTest(const wstr& folderIn, const wchar_t* appName, const wchar_t* ver
         GetModuleFileNameW(nullptr, exe, MAX_PATH);
         wstr maker = fileCompany(exe);
         log.check(maker.find(L"registry") == wstr::npos && maker.size() < 60, L"A program file's maker is read from its version information: " + (maker.empty() ? wstr(L"(none)") : maker));
+    }
+
+    log.line(L"Make a suggestion");
+    {
+        // The percent-encoder used to build the GitHub / mailto links.
+        log.check(urlEncode(L"abc-_.~ABC123") == "abc-_.~ABC123", L"Unreserved characters are left as-is");
+        log.check(urlEncode(L"a b") == "a%20b", L"A space becomes %20, not '+'");
+        log.check(urlEncode(L"line1\nline2") == "line1%0Aline2", L"A newline is encoded");
+        log.check(urlEncode(L"say \"hi\"") == "say%20%22hi%22", L"Quotes are encoded");
+        log.check(urlEncode(L"caf\u00e9") == "caf%C3%A9", L"Non-ASCII (\u00e9) is UTF-8 then %XX");
+
+        // The one-line suggestions.txt record: fields in order, newlines escaped.
+        wstr rec = suggestionRecord(L"2026-11-23 10:40", L"An idea", L"0.5.0", L"Pat", L"line one\nline two");
+        log.check(rec == L"2026-11-23 10:40 | An idea | app 0.5.0 | Pat | line one\\nline two", L"Record has fields in order, newline escaped");
+        log.check(rec.find(L'\n') == wstr::npos, L"The record is a single line");
+        wstr anon = suggestionRecord(L"2026-11-23 10:40", L"What worked", L"0.5.0", L"", L"path C:\\\\x\r\ny");
+        log.check(anon == L"2026-11-23 10:40 | What worked | app 0.5.0 | - | path C:\\\\\\\\x\\ny", L"Empty contact is '-', backslash and CRLF escaped");
     }
 
     log.line(L"Demo data");
