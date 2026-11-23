@@ -372,6 +372,31 @@ The settings button picks another folder.
 - **About:** MusPC, licence (free for personal use; business licence on request),
   info@muspc.com, www.muspc.com, and **Leave a Google review** (opens MusPC's review page).
 
+## Version 0.5.0
+
+- **The start-up (EFI) partition is checked for real.** A new boot-chain step, "Start-up partition
+  files", reads the EFI System Partition straight from its sectors (no drive letter) and checks the
+  FAT32 file system itself: the boot sector and its backup copy in sector 6, that the two FAT copies
+  agree, that every file's cluster chain is sound (no loop, no cluster shared by two files, the right
+  length), that `bootmgfw.efi` and `bootx64.efi` read in full and are 64-bit programs, that the BCD
+  loads, and that the partition can be written to. This catches the case the old chain missed, where
+  the files look present but the FAT underneath is damaged — the hidden fault behind
+  `bootrec /fixboot: Access is denied` and `bootrec /scanos: 0 installations`.
+- **Rebuild the start-up partition.** When that check finds a damaged or unwritable EFI partition, a
+  new repair makes a fresh FAT32 file system on it (the partition and its type stay) and writes new
+  start-up files. A full image of the partition is saved first so it can be undone exactly; other
+  makers' boot folders (HP, Dell, Lenovo tools, Linux GRUB) are kept and put back; BitLocker is
+  paused when Windows is live, or its recovery key is called for otherwise.
+- **Moving Windows is cleaner and survives a dying disk.** After a migration the copied Windows'
+  saved drive-letter map (`MountedDevices\DosDevices\C:`) is cleared, so it gives itself C: cleanly on
+  the new disk instead of landing on D:. And the block copy no longer stops at the first bad sector:
+  on a read error it drops to one sector at a time, blanks only the sectors it truly cannot read,
+  logs each unreadable area, and carries on — so a failing disk can still be migrated, with a warning
+  afterwards to check Windows and recover anything important.
+- **Rescue stick: choose the firmware.** Making a rescue stick now asks whether it should start both
+  UEFI and legacy PCs (the default, unchanged from before), UEFI only (a GPT stick with an EFI system
+  partition) or legacy only.
+
 ## Version 0.4.0 (Batch 1 and the technician batch)
 
 - **A failing disk comes first.** When a disk reports S.M.A.R.T./NVMe problems (warning or

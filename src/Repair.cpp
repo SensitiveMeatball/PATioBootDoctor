@@ -328,6 +328,29 @@ static bool copyBig(const wstr& from, const wstr& to, wstr& err) {
     return false;
 }
 
+// Copies a folder and everything under it (used to set other makers' boot folders
+// aside while the EFI partition is reformatted, and to put them back afterwards).
+static bool copyFolderTree(const wstr& from, const wstr& to, wstr& err) {
+    CreateDirectoryW(to.c_str(), nullptr);
+    WIN32_FIND_DATAW fd;
+    HANDLE h = FindFirstFileW((from + L"\\*").c_str(), &fd);
+    if (h == INVALID_HANDLE_VALUE) return true;
+    bool ok = true;
+    do {
+        wstr name = fd.cFileName;
+        if (name == L"." || name == L"..") continue;
+        wstr src = from + L"\\" + name, dst = to + L"\\" + name;
+        if (fd.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY)
+            ok = copyFolderTree(src, dst, err) && ok;
+        else {
+            SetFileAttributesW(dst.c_str(), FILE_ATTRIBUTE_NORMAL);
+            ok = copyBig(src, dst, err) && ok;
+        }
+    } while (FindNextFileW(h, &fd));
+    FindClose(h);
+    return ok;
+}
+
 // Where a copy of Windows' repair tools (Winre.wim) can be taken from: this Windows, another
 // Windows, a recovery partition, or a Windows install stick (inside its install.wim).
 // Where a copy of Windows' repair tools (Winre.wim) can come from, best first.
@@ -965,6 +988,90 @@ FixOutcome runFix(const Fix& fx, Report& r, Journal& j, volatile bool* cancel, c
                             : T(L"The partition was created, but the start-up files could not be written. Try \"Rebuild the start-up files\" after scanning again.");
             break;
         }
+        case FX_REBUILD_ESP: {
+            if (!in) { fail(T(L"No Windows was chosen.")); break; }
+            int sp = f.part >= 0 ? f.part : targetSysPart(r, *in);
+            if (sp < 0) { fail(T(L"There is no start-up partition to rebuild. Create one first.")); break; }
+            const Partition& S = r.m.parts[sp];
+            const Partition& P = r.m.parts[in->part];
+            const Disk* d = diskOf(r, S.disk);
+            if (!d) { fail(T(L"The disk was not found.")); break; }
+            if (!r.m.fw.uefi) { fail(T(L"Rebuilding the EFI partition is for UEFI PCs. On an older (BIOS) PC use \"Write new start-up code to the disk\".")); break; }
+            // 1. A full image of the partition, so the change can be undone exactly.
+            bool imaged = false;
+            if (S.length && S.length <= 0x7FFFFFFFull) {
+                if (!j.saveSectors(act, *d, S.offset, (uint32_t)S.length, err)) { fail(T(L"Nothing was changed, because the backup failed. ") + err); break; }
+                imaged = true;
+            }
+            // 2. Set other makers' boot folders (HP, Dell, Lenovo, Linux GRUB) aside; Microsoft and the
+            //    fallback Boot folder are written fresh by bcdboot.
+            wstr L = S.letter.empty() ? freeLetter() : S.letter;
+            if (L.empty()) { fail(T(L"No free drive letter is left.")); break; }
+            wstr L1 = L.substr(0, 1);
+            wstr selp = L"select disk " + std::to_wstring(d->number) + L"\r\nselect partition " + std::to_wstring(S.number) + L"\r\n";
+            if (S.letter.empty()) { diskpartRun(selp + L"assign letter=" + L1 + L"\r\n", cancel, o.log); Sleep(800); }
+            wchar_t tmp[MAX_PATH] = {};
+            GetTempPathW(MAX_PATH, tmp);
+            wstr saveDir = wstr(tmp) + L"PATioBD-esp-" + std::to_wstring(GetTickCount64());
+            CreateDirectoryW(saveDir.c_str(), nullptr);
+            std::vector<wstr> preserved;
+            if (exists(L + L"\\EFI")) {
+                WIN32_FIND_DATAW fd;
+                HANDLE h = FindFirstFileW((L + L"\\EFI\\*").c_str(), &fd);
+                if (h != INVALID_HANDLE_VALUE) {
+                    do {
+                        wstr name = fd.cFileName;
+                        if (!(fd.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY) || name == L"." || name == L".." || iequals(name, L"Microsoft") || iequals(name, L"Boot")) continue;
+                        wstr e2;
+                        if (copyFolderTree(L + L"\\EFI\\" + name, saveDir + L"\\" + name, e2)) {
+                            preserved.push_back(name);
+                            o.log += T(L"Kept other boot folder aside: \\EFI\\") + name + L"\r\n";
+                        }
+                    } while (FindNextFileW(h, &fd));
+                    FindClose(h);
+                }
+            }
+            // 3. BitLocker on the Windows drive: pause it when Windows is live, otherwise warn.
+            wstr bitNote;
+            if (P.bitlocker) {
+                if (in->running && !P.letter.empty()) {
+                    runTool(findSystemTool(L"manage-bde.exe"), L"-protectors -disable " + P.letter + L" -RebootCount 1", cancel);
+                    bitNote = T(L" BitLocker on the Windows drive was paused for the next restart.");
+                } else
+                    bitNote = T(L" The Windows drive is encrypted with BitLocker: have its 48-digit recovery key ready, as BitLocker may ask for it once at the next start.");
+            }
+            // 4. Make a fresh, empty FAT32 file system (the partition and its type stay), keep the letter.
+            ToolResult t = diskpartRun(selp + L"format fs=fat32 quick label=System\r\nassign letter=" + L1 + L"\r\n", cancel, o.log);
+            Sleep(1000);
+            if (t.code != 0 || !exists(L + L"\\")) {
+                deleteFolderTree(saveDir);
+                fail(T(L"The start-up partition could not be reformatted. ") + t.output.substr(t.output.size() > 300 ? t.output.size() - 300 : 0));
+                break;
+            }
+            // 5. Fresh start-up files for this Windows, then put the kept boot folders back.
+            TempLetter wl;
+            if (!wl.get(P, err)) { deleteFolderTree(saveDir); fail(err); break; }
+            int ma = 0, mi = 0;
+            wstr tool = pickBcdboot(in, ma, mi);
+            if (tool.empty()) { deleteFolderTree(saveDir); fail(T(L"bcdboot.exe, the Windows tool that writes start-up files, was not found here.")); break; }
+            wstr args = L"\"" + wl.letter + L"\\" + in->folder + L"Windows\" /s " + L + L" /f UEFI";
+            o.log += L"> bcdboot " + args + L"\r\n";
+            ToolResult b = runTool(tool, args);
+            o.log += b.output;
+            for (const wstr& name : preserved) {
+                wstr e2;
+                copyFolderTree(saveDir + L"\\" + name, L + L"\\EFI\\" + name, e2);
+            }
+            deleteFolderTree(saveDir);
+            if (S.letter.empty()) diskpartRun(L"select volume " + L1 + L"\r\nremove letter=" + L1 + L" noerr\r\n", cancel, o.log);
+            o.ok = b.started && b.code == 0;
+            o.undoable = imaged;
+            o.result = o.ok ? T(L"The start-up partition was given a fresh FAT32 file system and new start-up files, and a \"Windows Boot Manager\" entry was written to the PC's firmware.") +
+                                  (preserved.empty() ? wstr() : TF(L" {0} other boot folder(s) were kept and put back.", std::to_wstring(preserved.size()))) + bitNote +
+                                  T(L" Scan again to confirm.")
+                            : T(L"The partition was reformatted, but the start-up files could not be written. The tool said: ") + b.output.substr(0, 300) + bitNote;
+            break;
+        }
         case FX_CHKDSK: {
             if (!part) { fail(T(L"The partition was not found.")); break; }
             TempLetter tl;
@@ -1280,6 +1387,7 @@ wstr fixCommands(const Fix& f, const Report& r) {
         case FX_MARK_ACTIVE: return L"diskpart: select disk N, select partition N, active";
         case FX_MBR_CODE: return L"bootsect /nt60 S: /mbr /force";
         case FX_CREATE_SYSPART: return L"diskpart: shrink, create partition efi size=260, format fs=fat32" + wstr(r.m.fw.uefi ? L", create partition msr size=16" : L"") + L"\nbcdboot " + win + L" /s S:";
+        case FX_REBUILD_ESP: return L"diskpart: select the EFI partition, format fs=fat32 quick\nbcdboot " + win + L" /s S: /f UEFI";
         case FX_CREATE_MSR: return L"diskpart: create partition msr size=16";
         case FX_FIX_GPT: return L"IOCTL_DISK_SET_DRIVE_LAYOUT_EX (writes both copies of the partition table again)";
         case FX_CHKDSK: return L"chkdsk " + drive + L" /f /x";
@@ -1309,7 +1417,7 @@ wstr fixCommands(const Fix& f, const Report& r) {
 
 bool fixChangesPartitions(int kind) {
     switch (kind) {
-        case FX_CREATE_SYSPART: case FX_REBUILD_WINRE: case FX_FIX_GPT: case FX_MBR_CODE: case FX_MARK_ACTIVE: case FX_GROW_WINDOWS: case FX_CREATE_MSR: case FX_LAYOUT:
+        case FX_CREATE_SYSPART: case FX_REBUILD_ESP: case FX_REBUILD_WINRE: case FX_FIX_GPT: case FX_MBR_CODE: case FX_MARK_ACTIVE: case FX_GROW_WINDOWS: case FX_CREATE_MSR: case FX_LAYOUT:
             return true;
     }
     return false;
@@ -1387,9 +1495,13 @@ void checkTools(Report& r) {
                 if (f.entry.empty() || f.store < 0) no(T(L"This Windows has no start-up entry to change. Rebuild its start-up files first."));
                 break;
             case FX_SFC: if (!sfc) no(T(L"The file checker (sfc.exe) is not part of this system.") + usb); break;
-            case FX_CREATE_SYSPART:
+            case FX_REBUILD_ESP:
                 if (!diskpart) no(T(L"diskpart.exe is not part of this system.") + usb);
-                else if (in) {
+                else if (in && in->running) no(T(L"This is the Windows that is running now, so its start-up partition cannot be reformatted.") + usb);
+                [[fallthrough]];
+            case FX_CREATE_SYSPART:
+                if (f.kind == FX_CREATE_SYSPART && !diskpart) no(T(L"diskpart.exe is not part of this system.") + usb);
+                else if (f.kind == FX_CREATE_SYSPART && in) {
                     const Partition& P = r.m.parts[in->part];
                     const Disk* d = diskOf(r, P.disk);
                     int primaries = 0;

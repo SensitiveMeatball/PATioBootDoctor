@@ -2,6 +2,7 @@
 #include "Lang.h"
 #include "DiskTool.h"
 #include "Layout.h"
+#include "Hive.h"
 #include "core/Platform.h"
 
 namespace bd {
@@ -236,6 +237,10 @@ FixOutcome runMigration(const MigratePlan& p, Report& r, Journal& j, const std::
     bool ok = hs != INVALID_HANDLE_VALUE && ht != INVALID_HANDLE_VALUE;
     if (!ok) err = T(L"The disks could not be opened.");
     const uint32_t chunk = 8 * (uint32_t)kMB;
+    uint32_t srcSector = hs != INVALID_HANDLE_VALUE ? diskSectorSize(hs) : 512;
+    if (!srcSector) srcSector = 512;
+    std::vector<std::pair<uint64_t, uint64_t>> badRanges;  // unreadable areas on the old disk: offset, length (bytes)
+    uint64_t badBytes = 0;
     uint64_t copied = 0;
     auto t0 = GetTickCount64();
     while (ok && copied < copyLen) {
@@ -247,9 +252,24 @@ FixOutcome runMigration(const MigratePlan& p, Report& r, Journal& j, const std::
         uint32_t n = (uint32_t)std::min<uint64_t>(chunk, copyLen - copied);
         std::string b;
         if (!readDiskAt(hs, W.offset + copied, n, b)) {
-            ok = false;
-            err = TF(L"The old disk could not be read at {0}. It may be damaged; the new disk is incomplete.", sizeText(copied));
-            break;
+            // A failing disk: the whole chunk could not be read. Drop to one sector at a time,
+            // zero-fill the sectors that cannot be read, log where they are, and carry on, so a
+            // dying disk can still be migrated instead of the copy stopping dead.
+            b.assign(n, '\0');
+            for (uint32_t off = 0; off < n && !(cancel && *cancel); off += srcSector) {
+                uint32_t m = (uint32_t)std::min<uint64_t>(srcSector, n - off);
+                std::string s;
+                uint64_t at = W.offset + copied + off;
+                if (readDiskAt(hs, at, m, s)) {
+                    memcpy(&b[off], s.data(), m);
+                } else {
+                    badBytes += m;
+                    if (!badRanges.empty() && badRanges.back().first + badRanges.back().second == at)
+                        badRanges.back().second += m;  // merge touching bad sectors
+                    else
+                        badRanges.push_back({at, m});
+                }
+            }
         }
         if (!writeDiskAt(ht, nw->offset + copied, b)) {
             ok = false;
@@ -267,6 +287,17 @@ FixOutcome runMigration(const MigratePlan& p, Report& r, Journal& j, const std::
         FlushFileBuffers(ht);
         fixHiddenSectors(ht, nw->offset, o.log);
         // The copy says it is as long as the old partition; the end of the new one carries the backup first sector.
+    }
+    if (!badRanges.empty()) {
+        o.log += TF(L"Unreadable areas on the old disk, zero-filled on the new one ({0} ranges, {1} total):\r\n", std::to_wstring(badRanges.size()), sizeText(badBytes));
+        size_t shown = 0;
+        for (const auto& r2 : badRanges) {
+            if (shown++ >= 200) {
+                o.log += TF(L"  ... and {0} more.\r\n", std::to_wstring(badRanges.size() - shown + 1));
+                break;
+            }
+            o.log += L"  LBA " + std::to_wstring(r2.first / srcSector) + L" (" + sizeText(r2.second) + L")\r\n";
+        }
     }
     if (hs != INVALID_HANDLE_VALUE) CloseHandle(hs);
     if (ht != INVALID_HANDLE_VALUE) CloseHandle(ht);
@@ -323,10 +354,32 @@ FixOutcome runMigration(const MigratePlan& p, Report& r, Journal& j, const std::
         }
         unmount(rl);
     }
+    // 7. Clear the migrated Windows' saved drive-letter map, so it gives itself C: cleanly on the
+    //    new disk's layout instead of keeping the old disk's letter (which can leave it on D:).
+    step(T(L"Clearing the saved drive letters so Windows assigns C: cleanly"), 0.98f);
+    {
+        wstr sysHive = wl + L"\\Windows\\System32\\config\\SYSTEM", e2;
+        LoadedHive lh;
+        if (lh.load(sysHive, false, e2)) {
+            HKEY k = nullptr;
+            if (RegOpenKeyExW(lh.root(), L"MountedDevices", 0, KEY_READ | KEY_SET_VALUE, &k) == ERROR_SUCCESS) {
+                LONG rc = RegDeleteValueW(k, L"\\DosDevices\\C:");
+                o.log += rc == ERROR_SUCCESS ? T(L"Removed \\DosDevices\\C: from MountedDevices; Windows reassigns C: on first boot.\r\n")
+                         : rc == ERROR_FILE_NOT_FOUND ? T(L"MountedDevices had no \\DosDevices\\C: entry (nothing to clear).\r\n")
+                                                      : TF(L"MountedDevices: \\DosDevices\\C: could not be removed (code {0}).\r\n", std::to_wstring(rc));
+                RegCloseKey(k);
+            } else
+                o.log += T(L"MountedDevices key not found in the migrated SYSTEM hive.\r\n");
+        } else
+            o.log += T(L"Could not open the migrated SYSTEM hive to clear drive letters: ") + e2 + L"\r\n";
+    }
     unmount(wl);
     wstr result = TF(L"Windows was copied to {0}.", t->name());
     result += bootOk ? T(L" Its start-up files are written.") : T(L" Its start-up files could not be written: scan again and use \"Rebuild the start-up files\" for it.");
     result += reOk ? T(L" The troubleshoot options are on its recovery partition.") : T(L" The troubleshoot options could not be set up; use \"Recreate the recovery partition\" for it later.");
+    if (!badRanges.empty())
+        result += TF(L"\n\nWarning: {0} of the old disk could not be read ({1} unreadable areas) and was copied as blank. The old disk is failing. Check Windows afterwards (chkdsk, sfc), and recover anything important from the old disk while it still turns on. The unreadable places are listed in the console.",
+                     sizeText(badBytes), std::to_wstring(badRanges.size()));
     result += T(L"\n\nTo start from the new disk: choose it in the PC's boot menu (often F12, F11, F8 or Esc while the PC starts), or shut down and disconnect the old disk. The old disk is unchanged; wipe or reuse it only after the new one has started fine.");
     return done(bootOk, result);
 }

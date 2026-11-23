@@ -5,6 +5,7 @@
 #include "Linux.h"
 #include "Space.h"
 #include "DiskTool.h"
+#include "EfiCheck.h"
 
 namespace bd {
 
@@ -363,6 +364,12 @@ Fix makeFix(int kind) {
             f.what = T(L"Deletes this line from the list of start-up choices kept inside the PC itself (not on any disk). Nothing on any disk changes.");
             f.takes = T(L"A few seconds. The entry is backed up first, so Undo brings it back.");
             break;
+        case FX_REBUILD_ESP:
+            f.title = T(L"Rebuild the start-up partition");
+            f.what = T(L"The start-up (EFI) partition's file system is damaged or cannot be written to, so the start-up files cannot be read or repaired. This makes a fresh, empty FAT32 file system on it (the partition itself and its type stay) and writes fresh start-up files for this Windows. Any other makers' boot folders on it (HP, Dell, Lenovo tools, Linux GRUB) are kept and put back.");
+            f.takes = T(L"A minute or two. A full image of the partition is saved first, so Undo puts it back exactly. If the Windows drive is encrypted with BitLocker, have its recovery key ready.");
+            f.danger = true;
+            break;
     }
     return f;
 }
@@ -424,6 +431,8 @@ wstr lessonFor(const wstr& n) {
         return T(L"The disk (hard disk or SSD) stores Windows and your files. At its very start there is a small table that says how the disk is divided into parts (partitions), like the table of contents of a book. If the disk cannot be read or that table is damaged, the PC cannot find Windows.");
     if (n == L"Start-up partition")
         return T(L"Besides the big partition with Windows (usually C:), the disk has a small hidden partition used only for starting: the EFI system partition on newer PCs, or the \"active\" partition on older ones. It holds the few files the PC needs to begin starting Windows. You normally never see it, and it has no drive letter.");
+    if (n == L"Start-up partition files")
+        return T(L"The start-up partition holds its files in a FAT32 file system, with a little map (the FAT, kept in two copies) saying where each file sits. If that map or the partition's first sector is damaged, the firmware can no longer read the start-up files, even though the partition is there and has the right size. This is the hidden fault behind \"bootrec /fixboot: Access is denied\": the files look present, but the file system underneath them is broken, so nothing can read or repair them.");
     if (n == L"Boot manager")
         return T(L"Windows Boot Manager is a small program on the start-up partition. The firmware starts it, and it decides which Windows to start, showing a menu when there is more than one. On newer PCs the PC also keeps its own list of start-up choices, and Windows Boot Manager must be in it.");
     if (n == L"Start-up settings")
@@ -1009,6 +1018,48 @@ static void buildChain(Report& r, Install& in) {
             }
         }
     }
+    // 3b. Start-up partition files (the file system itself and the boot files on it)
+    {
+        Link& l = c.link("partition", N(L"Start-up partition files"));
+        if (!S || !S->readable) {
+            set(l, Health::Unknown, T(L"Cannot be checked until the start-up partition is fixed."));
+        } else {
+            ReadFn rd = r.rawReader ? r.rawReader(*S) : ReadFn();
+            bool fat = S->fs == L"FAT32" || S->fs == L"FAT" || S->rawFs == L"FAT32" || S->rawFs == L"FAT";
+            EspCheck chk;
+            bool checked = rd && c.uefi && fat;
+            if (checked) chk = checkEsp(rd, S->length);
+            bool wrote = (!r.rawReader || in.running) ? true : espWritable(*S);  // only on a real scan, never the running system's own files
+            wstr tag = checked && chk.ran ? T(L"ESP check: ") + wstr(espFaultWord(chk.fault)) + (chk.detail.empty() ? wstr() : L" — " + chk.detail) : wstr();
+            bool fsDamage = checked && chk.ran &&
+                            (chk.fault == EspFault::BootSector || chk.fault == EspFault::BackupBootSector ||
+                             chk.fault == EspFault::FatCopies || chk.fault == EspFault::ClusterChain || chk.fault == EspFault::NotFat32);
+            bool fileDamage = checked && chk.ran &&
+                              (chk.fault == EspFault::Bootmgr || chk.fault == EspFault::FallbackLoader || chk.fault == EspFault::Bcd);
+            if (fsDamage) {
+                set(l, Health::Bad,
+                    T(L"The start-up partition's file system (FAT32) is damaged. The firmware can no longer read its start-up files, and Windows' own repair (bootrec /fixboot) then fails with \"Access is denied\". The rest of the boot chain can look fine while this is wrong."),
+                    tag);
+                l.fixes.push_back(c.fix(FX_REBUILD_ESP, in.sysPart));
+            } else if (fileDamage) {
+                set(l, Health::Bad,
+                    chk.fault == EspFault::Bcd ? T(L"The start-up settings (BCD) on the start-up partition do not load, although the file is there.")
+                                               : T(L"A start-up program on the start-up partition is missing or is not a 64-bit program, although the file system is sound."),
+                    tag);
+                l.fixes.push_back(c.fix(FX_REBUILD_BOOT, in.sysPart));
+            } else if (!wrote) {
+                set(l, Health::Bad,
+                    T(L"The start-up partition cannot be written to, so Windows' own repair (bootrec /fixboot) fails with \"Access is denied\" and new start-up files cannot be put on it. Rebuilding the partition clears this."),
+                    T(L"The start-up partition could not be opened for writing."));
+                l.fixes.push_back(c.fix(FX_REBUILD_ESP, in.sysPart));
+            } else if (checked && chk.ran) {
+                set(l, Health::Ok, T(L"The start-up partition's file system is sound and it can be written to."),
+                    T(L"FAT32 checked: boot sector + backup, both FAT copies, cluster chains, bootmgfw.efi + bootx64.efi (x64), BCD"));
+            } else {
+                set(l, Health::Ok, T(L"The start-up partition can be opened and written to."));
+            }
+        }
+    }
     // 4. Boot manager (and the disk's start-up code)
     {
         Link& l = c.link("bd_key", N(L"Boot manager"));
@@ -1320,7 +1371,7 @@ static void finishInstall(Report& r, Install& in) {
     std::vector<Fix> plan;
     std::vector<int> remap(in.plan.size(), -1);
     // Order: unlock, partition table, start-up partition, disk check, files, registry, then start-up files and menu.
-    static const int order[] = {FX_FIRMWARE_SETTINGS, FX_UNLOCK, FX_FIX_GPT, FX_MOVE_TO_ROOT, FX_CREATE_SYSPART, FX_MARK_ACTIVE, FX_CHKDSK, FX_RESTORE_HIVE, FX_ENABLE_DRIVERS,
+    static const int order[] = {FX_FIRMWARE_SETTINGS, FX_UNLOCK, FX_FIX_GPT, FX_MOVE_TO_ROOT, FX_CREATE_SYSPART, FX_REBUILD_ESP, FX_MARK_ACTIVE, FX_CHKDSK, FX_RESTORE_HIVE, FX_ENABLE_DRIVERS,
                                 FX_CLEAR_SETUP, FX_SFC, FX_REVERT_UPDATES, FX_MBR_CODE, FX_REBUILD_BOOT, FX_ADD_ENTRY, FX_SHOW_IN_MENU, FX_MAKE_DEFAULT,
                                 FX_STOP_AUTOREPAIR};
     for (int k : order)
@@ -2025,6 +2076,7 @@ Report scan(const Progress& progress) {
     unloadStaleHives();
     if (progress) progress(T(L"Reading disks and partitions"), 0.05f);
     r.m = readMachine();
+    r.rawReader = [](const Partition& p) { return partitionReader(p); };
     if (progress) progress(T(L"Reading the disks' health"), 0.2f);
     for (Disk& dk : r.m.disks) dk.health = readDiskHealth(dk.number);
     if (progress) progress(T(L"Reading the start-up settings"), 0.25f);

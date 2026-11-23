@@ -15,7 +15,7 @@ enum FixKind {
     FX_ADD_FW_ENTRY, FX_FW_FIRST, FX_DELETE_EFI_DIR, FX_LINUX_USB, FX_FIRMWARE_SETTINGS,
     FX_ENABLE_WINRE, FX_REBUILD_WINRE, FX_CLEAN_SPACE, FX_GROW_WINDOWS, FX_RENAME_SYSFOLDERS,
     FX_CREATE_MSR, FX_RESTORE_WINDOWS_OLD, FX_LAYOUT, FX_RENAME_ENTRY, FX_SET_TIMEOUT, FX_CAPTURE_KEYS,
-    FX_DISM_HEAL, FX_REMOVE_UPDATE, FX_SAFE_MODE, FX_DRIVER_START, FX_BOOT_OPTION, FX_ADD_DRIVER, FX_COUNT
+    FX_DISM_HEAL, FX_REMOVE_UPDATE, FX_SAFE_MODE, FX_DRIVER_START, FX_BOOT_OPTION, FX_ADD_DRIVER, FX_REBUILD_ESP, FX_COUNT
 };
 
 struct Fix {
@@ -117,6 +117,10 @@ struct Report {
     bool demo = false;
     Environment env;
     Install pcChain;      // the boot chain of the whole PC, drawn when no system was found
+    // How the EFI-partition step reads a partition's raw sectors. scan() sets it to the
+    // real reader; left empty by the self-test and demo, which have no real disks, so the
+    // step then reports from what is already known instead of reading the hardware.
+    std::function<ReadFn(const Partition&)> rawReader;
     int problems() const;
 };
 

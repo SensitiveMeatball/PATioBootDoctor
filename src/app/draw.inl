@@ -1507,9 +1507,22 @@
                       while (!name.empty() && name.back() == L' ') name.pop_back();
                       if (name.size() > 60) name.resize(60);
                       settings().setInt(L"stickCount", settings().getInt(L"stickCount", 0) + 1);
-                      startRescue(disk, name);
+                      defer([this, disk, name] { askRescueScheme(disk, name); });
                       return true;
                   });
+    }
+
+    // Which firmware the stick should start on. "Both" is the default and makes exactly the stick
+    // every earlier version made, so pressing the recommended button changes nothing.
+    void askRescueScheme(int disk, const wstr& name) {
+        showConfirm(T(L"Which PCs should this stick start?"),
+                    T(L"Most sticks should start on both kinds of PC. Choose a single kind only if a PC refuses the usual stick.\n\n"
+                      "• Both — UEFI and legacy BIOS (recommended). The usual stick.\n"
+                      "• UEFI only — a GPT stick with an EFI system partition, for the few PCs that will not start the usual stick in UEFI mode.\n"
+                      "• Legacy only — an MBR stick for old BIOS PCs."),
+                    {T(L"Both"), T(L"UEFI only"), T(L"Legacy only")}, 0, 0, false, [this, disk, name](int b) {
+                        startRescue(disk, name, b == 1 ? RS_UEFI_ONLY : b == 2 ? RS_LEGACY_ONLY : RS_BOTH);
+                    });
     }
 
     // Running from a rescue stick: rename it.
@@ -1530,7 +1543,7 @@
         });
     }
 
-    void startRescue(int disk, const wstr& stickName = L"") {
+    void startRescue(int disk, const wstr& stickName = L"", int scheme = RS_BOTH) {
         countUse(L"Tools: rescue sticks made");
         if (busy_) return;
         if (job_.joinable()) job_.join();
@@ -1545,7 +1558,7 @@
         auto copy = std::make_shared<Report>(rep_);
         RescueSource s = src[0];
         wstr exePath = exe;
-        RescueExtras extras{keysPass_, settings().path(), stickName};
+        RescueExtras extras{keysPass_, settings().path(), stickName, scheme};
         job_ = std::thread([this, copy, disk, s, exePath, work, extras] {
             noRedirection();
             FixOutcome o = makeRescueStick(*copy, disk, s, exePath, work, [this](const wstr& step, float f) { progress(step, f); }, &cancel_, extras);

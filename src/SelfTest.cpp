@@ -14,6 +14,7 @@
 #include "Rescue.h"
 #include "Update.h"
 #include "WinRepair.h"
+#include "EfiCheck.h"
 #include "Accounts.h"
 #include "Capture.h"
 #include "SecureBoot.h"
@@ -154,6 +155,135 @@ int runSelfTest(const wstr& folderIn, const wchar_t* appName, const wchar_t* ver
     log.check(hiveBytesHealth(hiveHead(false, 3, 3), why) == Health::Bad, L"Registry file with a broken header");
     log.check(hiveBytesHealth(std::string(4096, 'x'), why) == Health::Bad, L"Not a registry file");
 
+    log.line(L"EFI partition check");
+    {
+        // A tiny FAT32 image built in memory: boot sector + backup, two FAT copies, a directory tree
+        // (\EFI\Microsoft\Boot\{bootmgfw.efi,BCD} and \EFI\Boot\bootx64.efi), and the data clusters.
+        struct Fat32 {
+            enum : uint32_t { bps = 512, spc = 1, rsc = 32, nFat = 2, fatSz = 1, totalSec = 98, rootClus = 2 };
+            static uint32_t countClus() { return (totalSec - (rsc + nFat * fatSz)) / spc; }  // 64
+            std::vector<uint32_t> fat;
+            std::vector<std::string> data;
+            uint32_t nextFree = 3;  // cluster 2 is kept for the root directory
+            Fat32() : fat(66, 0), data(66) { fat[0] = 0x0FFFFF00; fat[1] = 0x0FFFFFFF; }
+            uint32_t alloc(std::string content) {
+                uint32_t nc = std::max<uint32_t>(1, (uint32_t)((content.size() + bps - 1) / bps));
+                content.resize((size_t)nc * bps, '\0');
+                uint32_t first = nextFree, prev = 0;
+                for (uint32_t i = 0; i < nc; ++i) {
+                    uint32_t c = nextFree++;
+                    data[c] = content.substr((size_t)i * bps, bps);
+                    if (prev) fat[prev] = c;
+                    prev = c;
+                }
+                fat[prev] = 0x0FFFFFFF;
+                return first;
+            }
+            static void p16(std::string& e, size_t o, uint16_t v) { e[o] = (char)(v & 0xFF); e[o + 1] = (char)(v >> 8); }
+            static void p32(std::string& e, size_t o, uint32_t v) { p16(e, o, (uint16_t)v); p16(e, o + 2, (uint16_t)(v >> 16)); }
+            static std::string shortEntry(const char* n8, const char* ext3, uint8_t attr, uint32_t clus, uint32_t size) {
+                std::string e(32, '\0'), nm = n8, ex = ext3;
+                nm.resize(8, ' ');
+                ex.resize(3, ' ');
+                for (int i = 0; i < 8; ++i) e[i] = nm[i];
+                for (int i = 0; i < 3; ++i) e[8 + i] = ex[i];
+                e[0x0B] = (char)attr;
+                p16(e, 0x14, (uint16_t)(clus >> 16));
+                p16(e, 0x1A, (uint16_t)(clus & 0xFFFF));
+                p32(e, 0x1C, size);
+                return e;
+            }
+            static std::string lfnEntry(const std::wstring& name) {
+                std::string e(32, '\0');
+                e[0] = 0x41;     // sequence 1, marked last
+                e[0x0B] = 0x0F;  // long-name attribute
+                size_t idx = 0;
+                auto emit = [&](size_t o, int n) {
+                    for (int i = 0; i < n; ++i) {
+                        uint16_t ch = idx < name.size() ? (uint16_t)name[idx] : (idx == name.size() ? 0 : 0xFFFF);
+                        p16(e, o + i * 2, ch);
+                        ++idx;
+                    }
+                };
+                emit(0x01, 5);
+                emit(0x0E, 6);
+                emit(0x1C, 2);
+                return e;
+            }
+            std::string image() const {
+                std::string img((size_t)totalSec * bps, '\0'), boot(512, '\0');
+                p16(boot, 0x0B, (uint16_t)bps);
+                boot[0x0D] = (char)spc;
+                p16(boot, 0x0E, (uint16_t)rsc);
+                boot[0x10] = (char)nFat;
+                p32(boot, 0x20, totalSec);
+                p32(boot, 0x24, fatSz);
+                p32(boot, 0x2C, rootClus);
+                p16(boot, 0x30, 1);
+                p16(boot, 0x32, 6);
+                memcpy(&boot[0x52], "FAT32   ", 8);
+                boot[0x1FE] = (char)0x55;
+                boot[0x1FF] = (char)0xAA;
+                memcpy(&img[0], boot.data(), 512);
+                memcpy(&img[(size_t)6 * bps], boot.data(), 512);
+                std::string fatb((size_t)fatSz * bps, '\0');
+                for (size_t c = 0; c < fat.size(); ++c) p32(fatb, c * 4, fat[c]);
+                memcpy(&img[(size_t)rsc * bps], fatb.data(), fatb.size());
+                memcpy(&img[(size_t)(rsc + fatSz) * bps], fatb.data(), fatb.size());
+                uint32_t dataSec = rsc + nFat * fatSz;
+                for (uint32_t c = 2; c < data.size(); ++c)
+                    if (!data[c].empty())
+                        memcpy(&img[((size_t)dataSec + (size_t)(c - 2) * spc) * bps], data[c].data(), std::min<size_t>(data[c].size(), bps));
+                return img;
+            }
+        };
+        std::string pe = program(), bcd = hiveHead(true, 3, 3);
+        auto build = [&](Fat32& fs) -> uint32_t {  // returns bootmgfw.efi's first cluster
+            uint32_t cBmgr = fs.alloc(pe), cBcd = fs.alloc(bcd);
+            uint32_t cMsBoot = fs.alloc(Fat32::shortEntry("BOOTMGFW", "EFI", 0x20, cBmgr, (uint32_t)pe.size()) +
+                                        Fat32::shortEntry("BCD", "", 0x20, cBcd, (uint32_t)bcd.size()));
+            uint32_t cBx64 = fs.alloc(pe);
+            uint32_t cEfiBoot = fs.alloc(Fat32::shortEntry("BOOTX64", "EFI", 0x20, cBx64, (uint32_t)pe.size()));
+            uint32_t cMs = fs.alloc(Fat32::shortEntry("BOOT", "", 0x10, cMsBoot, 0));
+            uint32_t cEfi = fs.alloc(Fat32::lfnEntry(L"Microsoft") + Fat32::shortEntry("MICROS~1", "", 0x10, cMs, 0) +
+                                     Fat32::shortEntry("BOOT", "", 0x10, cEfiBoot, 0));
+            fs.data[2] = Fat32::shortEntry("EFI", "", 0x10, cEfi, 0);
+            fs.data[2].resize(Fat32::bps, '\0');
+            fs.fat[2] = 0x0FFFFFFF;
+            return cBmgr;
+        };
+        auto reader = [](const std::string& img) {
+            return ReadFn([&img](uint64_t o, uint32_t n, std::string& out) {
+                if (o + n > img.size()) return false;
+                out = img.substr((size_t)o, n);
+                return true;
+            });
+        };
+        {
+            Fat32 fs;
+            build(fs);
+            std::string img = fs.image();
+            EspCheck c = checkEsp(reader(img), img.size());
+            log.check(c.ran && c.fat32 && c.fault == EspFault::None, L"Sound EFI partition passes the check");
+        }
+        {
+            Fat32 fs;
+            build(fs);
+            std::string img = fs.image();
+            img[(size_t)(Fat32::rsc + Fat32::fatSz) * Fat32::bps + 8] ^= (char)0xFF;  // damage the second FAT copy
+            EspCheck c = checkEsp(reader(img), img.size());
+            log.check(c.fault == EspFault::FatCopies, L"A mismatched second FAT copy is caught");
+        }
+        {
+            Fat32 fs;
+            uint32_t cBmgr = build(fs);
+            fs.fat[cBmgr] = 9000;  // point bootmgfw.efi's chain off the end (both FAT copies agree)
+            std::string img = fs.image();
+            EspCheck c = checkEsp(reader(img), img.size());
+            log.check(c.fault == EspFault::ClusterChain, L"A broken cluster chain is caught");
+        }
+    }
+
     log.line(L"Start-up settings devices");
     {
         Machine m;
@@ -255,7 +385,7 @@ int runSelfTest(const wstr& folderIn, const wchar_t* appName, const wchar_t* ver
             const Link* sp = linkNamed(*main, L"Start-up partition");
             const Link* bm = linkNamed(*main, L"Boot manager");
             const Link* st = linkNamed(*main, L"Start-up settings");
-            log.check(main->chain.size() == 10, L"Ten steps in the chain");
+            log.check(main->chain.size() == 11, L"Eleven steps in the chain");
             log.check(sp && sp->health == Health::Ok, L"EFI partition found and readable");
             log.check(bm && bm->health == Health::Ok, L"Boot manager found");
             log.check(st && st->health == Health::Bad, L"Missing start-up settings file is a problem");

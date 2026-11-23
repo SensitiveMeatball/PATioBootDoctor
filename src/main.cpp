@@ -41,7 +41,7 @@ namespace {
 using namespace bd;
 
 const wchar_t* const kAppName = L"PATio Boot Doctor";
-const wchar_t* const kVersion = L"0.4.0";
+const wchar_t* const kVersion = L"0.5.0";
 const UINT WM_BD_DECRYPT = WM_APP + 39, WM_BD_DEFER = WM_APP + 38, WM_BD_JOB = WM_APP + 37, WM_BD_CONSOLE = WM_APP + 36, WM_BD_PROGRESS = WM_APP + 30, WM_BD_SCANNED = WM_APP + 31, WM_BD_FIXED = WM_APP + 32, WM_BD_UNDONE = WM_APP + 33, WM_BD_SAVED = WM_APP + 34;
 
 // Fixed meanings (PatKit DESIGN.md, rule 6)

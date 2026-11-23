@@ -6,8 +6,8 @@ MUSPC_LOGO RCDATA "res\\muspc_logo.bin"
 UPDATE_PUBKEY RCDATA "res\\update-key.pub"
 
 VS_VERSION_INFO VERSIONINFO
-FILEVERSION 0,4,0,0
-PRODUCTVERSION 0,4,0,0
+FILEVERSION 0,5,0,0
+PRODUCTVERSION 0,5,0,0
 FILEFLAGSMASK 0x3fL
 FILEFLAGS 0x0L
 FILEOS VOS_NT_WINDOWS32
@@ -20,10 +20,10 @@ BEGIN
         BEGIN
             VALUE "CompanyName", "PATio Commander authors"
             VALUE "FileDescription", "PATio Boot Doctor"
-            VALUE "FileVersion", "0.4.0"
+            VALUE "FileVersion", "0.5.0"
             VALUE "LegalCopyright", "Copyright (C) 2026 PATio Commander authors"
             VALUE "ProductName", "PATio Boot Doctor"
-            VALUE "ProductVersion", "0.4.0"
+            VALUE "ProductVersion", "0.5.0"
         END
     END
     BLOCK "VarFileInfo"

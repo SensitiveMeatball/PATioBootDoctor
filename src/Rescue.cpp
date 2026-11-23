@@ -426,8 +426,17 @@ FixOutcome makeRescueStick(const Report& r, int diskNum, const RescueSource& src
         return o;
     }
     uint64_t sizeMB = std::min<uint64_t>(disk->size >> 20, 30000) - 8;  // FAT32 made by Windows: up to 32 GB
-    t = diskpart(work, L"select disk " + std::to_wstring(diskNum) + L"\nclean\nconvert mbr\ncreate partition primary size=" + std::to_wstring(sizeMB) +
-                           L"\nformat fs=fat32 quick label=BOOTDOCTOR\nactive\nassign letter=" + letter.substr(0, 1) + L"\n");
+    // The stick's partition scheme follows the chosen firmware. "Both" keeps the long-standing
+    // MBR + FAT32 + active layout, which starts on UEFI and legacy BIOS alike; UEFI-only uses a
+    // GPT EFI system partition; legacy-only uses the same MBR + active layout without UEFI in mind.
+    wstr layout;
+    if (extras.scheme == RS_UEFI_ONLY)
+        layout = L"\nclean\nconvert gpt\ncreate partition efi size=" + std::to_wstring(sizeMB) +
+                 L"\nformat fs=fat32 quick label=BOOTDOCTOR\nassign letter=" + letter.substr(0, 1) + L"\n";
+    else
+        layout = L"\nclean\nconvert mbr\ncreate partition primary size=" + std::to_wstring(sizeMB) +
+                 L"\nformat fs=fat32 quick label=BOOTDOCTOR\nactive\nassign letter=" + letter.substr(0, 1) + L"\n";
+    t = diskpart(work, L"select disk " + std::to_wstring(diskNum) + layout);
     o.log += t.output;
     Sleep(1500);
     if (t.code != 0 || !exists(letter + L"\\")) {

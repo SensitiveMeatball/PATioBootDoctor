@@ -36,10 +36,16 @@ RescueNeeds rescueNeeds(const Report& r, const RescueSource& src, const wstr& ex
 
 // This program's data to put on the stick, besides what the stick already holds (which is kept):
 // the password of the saved keys (to merge the stick's keys with this PC's) and the settings file.
+// Which firmware a rescue stick is made to start. "Both" is the default and is what
+// every earlier version made (MBR + FAT32 + active), which starts on UEFI and legacy
+// PCs alike, so the default never changes the stick that is produced.
+enum RescueScheme { RS_BOTH = 0, RS_UEFI_ONLY = 1, RS_LEGACY_ONLY = 2 };
+
 struct RescueExtras {
     wstr keysPassword;
     wstr settingsFile;
     wstr stickName;  // the technician's own name for this stick ("Rescue 2 - workshop")
+    int scheme = RS_BOTH;  // which firmware the stick starts on
 };
 
 // The marker in a rescue stick's root (PATioBootDoctor.stick): line 1 the version that made it,
